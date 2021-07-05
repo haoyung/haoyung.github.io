@@ -11,10 +11,17 @@
         <!-- <p>Phone: {{ contact.phone }}</p> -->
         <p>Email: {{ contact.email }}</p>
         <!-- <p>Office: {{ contact.office }}</p> -->
+        {% for item in site.data.settings.social %}
+          {% if forloop.first %}
+            <a href="{{ item.link }}" class="ms-0 fs-5"><i class="{{ item.icon }}"></i></a>
+          {% else %}
+            <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.icon }}"></i></a>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
     {% endfor %}
     <div class="col-md-6">
       <img src="{{ site.github.url }}/assets/img/contact.jpg" alt="contact" width="100%">
     </div>
-  </div>
+</div>

@@ -1,9 +1,13 @@
 <footer class="pt-4 my-5 text-muted border-top">
   <div class="row">
     <div class="flex-column text-center social-media-icons">
-      {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endfor %}
+        {% for item in site.data.settings.social %}
+            {% if forloop.first %}
+            <a href="{{ item.link }}" class="ms-0 fs-5"><i class="{{ item.icon }}"></i></a>
+            {% else %}
+            <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.icon }}"></i></a>
+            {% endif %}
+        {% endfor %}
     </div>
   </div>
 </footer>

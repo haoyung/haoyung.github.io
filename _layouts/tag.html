@@ -6,9 +6,9 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold mb-3">tag #{{page.tag}}</h3>
         {% for post in site.posts %}
-        {% if post.tags contains page.tag %}
+        <!-- {% if post.tags contains page.tag %} -->
         <p><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
-        {% endif %}
+        <!-- {% endif %} -->
         {% endfor %}
   </div>
 </div>

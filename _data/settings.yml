@@ -3,7 +3,7 @@ menu:
 # - {name: 'publications', url: '/publications'}
 # - {name: 'courses', url: '/courses'}
 # - {name: 'cv', url: '/cv'}
-- {name: 'article', url: '/article'}
+- {name: 'articles', url: '/articles'}
 - {name: 'contact', url: '/contact'}
 
 # people:
@@ -22,7 +22,7 @@ social:
 - {icon: 'fab fa-instagram', link: 'https://instagram.com/why.309'}
 # - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 - {icon: 'fab fa-facebook', link: 'https://www.facebook.com/haoyong0309'}
-- {icon: 'far fa-envelope', link: 'mailto: tim0309.tw@gmail.com'}
+# - {icon: 'far fa-envelope', link: 'mailto: tim0309.tw@gmail.com'}
 
 contacts:
 - {name: '翁浩永', title: '23rd 社長', department: '台大咖啡社', institution: '資訊工程系', institution_address: '台灣大學', phone: '(000) 000-0000', email: 'tim0309.tw@gmail.com', office: 'Science Building 505', image: 'assets/img/about.JPG'}

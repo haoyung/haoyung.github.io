@@ -3,6 +3,7 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+Hi，大家好，我是翁浩永，目前是台大咖啡社的社長（也快卸任了）。在我任內的期間真的對咖啡有了很多不一樣的認識，尤其在接觸過一些國外的咖啡玩家後，我發現有關咖啡的學問架構可以是非常大的，可惜因為玩家的人數不多，而且語言也不通，使得國內外的咖啡風氣以及沖煮觀念都有很大的不同。
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+在這個平台上我會分享一些自己的看法與理論，希望能夠激起國內外玩家的討論。
+

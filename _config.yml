@@ -5,3 +5,6 @@ description: "Still trying to write something about coffee."
 
 tag_page_layout: tag
 tag_page_dir: tag
+
+plugins:
+  - jekyll-seo-tag

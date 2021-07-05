@@ -2,3 +2,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "why coffee?" # the name of your site, e.g. ACME Corp.
 description: "Still trying to write something about coffee."
+
+tag_page_layout: tag
+tag_page_dir: tag
+tag_cloud_separator: ','

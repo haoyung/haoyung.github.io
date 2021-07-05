@@ -3,6 +3,7 @@ menu:
 # - {name: 'publications', url: '/publications'}
 # - {name: 'courses', url: '/courses'}
 # - {name: 'cv', url: '/cv'}
+- {name: 'about', url: '/about'}
 - {name: 'articles', url: '/articles'}
 - {name: 'contact', url: '/contact'}
 

@@ -4,16 +4,16 @@ layout: default
 
 {{ content }}
 
-<div class="row gx-md-6 gx-0">
+<div class="row gx-md-6 gx-0 mb-4">
   <div class="col-md-6">
     {% for image in site.data.settings.galleryleft %}
-      {% if forloop.first %}
-      <div class="flex-column mt-0 text-md-start text-end">
+      {% if forloop.last %}
+      <div class="flex-column mb-md-0 mb-3 text-md-start text-end">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <span style="font-size: 0.70em; color:grey">{{ image.location }}, {{ image.year }}</span>
       </div>
       {% else %}
-      <div class="flex-column mt-3 text-md-start text-end">
+      <div class="flex-column mb-3 text-md-start text-end">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <span style="font-size: 0.70em; color:grey">{{ image.location }}, {{ image.year }}</span>
       </div>
@@ -22,13 +22,13 @@ layout: default
   </div>
   <div class="col-md-6">
     {% for imageright in site.data.settings.galleryright %}
-      {% if forloop.first %}
-      <div class="flex-column mt-md-0 mt-3 text-end">
+      {% if forloop.last %}
+      <div class="flex-column mb-0 text-end">
         <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
         <span style="font-size: 0.70em; color:grey">{{ imageright.location }}, {{ imageright.year }}</span>
       </div>
       {% else %}
-      <div class="flex-column mt-3 text-end">
+      <div class="flex-column mb-3 text-end">
         <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
         <span style="font-size: 0.70em; color:grey">{{ imageright.location }}, {{ imageright.year }}</span>
       </div>

@@ -2,18 +2,20 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
+<div class="row g-6 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold mb-3">tag #{{page.tag}}</h3>
-        {% for post in site.posts %}
-          {% if post.tags contains page.tag %}
-            <p><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
-          {% endif %}
-        {% endfor %}
+      {% for post in site.posts %}
+        {% if post.tags contains page.tag %}
+          <div class="flex-column mt-3">
+            <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+        {% endif %}
+      {% endfor %}
   </div>
 </div>
 
-<div class="row g-5 mb-5">
+<div class="row g-6 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold mb-3">all tags</h3>
     {% assign tags = site.tags | sort %}

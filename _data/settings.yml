@@ -18,7 +18,7 @@ galleryleft:
 - {location: '蘭嶼', year: '2020', url: 'lanyu.jpg'}
 - {location: '蘭嶼', year: '2020', url: 'island.jpg'}
 - {location: '奧日光', year: '2019', url: 'nikko.jpg'}
-- {location: '日暮里車站', year: '2019', url: 'trainstation.jpg'}
+- {location: '日暮里', year: '2019', url: 'trainstation.jpg'}
 - {location: '池袋', year: '2019', url: 'dawn.jpg'}
 
 galleryright:

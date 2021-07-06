@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-<div class="row g-md-5 g-0">
+<div class="row gx-md-6 gx-0">
   <div class="col-md-6" style="text-align:left">
     {% for image in site.data.settings.galleryleft %}
       {% if forloop.first %}
@@ -13,7 +13,7 @@ layout: default
         <font color="grey" size="1">{{ image.location }}, {{ image.year }}</font>
       </div>
       {% else %}
-      <div class="flex-column mt-4">
+      <div class="flex-column mt-3">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <font color="grey" size="1">{{ image.location }}, {{ image.year }}</font>
       </div>
@@ -23,12 +23,12 @@ layout: default
   <div class="col-md-6" style="text-align:right">
     {% for imageright in site.data.settings.galleryright %}
       {% if forloop.first %}
-      <div class="flex-column mt-md-0 mt-4">
+      <div class="flex-column mt-md-0 mt-3">
         <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
         <font color="grey" size="1">{{ imageright.location }}, {{ imageright.year }}</font>
       </div>
       {% else %}
-      <div class="flex-column mt-4">
+      <div class="flex-column mt-3">
         <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
         <font color="grey" size="1">{{ imageright.location }}, {{ imageright.year }}</font>
       </div>

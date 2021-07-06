@@ -4,23 +4,35 @@ layout: default
 
 {{ content }}
 
-<div class="row g-5 mb-5">
+<div class="row g-md-5 g-0 mb-0">
   <div class="col-md-6" style="text-align:left">
     {% for image in site.data.settings.galleryleft %}
-      <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
-      <font color="grey" size="1">{{ image.location }}, {{ image.year }}</font>
-      {% unless forloop.last %}
-        <br><br>
-      {% endunless %}
+      {% if forloop.first %}
+      <div class="flex-column mt-0">
+        <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+        <font color="grey" size="1">{{ image.location }}, {{ image.year }}</font>
+      </div>
+      {% else %}
+      <div class="flex-column mt-4">
+        <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+        <font color="grey" size="1">{{ image.location }}, {{ image.year }}</font>
+      </div>
+      {% endif %}
     {% endfor %}
   </div>
   <div class="col-md-6" style="text-align:right">
     {% for imageright in site.data.settings.galleryright %}
-      <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
-      <font color="grey" size="1">{{ imageright.location }}, {{ imageright.year }}</font>
-      {% unless forloop.last %}
-        <br><br>
-      {% endunless %}
+      {% if forloop.first %}
+      <div class="flex-column mt-md-0 mt-4">
+        <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
+        <font color="grey" size="1">{{ imageright.location }}, {{ imageright.year }}</font>
+      </div>
+      {% else %}
+      <div class="flex-column mt-4">
+        <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
+        <font color="grey" size="1">{{ imageright.location }}, {{ imageright.year }}</font>
+      </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>

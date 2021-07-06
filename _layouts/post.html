@@ -5,7 +5,7 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold">{{ page.title }}</h3>
-    <div class="meta border-bottom pb-3 mb-4"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
+    <div class="meta border-bottom pb-3 mb-4"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>&thinsp; &middot;&thinsp;{% for tag in page.tags %}
         <a href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
     </div>
     {{ content }}

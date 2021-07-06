@@ -14,20 +14,17 @@ menu:
 # - {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 # - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
-galleryleft:
+gallery:
 - {location: '蘭嶼', year: '2020', url: 'lanyu.jpg'}
 - {location: '蘭嶼', year: '2020', url: 'island.jpg'}
+- {location: '桃園', year: '2020', url: 'sunset.jpg'}
+- {location: '台灣大學', year: '2020', url: 'house.jpg'}
 - {location: '奧日光', year: '2019', url: 'nikko.jpg'}
 - {location: '日暮里', year: '2019', url: 'trainstation.jpg'}
 - {location: '池袋', year: '2019', url: 'dawn.jpg'}
-
-galleryright:
-- {location: '桃園', year: '2020', url: 'sunset.jpg'}
-- {location: '台灣大學', year: '2020', url: 'house.jpg'}
 - {location: '台灣大學', year: '2019', url: 'door.jpg'}
 - {location: '湘南海岸', year: '2019', url: 'surf.jpg'}
 - {location: '湘南海岸', year: '2019', url: 'coast.jpg'}
-
 
 # courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}

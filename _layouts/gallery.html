@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 
 <div class="row g-5 mb-5">
-  <div class="col-md-6" style="text-align:center">
+  <div class="col-md-6" style="text-align:left">
     {% for image in site.data.settings.galleryleft %}
       <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
       <font color="grey" size="1">{{ image.location }}, {{ image.year }}</font>
@@ -14,7 +14,7 @@ layout: default
       {% endunless %}
     {% endfor %}
   </div>
-  <div class="col-md-6" style="text-align:center">
+  <div class="col-md-6" style="text-align:right">
     {% for imageright in site.data.settings.galleryright %}
       <img src="{{ site.github.url }}/assets/img/{{ imageright.url }}" alt="Contact" width="100%">
       <font color="grey" size="1">{{ imageright.location }}, {{ imageright.year }}</font>

@@ -20,7 +20,7 @@ layout: default
     <h3 class="fw-bold mb-3">all tags</h3>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
-    <a href="/tag/{{tag[0]}}">#{{tag[0]}}</a><a class=text-decoration-none>({{ tag | last | size }})</a>{% unless
+    <a href="/tag/{{tag[0]}}" style="word-break: keep-all;">#{{tag[0]}}</a><a class=text-decoration-none>({{ tag | last | size }})</a>{% unless
     forloop.last %}, {% endunless %}
     {% endfor %}
   </div>

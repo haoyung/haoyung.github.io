@@ -19,12 +19,13 @@ gallery:
 - {location: '蘭嶼', year: '2020', url: 'island.jpg'}
 - {location: '桃園', year: '2020', url: 'sunset.jpg'}
 - {location: '台灣大學', year: '2020', url: 'house.jpg'}
+- {location: '台灣大學', year: '2019', url: 'door.jpg'}
 - {location: '奧日光', year: '2019', url: 'nikko.jpg'}
 - {location: '日暮里', year: '2019', url: 'trainstation.jpg'}
 - {location: '池袋', year: '2019', url: 'dawn.jpg'}
-- {location: '台灣大學', year: '2019', url: 'door.jpg'}
-- {location: '湘南海岸', year: '2019', url: 'surf.jpg'}
 - {location: '湘南海岸', year: '2019', url: 'coast.jpg'}
+- {location: '湘南海岸', year: '2019', url: 'surf.jpg'}
+
 
 # courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}

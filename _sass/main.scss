@@ -30,3 +30,16 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
+// p {
+//   margin: 0px;
+//   padding: 0px;
+// }
+
+p:last-child, .textwidget p:last-child { 
+  margin-bottom:0px;
+}
+
+ol:last-child, .textwidget ol:last-child { 
+  margin-bottom:0px;
+}

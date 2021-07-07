@@ -2,13 +2,22 @@
 layout: default
 ---
 
-<div class="row mb-5">
-  <div class="col-md-12">
+<div class="row gx-md-6 gx-0 mb-5">
+  <div class="col-md-6 mb-md-0 mb-5">
     <h3 class="fw-bold mb-3">articles</h3>
     {% for post in site.posts %}
     <div class="flex-column mt-3">
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="col-md-6 text-md-end">
+    <h3 class="fw-bold mb-3">tags</h3>
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+    <div class="flex-column mt-3">
+      <a href="{{ site.github.url }}/tag/{{tag[0]}}">#{{tag[0]}}</a><span>({{ tag | last | size }})</span>
     </div>
     {% endfor %}
   </div>

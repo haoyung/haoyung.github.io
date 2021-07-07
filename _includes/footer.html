@@ -3,9 +3,9 @@
     <div class="d-inline-flex justify-content-center">
       {% for item in site.data.settings.social %}
       {% if forloop.first %}
-      <a href="{{ item.link }}" class="ms-0 fs-4"><i class="{{ item.icon }}"></i></a>
+      <a href="{{ item.link }}" class="ms-0 fs-4"><i class="{{ item.icon }}" style="color:black;"></i></a>
       {% else %}
-      <a href="{{ item.link }}" class="ms-4 fs-4"><i class="{{ item.icon }}"></i></a>
+      <a href="{{ item.link }}" class="ms-4 fs-4"><i class="{{ item.icon }}" style="color:black;"></i></a>
       {% endif %}
       {% endfor %}
     </div>

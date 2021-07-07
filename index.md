@@ -3,5 +3,4 @@ layout: home
 title: "Home"
 ---
 
-Hi，大家好，我是翁浩永。
-
+{% include_relative about_text.md %}

@@ -7,9 +7,11 @@ layout: default
     <h3 class="fw-bold mb-3">about</h3>
     {{ content }}
   </div>
-  <div class="col-md-6 text-end">
-    <img src="{{ site.github.url }}/assets/img/home.jpg" alt="about" width="100%">
-    <span style="font-size: 0.70em; color:grey">杯測 @coffee lab</span>
+  <div class="col-md-6 d-flex align-items-start">
+    <div class="flex-column mt-0 text-end">
+      <img src="{{ site.github.url }}/assets/img/about.jpg" alt="about" width="100%">
+      <span style="font-size: 0.70em; color:grey">一個月舉辦一次的「遇見咖啡」</span>
+    </div>
   </div>
 </div>
 
@@ -18,7 +20,8 @@ layout: default
     <h3 class="fw-bold mb-3">latest articles</h3>
     {% for post in site.posts limit:5 %}
     <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
     {% endfor %}
     <div class="flex-column mt-3">

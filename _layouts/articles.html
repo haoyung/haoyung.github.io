@@ -7,7 +7,8 @@ layout: default
     <h3 class="fw-bold mb-3">articles</h3>
     {% for post in site.posts %}
     <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
     {% endfor %}
   </div>

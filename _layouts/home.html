@@ -15,9 +15,9 @@ layout: default
   </div>
 </div>
 
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold mb-3">latest articles</h3>
+<div class="row gx-md-6 gx-0 mb-5">
+  <div class="col-md-6 mb-md-0 mb-5">
+    <h3 class="fw-bold">latest articles</h3>
     {% for post in site.posts limit:5 %}
     <div class="flex-column mt-3">
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
@@ -27,6 +27,15 @@ layout: default
     <div class="flex-column mt-3">
       <a href="{{ site.github.url }}/articles" style="font-style: italic">view all articles</a>
     </div>
+  </div>
+  <div class="col-md-6 text-md-end">
+    <h3 class="fw-bold mb-3">tags</h3>
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+    <div class="flex-column mt-3">
+      <a href="{{ site.github.url }}/tag/{{tag[0]}}">#{{tag[0]}}</a><span>({{ tag | last | size }})</span>
+    </div>
+    {% endfor %}
   </div>
 </div>
 

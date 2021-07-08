@@ -30,21 +30,23 @@ const hitTemplate = function(hit) {
   const content = hit._highlightResult.html.value;
 
   return `
-    <div class="flex-column mt-3">
-      <h5 class="fw-bold"><a href="{url}">${title}</a></h5><div class="meta border-bottom pb-3 mb-4">- ${date}</div>
-      
+    <div class="flex-column mt-5">
+      <h5 class="fw-bold"><a href="${url}">${title}</a></h5>
+      <div class="meta border-bottom pb-2 mb-2">- ${date}</div>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
     </div>
   `;
 }
 
-
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
     placeholder: 'don\'t drink naturals...',
-    poweredBy: false // This is required if you're on the free Community plan
+    poweredBy: false, // This is required if you're on the free Community plan
+    cssClasses: {
+      input: 'customize',
+    },
   })
 );
 
@@ -52,7 +54,12 @@ search.addWidget(
   instantsearch.widgets.hits({
     container: '#search-hits',
     templates: {
-      item: hitTemplate
+      item: hitTemplate,
+      empty: `
+        <div class="flex-column mt-5">
+          <h5 class="fw-bold">no result</h5>
+        </div>
+      `
     }
   })
 );
@@ -61,9 +68,6 @@ search.start();
 </script>
 
 <style>
-h5 {
-    display: inline !important;
-}
 .ais-search-box {
   max-width: 100%;
   margin-bottom: 0px;
@@ -99,5 +103,13 @@ h5 {
 }
 .post-snippet img {
   display: none;
+}
+.customize {
+  background-color: rgb(236, 237, 238);
+  border: 0px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-radius: 0;
+  box-shadow: none;
 }
 </style>

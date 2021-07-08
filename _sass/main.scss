@@ -9,8 +9,12 @@ body {
   font-family: $bodyFont;
 }
 
-body a {
-  color: $linkColor
+// body a {
+//   color: $linkColor
+// }
+
+a:visited {
+  color: inherit;
 }
 
 html {

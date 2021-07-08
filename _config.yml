@@ -9,3 +9,9 @@ algolia:
   application_id: M50XXOEO0I
   index_name:     whycoffee # You can replace that with whatever name you want
   search_only_api_key: ad302026cfd538a86592ae475eca5437
+  extensions_to_index:
+    - html
+    - md
+  files_to_exclude:
+    - search.md
+    - gallery.md

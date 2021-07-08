@@ -1,7 +1,7 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #212529;
+$linkColor: #383f45;
 
 body {
   background: $backgroundColor;
@@ -11,10 +11,6 @@ body {
 
 body a {
   color: $bodyColor;
-}
-
-a:visited {
-  color: inherit;
 }
 
 html {

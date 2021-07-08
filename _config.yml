@@ -15,3 +15,8 @@ algolia:
   files_to_exclude:
     - search.md
     - gallery.md
+    - articles.md
+    - contact.md
+    - about.md
+    - index.md
+    - ./tag/*.md

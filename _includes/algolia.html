@@ -7,7 +7,13 @@
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
-  indexName: '{{ site.algolia.index_name }}'
+  indexName: '{{ site.algolia.index_name }}',
+  // searchFunction(helper) {
+  //   const container = document.querySelector('#search-hits');
+  //   container.style.display = helper.state.query === '' ? 'none' : '';
+
+  //   helper.search();
+  // }
 });
 
 const hitTemplate = function(hit) {
@@ -77,7 +83,7 @@ search.addWidget(
       item: hitTemplate,
       empty: `
         <div class="flex-column mt-5">
-          <h5 class="fw-bold">Sorry, there's no result.</h5>
+          <h5 class="fw-bold">Can't find anything about that, sorry :(</h5>
         </div>
       `
     }
@@ -93,7 +99,7 @@ search.start();
   margin-bottom: 0px;
 }
 .ais-Highlight {
-  font-style: normal;
+  /* font-style: normal; */
   text-decoration: underline;
 }
 /* .ais-search-box--powered-by {
@@ -102,14 +108,14 @@ search.start();
 .post-item {
   margin-bottom: 30px;
 }
-.post-link .ais-Highlight {
+/* .post-link .ais-Highlight {
   color: #111;
   font-style: normal;
   text-decoration: underline;
-}
+} */
 .post-breadcrumbs {
   color: #212529;
-  display: block;
+  /* display: block; */
 }
 .post-breadcrumb {
   font-size: normal;
@@ -126,9 +132,9 @@ search.start();
   font-style: normal;
   text-decoration: none;
 }
-.post-snippet img {
+/* .post-snippet img {
   display: none;
-}
+} */
 .customize {
   background-color: rgb(236, 237, 238);
   border: 0px;

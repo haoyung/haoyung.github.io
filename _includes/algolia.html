@@ -48,7 +48,7 @@ const hitTemplate = function(hit) {
     return `
       <div class="flex-column mt-5">
         <div class="meta border-bottom pb-2 mb-2"><a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold" style="color: black;">${title}</span></a></div>
-        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 8px; color: black;>${breadcrumbs}</h6></a>{{/breadcrumbs}}
         <div class="post-snippet">${content}</div>
       </div>
     `;
@@ -58,7 +58,7 @@ const hitTemplate = function(hit) {
       <div class="flex-column mt-5">
         <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}</span></a>
         <div class="meta border-bottom pb-2 mb-2">- ${date}</div>
-        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 8px;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
+        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 8px; color: black;>${breadcrumbs}</h6></a>{{/breadcrumbs}}
         <div class="post-snippet">${content}</div>
       </div>
     `;
@@ -117,18 +117,18 @@ search.start();
   color: #212529;
   /* display: block; */
 }
-.post-breadcrumb {
+/* .post-breadcrumb {
   font-size: normal;
   color: #212529;
-}
+} */
 .post-breadcrumb .ais-Highlight {
-  font-weight: bold;
+  font-weight: bolder;
   font-style: normal;
   text-decoration: none;
 }
 .post-snippet .ais-Highlight {
   color: #212529;
-  font-weight: bold;
+  font-weight: bolder;
   font-style: normal;
   text-decoration: none;
 }
@@ -142,5 +142,8 @@ search.start();
   box-sizing: border-box;
   border-radius: 0;
   box-shadow: none;
+}
+.ais-search-box--reset {
+  margin-right: 5px;
 }
 </style>

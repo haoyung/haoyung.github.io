@@ -4,24 +4,6 @@
   <body>
     <div class="col-lg-8 mx-auto p-3 py-md-5 py-4">
       {% include header.html %}
-      <!-- <input type="text" id="search-input" placeholder="Search blog posts..">
-      <div class="row gx-md-6 gx-0 mb-5">
-        <div id="results-container" class="col-md-6 mb-md-0 mb-5">
-        </div>
-      </div>
-      <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-      <script type="text/javascript">
-        SimpleJekyllSearch({
-          searchInput: document.getElementById('search-input'),
-          resultsContainer: document.getElementById('results-container'),
-          json: '/search.json',
-          searchResultTemplate: '<div class="flex-column mt-3"><a href="{url}">{title}</a></div>',
-          noResultsText: 'No results found',
-          limit: 10,
-          fuzzy: false,
-          exclude: ['Welcome']
-        })
-      </script> -->
       {{ content }}
       {% include footer.html %}
     </div>

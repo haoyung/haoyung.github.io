@@ -30,13 +30,20 @@ const hitTemplate = function(hit) {
   const content = hit._highlightResult.html && hit._highlightResult.html.value || "";
 
   if (date === "") {
+    if (content === "") {
+      return `
+        <div class="flex-column mt-5">
+          <a href="${url}" class="text-decoration-none"><span class="fs-5 fw-bold">${title}</span></a>
+        </div>
+      `;
+    }
     return `
-    <div class="flex-column mt-5">
-      <div class="meta border-bottom pb-2 mb-2"><a href="${url}" class="text-decoration-none"><span class="fs-5 fw-bold">${title}</span></a></div>
-      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
+      <div class="flex-column mt-5">
+        <div class="meta border-bottom pb-2 mb-2"><a href="${url}" class="text-decoration-none"><span class="fs-5 fw-bold">${title}</span></a></div>
+        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+        <div class="post-snippet">${content}</div>
+      </div>
+    `;
   }
   else {
     return `

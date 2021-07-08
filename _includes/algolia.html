@@ -27,22 +27,33 @@ const hitTemplate = function(hit) {
     }).join(' > ')
   }
 
-  const content = hit._highlightResult.html.value;
+  const content = hit._highlightResult.html && hit._highlightResult.html.value || "";
 
-  return `
+  if (date === "") {
+    return `
     <div class="flex-column mt-5">
-      <h5 class="fw-bold"><a href="${url}">${title}</a></h5>
-      <div class="meta border-bottom pb-2 mb-2">- ${date}</div>
+      <div class="meta border-bottom pb-2 mb-2"><a href="${url}" class="text-decoration-none"><span class="fs-5 fw-bold">${title}</span></a></div>
       {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
       <div class="post-snippet">${content}</div>
     </div>
   `;
+  }
+  else {
+    return `
+      <div class="flex-column mt-5">
+        <a href="${url}" class="text-decoration-none"><span class="fs-5 fw-bold">${title}</span></a>
+        <div class="meta border-bottom pb-2 mb-2">- ${date}</div>
+        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+        <div class="post-snippet">${content}</div>
+      </div>
+    `;
+  }
 }
 
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-searchbar',
-    placeholder: 'don\'t drink naturals...',
+    placeholder: 'I\'m also searching some Takesi geishas...',
     poweredBy: false, // This is required if you're on the free Community plan
     cssClasses: {
       input: 'customize',
@@ -72,6 +83,10 @@ search.start();
   max-width: 100%;
   margin-bottom: 0px;
 }
+.ais-Highlight {
+  font-style: normal;
+  text-decoration: underline;
+}
 /* .ais-search-box--powered-by {
   display: none;
 } */
@@ -84,22 +99,23 @@ search.start();
   text-decoration: underline;
 }
 .post-breadcrumbs {
-  color: #424242;
+  color: #212529;
   display: block;
 }
 .post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
+  font-size: normal;
+  color: #212529;
 }
 .post-breadcrumb .ais-Highlight {
   font-weight: bold;
   font-style: normal;
+  text-decoration: none;
 }
 .post-snippet .ais-Highlight {
   color: #212529;
-  text-decoration: underline;
+  font-weight: bold;
   font-style: normal;
-  font-weight: normal;
+  text-decoration: none;
 }
 .post-snippet img {
   display: none;

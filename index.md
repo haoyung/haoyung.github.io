@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Home"
+title: "home"
 ---
 
 {% include_relative about_text.md %}

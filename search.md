@@ -1,4 +1,4 @@
 ---
 layout: search
-title: "Search"
+title: "search"
 ---

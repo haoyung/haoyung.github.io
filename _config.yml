@@ -19,5 +19,5 @@ algolia:
     - contact.md
     - about.md
     - index.md
-    - ./tag/*.md
+    - ./tag/*.md      
 

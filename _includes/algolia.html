@@ -22,6 +22,16 @@ const hitTemplate = function(hit) {
     date = moment.unix(hit.date).format('MMM D, YYYY');
   }
 
+  let tag = '';
+  if (hit._highlightResult.tags) {
+    for (t in hit._highlightResult.tags) {
+      tag = tag.concat('<a href="/tag/', hit.tags[t], '">', '#', hit._highlightResult.tags[t].value, '</a>');
+      if (t != hit._highlightResult.tags.length - 1) 
+        tag = tag.concat(', ');
+    }
+  }
+  
+
   let url = `{{ site.baseurl }}${hit.url}`;
   if (hit.anchor)
     url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
@@ -57,7 +67,7 @@ const hitTemplate = function(hit) {
     return `
       <div class="flex-column mt-5">
         <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}</span></a>
-        <div class="meta border-bottom pb-2 mb-2">- ${date}</div>
+        <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
         {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 8px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
         <div class="post-snippet">${content}</div>
       </div>
@@ -94,11 +104,11 @@ search.start();
 </script>
 
 <style>
-a {
+/* a {
   font-style: normal;
-  color: #383f45 !important;
-  /* text-decoration: none; */
-}
+  color: #383f45;
+  text-decoration: none;
+} */
 .ais-search-box {
   max-width: 100%;
   margin-bottom: 0px;
@@ -106,6 +116,16 @@ a {
 .ais-Highlight {
   font-style: inherit;
   text-decoration: underline;
+}
+a .ais-Highlight {
+  font-style: inherit;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+span .ais-Highlight {
+  font-style: inherit;
+  text-decoration: underline;
+  font-weight: inherit;
 }
 /* .ais-search-box--powered-by {
   display: none;
@@ -129,7 +149,14 @@ a {
 .post-breadcrumb {
   color: #434b53;
 }
+.post-breadcrumb a {
+  color: #434b53 important!;
+}
 .post-snippet {
+  color: #383f45; 
+  /* pointer-events: none; */
+}
+.post-snippet a {
   color: #383f45; 
   /* pointer-events: none; */
 }

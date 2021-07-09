@@ -20,3 +20,4 @@ algolia:
     - about.md
     - index.md
     - ./tag/*.md
+

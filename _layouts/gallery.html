@@ -11,12 +11,12 @@ layout: default
     {% if forloop.index == 1 %}
     <div class="flex-column mt-0 text-sm-start text-end">
       <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
-      <span style="font-size: 0.70em; color:grey">{{ image.location }}, {{ image.year }}</span>
+      <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% elsif remainder == 1 %}
     <div class="flex-column mt-3 text-sm-start text-end">
       <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
-      <span style="font-size: 0.70em; color:grey">{{ image.location }}, {{ image.year }}</span>
+      <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% endif %}
     {% endfor %}
@@ -27,12 +27,12 @@ layout: default
     {% if forloop.index == 2 %}
     <div class="flex-column mt-sm-0 mt-3 text-end">
       <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
-      <span style="font-size: 0.70em; color:grey">{{ image.location }}, {{ image.year }}</span>
+      <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% elsif remainder == 0 %}
     <div class="flex-column mt-3 text-end">
       <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
-      <span style="font-size: 0.70em; color:grey">{{ image.location }}, {{ image.year }}</span>
+      <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% endif %}
     {% endfor %}

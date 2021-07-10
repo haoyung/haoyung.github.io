@@ -3,7 +3,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "why coffee?" # the name of your site, e.g. ACME Corp.
 description: "Still trying to write something about coffee."
 
-exclude: [vendor]
+exclude:
+- vendor
+- about.md
 
 algolia:
   application_id: M50XXOEO0I

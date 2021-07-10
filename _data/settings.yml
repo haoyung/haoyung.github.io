@@ -4,7 +4,7 @@ menu:
 # - {name: 'courses', url: '/courses'}
 # - {name: 'cv', url: '/cv'}
 - {name: 'home', url: '/'}
-- {name: 'about', url: '/about'}
+# - {name: 'about', url: '/about'}
 - {name: 'articles', url: '/articles'}
 - {name: 'gallery', url: '/gallery'}
 - {name: 'contact', url: '/contact'}

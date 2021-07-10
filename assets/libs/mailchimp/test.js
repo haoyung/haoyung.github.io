@@ -11,8 +11,8 @@ $(function() {
     fields: '0:EMAIL',
     submitSelector: '#submit-form',
     customMessages: {
-      E003: '003Please enter a valid email address',
-      E004: '004Please enter a valid email address',
+      E003: 'Please enter a valid email address',
+      E004: 'Please enter a valid email address',
     },
     onOk: (message) => {
       document.getElementById('mce-EMAIL').value = ''

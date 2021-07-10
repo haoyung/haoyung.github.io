@@ -11,8 +11,8 @@ $(function() {
     fields: '0:EMAIL',
     submitSelector: '#submit-form',
     customMessages: {
-      E003: '003Please enter a valid email address',
-      E004: '004Please enter a valid email address',
+      E003: 'Please enter a valid email address',
+      E004: 'Please enter a valid email address',
     },
     onOk: (message) => {
       document.getElementById('mce-EMAIL').value = ''
@@ -23,8 +23,10 @@ $(function() {
       document.getElementById('mce-EMAIL').value = ''
       if (message === 'This email cannot be added to this list. Please enter a different email address.')
         document.getElementById('mce-EMAIL').placeholder = 'This email cannot be added to this list.'
-      else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed')
+      else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed') {
+        $('input').addClass('green-class');
         document.getElementById('mce-EMAIL').placeholder = 'You have already subscribed!'
+      }
       else 
         document.getElementById('mce-EMAIL').placeholder = message
       $('input').addClass('red-class');

@@ -21,13 +21,18 @@ $(function() {
     },
     onFail: (message) => {
       document.getElementById('mce-EMAIL').value = ''
-      if (message === 'This email cannot be added to this list. Please enter a different email address.')
+      if (message === 'This email cannot be added to this list. Please enter a different email address.') {
         document.getElementById('mce-EMAIL').placeholder = 'This email cannot be added to this list.'
-      else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed')
+        $('input').addClass('red-class');
+      }
+      else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed') {
         document.getElementById('mce-EMAIL').placeholder = 'You have already subscribed!'
-      else 
+        $('input').addClass('green-class');
+      }
+      else {
         document.getElementById('mce-EMAIL').placeholder = message
-      $('input').addClass('red-class');
+        $('input').addClass('red-class');
+      }
     }
   });
 

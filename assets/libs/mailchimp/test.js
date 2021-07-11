@@ -11,7 +11,7 @@ $(function() {
     fields: '0:EMAIL',
     submitSelector: '#submit-form',
     customMessages: {
-      E003: 'Please enter a valid email address',
+      E003: 'An email address must have an @ in it.',
       E004: 'Please enter a valid email address',
     },
     onOk: (message) => {
@@ -22,7 +22,7 @@ $(function() {
     onFail: (message) => {
       document.getElementById('mce-EMAIL').value = ''
       if (message === 'This email cannot be added to this list. Please enter a different email address.') {
-        document.getElementById('mce-EMAIL').placeholder = 'This email cannot be added to this list.'
+        document.getElementById('mce-EMAIL').placeholder = 'This email cannot be added. Try another one?'
         $('input').addClass('red-class');
       }
       else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed') {

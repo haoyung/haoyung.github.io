@@ -19,12 +19,12 @@ layout: default
 
 <!-- {{ content }} -->
 
-<div class="row gx-sm-6 gx-0 mb-5">
-  <div class="col-sm-6">
+<div class="row gx-md-6 gx-0 mb-5">
+  <div class="col-md-6">
     {% for image in site.data.settings.gallery %}
     {% assign remainder = forloop.index | modulo: 2 %}
     {% if forloop.index == 1 %}
-    <div class="flex-column mt-0 text-sm-start text-end">
+    <div class="flex-column mt-0 text-md-start text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">
@@ -36,7 +36,7 @@ layout: default
       <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% elsif remainder == 1 %}
-    <div class="flex-column mt-3 text-sm-start text-end">
+    <div class="flex-column mt-3 text-md-start text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">
@@ -50,11 +50,11 @@ layout: default
     {% endif %}
     {% endfor %}
   </div>
-  <div class="col-sm-6">
+  <div class="col-md-6">
     {% for image in site.data.settings.gallery %}
     {% assign remainder = forloop.index | modulo: 2 %}
     {% if forloop.index == 2 %}
-    <div class="flex-column mt-sm-0 mt-3 text-end">
+    <div class="flex-column mt-md-0 mt-3 text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">

@@ -1,8 +1,16 @@
 ---
 layout: default
 ---
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+  $(function () {
+    $('.img__wrap').on('click', function (e) {
+      $(this).find('.img__description').fadeToggle('slow');
+    });
+  });
+</script>
 
-{{ content }}
+<!-- {{ content }} -->
 
 <div class="row gx-sm-6 gx-0 mb-5">
   <div class="col-sm-6">
@@ -10,12 +18,26 @@ layout: default
     {% assign remainder = forloop.index | modulo: 2 %}
     {% if forloop.index == 1 %}
     <div class="flex-column mt-0 text-sm-start text-end">
-      <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+      <div class="img__wrap">
+        <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+        <div class="img__description">
+          <div class="text">
+            <span style="font-size: 14px;">{{ image.description }}</span>
+          </div>
+        </div>
+      </div>
       <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% elsif remainder == 1 %}
     <div class="flex-column mt-3 text-sm-start text-end">
-      <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+      <div class="img__wrap">
+        <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+        <div class="img__description">
+          <div class="text">
+            <span style="font-size: 14px;">{{ image.description }}</span>
+          </div>
+        </div>
+      </div>
       <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% endif %}
@@ -26,15 +48,65 @@ layout: default
     {% assign remainder = forloop.index | modulo: 2 %}
     {% if forloop.index == 2 %}
     <div class="flex-column mt-sm-0 mt-3 text-end">
-      <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+      <div class="img__wrap">
+        <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+        <div class="img__description">
+          <div class="text">
+            <span style="font-size: 14px;">{{ image.description }}</span>
+          </div>
+        </div>
+      </div>
       <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% elsif remainder == 0 %}
     <div class="flex-column mt-3 text-end">
-      <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+      <div class="img__wrap">
+        <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
+        <div class="img__description">
+          <div class="text">
+            <span style="font-size: 14px;">{{ image.description }}</span>
+          </div>
+        </div>
+      </div>
       <span style="font-size: 0.70em; color:grey">{{ image.location }} &middot; {{ image.year }}</span>
     </div>
     {% endif %}
     {% endfor %}
   </div>
 </div>
+
+<style>
+  .img__wrap {
+    position: relative;
+    width: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.37);
+  }
+
+  .text {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+</style>

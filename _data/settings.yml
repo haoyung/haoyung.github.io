@@ -16,16 +16,16 @@ menu:
 # - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 gallery:
-- {location: '蘭嶼', year: '2020', url: 'lanyu.jpg'}
-- {location: '蘭嶼', year: '2020', url: 'island.jpg'}
-- {location: '桃園', year: '2020', url: 'sunset.jpg'}
-- {location: '台灣大學', year: '2020', url: 'house.jpg'}
-- {location: '台灣大學', year: '2019', url: 'door.jpg'}
-- {location: '奧日光', year: '2019', url: 'nikko.jpg'}
-- {location: '日暮里', year: '2019', url: 'trainstation.jpg'}
-- {location: '池袋', year: '2019', url: 'dawn.jpg'}
-- {location: '湘南海岸', year: '2019', url: 'coast.jpg'}
-- {location: '湘南海岸', year: '2019', url: 'surf.jpg'}
+- {location: '蘭嶼', year: '2020', url: 'lanyu.jpg', description: '2020 年的暑假我跟爸媽一起去了蘭嶼，這張照片拍攝於當地的一處露營地，當時似乎不是旺季，露營地裡一組客人都沒有，但老闆很好心地讓我們進去參觀。<br><br>這幾張椅子被擺在艷陽高照的蘭嶼海邊，海浪的聲音很大，在強光的照射之下一切似乎都變得有些不飽和。上個星期應該有一些學生坐在這邊看海吧。'}
+- {location: '蘭嶼', year: '2020', url: 'island.jpg', description: '同樣拍攝於蘭嶼，當下具體的情況是什麼樣子的已經記不清了，但那天的陽光在海面的映射之下，形成了一種很特別的顏色。<br><br>很多時候，到了最後還留下來的往往都只是這種「印象」而已。'}
+- {location: '桃園', year: '2020', url: 'sunset.jpg', description: '從我房間眺望出去就是這樣的情景，那天的晚霞呈現一種不可思議的顏色。大樓的剪影失去了深度，好像紙卡一般。'}
+- {location: '台灣大學', year: '2020', url: 'house.jpg', description: '每天上學都會經過這棟似乎是教職員宿舍的小屋，但看不出目前有沒有人在住。屋外的綠葉與屋內依稀可辨的紅色房門，是我認為這棟小屋的魅力所在。'}
+- {location: '台灣大學', year: '2019', url: 'door.jpg', description: ''}
+- {location: '奧日光', year: '2019', url: 'nikko.jpg', description: ''}
+- {location: '日暮里', year: '2019', url: 'trainstation.jpg', description: ''}
+- {location: '池袋', year: '2019', url: 'dawn.jpg', description: ''}
+- {location: '湘南海岸', year: '2019', url: 'coast.jpg', description: ''}
+- {location: '湘南海岸', year: '2019', url: 'surf.jpg', description: ''}
 
 
 # courses:

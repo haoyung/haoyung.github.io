@@ -12,7 +12,7 @@ $(function() {
     submitSelector: '#submit-form',
     customMessages: {
       E003: 'An email address must have an @ in it.',
-      E004: 'Please enter a valid email address',
+      E004: 'Please enter a valid email address.',
     },
     onOk: (message) => {
       document.getElementById('mce-EMAIL').value = ''
@@ -42,7 +42,10 @@ $(function() {
   $formInput.on('mc:input:error', function () {
     console.log('mc:input:error event fired');
     document.getElementById('mce-EMAIL').value = ''
-    document.getElementById('mce-EMAIL').placeholder = document.getElementById('mc-error').innerText
+    if (document.getElementById('mc-error').innerText === 'The username portion of the email address is empty')
+      document.getElementById('mce-EMAIL').placeholder = 'You have to have an username in your email!'
+    else 
+      document.getElementById('mce-EMAIL').placeholder = document.getElementById('mc-error').innerText
     $('input').addClass('red-class');
     // addBorder($(document.getElementById('mc_embed_signup_scroll')), 'red');
   });

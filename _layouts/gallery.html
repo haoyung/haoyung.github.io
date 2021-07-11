@@ -22,7 +22,7 @@ layout: default
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">
           <div class="text">
-            <span style="font-size: 14px;">{{ image.description }}</span>
+            {{ image.description }}
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ layout: default
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">
           <div class="text">
-            <span style="font-size: 14px;">{{ image.description }}</span>
+            {{ image.description }}
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ layout: default
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">
           <div class="text">
-            <span style="font-size: 14px;">{{ image.description }}</span>
+            {{ image.description }}
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ layout: default
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
         <div class="img__description">
           <div class="text">
-            <span style="font-size: 14px;">{{ image.description }}</span>
+            {{ image.description }}
           </div>
         </div>
       </div>
@@ -106,7 +106,11 @@ layout: default
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  p {
+    font-size: 14px;
   }
 </style>

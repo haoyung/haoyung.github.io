@@ -21,5 +21,20 @@ algolia:
     - contact.md
     - about.md
     - index.md
-    - ./tag/*.md      
-
+    - ./tag/*.md
+  settings: 
+    searchableAttributes:                                                        
+      - title                                                               
+      - subtitle                                              
+      - headings                                                                 
+      - unordered(content)                                                       
+      - collection,categories,tags     
+    attributesToHighlight:                                                       
+      - categories                                                               
+      - collection                                                               
+      - content                                                                  
+      - headings                                                                 
+      - html                                                                     
+      - subtitle                                                                 
+      - tags                                                                     
+      - title

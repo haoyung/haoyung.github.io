@@ -37,6 +37,9 @@ const hitTemplate = function(hit) {
     url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
   const title = hit._highlightResult.title.value;
+  let subtitle = '';
+  if (hit._highlightResult.subtitle)
+    subtitle = hit._highlightResult.subtitle.value;
 
   let breadcrumbs = '';
   if (hit._highlightResult.headings) {
@@ -64,14 +67,26 @@ const hitTemplate = function(hit) {
     `;
   }
   else {
-    return `
-      <div class="flex-column mt-5">
-        <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}</span></a>
-        <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
-        {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
-        <div class="post-snippet">${content}</div>
-      </div>
-    `;
+    if (subtitle === "") {
+      return `
+        <div class="flex-column mt-5">
+          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}</span></a>
+          <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
+          {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
+          <div class="post-snippet">${content}</div>
+        </div>
+      `;
+    }
+    else {
+      return `
+        <div class="flex-column mt-5">
+          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}：${subtitle}</span></a>
+          <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
+          {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
+          <div class="post-snippet">${content}</div>
+        </div>
+      `;
+    }
   }
 }
 

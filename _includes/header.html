@@ -1,21 +1,21 @@
 <header class="d-flex flex-column flex-md-row align-self-end pb-md-3 pb-1 mb-5 border-bottom">
   <div>
     <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
-      <span class="fs-4 fw-bold" style="color:black;">{{ site.title }}</span>
+      <span class="fs-4 fw-bold"">{{ site.title }}</span>
     </a>
     <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
-      <span style="color:black;">{{ site.description }}</span>
+      <span">{{ site.description }}</span>
     </a>
   </div>
   <nav class="d-inline-flex align-items-md-end mt-1 mt-md-0 ms-md-auto justify-content-between">
     {% for item in site.data.settings.menu %}
     {% if forloop.last %}
     <a class="me-0 py-md-0 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">
-      <span style="color:black;">{{ item.name }}</span>
+      <span">{{ item.name }}</span>
     </a>
     {% else %}
     <a class="me-md-3 me-0 py-md-0 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">
-      <span style="color:black;">{{ item.name }}</span>
+      <span">{{ item.name }}</span>
     </a>
     {% endif %}
     {% endfor %}

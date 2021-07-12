@@ -54,13 +54,13 @@ const hitTemplate = function(hit) {
     if (content === "") {
       return `
         <div class="flex-column mt-5">
-          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold" style="color: black;">${title}</span></a>
+          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold"">${title}</span></a>
         </div>
       `;
     }
     return `
       <div class="flex-column mt-5">
-        <div class="meta border-bottom pb-2 mb-2"><a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold" style="color: black;">${title}</span></a></div>
+        <div class="meta border-bottom pb-2 mb-2"><a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold"">${title}</span></a></div>
         {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
         <div class="post-snippet">${content}</div>
       </div>
@@ -70,7 +70,7 @@ const hitTemplate = function(hit) {
     if (subtitle === "") {
       return `
         <div class="flex-column mt-5">
-          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}</span></a>
+          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1"">${title}</span></a>
           <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
           {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
           <div class="post-snippet">${content}</div>
@@ -80,7 +80,7 @@ const hitTemplate = function(hit) {
     else {
       return `
         <div class="flex-column mt-5">
-          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1" style="color: black;">${title}：${subtitle}</span></a>
+          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1"">${title}：${subtitle}</span></a>
           <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
           {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: black;">${breadcrumbs}</h6></a>{{/breadcrumbs}}
           <div class="post-snippet">${content}</div>
@@ -131,6 +131,10 @@ svg {
   max-width: 100%;
   margin-bottom: 0px;
   height: 45px;
+}
+.ais-search-box--magnifier {
+  left: 13px;
+  top: 13px;
 }
 .ais-Highlight {
   font-style: inherit;
@@ -193,7 +197,7 @@ span .ais-Highlight {
 .customize {
   background-color: #eff2f3;
   border: 0px;
-  padding-left: 40px;
+  padding-left: 42px;
   box-sizing: border-box;
   border-radius: 0;
   box-shadow: none;

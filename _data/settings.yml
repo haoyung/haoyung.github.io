@@ -16,37 +16,37 @@ menu:
 # - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 gallery:
-- {location: '蘭嶼', year: '2020', url: 'lanyu.jpg', description: 
+- {location: '蘭嶼', year: '2020', url: 'lanyu.webp', description: 
   '<p>2020 年的暑假我跟爸媽一起去了蘭嶼，這張照片拍攝於當地的一處露營地，當時似乎不是旺季，露營地裡一組客人都沒有，但老闆很好心地讓我們進去參觀。</p>
   <p>這幾張椅子被擺在艷陽高照的蘭嶼海邊，海浪的聲音很大，在強光的照射之下一切似乎都變得有些不飽和。</p>
   <p>上個星期應該有一些學生坐在這邊看海吧。</p>'}
-- {location: '蘭嶼', year: '2020', url: 'island.jpg', description: 
+- {location: '蘭嶼', year: '2020', url: 'island.webp', description: 
   '<p>這張照片也同樣拍攝於蘭嶼，當下具體的情況是什麼樣子的已經記不清了，但那天的陽光在海面的映射之下，形成了一種很特別的顏色。</p>
   <p>在最後所遺留下來的往往都只是像這樣的「印象」而已。</p>'}
-- {location: '桃園', year: '2020', url: 'sunset.jpg', description:
+- {location: '桃園', year: '2020', url: 'sunset.webp', description:
   '<p>從我房間眺望出去就是這樣的情景，那天的晚霞呈現一種不可思議的顏色。大樓的剪影失去了深度，好像紙卡一般。</p>'}
-- {location: '台灣大學', year: '2020', url: 'house.jpg', description:
+- {location: '台灣大學', year: '2020', url: 'house.webp', description:
   '<p>每天上學都會經過這棟似乎是教職員宿舍的小屋，但看不出目前有沒有人在住。</p>
   <p>屋外的綠葉與屋內依稀可辨的紅色房門，是我一直都很想捕捉的鏡頭。</p>'}
-- {location: '台灣大學', year: '2019', url: 'door.jpg', description:
+- {location: '台灣大學', year: '2019', url: 'door.webp', description:
   '<p><span style="font-size: 14px;">「我的房間有兩個門。一個是入口，一個是出口。沒有互換性。從入口出不去，從出口進不來。這是一定的。人們從入口進來，從出口出去。有各種進來的方式，各種出去的方式。但不管怎麼樣，大家都會出去。⋯⋯已經離去的人。他們口中說出過的話，他們的氣息，他們所哼唱的歌，我可以看得見像塵埃一般飄在房間的每個角落。」</span>
   <span style="float: right; font-size: 14px;">──《 舞．舞．舞 》</span></p>'}
-- {location: '千手ヶ浜', year: '2019', url: 'nikko.jpg', description:
+- {location: '千手ヶ浜', year: '2019', url: 'nikko.webp', description:
   '<p>那天稍微有點霧氣，並且下著小雨。</p>
   <p>要進入到位於管制區內的千手ヶ浜只能依靠遊覽車，且此時正處淡季，中禅寺湖的遊湖船也不會停靠在這裡。就這樣，視野內看不到任何一個人，空氣中響起的也只有潺潺的水聲。</p>
   <p>那是宛如世界末日一般的情境，而這些座落在湖畔的桌椅們就像是人類所留下的遺跡。</p>'}
-- {location: '日暮里', year: '2019', url: 'trainstation.jpg', description:
+- {location: '日暮里', year: '2019', url: 'trainstation.webp', description:
   '<p>我們沿著山坡上的一條便道，準備去搭電車。平常看起來先進的車站從上方看時竟然顯得有些簡陋，就像一間已經有些破敗的工廠。</p>
   <p>在鐵絲網後頭提著公事包快步走著的上班族在這時看起來就像遊走於各個生產線上的工人一般。</p>
   <p>或許確實是這樣呢，在高度資本主義社會下，一切都機械化了、僵硬化了，不是嗎？</p>'}
-- {location: '池袋', year: '2019', url: 'dawn.jpg', description:
+- {location: '池袋', year: '2019', url: 'dawn.webp', description:
   '<p>今天要陪同學們去搭飛機，大家都起了個大早，準備收拾雜亂不堪的行李。</p>
   <p>在天剛亮的池袋，一切都還很安靜，陰影下的建築物們看起來並不是太有精神的樣子。</p>
   <p>在大家的夢都還沒醒時，我們已經準備要坐上飛機，過了這個暑假，我們就是大學生了，一切會如何變化呢？我們當時都還沒有把握。</p>'}
-- {location: '湘南海岸', year: '2019', url: 'coast.jpg', description:
+- {location: '湘南海岸', year: '2019', url: 'coast.webp', description:
   '<p>在湘南海岸的那個晚上，下起了毛毛雨。海風很冷，但我們還是沿著海岸邊的公路，慢慢地走。</p>
   <p>這是那天在準備走回民宿，跨過江之電的軌道前，我所拍的最後一張照片。</p>'}
-- {location: '湘南海岸', year: '2019', url: 'surf.jpg', description:
+- {location: '湘南海岸', year: '2019', url: 'surf.webp', description:
   '<p>我們從藤澤開始，沿著海岸線，準備前往在《 舞．舞．舞 》中有出現過的辻堂海濱公園。</p>
   <p>到處都充滿著衝浪的人群，有很多人會把衝浪板綁在腳踏車的側邊，穿著拖鞋，就準備騎去海邊衝浪。</p>
   <p>那天的天氣不是很好。灰色的天空、灰色的海、灰色的屋舍、灰色的沙，衝浪板的色彩在這時顯得耀眼奪目。</p>'}

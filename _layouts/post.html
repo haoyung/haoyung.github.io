@@ -4,7 +4,12 @@ layout: default
 
 <div class="row mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold">{{ page.title }}</h3>
+    {% if page.subtitle == null %}
+      <h3 class="fw-bold">{{ page.title }}</h3>
+    {% else %}
+      <h3 class="fw-bold">{{ page.title }}：</h3>
+      <h3 class="fw-bold">{{ page.subtitle }}</h3>
+    {% endif %}
     <div class="meta border-bottom pb-3 mb-3"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date:
         "%B %-d, %Y" }}</time>&thinsp; &middot;&thinsp;{% for tag in page.tags %}
       <a href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}

@@ -10,7 +10,7 @@ layout: default
       {% if post.subtitle == null %}
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
       {% else %}
-        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}：</a>
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}：<br></a>
       {% endif %}
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.subtitle }}</a>
       <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>

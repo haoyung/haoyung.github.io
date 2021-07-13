@@ -8,7 +8,13 @@ layout: default
     {% for post in site.posts %}
     {% if post.tags contains page.tag %}
     <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}
+      {% if post.subtitle == null %}
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}：<br></a>
+      {% endif %}
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.subtitle }}</a>
+      <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
     {% endif %}
     {% endfor %}

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Ninety Plus Innovation"
+title: "Ninety Plus Innovation Line"
 tag: [review]
 category: articles
 ---
 
 剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。
 
-##### Innovation
+##### Ninety Plus Innovation Line
 
-[Innovation](https://ninetypluscoffee.com/shop/#innovation){:target="_blank"} 是 Ninety Plus 目前有在供應的一個常駐系列，官方給出的解釋是 "rare and prototype coffees"，也就是一些比較稀有且目前也還在試驗的 Flavor Profile。從價格上來看的話，Innovation 介於 [Signature](https://ninetypluscoffee.com/shop/#signature){:target="_blank"} 與 [Founder's Selection](https://ninetypluscoffee.com/shop/#foundersselection){:target="_blank"} 之間。
+[Innovation](https://ninetypluscoffee.com/shop/#innovation){:target="_blank"} 是 Ninety Plus 目前有在供應的一個常駐系列，官方給出的解釋是 "rare and prototype coffees"，也就是一些比較稀有且目前也還在試驗的 flavor profile。從價格上來看的話，Innovation 介於 [Signature](https://ninetypluscoffee.com/shop/#signature){:target="_blank"} 與 [Founder's Selection](https://ninetypluscoffee.com/shop/#foundersselection){:target="_blank"} 之間。
 
 截至目前為止 Innovation 系列中包含 6 支豆子，分別為：[Ruby](https://ninetypluscoffee.com/ruby/){:target="_blank"}, [Ubo](https://ninetypluscoffee.com/ubo/){:target="_blank"}, [Carmo](https://ninetypluscoffee.com/carmo/){:target="_blank"}, [Tigre](https://ninetypluscoffee.com/tigre/){:target="_blank"}, [Yuzo](https://ninetypluscoffee.com/yuzo/){:target="_blank"} 與 [Kulé](https://ninetypluscoffee.com/kule/){:target="_blank"}，而我們所購買的 Ninety Plus Innovation Gift Set 則包含除了 Ubo 以外的豆子每支各 50g。
 

@@ -5,7 +5,7 @@ tag: [review, ntucoffee]
 category: articles
 ---
 
-因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。
+剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。
 
 ##### Ninety Plus Innovation Line
 

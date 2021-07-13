@@ -44,3 +44,19 @@ p:last-child, .textwidget p:last-child {
 ol:last-child, .textwidget ol:last-child { 
   margin-bottom:0px;
 }
+
+h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+h6 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+}
+
+ol, ul {
+  padding-left: 1.2rem;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}

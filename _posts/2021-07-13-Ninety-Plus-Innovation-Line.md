@@ -7,6 +7,13 @@ category: articles
 
 剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。
 
+<div class="row justify-content-center">
+    <div class="col-md-6 text-center">
+        <img src="{{ site.github.url }}/assets/img/InnovationSet.jpeg" alt="" width="100%">
+        <span style="font-size: 0.70em; color: grey">Innovation Gift Set (Photo: Ninety Plus Coffee)</span>
+    </div>
+</div>
+
 ##### Ninety Plus Innovation Line
 
 [Innovation](https://ninetypluscoffee.com/shop/#innovation){:target="_blank"} 系列是 Ninety Plus 目前有在供應的一個常駐系列，官方給出的解釋是 "Rare and Prototype Coffees"，也就是一些比較稀有且目前也還在試驗的 flavor profiles。從價格上來看的話，Innovation 系列介於 [Signature](https://ninetypluscoffee.com/shop/#signature){:target="_blank"} 系列與 [Founder's Selection](https://ninetypluscoffee.com/shop/#foundersselection){:target="_blank"} 之間。

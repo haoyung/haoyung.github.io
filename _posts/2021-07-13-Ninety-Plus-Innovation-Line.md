@@ -18,7 +18,7 @@ category: articles
 
 [Innovation](https://ninetypluscoffee.com/shop/#innovation){:target="_blank"} 系列是 Ninety Plus 目前有在供應的一個常駐系列，官方給出的解釋是 "Rare and Prototype Coffees"，也就是一些比較稀有且目前也還在試驗的 flavor profiles。從價格上來看的話，Innovation 系列介於 [Signature](https://ninetypluscoffee.com/shop/#signature){:target="_blank"} 系列與 [Founder's Selection](https://ninetypluscoffee.com/shop/#foundersselection){:target="_blank"} 之間。
 
-截至目前為止 Innovation 系列中包含 6 支豆子，分別為：[Ruby](https://ninetypluscoffee.com/ruby/){:target="_blank"}, [Ubo](https://ninetypluscoffee.com/ubo/){:target="_blank"}, [Carmo](https://ninetypluscoffee.com/carmo/){:target="_blank"}, [Tigre](https://ninetypluscoffee.com/tigre/){:target="_blank"}, [Yuzo](https://ninetypluscoffee.com/yuzo/){:target="_blank"} 與 [Kulé](https://ninetypluscoffee.com/kule/){:target="_blank"}，而我們所購買的 Ninety Plus Innovation Gift Set 則包含除了 Ubo 以外的豆子每支各 50g。
+截至目前為止 Innovation 系列中包含 6 支豆子，分別為：[Ruby](https://ninetypluscoffee.com/ruby/){:target="_blank"}, [Ubo](https://ninetypluscoffee.com/ubo/){:target="_blank"}, [Carmo](https://ninetypluscoffee.com/carmo/){:target="_blank"}, [Tigre](https://ninetypluscoffee.com/tigre/){:target="_blank"}, [Yuzo](https://ninetypluscoffee.com/yuzo/){:target="_blank"} 與 [Kulé](https://ninetypluscoffee.com/kule/){:target="_blank"}，而我們所購買的 Ninety Plus Innovation Gift Set 則包含除了 Ubo 以外（老實說我沒有很理解為什麼不加入 Ubo，我個人相當喜歡這支）的豆子每支各 50g。
 
 ##### 沖煮參數
 
@@ -32,9 +32,11 @@ category: articles
 
 ##### 品飲心得
 
+以下是一些沖煮上的心得以及我自己喝的時候所寫下的風味敘述。
+
 ###### Carmo
 
-這支豆子的 taste profile 的原型正是因為幫助王策拿下 2017 WbrC 冠軍而聲名大噪的 #227，當時曾經在拍賣會上創下每公斤 5001 US$ 的驚人紀錄。  
+這支豆子 taste profile 的原型正是因為幫助王策拿下 2017 WbrC 冠軍而聲名大噪的 #227，當時曾經在拍賣會上創下每公斤 5001 US$ 的驚人紀錄。  
 與官網上的風味敘述相似，是一支發酵感相對強烈的豆子，帶有 Ninety Plus 常見的櫻桃與莓果調性，尾韻則帶有一些巧克力的苦感，下次可能會考慮稍微磨粗一些來降低苦韻。而這樣的微苦尾韻與風味上的發酵調性相結合，竟然形成了一股類似啤酒花的香氣，是我個人覺得這支豆子很具特色的一點。
 
 風味：櫻桃酒、黑莓、啤酒花、巧克力

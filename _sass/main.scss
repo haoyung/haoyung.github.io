@@ -192,6 +192,7 @@ button:focus {
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: var(--input-placeholder-color);
+  transition: 0.5s;
 }
 
 .border-bottom {
@@ -216,7 +217,7 @@ button:focus {
   transition: 0.5s;
 }
 
-.ais-search-box svg {
+svg {
   fill: var(--input-svg-color);
   transition: 0.5s;
 }

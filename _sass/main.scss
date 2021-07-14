@@ -17,9 +17,9 @@ html, html[data-theme="light"]  {
   h3 { font-weight: 600 !important; }
   .fw-bold { font-weight: 600 !important; }
   .fw-bold.fs-4 { font-weight: 600 !important; }
-  h5 { font-weight: 550 !important; }
-  .fw-bold.fs-5 { font-weight: 550 !important; }
-  h6 { font-weight: 550 !important; }
+  h5 { font-weight: 500 !important; }
+  .fw-bold.fs-5 { font-weight: 500 !important; }
+  h6 { font-weight: 500 !important; }
 }
 html[data-theme="dark"] {
   --main-text-color: #f5f5f7;
@@ -40,9 +40,9 @@ html[data-theme="dark"] {
   h3 { font-weight: 550 !important; }
   .fw-bold { font-weight: 550 !important; }
   .fw-bold.fs-4 { font-weight: 550 !important; }
-  h5 { font-weight: 500 !important; }
-  .fw-bold.fs-5 { font-weight: 500 !important; }
-  h6 { font-weight: 500 !important; }
+  h5 { font-weight: 450 !important; }
+  .fw-bold.fs-5 { font-weight: 450 !important; }
+  h6 { font-weight: 450 !important; }
 }
 
 @media (prefers-color-scheme: dark) {

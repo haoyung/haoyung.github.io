@@ -8,6 +8,18 @@
       <a href="{{ item.link }}" class="ms-4 fs-5" target="_blank"><i class="{{ item.icon }}"></i></a>
       {% endif %}
       {% endfor %}
+      <a class="ms-4 fs-5" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"><i
+        class="fas fa-moon"></i></a>
     </div>
   </div>
 </footer>
+
+<script>
+  let attr = document.documentElement.getAttribute('data-theme')
+  if (attr === 'light') {
+    document.getElementById("theme-toggle").innerHTML = "<i class=\"fas fa-moon\"></i>";
+  }
+  else {
+    document.getElementById("theme-toggle").innerHTML = "<i class=\"fas fa-sun\"></i>";
+  }
+</script>

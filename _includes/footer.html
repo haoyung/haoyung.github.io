@@ -3,16 +3,12 @@
     <div class="d-inline-flex justify-content-center">
       {% for item in site.data.settings.social %}
       {% if forloop.first %}
-      <a href="{{ item.link }}" class="ms-0 fs-5" target="_blank"><i class="{{ item.icon }}"></i></a>
+      <a href="{{ item.link }}" class="ms-0 fs-5" target="_blank"><i class="{{ item.icon }} fa-fw"></i></a>
       {% else %}
-      <a href="{{ item.link }}" class="ms-4 fs-5" target="_blank"><i class="{{ item.icon }}"></i></a>
+      <a href="{{ item.link }}" class="ms-4 fs-5" target="_blank"><i class="{{ item.icon }} fa-fw"></i></a>
       {% endif %}
       {% endfor %}
-      <a class="ms-4 fs-5" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16" style="vertical-align: -.125em;">
-          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
-        </svg>
-      </a>
+      <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;" class="ms-4 fs-5"><i class="fa-regular fa-circle-half-stroke fa-fw"></i></a>
     </div>
   </div>
 </footer>

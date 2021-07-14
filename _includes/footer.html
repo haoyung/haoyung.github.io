@@ -3,12 +3,12 @@
     <div class="d-inline-flex justify-content-center">
       {% for item in site.data.settings.social %}
       {% if forloop.first %}
-      <a href="{{ item.link }}" class="ms-0 fs-5" target="_blank"><i class="{{ item.icon }} fa-fw"></i></a>
+      <a href="{{ item.link }}" class="ms-0 fs-5" target="_blank"><i class="{{ item.icon }} fa-fw" aria-hidden="true"></i></a>
       {% else %}
-      <a href="{{ item.link }}" class="ms-4 fs-5" target="_blank"><i class="{{ item.icon }} fa-fw"></i></a>
+      <a href="{{ item.link }}" class="ms-4 fs-5" target="_blank"><i class="{{ item.icon }} fa-fw" aria-hidden="true"></i></a>
       {% endif %}
       {% endfor %}
-      <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;" class="ms-4 fs-5"><i class="fa-regular fa-circle-half-stroke fa-fw"></i></a>
+      <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;" class="ms-4 fs-5"><i class="fa-regular fa-circle-half-stroke fa-fw" aria-hidden="true"></i></a>
     </div>
   </div>
 </footer>

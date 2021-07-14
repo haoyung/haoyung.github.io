@@ -1,7 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css"> -->
 
 <script>
 const search = instantsearch({
@@ -92,12 +92,12 @@ const hitTemplate = function(hit) {
 
 search.addWidget(
   instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'I\'m also searching some Takesi geisha...',
-    poweredBy: false, // This is required if you're on the free Community plan
     cssClasses: {
       input: 'customize',
     },
+    container: '#search-searchbar',
+    placeholder: 'I\'m also searching some Takesi geisha...',
+    poweredBy: false, // This is required if you're on the free Community plan
   })
 );
 
@@ -125,7 +125,7 @@ search.start();
   text-decoration: none;
 } */
 svg {
-  fill: #50656b;
+  fill: var(--input-svg-color);
 }
 .ais-search-box {
   max-width: 100%;
@@ -135,6 +135,10 @@ svg {
 .ais-search-box--magnifier {
   left: 13px;
   top: 13px;
+}
+.ais-search-box--magnifier svg {
+  width: 18px;
+  height: 18px;
 }
 .ais-Highlight {
   font-style: inherit;
@@ -195,14 +199,18 @@ span .ais-Highlight {
   display: none;
 } */
 .customize {
-  background-color: #eff2f3;
+  background-color: var(--input-color);
   border: 0px;
+  padding: 10px;
   padding-left: 42px;
   box-sizing: border-box;
   border-radius: 0;
   box-shadow: none;
+  font-size: 14px;
 }
 .ais-search-box--reset {
+  top: calc(50% - 12px/2);
+  right: 13px;
   margin-right: 5px;
 }
 </style>

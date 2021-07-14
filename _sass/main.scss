@@ -182,12 +182,12 @@ button:focus {
 
 .border-bottom {
   border-bottom: 1px solid var(--bottom-margin-color) !important;
-  transition: 0.5s;
+  transition: border-color 0.5s !important;
 }
 
 .border-top {
   border-top: 1px solid var(--bottom-margin-color) !important;
-  transition: 0.5s;
+  transition: border-color 0.5s !important;
 }
 
 .customize {

@@ -60,7 +60,7 @@ const hitTemplate = function(hit) {
     }
     return `
       <div class="flex-column mt-5">
-        <div class="meta border-bottom pb-2 mb-2"><a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold"">${title}</span></a></div>
+        <div class="meta border-bottom pb-2 mb-2" style="transition: 0s;><a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold"">${title}</span></a></div>
         {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: var(--main-text-color);">${breadcrumbs}</h6></a>{{/breadcrumbs}}
         <div class="post-snippet">${content}</div>
       </div>
@@ -71,7 +71,7 @@ const hitTemplate = function(hit) {
       return `
         <div class="flex-column mt-5">
           <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1"">${title}</span></a>
-          <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
+          <div class="meta border-bottom pb-2 mb-2" style="transition: 0s;>- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
           {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: var(--main-text-color);">${breadcrumbs}</h6></a>{{/breadcrumbs}}
           <div class="post-snippet">${content}</div>
         </div>
@@ -81,7 +81,7 @@ const hitTemplate = function(hit) {
       return `
         <div class="flex-column mt-5">
           <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1"">${title}：<br>${subtitle}</span></a>
-          <div class="meta border-bottom pb-2 mb-2">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
+          <div class="meta border-bottom pb-2 mb-2" style="transition: 0s;>- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
           {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: var(--main-text-color);">${breadcrumbs}</h6></a>{{/breadcrumbs}}
           <div class="post-snippet">${content}</div>
         </div>

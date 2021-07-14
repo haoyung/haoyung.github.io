@@ -10,15 +10,17 @@ html {
   --main-font-weight: 400;
 }
 
-h3 { font-weight: 700; }
-h4 { font-weight: 700; }
-h5 { font-weight: 600; }
-h6 { font-weight: 500; }
+h3 { font-weight: 600 !important; }
+h5 { font-weight: 550 !important; }
+h6 { font-weight: 500 !important; }
+.fw-bold { font-weight: 600 !important; }
+.fw-bold.fs-5 { font-weight: 550 !important; }
+.fw-bold.fs-4 { font-weight: 600 !important; }
 
 @media (prefers-color-scheme: dark) {
 	html {
-    --main-text-color: rgb(255, 255, 255);
-    --main-background-color: #121212;
+    --main-text-color: #f5f5f7;
+    --main-background-color: rgb(0, 0, 0);
     --img-text-color: rgb(142, 142, 147);
     --search-text-color: rgb(174, 174, 178);
     --input-color: rgb(28, 28, 30);
@@ -32,13 +34,12 @@ h6 { font-weight: 500; }
     filter: invert(1);
     // border-color: var(--bottom-margin-color);
   }
-  h3 { font-weight: 650 !important; }
-  h4 { font-weight: 650 !important; }
-  h5 { font-weight: 550 !important; }
+  h3 { font-weight: 550 !important; }
+  h5 { font-weight: 500 !important; }
   h6 { font-weight: 450 !important; }
-  .fw-bold { font-weight: 650 !important; }
-  .fw-bold.fs-5 { font-weight: 650 !important; }
-  .fw-bold.fs-4 { font-weight: 650 !important; }
+  .fw-bold { font-weight: 550 !important; }
+  .fw-bold.fs-5 { font-weight: 500 !important; }
+  .fw-bold.fs-4 { font-weight: 550 !important; }
 }
 
 // $backgroundColor: #ffffff;

@@ -217,7 +217,12 @@ button:focus {
   transition: 0.5s;
 }
 
-svg {
+.ais-search-box svg {
+  fill: var(--input-svg-color);
+  transition: 0.5s;
+}
+
+button svg {
   fill: var(--input-svg-color);
   transition: 0.5s;
 }

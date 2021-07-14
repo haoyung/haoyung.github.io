@@ -1,16 +1,32 @@
-$backgroundColor: #ffffff;
-$bodyColor: #1d1d1f;
+html { 
+  --main-text-color: rgb(28, 28, 30);
+  --main-background-color: rgb(255, 255, 255);
+  --img-text-color: rgb(174, 174, 178);
+  --search-text-color: rgb(142, 142, 147);
+}
+
+// @media (prefers-color-scheme: dark) {
+// 	html {
+//     --main-text-color: rgb(242, 242, 247);
+//     --main-background-color: rgb(0, 0, 0);
+//     --img-text-color: rgb(99, 99, 102);
+//     --search-text-color: rgb(142, 142, 147);
+// 	}
+// }
+
+// $backgroundColor: #ffffff;
+// $bodyColor: #1d1d1f;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$linkColor: #383f45;
+// $linkColor: #383f45;
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
+  background: var(--main-background-color);
+  color: var(--main-text-color);
   font-family: $bodyFont;
 }
 
 body a {
-  color: $bodyColor;
+  color: var(--main-text-color);
   // text-underline-offset: 1px;
 }
 

@@ -10,7 +10,7 @@ category: articles
 <div class="row justify-content-center">
     <div class="col-md-6 text-center">
         <img src="{{ site.github.url }}/assets/img/InnovationSet.jpeg" alt="" width="100%">
-        <span style="font-size: 0.70em; color: #86868b">Innovation Gift Set (Photo: Ninety Plus Coffee)</span>
+        <span style="font-size: 0.70em; color: var(--img-text-color)">Innovation Gift Set (Photo: Ninety Plus Coffee)</span>
     </div>
 </div>
 

@@ -7,19 +7,38 @@ html {
   --input-svg-color: rgb(108, 108, 112);
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
+  --main-font-weight: 400;
 }
+
+h3 { font-weight: 700; }
+h4 { font-weight: 700; }
+h5 { font-weight: 600; }
+h6 { font-weight: 500; }
 
 @media (prefers-color-scheme: dark) {
 	html {
     --main-text-color: rgb(255, 255, 255);
-    --main-background-color: rgb(0, 0, 0);
+    --main-background-color: #121212;
     --img-text-color: rgb(142, 142, 147);
     --search-text-color: rgb(174, 174, 178);
     --input-color: rgb(28, 28, 30);
     --input-svg-color: rgb(174, 174, 178);
     --input-placeholder-color: rgb(174, 174, 178);
     --bottom-margin-color: rgb(44, 44, 46);
+    --main-font-weight: 350;
 	}
+  .text-img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    // border-color: var(--bottom-margin-color);
+  }
+  h3 { font-weight: 650 !important; }
+  h4 { font-weight: 650 !important; }
+  h5 { font-weight: 550 !important; }
+  h6 { font-weight: 450 !important; }
+  .fw-bold { font-weight: 650 !important; }
+  .fw-bold.fs-5 { font-weight: 650 !important; }
+  .fw-bold.fs-4 { font-weight: 650 !important; }
 }
 
 // $backgroundColor: #ffffff;
@@ -31,6 +50,7 @@ body {
   background: var(--main-background-color);
   color: var(--main-text-color);
   font-family: $bodyFont;
+  font-weight: var(--main-font-weight);
 }
 
 body a {
@@ -72,11 +92,6 @@ ol:last-child, .textwidget ol:last-child {
 li:last-child, .textwidget li:last-child {
   margin-bottom: 0px;
 }
-
-h3 { font-weight: bold; }
-h4 { font-weight: bold; }
-h5 { font-weight: bold; }
-h6 { font-weight: bold; }
 
 h5 {
   font-size: 21px;

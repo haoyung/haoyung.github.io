@@ -27,8 +27,8 @@ algolia:
   files_to_exclude:
     - ./_pages/*.md
     - ./tag/*.md
-    - indox.md
-    - about_text.md
+    - ./index.md
+    - ./about_text.md
   settings: 
     searchableAttributes:                                                        
       - title                                                               

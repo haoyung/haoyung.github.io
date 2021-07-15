@@ -1,12 +1,17 @@
 <header class="d-flex flex-column flex-md-row align-self-end pb-md-3 pb-1 mb-5 border-bottom">
   <div>
-    <div class="d-flex align-items-center" style="display: inline-block;">
+    <div class="d-flex align-items-center justify-content-between" style="display: inline-block;">
       <a href="{{ site.github.url }}/" class="fs-4 fw-bold text-decoration-none" style="display: inline-block;">{{
         site.title }}</a>
+      <!-- <a class="toggle" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer; margin-right: 10px">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16" style="vertical-align: top;">
+          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+        </svg>
+      </a> -->
     </div>
     <div class="d-flex justify-content-between">
       <a href="{{ site.github.url }}/" class="text-decoration-none me-md-3">{{ site.description }}</a>
-      <div class="mt-auto">
+      <div>
         <a class="toggle" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-justify-right" viewBox="0 0 16 16" style="vertical-align: -3px;">
             <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>

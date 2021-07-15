@@ -3,6 +3,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "why coffee?" # the name of your site, e.g. ACME Corp.
 description: "Still trying to write something about coffee."
 
+include:
+- _pages
+
+defaults:
+  - 
+    scope:
+      path: '_pages'
+    values:
+      permalink: /:basename/
+
 exclude:
 - vendor
 - about.md

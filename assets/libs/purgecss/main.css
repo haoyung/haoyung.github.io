@@ -7,7 +7,9 @@ html, html[data-theme="light"] {
   --input-svg-color: rgb(108, 108, 112);
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
-  --main-font-weight: 400; }
+  --main-font-weight: 400;
+  --red-color: rgb(255, 59, 48);
+  --green-color: rgb(52, 199, 89); }
   html .text-img, html[data-theme="light"] .text-img {
     -webkit-filter: invert(0);
     filter: invert(0);
@@ -34,7 +36,9 @@ html[data-theme="dark"] {
   --input-svg-color: rgb(174, 174, 178);
   --input-placeholder-color: rgb(174, 174, 178);
   --bottom-margin-color: rgb(44, 44, 46);
-  --main-font-weight: 350; }
+  --main-font-weight: 350;
+  --red-color: rgb(255, 69, 58);
+  --green-color: rgb(48, 209, 88); }
   html[data-theme="dark"] .text-img {
     -webkit-filter: invert(1);
     filter: invert(1);
@@ -62,7 +66,9 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(174, 174, 178);
     --input-placeholder-color: rgb(174, 174, 178);
     --bottom-margin-color: rgb(44, 44, 46);
-    --main-font-weight: 350; }
+    --main-font-weight: 350;
+    --red-color: rgb(255, 69, 58);
+    --green-color: rgb(48, 209, 88); }
     html .text-img, html[data-theme="dark"] .text-img {
       -webkit-filter: invert(1);
       filter: invert(1);
@@ -89,7 +95,9 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(108, 108, 112);
     --input-placeholder-color: rgb(108, 108, 112);
     --bottom-margin-color: rgb(229, 229, 234);
-    --main-font-weight: 400; }
+    --main-font-weight: 400;
+    --red-color: rgb(255, 59, 48);
+    --green-color: rgb(52, 199, 89); }
     html[data-theme="light"] .text-img {
       -webkit-filter: invert(0);
       filter: invert(0);

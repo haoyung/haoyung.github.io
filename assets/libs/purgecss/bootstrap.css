@@ -935,6 +935,10 @@ textarea.form-control {
   margin-top: 2.5rem !important;
 }
 
+.mt-auto {
+  margin-top: auto !important;
+}
+
 .me-0 {
   margin-right: 0 !important;
 }

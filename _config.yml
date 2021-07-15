@@ -9,7 +9,7 @@ plugins:
 css_dir: "assets/css"
 
 include:
-  - _pages
+  - _pages 
 
 defaults:
   - 

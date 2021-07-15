@@ -3,4 +3,4 @@ layout: home
 title: "home"
 ---
 
-{% include_relative _pages/about_text.md %}
+{% include_relative _includes/about_text.md %}

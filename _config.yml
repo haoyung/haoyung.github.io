@@ -25,13 +25,10 @@ algolia:
     - html
     - md
   files_to_exclude:
-    - search.md
-    - gallery.md
-    - articles.md
-    - contact.md
-    - about.md
-    - index.md
+    - ./_pages/*.md
     - ./tag/*.md
+    - indox.md
+    - about_text.md
   settings: 
     searchableAttributes:                                                        
       - title                                                               

@@ -1039,10 +1039,6 @@ textarea.form-control {
   padding-top: 1rem !important;
 }
 
-.pt-4 {
-  padding-top: 1.5rem !important;
-}
-
 .pt-6 {
   padding-top: 2.5rem !important;
 }
@@ -1196,6 +1192,10 @@ textarea.form-control {
   .py-md-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+  }
+
+  .pt-md-4 {
+    padding-top: 1.5rem !important;
   }
 
   .pb-md-3 {

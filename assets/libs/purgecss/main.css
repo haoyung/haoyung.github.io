@@ -1,0 +1,208 @@
+html, html[data-theme="light"] {
+  --main-text-color: #1d1d1f;
+  --main-background-color: rgb(255, 255, 255);
+  --img-text-color: rgb(142, 142, 147);
+  --search-text-color: rgb(108, 108, 112);
+  --input-color: rgb(242, 242, 247);
+  --input-svg-color: rgb(108, 108, 112);
+  --input-placeholder-color: rgb(108, 108, 112);
+  --bottom-margin-color: rgb(229, 229, 234);
+  --main-font-weight: 400; }
+  html .text-img, html[data-theme="light"] .text-img {
+    -webkit-filter: invert(0);
+    filter: invert(0);
+    transition: 0.5s; }
+  html h3, html[data-theme="light"] h3 {
+    font-weight: 600 !important; }
+  html .fw-bold, html[data-theme="light"] .fw-bold {
+    font-weight: 600 !important; }
+  html .fw-bold.fs-4, html[data-theme="light"] .fw-bold.fs-4 {
+    font-weight: 600 !important; }
+  html h5, html[data-theme="light"] h5 {
+    font-weight: 500 !important; }
+  html .fw-bold.fs-5, html[data-theme="light"] .fw-bold.fs-5 {
+    font-weight: 500 !important; }
+  html h6, html[data-theme="light"] h6 {
+    font-weight: 500 !important; }
+
+html[data-theme="dark"] {
+  --main-text-color: #f5f5f7;
+  --main-background-color: rgb(0, 0, 0);
+  --img-text-color: rgb(142, 142, 147);
+  --search-text-color: rgb(174, 174, 178);
+  --input-color: rgb(28, 28, 30);
+  --input-svg-color: rgb(174, 174, 178);
+  --input-placeholder-color: rgb(174, 174, 178);
+  --bottom-margin-color: rgb(44, 44, 46);
+  --main-font-weight: 350; }
+  html[data-theme="dark"] .text-img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transition: 0.5s; }
+  html[data-theme="dark"] h3 {
+    font-weight: 550 !important; }
+  html[data-theme="dark"] .fw-bold {
+    font-weight: 550 !important; }
+  html[data-theme="dark"] .fw-bold.fs-4 {
+    font-weight: 550 !important; }
+  html[data-theme="dark"] h5 {
+    font-weight: 450 !important; }
+  html[data-theme="dark"] .fw-bold.fs-5 {
+    font-weight: 450 !important; }
+  html[data-theme="dark"] h6 {
+    font-weight: 450 !important; }
+
+@media (prefers-color-scheme: dark) {
+  html, html[data-theme="dark"] {
+    --main-text-color: #f5f5f7;
+    --main-background-color: rgb(0, 0, 0);
+    --img-text-color: rgb(142, 142, 147);
+    --search-text-color: rgb(174, 174, 178);
+    --input-color: rgb(28, 28, 30);
+    --input-svg-color: rgb(174, 174, 178);
+    --input-placeholder-color: rgb(174, 174, 178);
+    --bottom-margin-color: rgb(44, 44, 46);
+    --main-font-weight: 350; }
+    html .text-img, html[data-theme="dark"] .text-img {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+      transition: 0.5s; }
+    html h3, html[data-theme="dark"] h3 {
+      font-weight: 550 !important; }
+    html .fw-bold, html[data-theme="dark"] .fw-bold {
+      font-weight: 550 !important; }
+    html .fw-bold.fs-4, html[data-theme="dark"] .fw-bold.fs-4 {
+      font-weight: 550 !important; }
+    html h5, html[data-theme="dark"] h5 {
+      font-weight: 500 !important; }
+    html .fw-bold.fs-5, html[data-theme="dark"] .fw-bold.fs-5 {
+      font-weight: 500 !important; }
+    html h6, html[data-theme="dark"] h6 {
+      font-weight: 500 !important; }
+
+  html[data-theme="light"] {
+    --main-text-color: #1d1d1f;
+    --main-background-color: rgb(255, 255, 255);
+    --img-text-color: rgb(142, 142, 147);
+    --search-text-color: rgb(108, 108, 112);
+    --input-color: rgb(242, 242, 247);
+    --input-svg-color: rgb(108, 108, 112);
+    --input-placeholder-color: rgb(108, 108, 112);
+    --bottom-margin-color: rgb(229, 229, 234);
+    --main-font-weight: 400; }
+    html[data-theme="light"] .text-img {
+      -webkit-filter: invert(0);
+      filter: invert(0);
+      transition: 0.5s; }
+    html[data-theme="light"] h3 {
+      font-weight: 600 !important; }
+    html[data-theme="light"] .fw-bold {
+      font-weight: 600 !important; }
+    html[data-theme="light"] .fw-bold.fs-4 {
+      font-weight: 600 !important; }
+    html[data-theme="light"] h5 {
+      font-weight: 550 !important; }
+    html[data-theme="light"] .fw-bold.fs-5 {
+      font-weight: 550 !important; }
+    html[data-theme="light"] h6 {
+      font-weight: 550 !important; } }
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: var(--main-font-weight);
+  transition: background-color 0.5s, color 0.5s; }
+
+body a {
+  color: var(--main-text-color);
+  transition: color 0.5s; }
+
+html {
+  overflow-y: scroll; }
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+:root body {
+  position: absolute; }
+
+body {
+  width: 100vw;
+  overflow: hidden; }
+
+p:last-child {
+  margin-bottom: 0px; }
+
+ol:last-child {
+  margin-bottom: 0px; }
+
+li:last-child {
+  margin-bottom: 0px; }
+
+h5 {
+  font-size: 21px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem; }
+
+h6 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 18px; }
+
+ol, ul {
+  padding-left: 1.2rem;
+  margin-left: 0px;
+  margin-bottom: 20px; }
+
+li {
+  margin-bottom: 4px; }
+
+li p {
+  margin-bottom: 4px; }
+
+ul {
+  list-style: none;
+  padding-left: 0px; }
+
+input {
+  color: var(--main-text-color); }
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+.border-bottom {
+  border-bottom: 1px solid var(--bottom-margin-color) !important;
+  transition: border-color 0.5s !important; }
+
+.border-top {
+  border-top: 1px solid var(--bottom-margin-color) !important;
+  transition: border-color 0.5s !important; }
+
+.customize {
+  background-color: var(--input-color);
+  border: 0px;
+  padding: 10px;
+  padding-left: 42px !important;
+  box-sizing: border-box;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  transition: 0.5s; }
+
+.ais-search-box svg {
+  fill: var(--input-svg-color);
+  transition: fill 0.5s; }
+
+button svg {
+  fill: var(--input-svg-color);
+  transition: fill 0.5s; }
+
+.preload {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important; }

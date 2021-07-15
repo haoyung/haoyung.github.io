@@ -17,20 +17,24 @@ $(function() {
     onOk: (message) => {
       document.getElementById('mce-EMAIL').value = ''
       document.getElementById('mce-EMAIL').placeholder = 'Success! Thank you for subscribing!'
+      $('input').removeClass('red-class');
       $('input').addClass('green-class');
     },
     onFail: (message) => {
       document.getElementById('mce-EMAIL').value = ''
       if (message === 'This email cannot be added to this list. Please enter a different email address.') {
         document.getElementById('mce-EMAIL').placeholder = 'This email cannot be added. Try another one?'
+        $('input').removeClass('green-class');
         $('input').addClass('red-class');
       }
       else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed') {
         document.getElementById('mce-EMAIL').placeholder = 'You have already subscribed!'
+        $('input').removeClass('red-class');
         $('input').addClass('green-class');
       }
       else {
         document.getElementById('mce-EMAIL').placeholder = message
+        $('input').removeClass('green-class');
         $('input').addClass('red-class');
       }
     }
@@ -46,7 +50,8 @@ $(function() {
       document.getElementById('mce-EMAIL').placeholder = 'You have to have an username in your email!'
     else 
       document.getElementById('mce-EMAIL').placeholder = document.getElementById('mc-error').innerText
-    $('input').addClass('red-class');
+      $('input').removeClass('green-class');
+      $('input').addClass('red-class');
     // addBorder($(document.getElementById('mc_embed_signup_scroll')), 'red');
   });
 

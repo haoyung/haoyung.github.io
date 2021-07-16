@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="//rawgit.com/ddimitrioglo/jquery-mailchimp/master/dist/jquery-mailchimp.min.js"></script>
+<script src="{{ site.github.url }}/assets/libs/mailchimp/test.js"></script>
+
+<div class="row gx-md-6 gx-0 mb-5">
+  <div class="col-md-12">
+    <h3 id="subscribe" class="fw-bold mb-4">subscribe</h3>
+    <div class="mb-4">
+      {{ content }}
+    </div>
+    <!-- Begin Mailchimp Signup Form -->
+    <div id="mc_embed_signup" class="mb-4">
+      <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">
+        <div class="mc-form-group-EMAIL input-group" id="mc_embed_signup_scroll">
+            <!-- <label for="mce-EMAIL">Email Address </label> -->
+            <input type="email" value="" name="EMAIL" class="required email flex-grow-1" id="mce-EMAIL" placeholder="Your email">
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                name="b_638c75f9e7b5ea4fd32d76a3a_09c247923d" tabindex="-1" value=""></div> -->
+            <button type="submit" id="submit-form" name="submit-form" id="mc-embedded-subscribe">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill=var(--input-svg-color) class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </button>
+            <div class="mc-error" id="mc-error" style="display: none;"></div>
+        </div>
+      </form>
+    </div>
+    <!--End mc_embed_signup-->
+  </div>
+</div>
+
+<style>
+input {
+  box-sizing: border-box;
+  outline: none;
+  padding: 10px;
+  padding-left: 15px;
+  border: 0px;
+  margin-left: 0px;
+  box-sizing: border-box;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: var(--input-color);
+  display: inline-block;
+  position: relative;
+  height: 45px;
+  font-size: 14px;
+  transition: background-color 0.45s;
+}
+
+button {
+  padding-right: 11px;
+  padding-left: 11px;
+  border: 0px;
+  background-color: var(--input-color);
+  transition: background-color 0.45s;
+}
+
+.green-class::-webkit-input-placeholder {
+  color: var(--green-color);
+  transition: 0s;
+}
+
+.red-class::-webkit-input-placeholder {
+  color: var(--red-color);
+  transition: 0s;
+}
+</style>

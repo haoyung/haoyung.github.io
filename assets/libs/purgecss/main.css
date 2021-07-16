@@ -198,7 +198,7 @@ button:focus {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  transition: 0.5s; }
+  transition: background-color 0.45s; }
 
 .ais-search-box svg {
   fill: var(--input-svg-color);

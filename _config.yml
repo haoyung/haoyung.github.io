@@ -18,10 +18,8 @@ algolia:
     - html
     - md
   files_to_exclude:
-    - ./_pages/*.md
+    - ./*.md
     - ./tag/*.md
-    - ./index.md
-    - ./about_text.md
   settings: 
     searchableAttributes:                                                        
       - title                                                               

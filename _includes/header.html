@@ -25,12 +25,13 @@
     {% for item in site.data.settings.menu %}
     {% if forloop.last %}
     <a class="me-0 py-md-0 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">
-      <span">{{ item.name }}</span>
+      <span>{{ item.name }}</span>
     </a>
     {% else %}
     <a class="me-md-3 me-0 py-md-0 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">
-      <span">{{ item.name }}</span>
+      <span>{{ item.name }}</span>
     </a>
+    <span class="middot me-md-3 me-0 py-md-0 py-2">&middot;</span>
     {% endif %}
     {% endfor %}
     <a class="ms-3 py-md-0 py-2 toggle-md" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
@@ -51,6 +52,9 @@
     display: block;
   }
   .toggle {
+    display: none;
+  }
+  .middot {
     display: none;
   }
 }

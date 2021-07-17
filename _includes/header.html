@@ -13,8 +13,10 @@
       <a href="{{ site.github.url }}/" class="text-decoration-none me-md-3">{{ site.description }}</a>
       <div>
         <a class="toggle" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-justify-right" viewBox="0 0 16 16" style="vertical-align: -3px;">
-            <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-justify-right"
+            viewBox="0 0 16 16" style="vertical-align: -3px;">
+            <path fill-rule="evenodd"
+              d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
           </svg>
         </a>
       </div>
@@ -35,27 +37,31 @@
     {% endif %}
     {% endfor %}
     <a class="ms-3 py-md-0 py-2 toggle-md" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-justify-right" viewBox="0 0 16 16" style="vertical-align: -3px;">
-        <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-justify-right"
+        viewBox="0 0 16 16" style="vertical-align: -3px;">
+        <path fill-rule="evenodd"
+          d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
       </svg>
     </a>
   </nav>
 </header>
 
 <style>
-.toggle-md {
-  display: none;
-}
-
-@media (min-width: 768px) {
   .toggle-md {
-    display: block;
-  }
-  .toggle {
     display: none;
   }
-  .middot {
-    display: none;
+
+  @media (min-width: 768px) {
+    .toggle-md {
+      display: block;
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    .middot {
+      display: none;
+    }
   }
-}
 </style>

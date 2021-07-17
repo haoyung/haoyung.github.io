@@ -1,74 +1,75 @@
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
 <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css"> -->
 
 <script>
-const search = instantsearch({
-  appId: '{{ site.algolia.application_id }}',
-  apiKey: '{{ site.algolia.search_only_api_key }}',
-  indexName: '{{ site.algolia.index_name }}',
-  // searchFunction(helper) {
-  //   const container = document.querySelector('#search-hits');
-  //   container.style.display = helper.state.query === '' ? 'none' : '';
+  const search = instantsearch({
+    appId: '{{ site.algolia.application_id }}',
+    apiKey: '{{ site.algolia.search_only_api_key }}',
+    indexName: '{{ site.algolia.index_name }}',
+    // searchFunction(helper) {
+    //   const container = document.querySelector('#search-hits');
+    //   container.style.display = helper.state.query === '' ? 'none' : '';
 
-  //   helper.search();
-  // }
-});
+    //   helper.search();
+    // }
+  });
 
-const hitTemplate = function(hit) {
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
-
-  let tag = '';
-  if (hit._highlightResult.tags) {
-    for (t in hit._highlightResult.tags) {
-      tag = tag.concat('<a href="/tag/', hit.tags[t], '">', '#', hit._highlightResult.tags[t].value, '</a>');
-      if (t != hit._highlightResult.tags.length - 1) 
-        tag = tag.concat(', ');
+  const hitTemplate = function (hit) {
+    let date = '';
+    if (hit.date) {
+      date = moment.unix(hit.date).format('MMM D, YYYY');
     }
-  }
-  
 
-  let url = `{{ site.baseurl }}${hit.url}`;
-  if (hit.anchor)
-    url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+    let tag = '';
+    if (hit._highlightResult.tags) {
+      for (t in hit._highlightResult.tags) {
+        tag = tag.concat('<a href="/tag/', hit.tags[t], '">', '#', hit._highlightResult.tags[t].value, '</a>');
+        if (t != hit._highlightResult.tags.length - 1)
+          tag = tag.concat(', ');
+      }
+    }
 
-  const title = hit._highlightResult.title.value;
-  let subtitle = '';
-  if (hit._highlightResult.subtitle)
-    subtitle = hit._highlightResult.subtitle.value;
 
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' &middot; ')
-  }
+    let url = `{{ site.baseurl }}${hit.url}`;
+    if (hit.anchor)
+      url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
-  const content = hit._highlightResult.html && hit._highlightResult.html.value || "";
+    const title = hit._highlightResult.title.value;
+    let subtitle = '';
+    if (hit._highlightResult.subtitle)
+      subtitle = hit._highlightResult.subtitle.value;
 
-  if (date === "") {
-    if (content === "") {
-      return `
+    let breadcrumbs = '';
+    if (hit._highlightResult.headings) {
+      breadcrumbs = hit._highlightResult.headings.map(match => {
+        return `<span class="post-breadcrumb">${match.value}</span>`
+      }).join(' &middot; ')
+    }
+
+    const content = hit._highlightResult.html && hit._highlightResult.html.value || "";
+
+    if (date === "") {
+      if (content === "") {
+        return `
         <div class="flex-column mt-5">
           <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold"">${title}</span></a>
         </div>
       `;
-    }
-    return `
+      }
+      return `
       <div class="flex-column mt-5">
         <div class="meta border-bottom pb-2 mb-2 style="transition: 0s;"><a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold"">${title}</span></a></div>
         {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs text-decoration-none"><h6 style="font-size: 18px; margin-top: 12px; margin-bottom: 4px; color: var(--main-text-color);">${breadcrumbs}</h6></a>{{/breadcrumbs}}
         <div class="post-snippet">${content}</div>
       </div>
     `;
-  }
-  else {
-    if (subtitle === "") {
-      return `
+    }
+    else {
+      if (subtitle === "") {
+        return `
         <div class="flex-column mt-5">
           <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1"">${title}</span></a>
           <div class="meta border-bottom pb-2 mb-2 style="transition: 0s;">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
@@ -76,9 +77,9 @@ const hitTemplate = function(hit) {
           <div class="post-snippet">${content}</div>
         </div>
       `;
-    }
-    else {
-      return `
+      }
+      else {
+        return `
         <div class="flex-column mt-5">
           <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><span class="fs-5 fw-bold mb-1"">${title}：<br>${subtitle}</span></a>
           <div class="meta border-bottom pb-2 mb-2 style="transition: 0s;">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
@@ -86,128 +87,140 @@ const hitTemplate = function(hit) {
           <div class="post-snippet">${content}</div>
         </div>
       `;
+      }
     }
   }
-}
 
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    cssClasses: {
-      input: 'customize',
-    },
-    container: '#search-searchbar',
-    placeholder: 'I\'m also searching some Takesi geisha...',
-    poweredBy: false, // This is required if you're on the free Community plan
-  })
-);
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      cssClasses: {
+        input: 'customize',
+      },
+      container: '#search-searchbar',
+      placeholder: 'I\'m also searching some Takesi geisha...',
+      poweredBy: false, // This is required if you're on the free Community plan
+    })
+  );
 
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: hitTemplate,
-      empty: `
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#search-hits',
+      templates: {
+        item: hitTemplate,
+        empty: `
         <div class="flex-column mt-5">
           <h5>Can't find anything about that, sorry :(</h5>
         </div>
       `
-    }
-  })
-);
+      }
+    })
+  );
 
-search.start();
+  search.start();
 </script>
 
 <style>
-/* a {
+  /* a {
   font-style: normal;
   color: #383f45;
   text-decoration: none;
 } */
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 0px;
-  height: 45px;
-}
-.ais-search-box--magnifier {
-  left: 13px;
-  top: 13px;
-}
-.ais-search-box--magnifier svg {
-  width: 18px;
-  height: 18px;
-}
-.ais-Highlight {
-  font-style: inherit;
-  text-decoration: underline;
-}
-a .ais-Highlight {
-  font-style: inherit;
-  text-decoration: underline;
-  font-weight: bolder;
-}
-span .ais-Highlight {
-  font-style: inherit;
-  text-decoration: underline;
-  font-weight: inherit;
-}
-/* .ais-search-box--powered-by {
+  .ais-search-box {
+    max-width: 100%;
+    margin-bottom: 0px;
+    height: 45px;
+  }
+
+  .ais-search-box--magnifier {
+    left: 13px;
+    top: 13px;
+  }
+
+  .ais-search-box--magnifier svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .ais-Highlight {
+    font-style: inherit;
+    text-decoration: underline;
+  }
+
+  a .ais-Highlight {
+    font-style: inherit;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  span .ais-Highlight {
+    font-style: inherit;
+    text-decoration: underline;
+    font-weight: inherit;
+  }
+
+  /* .ais-search-box--powered-by {
   display: none;
 } */
-/* .post-item {
+  /* .post-item {
   margin-bottom: 30px;
 } */
-/* .post-link .ais-Highlight {
+  /* .post-link .ais-Highlight {
   color: #111;
   font-style: normal;
   text-decoration: underline;
 } */
-/* .post-breadcrumbs {
+  /* .post-breadcrumbs {
   color: #212529;
   display: block;
 } */
-/* .post-breadcrumb {
+  /* .post-breadcrumb {
   font-size: normal;
   color: #212529;
 } */
-.post-breadcrumb {
-  color: var(--search-text-color);
-  transition: color 0.5s;
-}
-.post-breadcrumb a {
-  color: var(--search-text-color) important!;
-  transition: color 0.5s;
-}
-.post-snippet {
-  color: var(--search-text-color); 
-  transition: color 0.5s;
-  /* pointer-events: none; */
-}
-.post-snippet a {
-  color: var(--search-text-color); 
-  transition: color 0.5s;
-  /* pointer-events: none; */
-}
-.post-breadcrumb .ais-Highlight {
-  color: var(--main-text-color); 
-  transition: color 0.5s;
-  /* font-weight: bolder; */
-}
-.post-snippet .ais-Highlight {
-  color: var(--main-text-color); 
-  transition: color 0.5s;
-  /* font-weight: bolder; */
-}
-/* .post-snippet img {
+  .post-breadcrumb {
+    color: var(--search-text-color);
+    transition: color 0.5s;
+  }
+
+  .post-breadcrumb a {
+    color: var(--search-text-color) important !;
+    transition: color 0.5s;
+  }
+
+  .post-snippet {
+    color: var(--search-text-color);
+    transition: color 0.5s;
+    /* pointer-events: none; */
+  }
+
+  .post-snippet a {
+    color: var(--search-text-color);
+    transition: color 0.5s;
+    /* pointer-events: none; */
+  }
+
+  .post-breadcrumb .ais-Highlight {
+    color: var(--main-text-color);
+    transition: color 0.5s;
+    /* font-weight: bolder; */
+  }
+
+  .post-snippet .ais-Highlight {
+    color: var(--main-text-color);
+    transition: color 0.5s;
+    /* font-weight: bolder; */
+  }
+
+  /* .post-snippet img {
   display: none;
 } */
 
-.ais-search-box--reset {
-  width: 24px;
-  height: 24px;
-  top: calc(50% - 24px/2);
-  margin-left: 5px;
-  right: 5px;
-  margin-right: 0px;
-}
+  .ais-search-box--reset {
+    width: 24px;
+    height: 24px;
+    top: calc(50% - 24px/2);
+    margin-left: 5px;
+    right: 5px;
+    margin-right: 0px;
+  }
 </style>

@@ -36,7 +36,7 @@ html[data-theme="dark"] {
 }
 
 @media (prefers-color-scheme: dark) {
-	html, html[data-theme="dark"] {
+  html, html[data-theme="dark"] {
     --main-text-color: #f5f5f7;
     --main-background-color: rgb(0, 0, 0);
     --img-text-color: rgb(142, 142, 147);
@@ -53,7 +53,7 @@ html[data-theme="dark"] {
       transition: 0.5s;
       // border-color: var(--bottom-margin-color);
     }
-	}
+  }
   html[data-theme="light"] { 
     --main-text-color: #1d1d1f;
     --main-background-color: rgb(255, 255, 255);

@@ -1,4 +1,4 @@
-jQuery(function($) {
+jQuery(function ($) {
   'use strict';
 
   const $formInput = $('input');
@@ -48,10 +48,10 @@ jQuery(function($) {
     document.getElementById('mce-EMAIL').value = ''
     if (document.getElementById('mc-error').innerText === 'The username portion of the email address is empty')
       document.getElementById('mce-EMAIL').placeholder = 'You have to have an username in your email!'
-    else 
+    else
       document.getElementById('mce-EMAIL').placeholder = document.getElementById('mc-error').innerText
-      $('input').removeClass('green-class');
-      $('input').addClass('red-class');
+    $('input').removeClass('green-class');
+    $('input').addClass('red-class');
     // addBorder($(document.getElementById('mc_embed_signup_scroll')), 'red');
   });
 
@@ -68,6 +68,6 @@ jQuery(function($) {
    * @param {String} color
    */
   function addBorder(element, color) {
-    element.css({'box-shadow': `inset 0px 0px 0px 10px ${color}`});
+    element.css({ 'box-shadow': `inset 0px 0px 0px 10px ${color}` });
   }
 });

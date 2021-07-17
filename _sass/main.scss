@@ -7,7 +7,6 @@ html, html[data-theme="light"]  {
   --input-svg-color: rgb(108, 108, 112);
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
-  --main-font-weight: 400;
   --red-color: #B00020;
   --green-color: rgb(52, 199, 89);
   .text-img {
@@ -16,13 +15,6 @@ html, html[data-theme="light"]  {
     transition: 0.5s;
     // border-color: var(--bottom-margin-color);
   }
-  span.fw-bold { font-weight: 500 !important; }
-  h3 { font-weight: 600 !important; }
-  .fw-bold { font-weight: 600 !important; }
-  .fw-bold.fs-4 { font-weight: 600 !important; }
-  h5 { font-weight: 500 !important; }
-  .fw-bold.fs-5 { font-weight: 500 !important; }
-  h6 { font-weight: 500 !important; }
 }
 html[data-theme="dark"] {
   --main-text-color: #f5f5f7;
@@ -33,7 +25,6 @@ html[data-theme="dark"] {
   --input-svg-color: rgb(174, 174, 178);
   --input-placeholder-color: rgb(174, 174, 178);
   --bottom-margin-color: rgb(44, 44, 46);
-  --main-font-weight: 350;
   --red-color: #CF6679;
   --green-color: rgb(48, 209, 88);
   .text-img {
@@ -42,13 +33,6 @@ html[data-theme="dark"] {
     transition: 0.5s;
     // border-color: var(--bottom-margin-color);
   }
-  span.fw-bold { font-weight: 450 !important; }
-  h3 { font-weight: 550 !important; }
-  .fw-bold { font-weight: 550 !important; }
-  .fw-bold.fs-4 { font-weight: 550 !important; }
-  h5 { font-weight: 450 !important; }
-  .fw-bold.fs-5 { font-weight: 450 !important; }
-  h6 { font-weight: 450 !important; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,7 +45,6 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(174, 174, 178);
     --input-placeholder-color: rgb(174, 174, 178);
     --bottom-margin-color: rgb(44, 44, 46);
-    --main-font-weight: 350;
     --red-color: #CF6679;
     --green-color: rgb(48, 209, 88);
     .text-img {
@@ -70,13 +53,6 @@ html[data-theme="dark"] {
       transition: 0.5s;
       // border-color: var(--bottom-margin-color);
     }
-    span.fw-bold { font-weight: 450 !important; }
-    h3 { font-weight: 550 !important; }
-    .fw-bold { font-weight: 550 !important; }
-    .fw-bold.fs-4 { font-weight: 550 !important; }
-    h5 { font-weight: 500 !important; }
-    .fw-bold.fs-5 { font-weight: 500 !important; }
-    h6 { font-weight: 500 !important; }
 	}
   html[data-theme="light"] { 
     --main-text-color: #1d1d1f;
@@ -87,7 +63,6 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(108, 108, 112);
     --input-placeholder-color: rgb(108, 108, 112);
     --bottom-margin-color: rgb(229, 229, 234);
-    --main-font-weight: 400;
     --red-color: #B00020;
     --green-color: rgb(52, 199, 89);
     .text-img {
@@ -96,13 +71,6 @@ html[data-theme="dark"] {
       transition: 0.5s;
       // border-color: var(--bottom-margin-color);
     }
-    span.fw-bold { font-weight: 500 !important; }
-    h3 { font-weight: 600 !important; }
-    .fw-bold { font-weight: 600 !important; }
-    .fw-bold.fs-4 { font-weight: 600 !important; }
-    h5 { font-weight: 550 !important; }
-    .fw-bold.fs-5 { font-weight: 550 !important; }
-    h6 { font-weight: 550 !important; }
   }
 }
 
@@ -117,6 +85,14 @@ body {
   font-family: $bodyFont;
   font-weight: var(--main-font-weight);
   transition: background-color 0.5s, color 0.5s;
+  --main-font-weight: 400;
+  span.fw-bold { font-weight: 500 !important; }
+  h3 { font-weight: 600 !important; }
+  .fw-bold { font-weight: 600 !important; }
+  .fw-bold.fs-4 { font-weight: 600 !important; }
+  h5 { font-weight: 600 !important; }
+  .fw-bold.fs-5 { font-weight: 600 !important; }
+  h6 { font-weight: 600 !important; }
 }
 
 body a {
@@ -161,15 +137,15 @@ li:last-child, .textwidget li:last-child {
 }
 
 h5 {
-  font-size: 21px;
-  margin-top: 1rem;
+  font-size: 22px;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 h6 {
-  margin-top: 0.75rem;
+  font-size: 19px;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  font-size: 18px;
 }
 
 ol, ul {
@@ -193,6 +169,7 @@ ul {
 
 input {
   color: var(--main-text-color);
+  transition: color 0.5s, background-color 0.45s;
 }
 
 input:focus,
@@ -226,7 +203,6 @@ button:focus {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  transition: background-color 0.45s;
 }
 
 .ais-search-box svg {

@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US" }}">
+
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="{{ site.github.url }}/assets/libs/mode-switcher.js"></script>
+<script>
+  window.addEventListener('pageshow', function (e) {
+    $("body").addClass("preload");
+    if (e.persisted) {
+      let theme = sessionStorage.getItem('theme');
+
+      if (theme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+      else if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    }
+    $("body").removeClass("preload");
+  })
+</script>
 {% include head.html %}
 
 <body class="preload">
@@ -14,9 +32,8 @@
 
 </html>
 
-<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 <script>
-  jQuery(function($) {
+  jQuery(function ($) {
     $(window).load(function () {
       $("body").removeClass("preload");
     });

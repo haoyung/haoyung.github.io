@@ -1,12 +1,19 @@
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
-// let sun = '<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16" style="vertical-align: -.125em;"><path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/></svg>'
-// let moon = sun
+
 if (theme === 'light') {
 	document.documentElement.setAttribute('data-theme', 'light');
 }
 else if (theme === 'dark') {
 	document.documentElement.setAttribute('data-theme', 'dark');
+}
+else {
+	let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+	if (systemInitiatedDark) {
+		document.documentElement.setAttribute('data-theme', 'dark');
+	}
+	else {
+		document.documentElement.setAttribute('data-theme', 'light');
+	}
 }
 
 function modeSwitcher() {

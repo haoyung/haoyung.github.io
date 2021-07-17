@@ -7,8 +7,7 @@ layout: default
     {% if page.subtitle == null %}
     <h3>{{ page.title }}</h3>
     {% else %}
-    <h3>{{ page.title }}：</h3>
-    <h3>{{ page.subtitle }}</h3>
+    <h3>{{ page.title }}：<br>{{ page.subtitle }}</h3>
     {% endif %}
     <div class="border-bottom pb-3 mb-3" style="transition: 0s;"><time datetime="{{ page.date | date_to_xmlschema }}">{{
         page.date | date:

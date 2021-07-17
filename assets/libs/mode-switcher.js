@@ -18,6 +18,7 @@ else {
 
 function modeSwitcher() {
 	let theme = sessionStorage.getItem('theme');
+	let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 	if (theme === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
@@ -26,7 +27,7 @@ function modeSwitcher() {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
 		// document.getElementById("theme-toggle").innerHTML = sun;
-	} else if (systemInitiatedDark.matches) {	
+	} else if (systemInitiatedDark) {	
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
 		// document.getElementById("theme-toggle").innerHTML = moon;

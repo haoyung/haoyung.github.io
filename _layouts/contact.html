@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-<div class="row gx-md-6 gx-0 mb-5">
+<div class="row gx-md-6 gx-0 mb-5" style="font-size: 18px;">
   {% for contact in site.data.settings.contacts %}
   <div class="d-flex col-md-6 flex-column-reverse">
     <!-- <div class="flex-row mb-4">
@@ -21,17 +21,17 @@ layout: default
       <span>Email: </span>
       <a href="mailto:{{ contact.email }}" style="color: var(--main-text-color);">{{ contact.email }}</a>
     </div>
-    <div class="d-flex mb-3 justify-content-between" style="width: 175px;">
+    <div class="d-flex mb-3 justify-content-between" style="width: 200px;">
       <span class="d-inline-flex">6th 科學班</span>
       <span class="d-inline-flex">｜</span>
       <span class="d-inline-flex">武陵高中</span>
     </div>
-    <div class="d-flex mb-3 justify-content-between" style="width: 175px;">
+    <div class="d-flex mb-3 justify-content-between" style="width: 200px;">
       <span class="d-inline-flex">{{ contact.institution }}</span>
       <span class="d-inline-flex">｜</span>
       <span class="d-inline-flex">{{ contact.institution_address }}</span>
     </div>
-    <div class="d-flex mb-3 justify-content-between" style="width: 175px;">
+    <div class="d-flex mb-3 justify-content-between" style="width: 200px;">
       <span class="d-inline-flex">{{ contact.title }}</span>
       <span class="d-inline-flex">｜</span>
       <span class="d-inline-flex">{{ contact.department }}</span>

@@ -8,7 +8,7 @@ html, html[data-theme="light"]  {
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
   --red-color: #B00020;
-  --green-color: rgb(52, 199, 89);
+  --green-color: #015838;
   .text-img {
     -webkit-filter: invert(0);
     filter: invert(0);
@@ -25,8 +25,8 @@ html[data-theme="dark"] {
   --input-svg-color: rgb(174, 174, 178);
   --input-placeholder-color: rgb(174, 174, 178);
   --bottom-margin-color: rgb(44, 44, 46);
-  --red-color: #CF6679;
-  --green-color: rgb(48, 209, 88);
+  --red-color: #fe002e;
+  --green-color: #02a66a;
   .text-img {
     -webkit-filter: invert(1);
     filter: invert(1);
@@ -45,8 +45,8 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(174, 174, 178);
     --input-placeholder-color: rgb(174, 174, 178);
     --bottom-margin-color: rgb(44, 44, 46);
-    --red-color: #CF6679;
-    --green-color: rgb(48, 209, 88);
+    --red-color: #fe002e;
+    --green-color: #02a66a;
     .text-img {
       -webkit-filter: invert(1);
       filter: invert(1);
@@ -64,7 +64,7 @@ html[data-theme="dark"] {
     --input-placeholder-color: rgb(108, 108, 112);
     --bottom-margin-color: rgb(229, 229, 234);
     --red-color: #B00020;
-    --green-color: rgb(52, 199, 89);
+    --green-color: #015838;
     .text-img {
       -webkit-filter: invert(0);
       filter: invert(0);

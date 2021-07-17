@@ -17,7 +17,7 @@
 <script src="{{ site.github.url }}/assets/libs/mode-switcher.js"></script>
 {% include head.html %}
 
-<body class="preload">
+<body>
   <div class="col-lg-8 mx-auto p-3 py-md-5 py-4">
     {% seo %}
     {% include header.html %}
@@ -27,12 +27,3 @@
 </body>
 
 </html>
-
-<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-<script>
-  jQuery(function ($) {
-    $(window).load(function () {
-      $("body").removeClass("preload");
-    });
-  });
-</script>

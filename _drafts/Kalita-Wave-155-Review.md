@@ -5,7 +5,7 @@ tag: [review, gear]
 category: articles
 ---
 
-大概兩個禮拜之前，我開始使用 Kalita Wave（也就是台灣人喜歡說的「蛋糕濾杯」）作為每天固定使用的濾杯，在這段時間內也有了一些心得，想說可以寫成一篇文章分享給大家，於是這篇文章就這樣誕生了。
+大概兩個禮拜之前，我開始使用 Kalita Wave（也就是台灣人喜歡說的「蛋糕濾杯」）作為每天固定使用的濾杯，在這段時間內也有了一些心得，就決定寫成一篇文章分享給大家。
 
 <div class="row justify-content-center">
     <div class="col-md-6 text-center">
@@ -59,7 +59,7 @@ category: articles
 > 
 > 乍聽之下好像是什麼很了不起的術語，其實 slurry temperature 指的就是實際上萃取反應發生時的溫度，而這個溫度一般來說會明顯低於我們所注進去的水的水溫。Slurry temperature 直接影響了萃取的效率。
 > 
-> 除了使用的水溫以外，slurry temperature 也與濾杯的構造和材質有很大的關係。因此我們在沖煮時，所要思考的應該是 slurry temperature 而單純只是我們所使用的水溫。
+> 除了使用的水溫以外，slurry temperature 也與濾杯的構造和材質有很大的關係。因此我們在沖煮時，所要思考的應該是 slurry temperature 而非單純只是我們所使用的水溫。
 
 金屬雖然比熱較小，也就代表在萃取的開端，濾杯溫度明顯低於水溫的時候，被濾杯所吸走的熱量較小。但金屬同樣也是熱的良導體，因此在整個沖煮的歷程中就會有更多的熱散失。總個來說，不銹鋼 Wave 在維持 slurry temperature 的部分上應該是不如我平常所使用的塑膠 v60 的。
 

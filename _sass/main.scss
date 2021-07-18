@@ -7,6 +7,7 @@ html, html[data-theme="light"]  {
   --input-svg-color: rgb(108, 108, 112);
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
+  --backquate-color: rgb(209, 209, 214);
   --red-color: #B00020;
   --green-color: #015838;
   .text-img {
@@ -25,6 +26,7 @@ html[data-theme="dark"] {
   --input-svg-color: rgb(174, 174, 178);
   --input-placeholder-color: rgb(174, 174, 178);
   --bottom-margin-color: rgb(44, 44, 46);
+  --backquate-color: rgb(58, 58, 60);
   --red-color: #fe002e;
   --green-color: #02a66a;
   .text-img {
@@ -45,6 +47,7 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(174, 174, 178);
     --input-placeholder-color: rgb(174, 174, 178);
     --bottom-margin-color: rgb(44, 44, 46);
+    --backquate-color: rgb(58, 58, 60);
     --red-color: #fe002e;
     --green-color: #02a66a;
     .text-img {
@@ -63,6 +66,7 @@ html[data-theme="dark"] {
     --input-svg-color: rgb(108, 108, 112);
     --input-placeholder-color: rgb(108, 108, 112);
     --bottom-margin-color: rgb(229, 229, 234);
+    --backquate-color: rgb(209, 209, 214);
     --red-color: #B00020;
     --green-color: #015838;
     .text-img {
@@ -157,6 +161,13 @@ h6 {
   font-size: 18px;
   font-weight: 600;
   color: var(--main-text-color);
+}
+
+blockquote {
+  font-size: 16px;
+  padding: 0 1em;
+  color: var(--search-text-color);
+  border-left: .25em solid var(--backquate-color);
 }
 
 ol, ul {

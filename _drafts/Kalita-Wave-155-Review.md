@@ -81,3 +81,18 @@ Kalita Wave 155 是一個平底濾杯，使用蛋糕濾紙，並且有大跟小�
 
 以下記錄的是我最近幾次比較滿意的沖煮參數，供大家參考：
 
+- 豆種：Washed Special Geisha from Hacienda La Esmeralda
+- 烘焙：Coffee Collective 
+- 水溫 / 水質：98°C / 自來水並使用 Brita 過濾（硬度約 85ppm）
+- 粉水比：11.5g / 200g
+- 參數（注水量 / 時間）：40g @ 0:00, 110g @ 0:30, 50g @ 1:00, TBT: ~1:45
+
+<!-- -->
+
+- 豆種：Washed Special Geisha from Hacienda La Esmeralda
+- 烘焙：Coffee Collective
+- 水溫 / 水質：98°C / 自來水並使用 Brita 過濾（硬度約 85ppm）
+- 粉水比：11.5g / 200g
+- 參數（注水量 / 時間）：40g @ 0:00, 110g @ 0:30, 50g @ 1:00, TBT: ~1:45
+
+###### 手法

@@ -81,18 +81,42 @@ Kalita Wave 155 是一個平底濾杯，使用蛋糕濾紙，並且有大跟小�
 
 以下記錄的是我最近幾次比較滿意的沖煮參數，供大家參考：
 
-- 豆種：Washed Special Geisha from Hacienda La Esmeralda
-- 烘焙：Coffee Collective 
-- 水溫 / 水質：98°C / 自來水並使用 Brita 過濾（硬度約 85ppm）
-- 粉水比：11.5g / 200g
-- 參數（注水量 / 時間）：40g @ 0:00, 110g @ 0:30, 50g @ 1:00, TBT: ~1:45
+- 預設參數
+   - 沖煮日期：7/19
+   - 豆種：[Washed Special Geisha from Hacienda La Esmeralda](https://coffeecollective.dk/shop/esmeralda/)
+   - 烘焙：Coffee Collective (Roasted on 2021/7/6)
+   - 水溫 / 水質：98°C / 自來水並使用 Brita 過濾（硬度約 85ppm）
+   - 研磨度：Comandante C40 #25
+   - 粉水比：11g / 200g
+   - 參數（注水量 / 時間）：40g @ 0:00-0:03, 110g @ 0:30-0.45, 50g @ 1:00-1:10, TBT: ~1:50
+  
+<!-- -->
+
+1. <br>
+   - 沖煮日期：7/19
+   - 豆種：[Washed Special Geisha from Hacienda La Esmeralda](https://coffeecollective.dk/shop/esmeralda/)
+   - 烘焙：Coffee Collective (Roasted on 2021/7/6)
+   - 水溫 / 水質：98°C / 自來水並使用 Brita 過濾（硬度約 85ppm）
+   - 研磨度：Comandante C40 #25
+   - 粉水比：11g / 200g
+   - 參數（注水量 / 時間）：40g @ 0:00-0:03, 110g @ 0:30-0.45, 50g @ 1:00-1:10, TBT: ~1:50
 
 <!-- -->
 
-- 豆種：Washed Special Geisha from Hacienda La Esmeralda
+<!-- - 豆種：Washed Special Geisha from Hacienda La Esmeralda
 - 烘焙：Coffee Collective
 - 水溫 / 水質：98°C / 自來水並使用 Brita 過濾（硬度約 85ppm）
 - 粉水比：11.5g / 200g
-- 參數（注水量 / 時間）：40g @ 0:00, 110g @ 0:30, 50g @ 1:00, TBT: ~1:45
+- 參數（注水量 / 時間）：40g @ 0:00, 110g @ 0:30, 50g @ 1:00, TBT: ~1:45 -->
 
 ###### 手法
+
+首先是悶蒸，悶蒸的水量我其實沒有非常在乎，這一注的重點在於讓所有粉在最短的時間內全部浸濕，因此我會很快速地注約 40g 的水並做一次較激烈的 Rao spin 來確保粉全部浸濕。
+
+二、三注水我則會使用較大的注水力道，較大的擾動有助於讓底層的粉也能夠充分萃取，提高萃取的均勻程度。而這兩注的重點在於務必確保粉牆上所殘留的粉有被沖刷下來，如此一來在這兩注後就不需要使用 Rao spin 而依然能夠維持底部粉床的平坦。會想要避免 Rao spin 是因為我最近發現若我在最後兩注使用 Rao spin，則會大幅度增加最後咖啡的澀感，但我還不清楚原因。目前的猜測是過多的 Spin 會導致細粉堆積，進而使濾杯 clogging，最終導致通道效應以及澀感的產生。
+
+###### 調整
+
+接下來也說明一下我是如何調整這兩組參數的。
+
+1. 第一次沖煮這支豆子時就發現非常容易萃取，因此我使用較少的粉以及較粗的研磨度使濃度達到我所偏好的濃度。同時，較粗的研磨度也使總細粉量減少，降低 clogging 的機率。

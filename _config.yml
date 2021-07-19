@@ -2,6 +2,7 @@ url: "https://whycoffee.blog/" # the base hostname & protocol for your site, e.g
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "why coffee?" # the name of your site, e.g. ACME Corp.
 description: "Still trying to write something about coffee."
+lang: "zh-Hant-TW"
 
 exclude:
 - vendor

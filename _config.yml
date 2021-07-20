@@ -24,7 +24,8 @@ algolia:
     - ./tag/*.md
   settings: 
     searchableAttributes:                                                        
-      - title                                                               
+      - title
+      - maintitle                                                               
       - subtitle                                              
       - headings                                                                 
       - unordered(content)                                                       
@@ -34,6 +35,7 @@ algolia:
       - content                                                                  
       - headings                                                                 
       - html                                                                     
-      - subtitle                                                                 
+      - subtitle
+      - maintitle                                                                 
       - tags                                                                     
       - title

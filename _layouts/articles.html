@@ -8,9 +8,9 @@ layout: default
     {% for post in site.posts %}
     <div class="flex-column mt-3">
       {% if post.subtitle == null %}
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}</a>
       {% else %}
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}：<br></a>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}：<br></a>
       {% endif %}
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.subtitle }}</a>
       <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>

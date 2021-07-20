@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ninety Plus Innovation Line"
+maintitle: "Ninety Plus Innovation Line"
 tag: [review, ntucoffee]
 category: articles
 ---

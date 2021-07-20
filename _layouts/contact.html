@@ -6,7 +6,7 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-5">
   {% for contact in site.data.settings.contacts %}
-  <div class="d-flex col-md-6 flex-column-reverse">
+  <div class="d-flex col-md-6 flex-column justify-content-end">
     <!-- <div class="flex-row mb-4">
       {% for item in site.data.settings.social %}
       {% if forloop.first %}
@@ -17,14 +17,12 @@ layout: default
       {% endfor %}
       <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;" class="ms-3 fs-5"><i class="fa-regular fa-circle-half-stroke fa-fw" aria-hidden="true"></i></a>
     </div> -->
-    <div class="flex-row mb-4 mb-md-7" style="font-size: 17px;">
-      <span>Email: </span>
-      <a href="mailto:{{ contact.email }}" style="color: var(--main-text-color);" target="_blank">{{ contact.email }}</a>
-    </div>
+    <h3 class="fw-bold mb-md-auto mb-6">contact</h3>
+    <h4 class="flex-row mb-7" style="font-weight: 400;">{{ contact.name }}</h4>
     <div class="d-flex mb-3 justify-content-between" style="width: 180px;">
-      <span class="d-inline-flex">武陵高中</span>
+      <span class="d-inline-flex">{{ contact.department }}</span>
       <span class="d-inline-flex">｜</span>
-      <span class="d-inline-flex">6th 科學班</span>
+      <span class="d-inline-flex">{{ contact.title }}</span>
     </div>
     <div class="d-flex mb-3 justify-content-between" style="width: 180px;">
       <span class="d-inline-flex">{{ contact.institution_address }}</span>
@@ -32,12 +30,14 @@ layout: default
       <span class="d-inline-flex">{{ contact.institution }}</span>
     </div>
     <div class="d-flex mb-3 justify-content-between" style="width: 180px;">
-      <span class="d-inline-flex">{{ contact.department }}</span>
+      <span class="d-inline-flex">武陵高中</span>
       <span class="d-inline-flex">｜</span>
-      <span class="d-inline-flex">{{ contact.title }}</span>
+      <span class="d-inline-flex">6th 科學班</span>
     </div>
-    <h4 class="flex-row mb-7" style="font-weight: 400;">{{ contact.name }}</h4>
-    <h3 class="fw-bold mb-md-auto mb-6">contact</h3>
+    <div class="flex-row mb-4 mb-md-7" style="font-size: 17px;">
+      <span>Email: </span>
+      <a href="mailto:{{ contact.email }}" style="color: var(--main-text-color);" target="_blank">{{ contact.email }}</a>
+    </div>
   </div>
   {% endfor %}
   <div class="col-md-6">

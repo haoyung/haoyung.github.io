@@ -19,6 +19,11 @@ defaults:
       path: "tag/*.md"
     values:
       sitemap: false
+  -
+    scope:
+      path: "about_text.md"
+    values:
+      sitemap: false
 
 algolia:
   application_id: M50XXOEO0I

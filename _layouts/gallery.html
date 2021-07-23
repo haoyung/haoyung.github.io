@@ -6,11 +6,11 @@ layout: default
   $(function () {
     $('.img__wrap').on('click', function (e) {
       if ($(this).find('.img__description').css('display') == 'none') {
-        $(document).find('.img__description').fadeOut('slow');
-        $(this).find('.img__description').fadeIn('slow');
+        $(document).find('.img__description').fadeOut('500');
+        $(this).find('.img__description').fadeIn('500');
       }
       else {
-        $(this).find('.img__description').fadeOut('slow')
+        $(this).find('.img__description').fadeOut('500')
       }
       // $(this).find('.img__description').fadeToggle('slow');
     });
@@ -32,7 +32,7 @@ layout: default
           </div>
         </div>
       </div>
-      <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
+      <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
     {% else %}
@@ -45,7 +45,7 @@ layout: default
           </div>
         </div>
       </div>
-      <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
+      <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
     {% endif %}
@@ -63,7 +63,7 @@ layout: default
           </div>
         </div>
       </div>
-      <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
+      <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
     {% else %}
@@ -76,7 +76,7 @@ layout: default
           </div>
         </div>
       </div>
-      <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
+      <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
     {% endif %}

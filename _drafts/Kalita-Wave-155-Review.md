@@ -11,7 +11,7 @@ category: articles
 <div class="row justify-content-center">
     <div class="col-md-6 text-center">
         <img src="{{ site.github.url }}/assets/img/kalita-waves.webp" alt="" width="100%">
-        <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 185 & 155 (Photo: Kurasu Kyoto)</span>
+        <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 185 & 155 (Photo: Kurasu Kyoto)</span>
     </div>
 </div>
 

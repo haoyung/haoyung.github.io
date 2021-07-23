@@ -100,9 +100,9 @@ body {
   h3 { font-weight: 600 !important; }
   .fw-bold { font-weight: 600 !important; }
   .fw-bold.fs-4 { font-weight: 600 !important; }
-  h5 { font-weight: 600 !important; }
-  .fw-bold.fs-5 { font-weight: 600 !important; }
-  h6 { font-weight: 600 !important; }
+  h5 { font-weight: 500 !important; }
+  .fw-bold.fs-5 { font-weight: 500 !important; }
+  h6 { font-weight: 500 !important; }
 }
 
 body a {
@@ -147,26 +147,26 @@ li:last-child, .textwidget li:last-child {
 }
 
 h5 {
-  font-size: 22px;
+  font-size: 1.3rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 h6 {
-  font-size: 19px;
+  font-size: 1.15rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .search-title {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 2px;
 }
 
 .post-breadcrumbs {
-  font-size: 18px;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--main-text-color);
 }

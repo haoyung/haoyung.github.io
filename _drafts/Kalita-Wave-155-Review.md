@@ -56,7 +56,7 @@ category: articles
 
 而不銹鋼材質所遇到的第一個問題就是保溫，萃取時的 slurry temperature 對於萃取效率有著不可忽視的影響。
 
-> Slurry temprature:  
+> Slurry temprature -  
 > 
 > 乍聽之下好像是什麼很了不起的術語，其實 slurry temperature 指的就是實際上萃取反應發生時的溫度，而這個溫度一般來說會明顯低於我們所注進去的水的水溫。Slurry temperature 直接影響了萃取的效率。
 > 

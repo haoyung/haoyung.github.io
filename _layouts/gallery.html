@@ -6,11 +6,11 @@ layout: default
   $(function () {
     $('.img__wrap').on('click', function (e) {
       if ($(this).find('.img__description').css('display') == 'none') {
-        $(document).find('.img__description').fadeOut('500');
-        $(this).find('.img__description').fadeIn('500');
+        $(document).find('.img__description').fadeOut('slow');
+        $(this).find('.img__description').fadeIn('slow');
       }
       else {
-        $(this).find('.img__description').fadeOut('500')
+        $(this).find('.img__description').fadeOut('slow')
       }
       // $(this).find('.img__description').fadeToggle('slow');
     });

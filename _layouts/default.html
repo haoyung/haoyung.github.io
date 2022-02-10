@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
+
+{% include head.html %}
+
 <script>
   window.addEventListener('pageshow', function (e) {
     if (e.persisted) {
@@ -7,15 +10,16 @@
 
       if (theme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
       }
       else if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(0, 0, 0)');
       }
     }
   })
 </script>
 <script src="{{ site.github.url }}/assets/libs/mode-switcher.js"></script>
-{% include head.html %}
 
 <body class="preload">
   <div class="col-lg-8 mx-auto p-3 pb-md-5 pt-md-5 pb-4 pt-4">

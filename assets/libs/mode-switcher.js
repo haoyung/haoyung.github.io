@@ -2,7 +2,7 @@ let theme = sessionStorage.getItem('theme');
 
 if (theme === 'light') {
 	document.documentElement.setAttribute('data-theme', 'light');
-	document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
+	document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 254)');
 }
 else if (theme === 'dark') {
 	document.documentElement.setAttribute('data-theme', 'dark');
@@ -16,7 +16,7 @@ else {
 	}
 	else {
 		document.documentElement.setAttribute('data-theme', 'light');
-		document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
+		document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 254)');
 	}
 }
 
@@ -26,7 +26,7 @@ function modeSwitcher() {
 	if (theme === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
+		document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 254)');
 		// document.getElementById("theme-toggle").innerHTML = moon;
 	} else if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'dark');
@@ -36,7 +36,7 @@ function modeSwitcher() {
 	} else if (systemInitiatedDark.matches) {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
+		document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 254)');
 		// document.getElementById("theme-toggle").innerHTML = moon;
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');

@@ -10,13 +10,18 @@
 
       if (theme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
-        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 254)');
       }
       else if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
         document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(0, 0, 0)');
       }
     }
+    // let meta = document.createElement("meta");
+    // meta.name = "theme-color";
+    // meta.content = window.getComputedStyle(document.querySelector("html"))
+    //                       .getPropertyValue("background-color");
+    // document.head.appendChild(meta);
   })
 </script>
 <script src="{{ site.github.url }}/assets/libs/mode-switcher.js"></script>

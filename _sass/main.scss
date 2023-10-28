@@ -303,3 +303,8 @@ button svg {
   -ms-transition: none !important;
   -o-transition: none !important;
 }
+
+::selection {
+  color: var(--main-background-color);
+  background: var(--main-text-color);
+}

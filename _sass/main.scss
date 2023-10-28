@@ -215,7 +215,7 @@ h6 {
 }
 
 blockquote {
-  font-size: 16px;
+  // font-size: 16px;
   padding: 0 1em;
   color: var(--search-text-color);
   border-left: .25em solid var(--backquate-color);
@@ -223,18 +223,18 @@ blockquote {
 
 ol,
 ul {
-  padding-left: 1.2rem;
+  padding-left: 1.25rem;
   // margin-left: 0px;
   // margin-bottom: 20px;
   // margin-top: 4px;
 }
 
 li {
-  margin-bottom: 4px;
+  margin-bottom: 0.4rem;
 }
 
 li p {
-  margin-bottom: 4px;
+  // margin-bottom: 4px;
 }
 
 ul {
@@ -244,7 +244,7 @@ ul {
 
 ul ul {
   // list-style: none;
-  padding-left: 1.2rem;
+  padding-left: 1.25rem;
 }
 
 input {

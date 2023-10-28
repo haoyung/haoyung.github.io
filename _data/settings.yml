@@ -1,5 +1,5 @@
 menu:
-- {name: 'home', url: '/'}
+# - {name: 'home', url: '/'}
 # - {name: 'about', url: '/about'}
 - {name: 'articles', url: '/articles'}
 # - {name: 'gallery', url: '/gallery'}

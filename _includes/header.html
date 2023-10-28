@@ -1,4 +1,4 @@
-<header class="d-flex flex-column flex-md-row align-self-end pb-md-3 pb-1 mb-5 border-bottom">
+<header class="d-flex flex-row align-self-end mb-5 border-bottom header-class">
   <div>
     <div class="d-flex align-items-center justify-content-between" style="display: inline-block;">
       <a href="{{ site.github.url }}/" class="fs-4 fw-bold text-decoration-none" style="display: inline-block;">{{
@@ -12,7 +12,7 @@
     </div>
     <!-- <div class="d-flex justify-content-between">
       <a href="{{ site.github.url }}/" class="text-decoration-none me-md-3">{{ site.description }}</a> -->
-      <!-- <div>
+    <!-- <div>
         <a class="toggle" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-justify-right"
             viewBox="0 0 16 16" style="vertical-align: -.125rem;">
@@ -23,22 +23,24 @@
     <!-- </div> -->
   </div>
 
-  <nav class="d-inline-flex align-items-md-stretch mt-1 mt-md-0 ms-md-auto justify-content-between">
+  <nav class="d-inline-flex align-items-stretch mt-0 ms-auto justify-content-between">
     {% for item in site.data.settings.menu %}
     {% if forloop.last %}
     <!-- <div class="d-flex flex-column"> -->
-      <!-- <a class="mb-auto ms-auto toggle-md" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
+    <!-- <a class="mb-auto ms-auto toggle-md" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-command"
           viewBox="0 0 16 16">
           <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
         </svg>
       </a> -->
-      <a class="mb-0 me-0 py-md-0 py-1 text-decoration-none align-self-end" href="{{ site.github.url }}{{ item.url }}">
-        <span>{{ item.name }}</span>
-      </a>
+    <a class="mb-0 me-0 py-0 text-decoration-none align-self-end" style="line-height: 1.2;"
+      href="{{ site.github.url }}{{ item.url }}">
+      <span>{{ item.name }}</span>
+    </a>
     <!-- </div> -->
     {% else %}
-    <a class="me-md-7 me-0 py-md-0 py-1 text-decoration-none align-self-end" href="{{ site.github.url }}{{ item.url }}">
+    <a class="me-7 py-0 text-decoration-none align-self-end" style="line-height: 1.2;"
+      href="{{ site.github.url }}{{ item.url }}">
       <span>{{ item.name }}</span>
     </a>
     <!-- <span class="middot me-md-7 me-0 py-md-0 py-2">&middot;</span> -->
@@ -68,6 +70,20 @@
 
     .middot {
       display: none;
+    }
+  }
+
+  /* This overrides the Bootstrap default for smaller screens */
+  .header-class {
+    padding-bottom: 0.8rem !important;
+    /* Adjust this to whatever you desire for smaller screens */
+  }
+
+  /* This overrides the Bootstrap default for medium screens and up */
+  @media (min-width: 768px) {
+    .header-class {
+      padding-bottom: 1.2rem !important;
+      /* Adjust this to whatever you desire for medium and larger screens */
     }
   }
 </style>

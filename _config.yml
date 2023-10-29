@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "why coffee?" # the name of your site, e.g. ACME Corp.
 description: "Exploring the brews and beyond."
 lang: "zh-Hant-TW"
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
 
 exclude:
 - vendor

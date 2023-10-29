@@ -40,4 +40,24 @@ layout: default
   sup {
     font-family: monospace;
   }
+
+  /* Default style for mobile: Image will take 100% width */
+  .responsive-image {
+    width: 100%;
+  }
+
+  /* For medium screens and above, set the width to 50% */
+  @media (min-width: 768px) {
+    .responsive-image {
+      width: 50%;
+    }
+  }
+
+  .image-span {
+    font-size: 0.70em;
+    color: var(--img-text-color);
+    transition: color 0.5s;
+    display: block;
+    margin-top: 0.4rem;
+  }
 </style>

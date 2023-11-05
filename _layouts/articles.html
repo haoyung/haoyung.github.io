@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="row g-md-7 g-0 mb-5">
-  <div class="col-md-8 mb-md-0">
+  <div class="col-md-12 mb-md-0">
     <h3 class="fw-bold mb-4">articles</h3>
     {% for post in site.posts %}
     <div class="flex-column mt-3">
@@ -18,7 +18,7 @@ layout: default
     {% endfor %}
   </div>
 
-  <div class="col-md-2 colmd">
+  <!-- <div class="col-md-2 colmd">
     <h3 class="fw-bold mb-4">tags</h3>
     {% capture tags %}
     {% for tag in site.tags %}
@@ -102,7 +102,7 @@ layout: default
       <span class="d-inline-flex fw-bold">{{ tagitems[2] }}</span>
     </div>
     {% endfor %}
-  </div>
+  </div> -->
 </div>
 
 <style>

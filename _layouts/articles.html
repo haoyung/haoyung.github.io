@@ -10,10 +10,9 @@ layout: default
       {% if post.subtitle == null %}
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}</a>
       {% else %}
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}：<br></a>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}：{{ post.subtitle }}</a>
       {% endif %}
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.subtitle }}</a>
-      <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
+      <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
     {% endfor %}
   </div>
@@ -106,7 +105,7 @@ layout: default
 </div>
 
 <style>
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .colmd {
       display: none;
     }
@@ -172,5 +171,9 @@ layout: default
     .cmd2:nth-last-child(-n+2) {
       margin-bottom: 0rem !important;
     }
+  } */
+
+  .post-date {
+    display: inline-block;
   }
 </style>

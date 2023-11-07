@@ -17,14 +17,17 @@ layout: default
       <img class="article-img col-md-6 mt-8" src="/assets/img/{{ page.image }}">
       {% endif %} -->
     </div>
-    <div class="article-date pt-2 border-top">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{
-        page.date | date:
-        "%B %-d, %Y" }}</time>
-    </div>
-    <div class="tags mb-8">
-      {% for tag in page.tags %}
-      <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    <div class="d-flex pt-2 mb-8 border-top"
+      style="justify-content: space-between;">
+      <div class="article-date">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{
+          page.date | date:
+          "%B %-d, %Y" }}</time>
+      </div>
+      <div class="tags">
+        {% for tag in page.tags %}
+        <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      </div>
     </div>
     {{ content }}
   </div>

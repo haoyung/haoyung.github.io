@@ -106,6 +106,8 @@ body {
   transition: background-color 0.5s, color 0.5s;
   --main-font-weight: 400;
 
+  text-underline-offset: 0.2em;
+
   span.fw-bold {
     font-weight: 500 !important;
   }
@@ -266,12 +268,12 @@ button:focus {
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--bottom-margin-color) !important;
+  border-bottom: 1px solid var(--main-text-color) !important;
   transition: border-color 0.5s !important;
 }
 
 .border-top {
-  border-top: 1px solid var(--bottom-margin-color) !important;
+  border-top: 1px solid var(--main-text-color) !important;
   transition: border-color 0.5s !important;
 }
 

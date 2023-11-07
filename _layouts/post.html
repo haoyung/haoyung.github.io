@@ -5,21 +5,38 @@ layout: default
 <div class="row mb-5">
   <div class="col-md-12">
     {% if page.subtitle == null %}
-    <h3>{{ page.maintitle }}</h3>
+    <h1 class="mb-1">{{ page.maintitle }}</h1>
     {% else %}
-    <h3>{{ page.maintitle }}：</h3>
-    <h3>{{ page.subtitle }}</h3>
+    <h1 class="mb-1">{{ page.maintitle }}：</h1>
+    <h1 class="mb-1">{{ page.subtitle }}</h1>
     {% endif %}
-    <div class="border-bottom pb-3 mb-3" style="transition: 0s;"><time datetime="{{ page.date | date_to_xmlschema }}">{{
+    <h4 class="border-bottom mt-3 pb-5 mb-2 subhead">{{ page.subhead }}</h4>
+    <div class="article-date">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{
         page.date | date:
-        "%B %-d, %Y" }}</time>&thinsp; &middot;&thinsp;{% for tag in page.tags %}
-      <a href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+        "%B %-d, %Y" }}</time>
+    </div>
+    <div class="tags">
+    {% for tag in page.tags %}
+      <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
     </div>
     {{ content }}
   </div>
 </div>
 
 <style>
+  .subhead {
+    font-weight: 400;
+  }
+
+  .article-date {
+    /* margin-bottom: 5rem; */
+  }
+
+  .tags {
+    margin-bottom: 4rem;
+  }
+
   .footnote {
     display: flex;
     align-items: flex-start;

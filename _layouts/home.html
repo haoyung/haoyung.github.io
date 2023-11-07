@@ -5,10 +5,10 @@ layout: default
 <script src="//rawgit.com/ddimitrioglo/jquery-mailchimp/master/dist/jquery-mailchimp.min.js"></script>
 <script src="{{ site.github.url }}/assets/libs/mailchimp/test.js"></script>
 
-<div class="row gx-md-6 gx-0 mb-5">
+<div class="row gx-md-6 gx-0 mb-8">
   <div class="d-flex flex-column col-md-6">
     <h3 class="fw-bold mb-4">about</h3>
-    <div class="mb-4">
+    <div class="mb-md-0 mb-4">
       {{ content }}
     </div>
   </div>
@@ -20,8 +20,8 @@ layout: default
   </div>
 </div>
 
-<div class="row gx-md-6 gx-0 mb-5 align-items-end">
-  <div class="col-md-6 mb-md-0 mb-5">
+<div class="row gx-md-6 gx-0 mb-8 align-items-end">
+  <div class="col-md-6 mb-md-0 mb-8">
     <h3 class="fw-bold mb-4">latest articles</h3>
     {% for post in site.posts limit:5 %}
     <div class="flex-column mt-3">

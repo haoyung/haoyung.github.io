@@ -112,9 +112,9 @@ body {
     font-weight: 500 !important;
   }
 
-  h3 {
-    font-weight: 600 !important;
-  }
+  // h3 {
+  //   font-weight: 600 !important;
+  // }
 
   .fw-bold {
     font-weight: 600 !important;
@@ -218,7 +218,7 @@ h6 {
 
 blockquote {
   // font-size: 16px;
-  padding: 0 1em;
+  padding: 0 0.75rem;
   color: var(--search-text-color);
   border-left: .25em solid var(--backquate-color);
 }

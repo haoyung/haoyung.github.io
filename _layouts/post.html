@@ -4,7 +4,7 @@ layout: default
 
 <div class="row mb-8">
   <div class="col-md-12">
-    <div class="headers border-bottom pb-8 mb-2">
+    <div class="headers mb-8">
       {% if page.subtitle == null %}
       <h1 class="mb-0">{{ page.maintitle }}</h1>
       {% else %}
@@ -13,8 +13,11 @@ layout: default
       {% if page.subhead != null %}
       <h4 class="subhead mt-3 mb-0">{{ page.subhead }}</h4>
       {% endif %}
+      <!-- {% if page.image != null %}
+      <img class="article-img col-md-6 mt-8" src="/assets/img/{{ page.image }}">
+      {% endif %} -->
     </div>
-    <div class="article-date">
+    <div class="article-date pt-2 border-top">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{
         page.date | date:
         "%B %-d, %Y" }}</time>

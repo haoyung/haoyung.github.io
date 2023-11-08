@@ -3,7 +3,7 @@ layout: post
 title: "Ninety Plus Innovation Line"
 maintitle: "Ninety Plus Innovation Line"
 subhead: "一些特殊、稀有、貴得驚人的咖啡"
-tag: [review, ntucoffee]
+tag: [review, 台大咖啡社]
 category: articles
 redirect_from: /articles/2021/07/13/Ninety-Plus-Innovation-Line
 ---

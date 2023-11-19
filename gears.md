@@ -18,6 +18,7 @@ title: "gears"
 
 -   *[Pulsar](https://nextlevelbrewer.com/pulsar-brewer/)
 -   *[Orea V3](https://www.orea.uk/orea-brewer-v3)
+-   [Tricolate](https://tricolate.com/)
 -   [KONO MDK-21](https://coffee-syphon.co.jp/meimon_filter/)
 -   [V60](https://www.hario.com/v60/v60series.html)（塑膠版）
 

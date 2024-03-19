@@ -4,6 +4,7 @@ title: "why coffee?" # the name of your site, e.g. ACME Corp.
 description: "Exploring the brews and beyond."
 lang: "zh-Hant-TW"
 permalink: /:categories/:title
+future: true
 
 exclude:
 - vendor

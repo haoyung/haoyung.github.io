@@ -9,7 +9,7 @@ title: "gears"
 
 -   *[OPTION-O LAGOM P100](https://www.option-o.com/shop/lagom-p100) w/ 98mm SSP Brew
 -   *[Fellow ODE](https://fellowproducts.com/products/ode-brew-grinder-gen-2) w/ 64mm SSP Brew
--   [Fellow ODE](https://fellowproducts.com/products/ode-brew-grinder-gen-2) w/ 64mm SSP Brew
+-   [Fellow ODE](https://fellowproducts.com/products/ode-brew-grinder-gen-2) w/ 64mm SSP MP
 -   [Kalita NEXT G](https://www.kalita.co.jp/products/nextg.php)
 -   [1zpresso ZP6](https://1zpresso.com/zp6-%E7%89%B9%E4%BB%95%E7%89%88/)
 -   [Commandante C40](https://www.comandantegrinder.com/)

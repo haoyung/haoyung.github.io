@@ -108,6 +108,16 @@ body {
 
   text-underline-offset: 0.2em;
 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td, th {
+    border-bottom: 1px solid var(--main-text-color);
+    padding: 0.5rem;
+  }
+
   span.fw-bold {
     font-weight: 500 !important;
   }

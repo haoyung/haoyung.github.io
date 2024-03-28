@@ -115,15 +115,18 @@ body {
     border-collapse: collapse;
   }
 
-  td, th {
+  th {
     // border-bottom: 1px solid var(--main-text-color);
     padding: 0.5rem;
     font-weight: normal;
-  }
-
-  th {
     background-color: var(--input-color);
     transition: background-color 0.5s;
+  }
+
+  td {
+    // border-bottom: 1px solid var(--main-text-color);
+    padding: 0.5rem;
+    // font-weight: normal;
   }
 
   tbody tr:nth-child(2n) {

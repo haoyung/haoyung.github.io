@@ -115,18 +115,16 @@ body {
     border-collapse: collapse;
   }
 
-  th {
-    // border-bottom: 1px solid var(--main-text-color);
+  td, th {
     padding: 0.5rem;
-    font-weight: normal;
-    background-color: var(--input-color);
-    transition: background-color 0.5s;
+    text-align: center;
   }
 
-  td {
-    // border-bottom: 1px solid var(--main-text-color);
-    padding: 0.5rem;
+  th {
+    // border-bottom: 1px solid var(--main-text-color);    
     // font-weight: normal;
+    background-color: var(--input-color);
+    transition: background-color 0.5s;
   }
 
   tbody tr:nth-child(2n) {

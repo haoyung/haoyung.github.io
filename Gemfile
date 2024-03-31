@@ -6,6 +6,8 @@ gem "kramdown-parser-gfm"
 
 gem 'jekyll-seo-tag'
 
+gem 'jekyll-toc'
+
 group :jekyll_plugins do
   gem 'jekyll-algolia'
   gem "jekyll-redirect-from"

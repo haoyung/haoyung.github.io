@@ -108,6 +108,29 @@ body {
 
   text-underline-offset: 0.2em;
 
+  #table-of-contents {
+    background-color: var(--input-color);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 4.5rem;
+  }
+
+  #toc {
+    margin-bottom: 0.4rem;
+    padding: 0rem;
+  }
+
+  .toc-entry {
+    font-size: 14px;
+    list-style: none;
+  }
+
+  .toc-entry .toc-entry {
+    list-style: square;
+  }
+
   table {
     margin-top: 1.5rem;
     width: 100%;

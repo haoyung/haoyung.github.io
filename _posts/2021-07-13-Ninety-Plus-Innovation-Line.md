@@ -6,7 +6,6 @@ subhead: "一些特殊、稀有、貴得驚人的咖啡"
 tag: [review, 台大咖啡社]
 category: articles
 redirect_from: /articles/2021/07/13/Ninety-Plus-Innovation-Line
-redirect_from: /articles/2021/07/13/Ninety-Plus-Innovation-Line
 ---
 
 剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。

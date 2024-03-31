@@ -1,16 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.6'
-
-gem "kramdown-parser-gfm"
-
+gem 'kramdown-parser-gfm'
 gem 'jekyll-seo-tag'
-
 gem 'jekyll-toc'
+gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do
   gem 'jekyll-algolia'
-  gem "jekyll-redirect-from"
-
-gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
 end

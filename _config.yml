@@ -14,7 +14,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-toc
 
 defaults:
   -
@@ -27,6 +26,11 @@ defaults:
       path: "about_text.md"
     values:
       sitemap: false
+  -
+    scope:
+      path: ""
+    values:
+      toc: true
 
 algolia:
   application_id: M50XXOEO0I

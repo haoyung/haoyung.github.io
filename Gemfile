@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 3.9'
 gem 'kramdown-parser-gfm'
 gem 'jekyll-seo-tag'
-gem 'jekyll-toc'
 gem 'webrick', '~> 1.8'
 
 group :jekyll_plugins do

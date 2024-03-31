@@ -28,7 +28,7 @@ layout: default
     </div>
     {% if page.toc %}
     <div id="table-of-contents">
-      {% toc %}
+      {% include toc.html html=content id="toc" item_class="toc-entry" %}
     </div>
     {% endif %}
     {{ content }}

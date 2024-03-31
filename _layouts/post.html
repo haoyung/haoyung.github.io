@@ -26,14 +26,12 @@ layout: default
       {% for tag in page.tags %}
       <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
     </div>
-    <div>
-      <div id="table-of-contents">
-        {% toc %}
-      </div>
-      <div id="markdown-content">
-        {{ content }}
-      </div>
+    {% if page.toc %}
+    <div id="table-of-contents">
+      {% toc %}
     </div>
+    {% endif %}
+    {{ content }}
   </div>
 </div>
 

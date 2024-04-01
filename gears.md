@@ -25,7 +25,7 @@ title: "gears"
 ##### 手沖壺
 
 -   *[Fellow EKG900](https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle)
--   [Bonita Variable Temperature Kettle](https://bonavita.co/products/1-0l-variable-temperature-kettle)
+-   [Bonavita Variable Temperature Kettle](https://bonavita.co/products/1-0l-variable-temperature-kettle)
 
 ##### 秤
 

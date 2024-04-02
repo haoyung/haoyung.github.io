@@ -31,11 +31,17 @@ layout: default
 <div class="row gx-md-6 gx-0 mb-8 align-items-end">
   <div class="col-md-6 mb-md-0 mb-8">
     <h3 class="fw-bold mb-4">latest articles</h3>
-    {%- for post in site.posts limit:5 %}
+    {%- assign count = 0 %}
+    {%- for post in site.posts %}
+    {%- if page.language == post.language and post.draft == false %}
+    {%- if count < 5 %}
     <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
+    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
+    {%- assign count = count | plus: 1 %}
+    {%- endif %}
+    {%- endif %}
     {%- endfor %}
     <div class="flex-column mt-3">
       <a href="{{ site.github.url }}/articles" style="font-style: italic">view all articles</a>

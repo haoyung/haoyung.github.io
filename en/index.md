@@ -5,7 +5,7 @@ language: en
 language_reference: home
 ---
 
-*Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!*
+***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
 
 Hi, I'm Hao-Yung Weng, a passionate coffee enthusiast. I previously led the [student coffee club of National Taiwan University](https://instagram.com/ntu.coffee) and continue to play a role in mentoring new club members.
 

@@ -5,16 +5,14 @@ language: en
 language_reference: home
 ---
 
-***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
+***Disclaimer: Please note that all English content on this blog has been translated using AI. Apologies for any quirks – blame the robots!***
 
-Hi, I'm Hao-Yung Weng, a passionate coffee enthusiast. I previously led the [student coffee club of National Taiwan University](https://instagram.com/ntu.coffee) and continue to play a role in mentoring new club members.
+Hi, I'm Hao-Yung Weng, a passionate coffee enthusiast. My coffee journey began when I led the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee), where I currently serve as a mentor for new members. Our club has a strong focus on research. We delve into blog posts (favorites include [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), among others), host cupping sessions, document our brewing, and measure extraction yields. Our mission is to continually deepen our understanding and refine our execution of the coffee brewing process.
 
-We regard ourselves as a relatively research-oriented organization. We read blog posts (we love [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), and many more), conduct cupping sessions, log brews, and measure yield. Our goal is always to brew better coffee.
+Over the years, my coffee exploration has yielded numerous insights. While I don't claim that all my discoveries are conclusive, I believe they are worth sharing. This blog serves as a platform for me to express my thoughts and experiences, and my background in Computer Science has proven surprisingly beneficial in this endeavor.
 
-Through years of research, I've gained many new insights into coffee. While I can't claim they're all correct, I believe they're worth sharing. That's why I decided to build this blog as a medium for sharing my thoughts and experiences (this is one of the few times my Computer Science degree comes in handy).
+The name of this blog, "why coffee?" was inspired by my initials, "WHY." This question can also serve as a point of reflection for all of us: What draws us to coffee? Is it the pursuit of experiencing diverse terroirs or the joy of engaging in discussions about the nuances of coffee with fellow enthusiasts?
 
-Since my name's initials spell out "WHY," I decided to use "why coffee?" as the name of the blog. This might also be a question worth asking ourselves: Why do we drink coffee? Is it to taste different terroirs? Or to enjoy the process of discussing coffee with fellow enthusiasts?
+During previous tasting events I've hosted, I often emphasized the phrase "connections between people" to capture the essence of coffee. Each bean tells a story of cultivation, harvesting, processing, and roasting, culminating in the cherished brew we enjoy. This journey creates connections among all those involved. I typically conclude these events by highlighting the bond we share through our love for coffee, saying, "You see, through our shared passion for coffee, we are interconnected."
 
-When hosting tasting events in the past, I often used the phrase "connections between people" to describe the meaning of coffee. From planting, harvesting, processing, and roasting to the final cup, each coffee bean has been on a long journey, and this journey connects the people involved. Usually, at this point, I would say to the audience, "You see, you and I are also connected through our shared love for coffee."
-
-Similarly, I'd like to extend this message to you, the person reading this right now.
+In that same spirit, I extend this camaraderie to you, dear reader.

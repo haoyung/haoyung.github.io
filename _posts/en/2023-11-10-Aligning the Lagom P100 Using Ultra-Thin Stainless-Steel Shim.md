@@ -110,8 +110,6 @@ It is crucial to emphasize again: each of the two burrs needs to be aligned sepa
 
 ##### Required Materials
 
-##### Required Materials
-
 - Whiteboard marker
 - Torque screwdriver (I used the [Wera 7441 torque screwdriver](https://24h.pchome.com.tw/prod/DEACFQ-A900A9GRS))
   - A torque screwdriver ensures consistent force is applied each time the burrs are assembled or disassembled, making the alignment process more stable. However, it's not essential; a standard screwdriver can also be used.

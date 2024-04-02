@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "home"
+language: tw
+language_reference: home
 ---
 
 Hi，我是翁浩永，大概算是狂熱的咖啡愛好者。我曾經在[台大咖啡社](https://instagram.com/ntu.coffee)擔任社長，現在則繼續擔任培育新幹部的角色。

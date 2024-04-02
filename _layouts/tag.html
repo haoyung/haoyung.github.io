@@ -5,103 +5,103 @@ layout: default
 <div class="row g-md-7 g-0 mb-8">
   <div class="col-md-8 mb-md-0">
     <h3 class="fw-bold mb-4">#{{ page.tag }}</h3>
-    {% for post in site.posts %}
-    {% if post.tags contains page.tag %}
+    {%- for post in site.posts %}
+    {%- if post.tags contains page.tag %}
     <div class="flex-column mt-3">
-      {% if post.subtitle == null %}
+      {%- if post.subtitle == null %}
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}</a>
-      {% else %}
+      {%- else %}
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.subtitle }}</a>
-      {% endif %}
+      {%- endif %}
       <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
-    {% endif %}
-    {% endfor %}
+    {%- endif %}
+    {%- endfor %}
   </div>
 
   <!-- <div class="col-md-2 colmd">
     <h3 class="fw-bold mb-4">tags</h3>
-    {% capture tags %}
-    {% for tag in site.tags %}
+    {%- capture tags %}
+    {%- for tag in site.tags %}
     {{ tag[1].size | minus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-    {% endfor %}
-    {% endcapture %}
-    {% assign sortedtags = tags | split:' ' | sort %}
-    {% for tag in sortedtags %}
-    {% assign tagitems = tag | split: '#' %}
+    {%- endfor %}
+    {%- endcapture %}
+    {%- assign sortedtags = tags | split:' ' | sort %}
+    {%- for tag in sortedtags %}
+    {%- assign tagitems = tag | split: '#' %}
     <div class="d-flex mb-3 justify-content-between border-bottom cmd1">
       <a href="/tag/{{ tagitems[1] }}" class="d-inline-flex text-decoration-none">#{{ tagitems[1] }}</a>
       <span class="d-inline-flex fw-bold">{{ tagitems[2] }}</span>
     </div>
-    {% endfor %}
+    {%- endfor %}
   </div>
 
   <div class="col-md-2 colmd">
     <h3 class="fw-bold mb-4 textmd" style="visibility: hidden;">tags</h3>
-    {% capture tags %}
-    {% for tag in site.tags %}
+    {%- capture tags %}
+    {%- for tag in site.tags %}
     {{ tag[1].size | minus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-    {% endfor %}
-    {% endcapture %}
-    {% assign sortedtags = tags | split:' ' | sort %}
-    {% for tag in sortedtags %}
-    {% assign tagitems = tag | split: '#' %}
+    {%- endfor %}
+    {%- endcapture %}
+    {%- assign sortedtags = tags | split:' ' | sort %}
+    {%- for tag in sortedtags %}
+    {%- assign tagitems = tag | split: '#' %}
     <div class="d-flex mb-3 justify-content-between border-bottom cmd2">
       <a href="/tag/{{ tagitems[1] }}" class="d-inline-flex text-decoration-none">#{{ tagitems[1] }}</a>
       <span class="d-inline-flex fw-bold">{{ tagitems[2] }}</span>
     </div>
-    {% endfor %}
+    {%- endfor %}
   </div>
 </div>
 
 <div class="row g-3 g-md-4 8 colsm">
   <h3 class="fw-bold mb-4">tags</h3>
   <div class="mt-0 col-md-2 col-4 col1">
-    {% capture tags %}
-    {% for tag in site.tags %}
+    {%- capture tags %}
+    {%- for tag in site.tags %}
     {{ tag[1].size | minus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-    {% endfor %}
-    {% endcapture %}
-    {% assign sortedtags = tags | split:' ' | sort %}
-    {% for tag in sortedtags %}
-    {% assign tagitems = tag | split: '#' %}
+    {%- endfor %}
+    {%- endcapture %}
+    {%- assign sortedtags = tags | split:' ' | sort %}
+    {%- for tag in sortedtags %}
+    {%- assign tagitems = tag | split: '#' %}
     <div class="d-flex mb-3 justify-content-between border-bottom c1">
       <a href="/tag/{{ tagitems[1] }}" class="d-inline-flex text-decoration-none">#{{ tagitems[1] }}</a>
       <span class="d-inline-flex fw-bold">{{ tagitems[2] }}</span>
     </div>
-    {% endfor %}
+    {%- endfor %}
   </div>
 
   <div class="mt-0 col-md-2 col-4 col2">
-    {% capture tags %}
-    {% for tag in site.tags %}
+    {%- capture tags %}
+    {%- for tag in site.tags %}
     {{ tag[1].size | minus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-    {% endfor %}
-    {% endcapture %}
-    {% assign sortedtags = tags | split:' ' | sort %}
-    {% for tag in sortedtags %}
-    {% assign tagitems = tag | split: '#' %}
+    {%- endfor %}
+    {%- endcapture %}
+    {%- assign sortedtags = tags | split:' ' | sort %}
+    {%- for tag in sortedtags %}
+    {%- assign tagitems = tag | split: '#' %}
     <div class="d-flex mb-3 justify-content-between border-bottom c2">
       <a href="/tag/{{ tagitems[1] }}" class="d-inline-flex text-decoration-none">#{{ tagitems[1] }}</a>
       <span class="d-inline-flex fw-bold">{{ tagitems[2] }}</span>
     </div>
-    {% endfor %}
+    {%- endfor %}
   </div>
 
   <div class="mt-0 col-md-2 col-4 col3">
-    {% capture tags %}
-    {% for tag in site.tags %}
+    {%- capture tags %}
+    {%- for tag in site.tags %}
     {{ tag[1].size | minus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-    {% endfor %}
-    {% endcapture %}
-    {% assign sortedtags = tags | split:' ' | sort %}
-    {% for tag in sortedtags %}
-    {% assign tagitems = tag | split: '#' %}
+    {%- endfor %}
+    {%- endcapture %}
+    {%- assign sortedtags = tags | split:' ' | sort %}
+    {%- for tag in sortedtags %}
+    {%- assign tagitems = tag | split: '#' %}
     <div class="d-flex mb-3 justify-content-between border-bottom c3">
       <a href="/tag/{{ tagitems[1] }}" class="d-inline-flex text-decoration-none">#{{ tagitems[1] }}</a>
       <span class="d-inline-flex fw-bold">{{ tagitems[2] }}</span>
     </div>
-    {% endfor %}
+    {%- endfor %}
   </div> -->
 </div>
 

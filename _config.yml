@@ -31,6 +31,17 @@ defaults:
       path: ""
     values:
       toc: true
+  -
+    scope:
+      path: '_posts/*.md'
+    values:
+      language: tw
+  -
+    scope:
+      path: '_posts/en/*.md'
+    values:
+      permalink: 'en/:categories/:title'
+      language: en
 
 algolia:
   application_id: M50XXOEO0I

@@ -21,8 +21,8 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-8">
   <div class="col-md-6">
-    {% for image in site.data.settings.gallery %}
-    {% if forloop.index == 1 %}
+    {%- for image in site.data.settings.gallery %}
+    {%- if forloop.index == 1 %}
     <div class="flex-column c1 mt-0 text-md-start text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
@@ -35,7 +35,7 @@ layout: default
       <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
-    {% else %}
+    {%- else %}
     <div class="flex-column c1 mt-3 text-md-start text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
@@ -48,12 +48,12 @@ layout: default
       <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
-    {% endif %}
-    {% endfor %}
+    {%- endif %}
+    {%- endfor %}
   </div>
   <div class="col-md-6">
-    {% for image in site.data.settings.gallery %}
-    {% if forloop.index == 2 %}
+    {%- for image in site.data.settings.gallery %}
+    {%- if forloop.index == 2 %}
     <div class="flex-column c2 mt-md-0 mt-3 text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
@@ -66,7 +66,7 @@ layout: default
       <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
-    {% else %}
+    {%- else %}
     <div class="flex-column c2 mt-3 text-end">
       <div class="img__wrap">
         <img src="{{ site.github.url }}/assets/img/{{ image.url }}" alt="Contact" width="100%">
@@ -79,8 +79,8 @@ layout: default
       <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">{{ image.location }}
         &middot; {{ image.year }}</span>
     </div>
-    {% endif %}
-    {% endfor %}
+    {%- endif %}
+    {%- endfor %}
   </div>
 </div>
 

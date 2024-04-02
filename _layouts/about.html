@@ -18,18 +18,18 @@ layout: default
 </div>
 
 <div class="row gx-md-6 gx-0 mb-8">
-  {% for contact in site.data.settings.contacts %}
+  {%- for contact in site.data.settings.contacts %}
   <div class="d-flex col-md-6 flex-column-reverse">
     <div class="flex-row mb-4">
-      {% for item in site.data.settings.social %}
-      {% if forloop.first %}
+      {%- for item in site.data.settings.social %}
+      {%- if forloop.first %}
       <a href="{{ item.link }}" class="ms-0 fs-5"><i class="{{ item.icon }}"
           style="color:var(--main-text-color);"></i></a>
-      {% else %}
+      {%- else %}
       <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.icon }}"
           style="color:var(--main-text-color);"></i></a>
-      {% endif %}
-      {% endfor %}
+      {%- endif %}
+      {%- endfor %}
     </div>
     <div class="flex-row mb-3">
       <span>Email: </span>
@@ -48,7 +48,7 @@ layout: default
     <h4 class="flex-row mb-3">{{ contact.name }}</h4>
     <h3 class="fw-bold mb-md-auto mb-4">contact</h3>
   </div>
-  {% endfor %}
+  {%- endfor %}
   <div class="col-md-6">
     <div class="flex-column mt-0 text-end">
       <img src="{{ site.github.url }}/assets/img/home.jpg" alt="home" width="100%">

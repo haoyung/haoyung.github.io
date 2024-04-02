@@ -6,24 +6,31 @@
   </div>
 
   <nav class="d-inline-flex align-items-stretch mt-0 ms-auto nav-container">
-    {% for item in site.data.settings.menu %}
-    {% if forloop.last %}
-    <a class="mb-0 me-0 py-0 text-decoration-none align-self-end nav-item last-nav-item"
-      href="{{ site.github.url }}{{ item.url }}">
-      <span>{{ item.name }}</span>
-    </a>
-    {% else %}
-    <a class="me-7 py-0 text-decoration-none align-self-end nav-item" href="{{ site.github.url }}{{ item.url }}">
-      <span>{{ item.name }}</span>
-    </a>
-    {% endif %}
-    {% endfor %}
+    {%- if page.language == "tw" %}
+      {%- assign lan_url = "" %}
+    {%- else %}
+      {%- assign lan_url = "" %}
+    {%- endif %}
+    {%- for item in site.data.settings.menu %}
+      {%- if forloop.last %}
+      <a class="mb-0 me-0 py-0 text-decoration-none align-self-end nav-item"
+        href="{{ site.github.url }}{{ lan_url }}{{ item.url }}">
+        <span>{{ item.name }}</span>
+      </a>
+      {%- else %}
+      <a class="me-7 py-0 text-decoration-none align-self-end nav-item"
+        href="{{ site.github.url }}{{ lan_url }}{{ item.url }}">
+        <span>{{ item.name }}</span>
+      </a>
+      {%- endif %}
+    {%- endfor %}
+    {%- include language-switch.html %}
   </nav>
 </header>
 
 
 <style>
-  .nav-container a.nav-item {
+  .nav-container .nav-item {
     line-height: 1.2;
     /* Moved from inline style */
   }

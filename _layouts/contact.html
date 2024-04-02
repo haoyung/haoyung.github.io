@@ -5,16 +5,16 @@ layout: default
 {{ content }}
 
 <div class="row gx-md-6 gx-0 mb-8">
-  {% for contact in site.data.settings.contacts %}
+  {%- for contact in site.data.settings.contacts %}
   <div class="d-flex col-md-6 flex-column justify-content-end">
     <!-- <div class="flex-row mb-4">
-      {% for item in site.data.settings.social %}
-      {% if forloop.first %}
+      {%- for item in site.data.settings.social %}
+      {%- if forloop.first %}
       <a href="{{ item.link }}" class="ms-0 fs-5"><i class="{{ item.icon }} fa-fw" aria-hidden="true"></i></a>
-      {% else %}
+      {%- else %}
       <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.icon }} fa-fw" aria-hidden="true"></i></a>
-      {% endif %}
-      {% endfor %}
+      {%- endif %}
+      {%- endfor %}
       <a id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;" class="ms-3 fs-5"><i class="fa-regular fa-circle-half-stroke fa-fw" aria-hidden="true"></i></a>
     </div> -->
     <h3 class="fw-bold mb-md-auto mb-6">contact</h3>
@@ -39,7 +39,7 @@ layout: default
       <a href="mailto:{{ contact.email }}" style="color: var(--main-text-color);" target="_blank">{{ contact.email }}</a>
     </div>
   </div>
-  {% endfor %}
+  {%- endfor %}
   <div class="col-md-6">
     <div class="flex-column mt-0 text-end">
       <img src="{{ site.github.url }}/assets/img/home.webp" alt="home" width="100%">

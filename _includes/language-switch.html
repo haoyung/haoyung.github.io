@@ -1,0 +1,17 @@
+{%- assign tw_pages = site.pages
+| where: 'language_reference', page.language_reference
+| where: 'language', "tw" %}
+{%- assign en_pages = site.pages
+  | where: 'language_reference', page.language_reference
+  | where: 'language', "en" %}
+{%- if tw_pages.size == 1 and en_pages.size == 1 %}
+{%- assign tw_url = site.baseurl | append: tw_pages[0].url %}
+{%- assign en_url = site.baseurl | append: en_pages[0].url %}
+<a class="mb-0 ms-7 py-0 {%- if page.language == 'en' %} text-decoration-none {%- endif %} align-self-end nav-item" href="{{ tw_url }}">
+  中
+</a>
+<span class="mb-0 py-0 align-self-end nav-item">&nbsp/&nbsp</span>
+<a class="mb-0 py-0 {%- if page.language == 'tw' %} text-decoration-none {%- endif %} align-self-end nav-item" href="{{ en_url }}">
+  EN
+</a>
+{%- endif %}

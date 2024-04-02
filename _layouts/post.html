@@ -5,17 +5,17 @@ layout: default
 <div class="row mb-8">
   <div class="col-md-12">
     <div class="headers mb-8">
-      {% if page.subtitle == null %}
+      {%- if page.subtitle == null %}
       <h1 class="mb-0">{{ page.maintitle }}</h1>
-      {% else %}
+      {%- else %}
       <h1 class="mb-0">{{ page.maintitle }}：<br>{{ page.subtitle }}</h1>
-      {% endif %}
-      {% if page.subhead != null %}
+      {%- endif %}
+      {%- if page.subhead != null %}
       <h4 class="subhead mt-3 mb-0">{{ page.subhead }}</h4>
-      {% endif %}
-      <!-- {% if page.image != null %}
+      {%- endif %}
+      <!-- {%- if page.image != null %}
       <img class="article-img col-md-6 mt-8" src="/assets/img/{{ page.image }}">
-      {% endif %} -->
+      {%- endif %} -->
     </div>
     <div class="pt-2 border-top">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{
@@ -23,14 +23,14 @@ layout: default
         "%B %-d, %Y" }}</time>
     </div>
     <div class="mb-8">
-      {% for tag in page.tags %}
-      <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {%- for tag in page.tags %}
+      <a href="/tag/{{tag}}">{{tag}}</a>{%- unless forloop.last %}, {%- endunless %}{%- endfor %}
     </div>
-    {% if page.toc %}
+    {%- if page.toc %}
     <div id="table-of-contents">
-      {% include toc.html html=content id="toc" item_class="toc-entry" %}
+      {%- include toc.html html=content id="toc" item_class="toc-entry" %}
     </div>
-    {% endif %}
+    {%- endif %}
     {{ content }}
   </div>
 </div>

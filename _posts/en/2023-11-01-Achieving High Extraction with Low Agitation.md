@@ -5,14 +5,12 @@ maintitle: "Achieving High Extraction with Low Agitation"
 subhead: "Sweet, complex, and transparent – A pour-over recipe inspired by SEY, achieving over 24% EY with very low agitation."
 tag: [recipe, pourover]
 category: articles
-language: en
 language_reference: high_extraction_low_agitation
 ---
 
 ***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
 
-
->   Note: [This blog's IG account](https://instagram.com/whycoffee.blog)](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews will be posted on IG. Please follow!
+>   Note: [This blog's IG account](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews will be posted on IG. Please follow!
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>

@@ -8,7 +8,9 @@ category: articles
 language_reference: align_p100
 ---
 
->   Note: [This blog's IG account](https://instagram.com/whycoffee.blog)](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews will be posted on IG. Please follow!
+***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
+
+>   Note: [This blog's IG account](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews will be posted on IG. Please follow!
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>

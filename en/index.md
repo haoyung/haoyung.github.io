@@ -5,7 +5,7 @@ language: en
 language_reference: home
 ---
 
-***Disclaimer: Please note that all English content on this blog has been translated using AI. Apologies for any quirks – blame the robots!***
+***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
 
 Hi, I'm Hao-Yung Weng, a passionate coffee enthusiast. My coffee journey began when I led the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee), where I currently serve as a mentor for new members. Our club has a strong focus on research. We delve into blog posts (favorites include [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), among others), host cupping sessions, document our brewing, and measure extraction yields.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Aligning the Lagom P100 Using Ultra-Thin Stainless-Steel Shim"
 maintitle: "Aligning the Lagom P100 Using Ultra-Thin Stainless-Steel Shim"
-subhead: "A tutorial on how to align using stainless steel shims – the ultra-thin and non-compressible nature of stainless steel foil allows for more perfect parallel alignment, ultimately achieving a near-perfect alignment of chirp to lock distance less than 20 microns on the <a href=https://www.option-o.com/shop/lagom-p100>Lagom P100</a>"
+subhead: "A tutorial article on aligning using stainless-steel shim - The ultra-thin and incompressible nature of stainless-steel shim allows for more precise alignment, ultimately achieving a chirp to lock distance of less than 20 microns, near-perfect alignment on the <a href=https://www.option-o.com/shop/lagom-p100>Lagom P100</a>"
 tag: [tutorial, grinder]
 category: articles
 language_reference: align_p100
@@ -20,221 +20,221 @@ language_reference: align_p100
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-8.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">After parallel alignment: a full wipe of the 98mm SSP Brew burr set</span>
+        <span class="image-span">Alignment completed showing a full wipe of the 98mm SSP Brew burr set</span>
     </div>
 </div>
 
-This article discusses how to perform parallel alignment using a marker test and stainless steel foil. I've detailed the process of aligning the 98mm SSP Brew burr set in National Taiwan University's Coffee Club's Lagom P100. If you own this grinder, you'll likely find the process beneficial, but even with a different grinder, this article should serve as a valuable reference.
+This article will discuss how to use marker tests and stainless-steel shim for aligning flat burr grinders. I have also detailed the process of aligning the 98mm SSP Brew burr set in the National Taiwan University Coffee Club's Lagom P100. If you happen to have this grinder, I believe the alignment process will be very helpful to you, but even if you have a different grinder, this article should serve as a good reference.
 
-#### The Importance of Parallelism
+#### The Importance of Alignment
 
-During grinding, coffee beans fall into the burrs' central hole, are propelled outward by inertia, and ground until their size is smaller than the gap between the burrs, at which point they exit as coffee grounds.
+During grinding, coffee beans fall into the center hole of the burr set and are propelled outward by inertia while being ground by the burrs until their size is less than the gap between the burrs, after which they exit the burr set as the coffee powder we see.
 
-Thus, the parallelism of the burrs is crucial. If the burrs are misaligned, the gap on each side will differ, causing the ground coffee particle size to vary and reducing grind uniformity, as shown in the illustration below.
+Therefore, the alignment of the burr set is quite important. If the burrs are not aligned, the gap on either side will not be the same, which leads to a slight difference in the particle size of the coffee powder on either side, decreasing grind uniformity, as shown below.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment.jpg" alt="" class="img-fluid responsive-image">
-        <span class="image-span">The importance of burr parallelism and how to check it using a marker test<br>(source: <a href="https://www.instagram.com/p/CzT81UBB8Uc/">IG, aramsecoffee</a>)</span>
+        <span class="image-span">The importance of burr alignment and how to check it using a marker test<br>(source: <a href="https://www.instagram.com/p/CzT81UBB8Uc/">IG, aramsecoffee</a>)</span>
     </div>
 </div>
 
-In the bottom right picture, the burrs are misaligned: the gap is wider on the right and narrower on the left, so the coffee ground from the right side will be larger, leading to uneven grinding.
+In the bottom right image, the two burrs are not aligned: the gap is larger on the right side and smaller on the left, so the coffee particles ground on the right will be larger than those on the left, leading to uneven grinding.
 
 #### Chirp to Lock Distance
 
-How can we objectively describe the burrs' parallelism? A common indicator is the "chirp to lock" distance, the gap between the burr's chirping point and locking point.
+So how do we objectively describe the alignment of the burrs? A common indicator is the chirp to lock distance, which is the distance between the burr chirp point and lock point.
 
 ##### Chirp Point
 
-The chirp point is often the zero point on your grinder's scale. You find it by turning on the grinder and gradually reducing the grind size until the burrs touch and produce a sharp sound, known as chirping. This point on the dial is the chirp point.
+The chirp point is usually set to the grinder's zero scale mark, which is when, with the grinder turned on, the grind setting is slowly adjusted finer until the burrs rub against each other, producing a sharp noise (also called a chirping sound). This mark is considered the chirp point.
 
-Since the burrs are typically very hard, this procedure shouldn't damage them, but be careful not to adjust any finer to avoid potentially damaging the motor.
+The burrs are usually very hard, so this procedure does not damage them, but be careful not to continue adjusting finer to avoid damaging the motor if the burrs lock.
 
 ##### Lock Point
 
-After finding the chirp point, turn off the grinder (important!). You'll notice you can still adjust the grind finer; the distance you can move until it won't turn further is the chirp to lock distance. The point where it can't move any further is the lock point.
+After finding the chirp point, we can **turn off the grinder** (be sure to turn it off!). At this point, you can still adjust the grinder finer, and the point at which it can no longer be adjusted is the chirp to lock distance. The scale at which it cannot move any further is the grinder's lock point.
 
-For example, before parallel alignment, the P100's lock point was at -0.8 when I couldn't turn the dial anymore, and the chirp point was at 0, making the chirp to lock distance 0.8. Knowing that each step on the P100 represents a 75 µm gap between the burrs, the distance was around 60 µm.
+For example, before completing the alignment, the P100 at the National Taiwan University Coffee Club had a lock point at -0.8 when adjusted finer until the dial could not turn any further, with the chirp point at 0, making the chirp to lock distance 0.8. On the P100, each scale represents a 75 µm gap between the burrs, so the chirp to lock distance is about 60 µm.
 
-In essence, a smaller chirp to lock distance with similar burr sizes and structures suggests that closer alignment results in more uniform grounds, which is crucial for consistent brewing quality.
+Generally, for burrs of the same size and structure (e.g., 98mm SSP Brew burrs), the smaller the chirp to lock distance, the more aligned the burrs. This is intuitive because a smaller chirp to lock distance means the burrs are still not rubbing against each other even when very close, indicating better alignment.
 
-#### How to Perform a Marker Test and Adjust Alignment Using Shims
+#### How to Perform a Marker Test and Use Shims for Alignment
 
-A common method to check burr alignment is the marker test, which uses a marker (dry erase marker) to verify alignment.
+A common method to check the alignment of burr sets is called the marker test, as the name suggests, using a marker (dry erase marker) for inspection.
 
-Clarification: while we often discuss "parallelism," it's essential that both burrs are parallel and each perpendicular to the axis. One burr is fixed, and the other rotates; if they are not perpendicular to the axis, they may appear parallel at a certain angle but will be misaligned once rotating.
+Firstly, it's crucial to clarify that while we often discuss alignment in terms of parallelism, it's not only about the burrs being parallel to each other; they also need to be perpendicular to the axis of rotation. This is because one of the burrs is stationary, while the other rotates. Thus, even if they appear parallel at a certain relative angle, they will not be parallel once the burr starts rotating.
 
-Thus, the marker test is not only checking for parallelism but also whether the burrs are perpendicular to the axis. The process is straightforward: apply marker ink on the flat edge of the burr undergoing alignment, reassemble, and start the grinder to find the chirp point. After slight contact, remove the burr to inspect. If the ink is evenly removed, it indicates alignment; if only partially removed, it suggests a high point, typically centered within the erased area.
+Hence, the marker test is not solely about checking if the burrs are parallel but also if they are perpendicular to the axis. The procedure is straightforward: apply the marker on the flat edge of one burr (the one being aligned) and reassemble it into the grinder. After starting the grinder and finding the chirp point, causing slight friction, remove the burr. If it is perpendicular to the axis, the marker ink should be uniformly removed, a state we call a full wipe. Conversely, if the ink is only removed at one spot, that indicates the first point of contact during adjustment, the higher point of the burr. We usually consider the midpoint of the erased ink area as the burr's high point.
 
-Adjustment involves adding shims opposite the high point to even out the burr, repeating until a full wipe is achieved, indicating the burr is perpendicular and aligned.
+We aim to place shims on the lower side of the burr, so at this point, we add shims under the screw on the opposite side of the high point, making the burr more aligned. Repeat this process until achieving a full wipe. This indicates that the burr is perpendicular to the axis. Following the same method to adjust the other burr ensures alignment.
 
-Example below:
+Consider the following image as an example:
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-1.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Burr post-marker test</span>
+        <span class="image-span">Burr immediately after a marker test</span>
     </div>
 </div>
 
-Upon detailed observation, you'll notice that the marker ink has been erased approximately from the 3 o'clock to 9 o'clock direction, suggesting the high point is at the 6 o'clock position. This means we need to add shims at the 12 o'clock position. Since there isn't a screw exactly at 12 o'clock, we typically start with the screw closest to this position, which is the top left screw.
+On close inspection, if the marker ink is removed approximately from the 3 o'clock to 9 o'clock direction, the high point is at 6 o'clock. This means we need to add shims at the 12 o'clock position. Since there is no screw exactly at 12 o'clock, we start by adding height at the closest screw to 12 o'clock (the top left screw).
 
-It's crucial to note that shims should only be inserted under the screws (usually a piece of equal thickness on either side of a screw) because placing a shim between two screws could risk bending the burr. The downward force exerted by the screws on either side could create a fulcrum point with the shim in the middle, potentially warping the burr.
+It is crucial to only place shims under the screws (usually one thin shim on each side of the screw) because adding a shim between two screws could bend the burr: the force exerted by the screws would press the burr down, and the shim in the middle would act as a fulcrum, causing the burr to bend.
 
-The logic of this method is straightforward: keep adding shims at lower areas until the burr becomes parallel. However, on closer examination, this process is incredibly tedious and time-consuming as it requires numerous disassemblies and reassemblies of the grinder (but this is an unavoidable part of the task).
+The logic is simple: continue to add shims at the lower points until the burr is aligned. However, this process is meticulous and time-consuming because it involves numerous disassemblies and reassemblies of the grinder (but... it's necessary).
 
-Since it's challenging to convey the entire process clearly through text alone, I highly recommend watching this classic [tutorial video](https://www.youtube.com/watch?v=Gb3PgeQ6ewY) before attempting the operation yourself.
+Text alone cannot clarify the process thoroughly, so it's highly recommended to watch this classic [instructional video](https://www.youtube.com/watch?v=Gb3PgeQ6ewY) before actual implementation.
 
-#### Why Stainless Steel Foil?
+#### Why Use Stainless Steel Shims?
 
-Shim size is typically 0.5 cm * 1 cm, often cut from aluminum foil for its availability and consistency in thickness. However, I found aluminum foil's stability lacking during adjustments, as alignment seemed to degrade over time, resembling compression.
+Shim sizes are generally 0.5 cm x 1 cm, often made from aluminum foil because it's readily available and meets the thinness and consistent thickness criteria. However, I found that using aluminum foil introduces considerable uncertainty in the alignment process; even after achieving a full wipe, the aligned state is not maintained for long. Months later, the previously higher area might return to being higher, as if the aluminum foil compressed over time.
 
-While it's debated physically, many noted aluminum's instability. Influential coffee blogger Rohan suggested in [an article](https://pocketsciencecoffee.com/2023/03/23/superjolly-bearing-replacement-part-2-alignment/) using stainless steel over aluminum foil, prompting me to switch and re-align using stainless steel, hence this article's inception.
+While I'm unsure if this is physically plausible, many have observed the instability of aluminum foil. The well-known coffee blogger rohan also advocated in [an article](https://pocketsciencecoffee.com/2023/03/23/superjolly-bearing-replacement-part-2-alignment/) for using stainless steel shims over aluminum foil. Additionally, finding even thinner stainless steel shims than aluminum foil convinced me to replace the aluminum with stainless steel shims for realignment, prompting this article.
 
 <div class="footnote">
   <div class="footnote-label">[C]</div>
-  <div class="footnote-content">Original text: "That’s when I vaguely remembered Nate Walck (also coincidentally the previous owner of Frankenjolly) mention on Hedrickcord (Lance Hedrick’s discord) that one should consider using stainless steel shims for alignment as opposed to aluminium foil (Long Vo probably was the first to suggest this as a solution on EAF but in context of a different discussion)."</div>
+  <div class="footnote-content">The original quote: "That’s when I vaguely remembered Nate Walck (also coincidentally the previous owner of Frankenjolly) mention on Hedrickcord (Lance Hedrick’s discord) that one should consider using stainless steel shims for alignment as opposed to aluminum foil (Long Vo probably was the first to suggest this as a solution on EAF but in context of a different discussion)."</div>
 </div>
 
-#### Detailed Adjustment Process
+#### Detailed Alignment Process
 
-The following details the process of aligning the Lagom P100's 98mm SSP Brew burrs. I believe that even if you are using a different grinder, most of these steps will still be of reference value.<sup class="footnote-sup">[D]</sup>
+Here is the process for aligning the 98mm SSP Brew burrs of the Lagom P100, but most steps should be applicable regardless of the grinder model used.
 
-It is crucial to emphasize again: each of the two burrs needs to be aligned separately. The burr that you apply the whiteboard marker to is the one being aligned. To achieve better parallelism, both burrs need to achieve a full wipe. The reason for separate alignments is that each burr must be perpendicular to the axis.
+To reiterate: each burr needs to be aligned separately. The burr marked with the dry erase marker is the one being aligned. To achieve optimal alignment, both burrs need to reach a full wipe state. They need to be aligned separately because they must both be perpendicular to the rotation axis.
 
 <div class="footnote">
   <div class="footnote-label">[D]</div>
-  <div class="footnote-content">I applied the same alignment method to another grinder at National Taiwan University's Coffee Society, the <a href="https://fellowproducts.com/products/ode-brew-grinder">Fellow Ode</a>.</div>
+  <div class="footnote-content">I also aligned the [Fellow Ode](https://fellowproducts.com/products/ode-brew-grinder) at the National Taiwan University Coffee Club using the exact same method.</div>
 </div>
 
 ##### Required Materials
 
-- Whiteboard marker
+- Dry erase marker
 - Torque screwdriver (I used the [Wera 7441 torque screwdriver](https://24h.pchome.com.tw/prod/DEACFQ-A900A9GRS))
-  - A torque screwdriver ensures consistent force is applied each time the burrs are assembled or disassembled, making the alignment process more stable. However, it's not essential; a standard screwdriver can also be used.
-  - Regarding the choice of torque, I followed the OPTION-O factory recommendation of 2.5N⋅m for adjusting, which is suitable for 98mm burrs. If your burrs are smaller, a setting of 2N⋅m might be more appropriate.
+    - A torque screwdriver ensures consistent torque is applied every time the burrs are assembled or disassembled, making the alignment process more stable. However, it's not mandatory; a standard screwdriver can also be used.
+    - Regarding the torque value, I used 2.5N⋅m recommended by OPTION-O specifically for 98mm burrs. If your burrs are smaller, a torque of 2N⋅m might suffice.
 - Screwdriver bit
-  - Choose a bit that fits the screws of your grinder. The P100 and most 98mm grinders use the PH3 screw specification.
-- Stainless steel foil
-  - Thinner foils can achieve a more precise parallel alignment but are also more time-consuming to use.
-  - I utilized a higher-priced, ultra-thin 5 µm stainless steel foil.
+    - Choose a bit that fits your grinder. The P100 and most 98mm grinders use PH3 screw size.
+- Stainless steel shims
+    - Thinner shims can achieve more precise alignment but are also more time-consuming to adjust.
+    - I used a higher-priced, ultra-thin 5 µm stainless steel shim.
 
-##### Dismantling the P100's Upper Burr (Skip if not applicable)
+##### How to Remove the Upper Burr of the P100 (Skip this section if not using P100)
 
-Fortunately, the lower burr was already showing a full wipe before any adjustment was made, so there was no need to disassemble it. However, I immediately encountered difficulties when trying to remove the upper burr after unscrewing it. The burr was stuck very tightly and could not be pulled out.
+Fortunately, the lower burr showed a full wipe before adjustment, so there was no need to dismantle it. However, I encountered difficulties when attempting to remove the upper burr. After unscrewing, the burr was stuck and couldn't be pulled out.
 
-After contacting customer service, they explained that the issue was likely due to coffee fines and oils creating a vacuum-like seal under the burr, making it impossible to remove due to air pressure. At this point, it's necessary to use a softer object (I used the handle of a screwdriver that has a soft grip) to tap the back of the burr. This vibration can effectively break the vacuum seal, thereby making the burr easier to remove.
+After contacting customer service, they explained that coffee fines and oils can create a near-vacuum state under the burr, making it impossible to remove due to air pressure. In such cases, tapping the back of the burr with a soft object (I used the handle of the screwdriver, which had a soft pad) can effectively break the vacuum, making the burr easier to remove.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/sam.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Official technical response</span>
+        <span class="image-span">Response from the official technician</span>
     </div>
 </div>
 
-This information is shared to aid those facing similar issues with the P100.
+This issue was a significant challenge for me, so I've documented it here for reference by other P100 users encountering the same problem.
 
-##### Beginning the Marker Test and Inserting Stainless Steel Shims
+##### Starting the Marker Test and Inserting Stainless Steel Shims
 
-Now we officially start the marker test. I have recorded the results of each marker test and noted under which screws I have inserted the shims. These photos have been aligned and had their backgrounds removed using Photoshop for easy comparison.
+Next, I began the marker test, recording each result and where I added shims under the screws. These photos have been aligned and had their backgrounds removed in Photoshop for easier comparison.
 
-Before starting the correction, it's crucial to remember the relative position between the burr and its seat. This means ensuring the burr is not rotated out of position after each lock because the burr itself has tolerances, and any arbitrary change in position can affect parallelism.
+Before starting the alignment, remember the relative position of the burr to its seat, ensuring it is not rotated out of position each time it's locked in place. The burr itself has tolerances, so changing its relative position can affect alignment.
 
-Here is the state before any alignment adjustment, with the chirp to lock distance about 60 µm:
+This was the condition before alignment, with the chirp to lock distance at about 60 µm.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-1.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Figure 1<br>(No stainless steel foil inserted yet)</span>
+        <span class="image-span">Figure 1<br>(No stainless steel shims inserted yet)</span>
     </div>
 </div>
 
-- Range of ink removal: approximately from 3 o'clock to 9 o'clock direction.
-- Midpoint of the high area: 6 o'clock direction.
+- The range where the ink was removed: approximately from 3 o'clock to 9 o'clock direction.
+- The midpoint of the higher area: 6 o'clock direction.
 
-The upper half-circle appears lower, requiring the insertion of shims at the 12 o'clock direction. However, there isn't a screw directly at 12 o'clock, so I start with the closest one at the top left and observe the changes in the marker test.
+The upper half-circle appears lower, necessitating the addition of a shim at the 12 o'clock direction. Since there's no screw there, I chose to start by placing a stainless steel shim under the screw closest to the lowest point (the top-left screw) and observe the changes in the marker test.
 
-After inserting 7 pieces of stainless steel foil under the top left screw, the marker test shows the following image:
+After placing 7 stainless steel shims under the top-left screw, the marker test showed the following image.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-3.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Figure 2<br>(7 pieces, 0 pieces, and 0 pieces of stainless steel foil were inserted under the top left, bottom left, and right screws respectively)</span>
+        <span class="image-span">Figure 2<br>(7, 0, and 0 stainless steel shims placed under the top-left, bottom-left, and right screws respectively)</span>
     </div>
 </div>
 
-- Range of ink removal: approximately from 3 o'clock to 11 o'clock direction.
-- Midpoint of the high area: 7 o'clock direction (bottom left screw).
+- The range where the ink was removed: approximately from 3 o'clock to 11 o'clock direction.
+- The midpoint of the higher area: 7 o'clock direction (bottom-left screw).
 
-It's observed that the midpoint of the higher area is now at the bottom left screw. Thus, we need to add equal amounts of stainless steel foil under the top left and right screws next.
+The middle point of the higher area is now at the bottom-left screw, indicating that equal amounts of shims should be placed under the top-left and right screws next.
 
-After adding 6 pieces of stainless steel foil under both the top left and right screws, we observe the following image:
+After placing an additional 6 shims each under the top-left and right screws, the image below was obtained.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-4.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Figure 3<br>(13 pieces, 0 pieces, and 6 pieces of stainless steel foil inserted respectively under the top left, bottom left, and right screws)</span>
+        <span class="image-span">Figure 3<br>(13, 0, and 6 stainless steel shims placed under the top-left, bottom-left, and right screws respectively)</span>
     </div>
 </div>
 
-- Range of ink removal: full wipe but notably wider from 3 o'clock to 11 o'clock.
-- Midpoint of the high area: 7 o'clock direction (bottom left screw).
+- The range where the ink was removed: full wipe, but the area from 3 o'clock to 11 o'clock direction shows a wider clearance.
+- The midpoint of the higher area: 7 o'clock direction (bottom-left screw).
 
-The non-parallel condition has improved, but the pattern remains similar to the previous image. Therefore, I continued adding 3 more pieces of stainless steel foil under both the top left and right screws, resulting in the next image.
+There's improvement in alignment, but the same trend persists. Thus, I added 3 more shims each under the top-left and right screws, resulting in the following image.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-7.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Figure 4<br>(16 pieces, 0 pieces, and 9 pieces of stainless steel foil inserted respectively)</span>
+        <span class="image-span">Figure 4<br>(16, 0, and 9 stainless steel shims placed under the top-left, bottom-left, and right screws respectively)</span>
     </div>
 </div>
 
-- Range of ink removal: all except for the 3 o'clock direction.
-- Midpoint of the high area: 9 o'clock direction.
+- The range where the ink was removed: all but the 3 o'clock direction.
+- The midpoint of the higher area: 9 o'clock direction.
 
-The right screw appears to be the final low point. By inserting one last piece of stainless steel foil under the right screw, a full wipe is achieved as shown below:
+The right screw is identified as the final low point. After placing one last shim under the right screw, a full wipe was achieved as shown below.
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment-8.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Figure 5<br>(16 pieces, 0 pieces, and 10 pieces of stainless steel foil inserted respectively)</span>
+        <span class="image-span">Figure 5<br>(16, 0, and 10 stainless steel shims placed under the top-left, bottom-left, and right screws respectively)</span>
     </div>
 </div>
 
-- Range of ink removal: full wipe achieved!
+- The range where the ink was removed: full wipe achieved!
 
-At this point, the chirp to lock distance has been successfully reduced to about 15 µm, indicating nearly perfect parallelism (usually below 30 µm is considered perfect). 16 pieces, 0 pieces, and 10 pieces of 5 µm stainless steel foil were inserted under the top left, bottom left, and right screws respectively.
+The chirp to lock distance was successfully reduced to about 15 µm, representing near-perfect alignment (usually, below 30 µm is considered perfect). A total of 16, 0, and 10 stainless steel shims, each 5 µm thick, were placed.
 
-I created a gif of the entire adjustment process as follows:
+I compiled the entire alignment process into a gif as shown below:
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/alignment.gif" alt="" class="img-fluid responsive-image">
-        <span class="image-span">The entire adjustment process in animation</span>
+        <span class="image-span">The entire alignment process in a gif</span>
     </div>
 </div>
 
-This illustrates how the area with removed ink expands with increasing amounts of stainless steel foil, showing a gradual improvement in the burr's parallelism.
+The area where the ink was removed gradually increased with more shims, showing an improvement in alignment.
 
 #### Conclusion and Discussion
 
 ##### Precision of the Lagom P100
 
-When achieving perfect parallelism, I had to insert 16 stainless steel shims under the screw at the top left corner of the burr, totaling 80 µm in thickness. This does not seem to align with OPTION-O's official precision claims, which state the following:
+To achieve perfect alignment, 16 stainless steel shims were placed under the top-left screw, totaling 80 µm in thickness. This seems to contradict OPTION-O's official precision claims, which state:
 
 > **Every** critical part of the grinder is CNC-machined to a tolerance of <10 microns, with a flatness tolerance of < 5 microns. Each piece of CNC-machined parts is confirmed using industrial CMM (coordinate measuring machine) post-machining, or else they will be rejected. So we are confident the parts will be perfect. **No user alignment is required.**
 
-However, I do not fault them as every manufacturing process has its tolerances, including the burrs made by SSP. Achieving near-perfect parallelism like machines from [Titus](https://www.titus-grinding.de/) or [zerno](https://zerno.co/) is an incredibly high standard.
+However, I don't blame them; everything has tolerances, including the SSP-manufactured burrs. Therefore, achieving near-perfect parallelism for every machine, similar to brands like [Titus](https://www.titus-grinding.de/) or [zerno](https://zerno.co/), is an incredibly high standard.
 
-In essence, it might be best to maintain a healthy skepticism towards manufacturers' claims... Aligning the machine yourself is not only reassuring but also an enriching learning experience!
+In essence, don't just take the manufacturers' word for it... Aligning the grinder yourself is not only reassuring but also a great learning experience!
 
-##### The Difference and Necessity of Parallel Alignment
+##### The Impact of Alignment and Its Necessity
 
-So, did the alignment make the grind size more uniform? Did it improve the taste of the coffee? I believe it did, but I must admit that I am not entirely confident, as these claims are hard to substantiate with data, and I tend to believe that sensory experiences alone are not sufficient evidence.
+So, did the particle size distribution improve after alignment? Did the coffee taste better? I believe so, but honestly, I'm not entirely confident as this is hard to prove with data, and I usually consider sensory experiences alone insufficient as evidence.
 
-Many report that after burr alignment, they can apply higher pressure to the espresso puck at the same grinder setting, indicating fewer fines. However, since my burrs could not produce a 9 bar espresso (the 98mm SSP Brew burrs produce too few fines to build adequate pressure), I did not test this aspect.
+Many report that after burr alignment, the coffee puck can withstand higher pressure at the same grinder setting when making espresso, indicating fewer coarse particles. However, since my burrs couldn't produce 9 bar espresso shots to begin with (the 98mm SSP Brew burrs produce too few fines to build adequate pressure), I didn't test this aspect.
 
-To me, the greatest value of alignment lies in its ability to rule out the grinder as a variable when coffee quality is lacking. In plain terms, when the coffee tastes off, I can confidently eliminate the grinder from the list of potential culprits, which I think is beneficial for everyone's mental well-being (though it also removes an easy excuse for bad coffee).
+For me, the greatest significance of aligning the burrs is to effectively eliminate the grinder as a variable when the coffee isn't ideal. In layman's terms, when the coffee tastes off, I don't have to worry if it's due to the grinder. I think this is beneficial for everyone's peace of mind (though it also removes one potential excuse for bad coffee, which can be inconvenient).
 
-Perhaps the real reason for alignment, as mentioned in the [alignment tutorial video](https://www.youtube.com/watch?v=Gb3PgeQ6ewY) I referenced earlier, is that it allows us coffee nerds to finally sleep well, knowing our grinder is precisely tuned.
+Perhaps the real reason for burr alignment, as mentioned in the [alignment tutorial video](https://www.youtube.com/watch?v=Gb3PgeQ6ewY) I referenced earlier, is that it allows us, the coffee nerds, to finally sleep well, knowing our grinder is as precise as it can be.

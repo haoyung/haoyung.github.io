@@ -8,6 +8,8 @@ category: articles
 language_reference: high_extraction_low_agitation
 ---
 
+***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
+
 > Note: [The IG account of this blog](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is now online! Future shorter reviews and insights articles will be posted on IG, and we warmly welcome everyone to follow us!
 
 <div class="footnote">

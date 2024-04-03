@@ -48,7 +48,12 @@ layout: default
     {%- endif %}
     {%- endfor %}
     <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}/articles" style="font-style: italic">view all articles</a>
+      {%- if page.language == "tw" %}
+        {%- assign language_url = "" %}
+      {%- else %}
+        {%- assign language_url = "/en" %}
+      {%- endif %}
+      <a href="{{ site.github.url }}{{ language_url }}/articles" style="font-style: italic">view all articles</a>
     </div>
   </div>
   <div class="col-md-6">

@@ -2,19 +2,19 @@
 layout: post
 title: "Achieving High Extraction with Low Agitation"
 maintitle: "Achieving High Extraction with Low Agitation"
-subhead: "Sweet, complex, and transparent – A pour-over recipe inspired by SEY, achieving over 24% extraction yield with very low agitation."
+subhead: "Sweet, complex, and transparent – A pour-over recipe inspired by SEY that achieves over 24% extraction yield with very low agitation."
 tag: [recipe, pourover]
 category: articles
 language_reference: high_extraction_low_agitation
 ---
 
-***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
+***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the bots!***
 
-> Note: [The IG account of this blog](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is now online! Future shorter reviews and insights articles will be posted on IG, and we warmly welcome everyone to follow us!
+> Note: [This blog's IG account](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews will be posted on IG. Please follow!
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">All the underlined texts in this article are linked, if you find parts that are unclear, make sure to click through to see the extended reading!</div>
+  <div class="footnote-content">All underlined text in this article contains links. Be sure to click through for additional reading if anything is unclear!</div>
 </div>
 
 <div class="row justify-content-center">
@@ -24,144 +24,156 @@ language_reference: high_extraction_low_agitation
     </div>
 </div>
 
-Low agitation and high extraction sound like conflicting concepts. Agitation (which essentially refers to stirring, including the stirring effect of water flow on coffee grounds) can help coffee grounds thoroughly mix with water, increasing extraction and making it more uniform in most cases.
+Low agitation and high extraction might seem like opposing concepts. Agitation can ensure coffee grounds mix thoroughly with water, [increasing extraction and making it more uniform](https://www.instagram.com/p/CygUKuNLw94/?img_index=2) in most cases.
 
-However, agitation can also accelerate fines migration (usually referring to the settling of fines), which makes the filter more prone to clogging. Clogging can exacerbate channeling and bypass, eventually leading to more astringent substances not being properly filtered by the coffee bed. This is why we often associate clogging with bitter and undesirable flavors<sup class="footnote-sup">[B]</sup>.
+However, agitation can also speed up fines migration, leading to a higher likelihood of filter clogging. Clogging can worsen channeling and bypass, ultimately causing more astringent substances to not be properly filtered by the coffee bed. This is why clogging is often associated with astringency and undesirable flavors<sup class="footnote-sup">[B]</sup>.
 
 <div class="footnote">
   <div class="footnote-label">[B]</div>
-  <div class="footnote-content">For a more detailed analysis of astringency, you can read Jonathan Gagné's article <a href="https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/">"The Mechanism Behind Astringency in Coffee"</a>.</div>
+  <div class="footnote-content">For a more detailed analysis of astringency, you can read Jonathan Gagné's blog post <a href="https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/">"The Mechanism Behind Astringency in Coffee"</a>.</div>
 </div>
 
-#### The Challenge of Brewing with High Extraction Rate
+#### The Challenge of Brewing with a High Extraction Yield
 
-I always prefer coffee with a high extraction rate and generally aim for at least 22% extraction when brewing. In my experience, coffee with a high extraction rate has better flavor complexity and sweetness, and its flavors are closer to those found during cupping. Reproducing cupping flavors during pour-over has always been one of my dreams.
+I always aim for at least a 22% extraction yield when brewing my coffee, preferring those with a high extraction yield for their improved flavor complexity and sweetness, closely resembling the flavors found during cupping. Reproducing the flavor profile of cupping with pour-over has always been a dream of mine.
 
-But to achieve high extraction, finer grinding or agitation is needed.
+But achieving high extraction requires either finer grinding or more agitation (or both).
 
-When grinding finer, coffee is cut more times, producing more fines, which makes clogging more likely. Agitation, as mentioned above, also tends to cause clogging.
+Grinding finer results in the coffee being cut more frequently, producing more fines, which can clog the filter. As mentioned, agitation also tends to cause clogging.
 
-This makes pursuing high extraction brewing often difficult and frustrating, because even when using burrs that produce very few fines (I use the 98mm SSP Brew burrs), clogging can still occur under fine grinding and high agitation settings. In such cases, even if high extraction is achieved, while enjoying the high complexity and sweetness, one often also has to endure a poorer mouthfeel, more specifically: astringency.
+Thus, pursuing a high extraction yield often becomes challenging and frustrating because, even with burrs that produce very few fines (like the 98mm SSP Brew burrs I use), clogging can still occur under a fine grind setting and high agitation. In such situations, despite achieving high extraction, the high complexity and sweetness come with the downside of a poor mouthfeel: astringency.
+
 
 #### The Origin of the Low Agitation Method
 
-The issue of astringency has been gaining more attention in the coffee enthusiast community recently. I discussed my problem of excessive astringency during high extraction with many international enthusiasts on Discord, but most people did not pursue such high extraction rates, and grinding coarser became the simplest solution: not only reducing the amount of fines, making clogging less likely, but also reducing the number of times coffee is cut, thus decreasing the amount of astringent substances released from broken cell walls (this is somewhat complex, please refer to [Jonathan Gagné's article](https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/) if interested).
+The issue of astringency has recently attracted more attention in the coffee enthusiast community. Experiencing excessive astringency during high extraction brews, I discussed the issue with international enthusiasts on Discord. However, most did not aim for such high extraction yields, and grinding coarser emerged as the simplest solution: it not only reduced the amount of fines, making clogging less likely but also decreased the amount of astringent substances released from broken cell walls. This approach, though effective, felt like a compromise to me (for more on this, see [Jonathan Gagné's article](https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/)).
 
-But I wondered, isn't there a way to reduce astringency under high extraction? The one that I know of that is closest to my extraction philosophy of "maximizing extraction rate, reproducing cupping flavors" is probably [SEY](https://www.seycoffee.com/), a coffee shop I like very much located in Brooklyn. Most of the coffee I brew comes from them. Out of curiosity, I sent them an email asking about their brewing parameters, and mentioned my views on astringency.
+Seeking a way to reduce astringency while maintaining high extraction led me to [SEY](https://www.seycoffee.com/), a favorite coffee shop of mine located in Brooklyn, which closely aligns with my extraction philosophy of "maximizing extraction rate, reproducing cupping flavors". Much of the coffee I brew comes from them. Out of curiosity, I sent them an email inquiring about their brewing recipe and shared my experiences with astringency.
 
-Actually, I did not expect a reply, because from past contact experiences, it was evident they were overwhelmed just by order messages. However, to my surprise, two days later, I received a detailed reply from them (I guess written by the famous owner Lance?).
+Actually, I did not expect a reply, because from past contact experiences, it was evident they were overwhelmed just by order messages. Surprisingly, two days later, I received a detailed response (presumably from the famous "SEY Lance"?). Below is the email I received:
 
-Lance (or whoever I thought was Lance) suggested: when trying to increase extraction rate using very fine grounds slightly coarser than for espresso, use a [Melodrip](https://melodrip.co/) (a shower-like device) for brewing to reduce agitation, because in his experience, agitation increased astringency, which I guess might partly be related to the risk of clogging caused by agitation.
+> For filter coffee, I have my grinder (Nautilus w/ SSP Brew Burrs) at around 250 and 300 microns. 
+> 
+> Our water is: Mg - 15ppm, Ca - 20ppm, Bicarbonate (KH) - 15ppm
+>
+> For the sake of simplicity, we'll talk about V60. As you know, we're really working towards figuring out how to increase EY. With our coffees, you should be able to achieve 24%+ for most Latin coffees and 26%+ for most African coffees. Our brew times are between 6 and 8 minutes for complete draw-down times. looking for a 1.4%—1.5% TDS.
+>
+> A simple technique to try: 16g dose at a 1:20 ratio. Bloom for 60 seconds with a very gentle stir and swirl for complete saturation. With a Melodrip, do 75g pulses until the desired out weight with gentle swirls between pulses. This should result in somewhere between 6 and 8 minutes of total brew time. If longer, I wouldn't worry unless there are off flavors in the cups.
+>
+> Something to note is that with really high EYs the coffee really changes and improves as the coffee cools.
+>
+> To mitigate astringency, I'd recommend trying a Melodrip and using zero agitation. For us, we've noticed that although agitation helps increase EY, it also increases astringency. So, **trying to get high EYs without using agitation is kind of the trick.**
 
-The last sentence is the core of this article: **The trick is how to achieve high EY without using agitation**.
+In essence, Lance's advice was to use a [Melodrip](https://melodrip.co/) (a shower-like device) to reduce agitation when aiming for a high extraction yield with a very fine grind, as agitation, in his experience, increased astringency, which might be partly due to clogging.
+
+The last sentence of the email is the key takeaway of the email: **The trick is how to achieve high EY without using agitation**.
 
 #### The Potential Problems Brought by Low Agitation
 
-We can easily think of a few potential problems:
-- With extremely fine grinding, the amount of fines will definitely be more than with coarse grinding. Although agitation is reduced, is there still a high risk of clogging?
+A few potential issues come to mind:
+- With an extremely fine grind, the amount of fines will undoubtedly increase. Even with reduced agitation, is there still a high risk of clogging?
 
-- With the lack of agitation, the coffee at the bottom of the filter may be under-extracted. If the bottom extraction is insufficient, is it difficult to achieve high extraction rate?
+- Without agitation, the coffee at the bottom of the filter may be under-extracted. Could this hinder achieving a high extraction yield?
 
-Surprisingly, SEY uses the exact same burrs (the original version of the 98mm SSP Brew) as us, which means this parameter should be directly applicable to us. I modified this parameter using the equipment I had at hand, replacing the V60 with the [Orea V3](https://shop.orea.uk/products/orea-brewer-v3-mk2) using [negotiated](https://shop.orea.uk/products/negotiator-tool) [Flat filter papers](https://shop.orea.uk/products/orea-flat-paper-filter-type-g) that have less bypass, and used the disperser that comes with [Pulsar](https://nextlevelbrewer.com/pulsar-brewer/) instead of [Melodrip](https://melodrip.co/).
+Surprisingly, SEY uses the exact same burr set (the [98mm SSP Brew V1](https://www.home-barista.com/brewing/ssp-98mm-brewing-burrs-t74971.html)) as us, indicating that this recipe could be directly applicable. I adapted it using my available equipment, substituting the V60 for the [Orea V3](https://shop.orea.uk/products/orea-brewer-v3-mk2) with [negotiated](https://shop.orea.uk/products/negotiator-tool) [flat filter papers](https://shop.orea.uk/products/orea-flat-paper-filter-type-g) that have less bypass and used the disperser from [Pulsar](https://nextlevelbrewer.com/pulsar-brewer/) instead of [Melodrip](https://melodrip.co/).
 
-After some experiments, I can confidently say that both of the above-mentioned problems do not exist, or at least are not serious. The chance of clogging is greatly reduced compared to the parameters I usually use for brewing, and it is easy to achieve an extraction rate of over 24%.
+After extensive experiments, I can confidently confirm that the previously mentioned problems were nonexistent or at least not serious. The chance of clogging was much lower compared to the recipes I usually use, and achieving an extraction yield of over 24% was straightforward.
 
-#### Detailed Parameter Introduction
+#### Detailed Recipe Introduction
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/sey_grind_size.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Illustration of grind size<br>This is SEY's Las Perlitas (Washed Colombian Field Blend) ground with 98mm SSP Brew, burr gap set at 225 µm from lock</span>
+        <span class="image-span">Illustration of grind size<br>This is [SEY's Las Perlitas (Washed Colombian Field Blend)](https://www.seycoffee.com/products/las-perlitas) ground with 98mm SSP Brew V1, burr gap set at 225 µm from lock</span>
     </div>
 </div>
 
-Below are the detailed parameter introductions and brewing steps:
+Here are the detailed parameters and brewing steps for this recipe:
 
 - Coffee to water ratio: 16g:320g (1:20)
 - Water temperature: 100°C
-- Water quality: pure water
-    - Will re-mineralize after brewing (i.e., directly add minerals to the coffee after brewing is completed<sup class="footnote-sup">[C]</sup>).
-    - If there is no suitable mineral concentrate to be added after brewing, then you can directly use water around 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, with equal parts Ca<sup>2+</sup> and Mg<sup>2+</sup>.
-    - If you have no research on water quality, you can also use normal drinking water with not too high TDS.
+- Brewing water: distilled water, re-mineralized post-brewing (for convenience, minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
+  - Without a specific mineral concentrate, aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, balanced between Ca<sup>2+</sup> and Mg<sup>2+</sup>.
+  - If unsure about water, normal tap water with a low TDS is acceptable.
     
-- Grind size: Burr gap set at 200 to 300 µm.
-    - Slightly coarser than the usual espresso setting.
-    - I used the Lagom P100 with the 98mm SSP Brew burrs, with grind settings around 3.0 to 4.0.
-    - If the grinder produces more fines, consider using a slightly coarser grind size.
+- Grind size: Burr gap set between 200 to 300 µm from lock.
+  - Only slightly coarser than typical 9 bar espresso settings.
+  - I used the Lagom P100 with the 98mm SSP Brew burrs, with grind settings between 3.0 and 4.0.
+  - If your grinder produces more fines, consider a slightly coarser grind.
 
 - Target concentration (TDS): 1.35%+
-- Target extraction rate: 24%+
+- Target extraction yield: 24%+
 
 <div class="footnote">
   <div class="footnote-label">[C]</div>
-  <div class="footnote-content">Many, including myself, believe that minerals do not participate in extraction, so adding them before or after brewing does not make a difference. Here, I choose the more convenient method of adding minerals after brewing. I use the mineral concentrate from <a href="https://lotuscoffeeproducts.com/">Lotus Coffee Brew Water</a>.</div>
+  <div class="footnote-content">Many, including myself, believe minerals don't participate in extraction, so adding them before or after doesn't hugely impact the brew. I find adding them post-brew more convenient. I use mineral concentrate from <a href="https://lotuscoffeeproducts.com/">Lotus Coffee Brew Water</a>.</div>
 </div>
 <div class="footnote">
   <div class="footnote-label">[D]</div>
-  <div class="footnote-content">For a more detailed introduction to water quality, you can refer to the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
+  <div class="footnote-content">For more on brewing water, check out the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
 </div>
 
 ##### Required Equipment
 -   Very lightly roasted coffee
-    -   Since our goal is very high extraction rates, it is necessary to ensure that the coffee is good at high extraction settings. In my experience, high extraction usually suits lighter roasted coffee better.
-    -   Some experimentally successful roasteries: [SEY](https://www.seycoffee.com/), [Manhattan](https://manhattancoffeeroasters.com/), [Prodigal](https://getprodigal.com/).
--   Filter cup
-    -   Any filter cup will do. SEY uses a V60, while I used the [Orea V3](https://shop.orea.uk/products/orea-brewer-v3-mk2).
-    -   To improve extraction rate, try to use a plastic filter cup with better heat retention.
+    -   Since our goal is very high extraction yield, it is necessary to ensure that the coffee is tasty at high extraction. In my experience, high extraction usually suits lighter roasted coffee better.
+    -   Roasteries I normally used with this recipe: [SEY](https://www.seycoffee.com/), [The Picky Chemist](https://en.thepickychemist.com/).
+-   Dripper
+    -   Any dripper will do. SEY uses a V60, while I used the [Orea V3](https://shop.orea.uk/products/orea-brewer-v3-mk2).
+    -   To increase extraction yield, try to use a plastic filter cup with better heat retention.
 -   Grinder, filter paper, carafe, digital scale, and other basic pour-over equipment (you might not even need a pouring kettle!).
 -   Device to reduce agitation
-    -   [Melodrip](https://melodrip.co/), [Tricolate](https://tricolate.com/), or the disperser that comes with [Pulsar](https://nextlevelbrewer.com/pulsar-brewer/) will do. Actually, you can also use a small teaspoon to catch the water poured from the kettle, a method shared by [pocketsciencecoffee](https://www.youtube.com/watch?v=Z7EOCcH0v68); as long as it can reduce agitation to the coffee bed, it will work.
--   WDT tool
-    -   You can also use a spoon, chopsticks, or glass rod instead, that can stir the coffee bed during the bloom.
+    -   [Melodrip](https://melodrip.co/) or the disperser that comes with eith [Pulsar](https://nextlevelbrewer.com/pulsar-brewer/) or [Tricolate](https://tricolate.com/) will do. Actually, you can also use a small teaspoon to catch the water poured from the kettle, a method shared by [pocketsciencecoffee](https://www.youtube.com/watch?v=Z7EOCcH0v68); as long as it can reduce agitation to the coffee bed, it will work.
+-   A WDT tool
+    -   You can also use a spoon, chopsticks, or glass stick instead, that can stir the coffee bed during the bloom.
 
 ##### Detailed Brewing Steps
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/sey_recipe_setup.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Side view of equipment during brewing (it's important to note that the disperser is not needed during bloom)<br>The background is the cluttered office of NTU Coffee Club</span>
+        <span class="image-span">Equipment setup during brewing (note: the disperser isn't needed during bloom)<br>The backdrop is the NTU Coffee Club's cluttered office</span>
     </div>
 </div>
 
-The following steps are using [Orea V3](https://shop.orea.uk/products/orea-brewer-v3-mk2) with [Flat filter papers](https://shop.orea.uk/products/orea-flat-paper-filter-type-g), [negotiator](https://shop.orea.uk/products/negotiator-tool), and the disperser from [Pulsar](https://nextlevelbrewer.com/pulsar-brewer/) as examples.
+The steps below use the [Orea V3](https://shop.orea.uk/products/orea-brewer-v3-mk2) with [negotiated](https://shop.orea.uk/products/negotiator-tool) [flat filter papers](https://shop.orea.uk/products/orea-flat-paper-filter-type-g) and the disperser from [Pulsar](https://nextlevelbrewer.com/pulsar-brewer/) as examples.
 
-1.   Fold a cross pattern on Orea's Flat filter paper, press it into the filter cup using negotiator, and wet the filter paper.
-2.   Measure 16g of coffee, grind and dump into the filter cup.
-3.   Use the WDT tool to flatten and evenly distribute the coffee in the filter cup.
-4.   Start timing, use 40g of water for blooming, **no need to use the disperser at this time**.
-5.   Immediately perform Wet WDT with the WDT tool, gentle stirring is enough, too vigorous stirring can lead to clogging risk.
-6.   After Wet WDT, perform a gentle shake (Rao Spin) to ensure the coffee bed is flat and without holes poked by the WDT tool.
-7.   Place the disperser of Pulsar above the filter cup, the disperser weighs 50g, so the total weight shown on the scale at this time is 90g.
-8.   At 1:00, add 70g of water, initially add water in a larger amount to ensure even distribution within the disperser, then pour at a rate of 2.5–3g/s in the center.
-9.   Gently shake the filter cup to flatten the coffee bed.
-10.   When the water level above the coffee bed is about 0.5–1cm left, add another 70g of water, and repeat steps 8 and 9. Repeat this four times, and the total weight shown on the scale should be 370g, indicating a total water usage of 320g (because the disperser weighs 50g).
-11.   Wait for the water to completely drain, the total brewing time should be about 7–9 minutes, but generally, as long as the total time is within 10 minutes, there should not be too much problem with flavor.
-12.   Use [Lotus Coffee Brew Water](https://lotuscoffeeproducts.com/) for re-mineralize, add one drop of CaCl<sub>2</sub> solution, one drop of MgCl<sub>2</sub> solution, and two drops of NaHCO<sub>3</sub> solution to the coffee, resulting in approximately 15 ppm as CaCO<sub>3</sub> for Ca<sup>2+</sup>, Mg<sup>2+</sup>, HCO<sub>3</sub><sup>-</sup>.
+1. Fold a cross pattern on Orea's flat filter paper, negotiate it into the dripper using the negotiator and pre-wet it.
+2. Measure 16g of coffee, grind and transfer to the dripper.
+3. Flatten and distribute the coffee evenly with the WDT tool.
+4. Begin timing, add 40g of water for blooming. **Do not use the disperser yet**.
+5. Stir gently with the WDT tool (Wet WDT) immediately after blooming, avoiding vigorous stirring to minimize clogging risk.
+6. After Wet WDT, perform a gentle spin (i.e. Rao Spin) to ensure the coffee bed is flat and without holes poked by the WDT tool.
+7. Situate the Pulsar disperser over the dripper. The disperser weighs 50g, so the total weight shown on the scale at this time is 90g.
+8. At the 1-minute mark, pour in 70g of water, starting with a larger amount for even distribution, then continue pouring at about 2.5–3g/s in the center.
+9.  Level out the coffee bed with a gentle spin.
+10. Repeat step 8. and 9. when roughly 0.5–1cm of water remains above the coffee bed. Repeat this four times, and the total weight shown on the scale should be 370g, indicating a total water usage of 320g (because the disperser weighs 50g).
+11. Allow the water to fully drain. The total brew time should be between 7–9 minutes, but as long as it's under 10 minutes, flavor should not be adversely affected.
+12. Finish by re-mineralizing with [Lotus Coffee Brew Water](https://lotuscoffeeproducts.com/), adding one drop each of CaCl<sub>2</sub> and MgCl<sub>2</sub> solutions, and two drops of NaHCO<sub>3</sub>, achieving roughly 15 ppm as CaCO<sub>3</sub> for Ca<sup>2+</sup>, Mg<sup>2+</sup>, and HCO<sub>3</sub><sup>-</sup>.
 
-#### Brewing Data and Discussion
+#### Brewing Log and Discussion
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/samplerecipe.jpg" alt="" class="img-fluid responsive-image">
-        <span class="image-span">One of the more successful brews that achieved the target TDS and extraction rate<br>The TDS and extraction rate were 1.37% and 24.47% respectively</span>
+        <span class="image-span">A successful brew achieving the target TDS and extraction yield<br>The TDS and extraction rate were 1.37% and 24.47% respectively</span>
     </div>
 </div>
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/sampleflowchart.jpg" alt="" width="100%">
-        <span class="image-span">Chart of pouring rate (blue line) and weight (brown line) changes</span>
+        <span class="image-span">Chart of pouring rate (blue line) and weight (brown line)</span>
     </div>
 </div>
 
-From this chart, you can see that the intervals between the four pours after blooming are quite consistent, which means that the flow rate did not decrease too much in the latter part of the extraction, a characteristic that clogging was not severe. I believe an overall brewing time of around 8 minutes is probably longer than most people are familiar with, thus the average flow rate is also slower, but the flow rate remained stable throughout the brewing process, which is a good sign for me.
+From the chart, you can see that the intervals between the four pours after blooming are quite consistent, indicating minimal reduction in flow rate and limited clogging. An 8-minute brew time might be longer than what many are used to, the average flow rate is also slow, but the flow rate remained consistent throughout the brewing process, which is a good sign for me.
 
-This parameter is extremely stable, with the highest success rate among the high extraction rate parameters I've used. The very low agitation greatly reduces the chances of clogging, but the very fine grind still supports a very high extraction rate, and the mouthfeel is quite clean, almost transparent. If we consider reproducing the flavors in the cupping bowl as the ultimate goal of brewing, then I think this parameter is currently the most successful.
+This parameter offers a stable, high success rate among high extraction yield recipes I've tried. Low agitation significantly reduces clogging risks, while a very fine grind setting enables a high extraction yield. The result is a clean, almost transparent mouthfeel. If reproducing cupping flavors is the ultimate brewing goal, this recipe might currently be the most successful.
 
-It is worth mentioning that in brewing step 4, it is mentioned that the disperser is not needed during blooming, which is very important. In our tests, if the disperser is used during blooming, even if subsequent Wet WDT and Rao Spin ensure even mixing of coffee and water, the extraction rate would decrease significantly by about 2%–3%. This phenomenon actually does not quite conform to logic and may require further testing and verification.
+It's worth noting the disperser is not used during blooming, an important detail. Our tests showed that using the disperser during blooming, even when followed by thorough mixing by performing Wet WDT and Rao Spin, reduced the extraction rate by about 2%–3%, a curious phenomenon warranting further investigation.
 
 #### Conclusion
 
-I believe those accustomed to high extraction rate coffee will be amazed by the cleanliness brought by this parameter, while those accustomed to low extraction rate coffee will be fascinated by the complexity and sweetness brought by high extraction rates. Either way, if you try this parameter, please be sure to tell me how you feel!
+I believe those accustomed to high extraction yield coffees will appreciate the cleanliness this recipe brings, while fans of lower yields will enjoy its complexity and sweetness. Either way, if you try this recipe, please be sure to tell me how you feel!
 
-Although this parameter requires an additional disperser, I believe using a spoon or similar alternatives should also yield decent results. During brewing, the intervals between the four pours after blooming can be used as an observation indicator. With minimal agitation, the intervals should be quite consistent. If you notice a significant decrease in flow rate in the later stages of brewing, which is the phenomenon of clogging, then you may need to further reduce agitation or grind a bit coarser.
+Although this recipe requires an additional disperser, effective alternatives like a spoon could also yield good results. During brewing, the intervals between pours after blooming serve as a consistency indicator. With minimal agitation and no clogging, the intervals should remain fairly consistent. Encountering a significant reduction in flow rate indicates potential clogging, suggesting the need for either less agitation or a coarser grind.
 
-I hope everyone can successfully brew complex and sweet coffee with this parameter! Or if you have any questions, feel free to discuss with me on [IG](https://instagram.com/whycoffee.blog)!
+I hope everyone can successfully brew coffee that is complex, sweet, and transparent with this recipe! If you have any questions or want to share your experiences, feel free to connect with me on [IG](https://instagram.com/whycoffee.blog)!

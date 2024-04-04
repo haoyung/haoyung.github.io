@@ -13,6 +13,6 @@ Over the years, my coffee exploration has yielded numerous insights. While I don
 
 The name of this blog, "why coffee?" was inspired by my initials, "WHY." This question can also serve as a point of reflection for all of us: What draws us to coffee? Is it the pursuit of experiencing diverse terroirs or the joy of engaging in discussions about the nuances of coffee with fellow enthusiasts?
 
-During previous tasting events I've hosted, I often emphasized the phrase "connections between people" to capture the essence of coffee. Each bean tells a story of cultivation, harvesting, processing, and roasting, culminating in the cherished brew we enjoy. This journey creates connections among all those involved. I typically conclude these events by highlighting the bond we share through our love for coffee, saying, "You see, through our shared passion for coffee, we are interconnected."
+In the past, when hosting tasting events, I often used the phrase "connections between people" to describe the meaning of coffee. From planting, harvesting, processing, and roasting, to the final cup of coffee, each bean has gone through a long journey, and this journey also connects the people involved. Usually, at this point, I would say to the audience, "You see, you and I, are also connected because of coffee."
 
 In that same spirit, I extend this camaraderie to you, dear reader.

@@ -91,8 +91,8 @@ Here are the detailed parameters and brewing steps for this recipe:
 
 - Coffee to water ratio: 16g:320g (1:20)
 - Water temperature: 100°C
-- Brewing water: distilled water, re-mineralized post-brewing (for convenience, minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
-  - Without a specific mineral concentrate, aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, balanced between Ca<sup>2+</sup> and Mg<sup>2+</sup>.
+- Brewing water: distilled water, re-mineralized post-brew (minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
+  - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, which equal amount of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
   - If unsure about water, normal tap water with a low TDS is acceptable.
     
 - Grind size: Burr gap set between 200 to 300 µm from lock.

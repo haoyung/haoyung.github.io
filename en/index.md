@@ -5,14 +5,12 @@ language: en
 language_reference: home
 ---
 
-***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the robots!***
+***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the bots!***
 
-Hi, I'm Hao-Yung Weng, a passionate coffee enthusiast. My coffee journey began when I led the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee), where I currently serve as a mentor for new members. Our club has a strong focus on research. We delve into blog posts (favorites include [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), among others), host cupping sessions, document our brewing, and measure extraction yields.
+Hi, I'm Hao-Yung Weng, a passionate coffee aficionado. My coffee journey began when I led the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee), where I currently serve as a mentor for new members. Our club has a strong focus on research. We dive into blog posts (favorites include those by [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), among others), host cupping sessions, document our brews, and measure extraction yields.
 
-Over the years, my coffee exploration has yielded numerous insights. While I don't claim that all my discoveries are conclusive, I believe they are worth sharing. This blog serves as a platform for me to express my thoughts and experiences, and my background in Computer Science has proven surprisingly beneficial in this endeavor.
+Years of coffee exploration have yielded numerous insights that, while not conclusive, are probably worth sharing. This blog, named "why coffee?" after my initials "WHY," serves as a platform to express my thoughts and experiences. The name also prompts reflection: What draws us to coffee? Is it the pursuit of diverse terroirs or the joy of engaging in nuanced discussions with fellow enthusiasts?
 
-The name of this blog, "why coffee?" was inspired by my initials, "WHY." This question can also serve as a point of reflection for all of us: What draws us to coffee? Is it the pursuit of experiencing diverse terroirs or the joy of engaging in discussions about the nuances of coffee with fellow enthusiasts?
-
-In the past, when hosting tasting events, I often used the phrase "connections between people" to describe the meaning of coffee. From planting, harvesting, processing, and roasting, to the final cup of coffee, each bean has gone through a long journey, and this journey also connects the people involved. Usually, at this point, I would say to the audience, "You see, you and I, are also connected because of coffee."
+When hosting tasting events, I like to use the concept of "connections between people" to capture coffee's essence. Each coffee undertakes an extensive journey – from cultivation and harvesting to processing and roasting, and the journey interlinks the individuals involved. I often convey, "Notice how coffee connects us – you and me, in this very moment."
 
 In that same spirit, I extend this camaraderie to you, dear reader.

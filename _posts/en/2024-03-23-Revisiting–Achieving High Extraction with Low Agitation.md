@@ -58,8 +58,8 @@ Here are the detailed parameters and brewing steps, most of which are identical 
     - Do not use more than 20g of coffee, as the Pulsar's capacity is insufficient and may overflow.
 
 - Water temperature: 100°C
-- Brewing water: distilled water, re-mineralized post-brewing (for convenience, minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
-    - Without a specific mineral concentrate, aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, balanced between Ca<sup>2+</sup> and Mg<sup>2+</sup>.
+- Brewing water: distilled water, re-mineralized post-brew (minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
+    - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, which equal amount of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
     - If unsure about water, normal tap water with a low TDS is acceptable.
 - Grind size: Burr gap set between 150 to 200 µm from lock.
     - Similar to typical 9 bar espresso settings.

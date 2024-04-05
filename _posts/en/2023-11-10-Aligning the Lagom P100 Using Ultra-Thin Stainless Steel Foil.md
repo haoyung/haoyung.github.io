@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Aligning the Lagom P100 Using Ultra-Thin Stainless Steel Foil"
-maintitle: "Aligning the Lagom P100 Using Ultra-Thin Stainless Steel Foil"
-subhead: "A tutorial on using stainless steel foil for alignment – The extremely thin and incompressible nature of stainless steel foil allows for near-perfect alignment, ultimately achieving a chirp to lock distance of less than 20 microns and almost perfect alignment on the <a href=https://www.option-o.com/shop/lagom-p100>Lagom P100</a>."
+title: "Achieving Perfect Alignment on the Lagom P100 with Ultra-Thin Stainless Steel Foil"
+maintitle: "Achieving Perfect Alignment on the Lagom P100 with Ultra-Thin Stainless Steel Foil"
+subhead: "A tutorial on using stainless steel foil for alignment – the extremely thin and incompressible nature of stainless steel foil allows me to achieve a chirp to lock distance of less than 20 microns, indicating near-perfect alignment on the <a href=https://www.option-o.com/shop/lagom-p100>Lagom P100</a>."
 tag: [tutorial, grinder]
 category: articles
 language_reference: align_p100

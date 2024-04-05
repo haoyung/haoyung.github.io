@@ -36,7 +36,7 @@ Before getting the Pulsar, I expected it to be much better than the Tricolate (w
   <div class="footnote-content">For example, <a href="https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/">Jonathan's recommended recipe</a> and <a href="https://www.scottrao.com/blog/pulsar-recipe">Scott Rao's recipe</a>.</div>
 </div>
 
-#### Discussion with SEY Lance
+#### Discussion with SEY
 
 I happened to know that SEY was also testing the Pulsar recently, so I asked Lance about their recipe.
 

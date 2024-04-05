@@ -7,7 +7,7 @@ jQuery(function ($) {
    * Init MailChimpForm
    */
   $('#subscribe-form').MailChimpForm({
-    url: 'https://gmail.us6.list-manage.com/subscribe/post?u=638c75f9e7b5ea4fd32d76a3a&amp;id=09c247923d',
+    url: 'https://gmail.us6.list-manage.com/subscribe/post?u=638c75f9e7b5ea4fd32d76a3a&amp;id=09c247923d&amp;f_id=000537e3f0',
     fields: '0:EMAIL',
     submitSelector: '#submit-form',
     customMessages: {
@@ -16,9 +16,16 @@ jQuery(function ($) {
     },
     onOk: (message) => {
       document.getElementById('mce-EMAIL').value = ''
-      document.getElementById('mce-EMAIL').placeholder = 'Success! Thank you for subscribing!'
-      $('input').removeClass('red-class');
-      $('input').addClass('green-class');
+      if (message === "You're already subscribed, your profile has been updated. Thank you!") {
+        document.getElementById('mce-EMAIL').placeholder = 'You\'re already subscribed!'
+        $('input').removeClass('red-class');
+        $('input').addClass('green-class');
+      }
+      else {
+        document.getElementById('mce-EMAIL').placeholder = 'Thank you for subscribing!'
+        $('input').removeClass('red-class');
+        $('input').addClass('green-class');
+      }
     },
     onFail: (message) => {
       document.getElementById('mce-EMAIL').value = ''
@@ -26,11 +33,6 @@ jQuery(function ($) {
         document.getElementById('mce-EMAIL').placeholder = 'This email cannot be added. Try another one?'
         $('input').removeClass('green-class');
         $('input').addClass('red-class');
-      }
-      else if (message.split(' ')[1] === 'is' && message.split(' ')[2] === 'already' && message.split(' ')[3] === 'subscribed') {
-        document.getElementById('mce-EMAIL').placeholder = 'You have already subscribed!'
-        $('input').removeClass('red-class');
-        $('input').addClass('green-class');
       }
       else {
         document.getElementById('mce-EMAIL').placeholder = message
@@ -44,7 +46,7 @@ jQuery(function ($) {
    * mc:input:error event handler
    */
   $formInput.on('mc:input:error', function () {
-    console.log('mc:input:error event fired');
+    // console.log('mc:input:error event fired');
     document.getElementById('mce-EMAIL').value = ''
     if (document.getElementById('mc-error').innerText === 'The username portion of the email address is empty')
       document.getElementById('mce-EMAIL').placeholder = 'You have to have an username in your email!'
@@ -58,10 +60,10 @@ jQuery(function ($) {
   /**
    * mc:input:ok event handler
    */
-  $formInput.on('mc:input:ok', function () {
-    console.log('mc:input:ok event fired');
-    // addBorder($(this), 'green');
-  });
+  // $formInput.on('mc:input:ok', function () {
+  //   console.log('mc:input:ok event fired');
+  //   addBorder($(this), 'green');
+  // });
 
   /**
    * @param element

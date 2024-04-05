@@ -8,15 +8,6 @@ category: articles
 language_reference: high_extraction_low_agitation
 ---
 
-***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the bots!***
-
->   Note: [This blog's IG account](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews and thoughts will be posted on IG. Please follow!
-
-<div class="footnote">
-  <div class="footnote-label">[A]</div>
-  <div class="footnote-content">All underlined text in this article contains links. Be sure to click through for additional reading if anything is unclear!</div>
-</div>
-
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/orea_and_pulsar_disperser.webp" alt="" class="img-fluid responsive-image">
@@ -83,7 +74,7 @@ After extensive experiments, I can confidently say that both of the above proble
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/sey_grind_size.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Grind size reference<br>This is [SEY's Las Perlitas (Washed Colombian Field Blend)](https://www.seycoffee.com/products/las-perlitas) ground with 98mm SSP Brew, burr gap set to 225 µm from lock</span>
+        <span class="image-span">Grind size reference<br>This is <a href="https://www.seycoffee.com/products/las-perlitas">SEY's Las Perlitas (Washed Colombian Field Blend)</a> ground with 98mm SSP Brew, burr gap set to 225 µm from lock</span>
     </div>
 </div>
 

@@ -1,42 +1,31 @@
-<header class="d-flex flex-row align-self-end mb-8">
-  <div>
-    <div class="d-flex align-items-center justify-content-between site-title">
-      {%- if page.language == "tw" %}
-        {%- assign language_url = "/" %}
-      {%- else %}
-        {%- assign language_url = "/en" %}
-      {%- endif %}
-      <a href="{{ site.github.url }}{{ language_url }}" class="fs-4 fw-bold text-decoration-none">{{ site.title }}</a>
-    </div>
-  </div>
+{%- if page.language == "tw" %}
+{%- assign language_url = "/" %}
+{%- else %}
+{%- assign language_url = "/en/" %}
+{%- endif %}
 
-  <nav class="d-inline-flex align-items-stretch mt-0 ms-auto nav-container">
-    {%- if page.language == "tw" %}
-      {%- assign language_url = "" %}
-    {%- else %}
-      {%- assign language_url = "/en" %}
-    {%- endif %}
+<header class="d-flex flex-row mb-8">
+    <nav
+      class="mt-0">
+      <a class="text-decoration-none"
+        href="{{ site.github.url }}{{ language_url }}" class="text-decoration-none"><span>{{ site.title }}</span></a>
+  </nav>
+  
+
+  <nav class="d-inline-flex ms-auto">
     {%- for item in site.data.settings.menu %}
-      {%- if forloop.last %}
-      <a class="mb-0 me-0 py-0 text-decoration-none align-self-end nav-item"
-        href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
-        <span>{{ item.name }}</span>
-      </a>
-      {%- else %}
-      <a class="me-7 py-0 text-decoration-none align-self-end nav-item"
-        href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
-        <span>{{ item.name }}</span>
-      </a>
-      {%- endif %}
+    {%- if forloop.last %}
+    <a class="me-0 text-decoration-none"
+      href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
+      <span>{{ item.name }}</span>
+    </a>
+    {%- else %}
+    <a class="me-7 text-decoration-none"
+      href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
+      <span>{{ item.name }}</span>
+    </a>
+    {%- endif %}
     {%- endfor %}
     {%- include language-switch.html %}
   </nav>
 </header>
-
-
-<style>
-  .nav-container .nav-item {
-    line-height: 1.2;
-    /* Moved from inline style */
-  }
-</style>

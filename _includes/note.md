@@ -1,4 +1,4 @@
->   註：[本部落格的 IG 帳號](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup>上線了！未來較為簡短的 Review 及心得文章都會發在 IG，非常歡迎大家追蹤！
+>   [本部落格的 IG 帳號](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup>上線了！未來較為簡短的 Review 及心得文章都會發在 IG，非常歡迎大家追蹤！
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>

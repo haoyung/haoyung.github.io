@@ -1,6 +1,6 @@
 ***Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks – blame the bots!***
 
->   Note: [This blog's IG account](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews and thoughts will be posted on IG. Please follow!
+>   [This blog's IG account](https://instagram.com/whycoffee.blog)<sup class="footnote-sup">[A]</sup> is live! Going forward, shorter reviews and thoughts will be posted on IG. Please follow!
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>

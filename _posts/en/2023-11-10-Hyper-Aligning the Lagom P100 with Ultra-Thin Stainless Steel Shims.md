@@ -71,7 +71,7 @@ For example:
 
 Upon closer inspection, the marker has been wiped off from about 3 o'clock to 9 o'clock, so the high point is at 6 o'clock. This means we need to add shims at the 12 o'clock position. Since there is no screw exactly at 12 o'clock, we usually start with the screw closest to 12 o'clock (i.e., the top left screw).
 
-It's important to note that shims can only be placed under the screws, because placing shims between screws may cause the burr to bend as the screws on both sides will apply downward force on the burr, and the shims in the middle will form a fulcrum.
+It's important to note that shims can only be placed under the screws (usually one shim of equal thickness on each side of the screw), because placing shims between screws may cause the burr to bend as the screws on both sides will apply downward force on the burr, and the shims in the middle will form a fulcrum.
 
 The logic behind this method is quite simple: keep adding shims to the lower areas until the burr is aligned. However, if you think about it carefully, you'll realize that this is a very time-consuming and laborious task, as it requires countless disassemblies and reassemblies of the grinder.
 

@@ -25,7 +25,7 @@ I immediately began exploring the Pulsar, but I must admit, the process was ardu
 
 #### The Problems I Encountered with Pulsar
 
-The general consensus on Pulsar is that it's good at reducing astringency, but I don't quite agree. In the recommended Pulsar recipes from Jonathan Gagné and most others<sup class="footnote-sup">[B]</sup>, there are many pours to maintain a low water level and reduce pressure, which Jonathan believes helps reduce astringency. But after many attempts and tweaks, I still felt the astringency was higher than I expected.
+The general consensus on Pulsar is that it's good at reducing astringency, but I don't quite agree. In the recommended Pulsar recipes from Jonathan Gagné and most others<sup class="footnote-sup">[B]</sup>, there are many pours to maintain a low water level and reduce pressure, which Jonathan believes helps reduce astringency. But after many attempts and tweaks, I still felt the astringency was higher than I expected (or I should clarify, the astringency is nowhere high, but it's not lower than my other brews as I expected).
 
 I suspect this is due to excessive agitation. Although multiple pours keep the water level low, they also increase agitation. Observing the coffee bed during brewing with similar recipes, you'll often find it not completely flat, which might lead to uneven water flow. **The core issue is Pulsar's height. To ensure sufficient capacity, the distance between Pulsar's disperser and the coffee bed is large, causing more agitation than I expected even with the disperser.**
 

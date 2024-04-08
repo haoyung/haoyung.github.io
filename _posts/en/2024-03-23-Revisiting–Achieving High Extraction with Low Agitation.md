@@ -120,7 +120,7 @@ A single continuous pour is a technique often seen in low extraction recipes. It
 
 The choice of a single continuous pour stems from our original goal of "low agitation." It ensures a sufficient buffer layer between the coffee bed and the water surface, and we pour very slowly throughout the entire process, further reducing agitation.
 
-#### Brewing Data and Discussion
+#### Brewing Log and Discussion
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
@@ -129,7 +129,7 @@ The choice of a single continuous pour stems from our original goal of "low agit
     </div>
 </div>
 
-##### Why not use multiple pours?
+##### Why Not Use Multiple Pours?
 
 I acknowledge I was somewhat evasive earlier.
 
@@ -147,7 +147,7 @@ In the original OREA recipe, the main purposes of multiple pours were 2. and 3.,
 
 But the lack of a concentration gradient also required me to use a finer grind to achieve a similar extraction yield. In the previous article's recipe, I used a grind size of 200 to 300 µm, but in this Pulsar recipe, I used 150 to 200 µm, which may increase the bitterness and astringency of some beans. When this occurs, I recommend trying to split the pour and use a slightly coarser grind.
 
-##### So, is this a full immersion recipe?
+##### Isn't This a Full Immersion Recipe?
 
 When I first received the prototype of this recipe from Lance, my initial question was, "Isn't this essentially a full immersion recipe? Then why is blooming necessary?" Yes, typically, full immersion brews (or "near" full immersion, as most brews still undergo filtration to remove fines) like the inverted AeroPress or Syphon don't require blooming. However, upon closer examination, you'll realize this is not a full immersion recipe but rather a very slow percolation extraction (or a hybrid of immersion and percolation, with percolation likely playing a larger role). Why? Because there is no "immersion" process.
 

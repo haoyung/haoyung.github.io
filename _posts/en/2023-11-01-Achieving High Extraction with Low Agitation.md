@@ -69,7 +69,7 @@ Interestingly, SEY uses the same burr set as us ([the 98mm SSP Brew V1](https://
 
 After thorough experimentation, I'm pleased to report that both potential issues are either non-existent or minor. The likelihood of clogging is significantly reduced compared to my usual brewing methods, and achieving an extraction yield of over 24% is straightforward.
 
-#### Detailed Recipe Introduction
+#### Recipe Introduction
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">

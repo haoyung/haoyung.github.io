@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "gears"
-language: tw
+language: zh-Hant-TW
 language_reference: gears
 ---
 

@@ -33,7 +33,7 @@ defaults:
     scope:
       path: '_posts/*.md'
     values:
-      language: tw
+      language: zh-Hant-TW
   -
     scope:
       path: '_posts/en/*.md'
@@ -53,8 +53,7 @@ algolia:
     - ./tag/*.md
   settings: 
     searchableAttributes:                                                        
-      - title
-      - maintitle                                                               
+      - title                                                            
       - subtitle                                              
       - headings                                                                 
       - unordered(content)                                                       
@@ -64,7 +63,6 @@ algolia:
       - content                                                                  
       - headings                                                                 
       - html                                                                     
-      - subtitle
-      - maintitle                                                                 
+      - subtitle                                                            
       - tags                                                                     
       - title

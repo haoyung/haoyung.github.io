@@ -2,6 +2,6 @@
 layout: tag
 title: "#review"
 tag: review
-language: zh-Hant-TW
+language: en
 language_reference: "#review"
 ---

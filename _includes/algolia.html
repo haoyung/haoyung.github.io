@@ -37,7 +37,7 @@
     if (hit.anchor)
       url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
-    const title = hit._highlightResult.maintitle.value;
+    const title = hit._highlightResult.title.value;
     let subtitle = '';
     if (hit._highlightResult.subtitle)
       subtitle = hit._highlightResult.subtitle.value;

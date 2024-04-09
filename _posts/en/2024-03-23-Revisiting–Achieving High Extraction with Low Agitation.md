@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Revisiting: Achieving High Extraction with Low Agitation"
-maintitle: "Revisiting: Achieving High Extraction with Low Agitation"
-subhead: "Another low agitation, high extraction recipe inspired by SEY, but this time it's the Pulsar version."
+subtitle: "Another high extraction, low agitation recipe inspired by SEY, but this time for Pulsar."
 tag: [recipe, pourover]
 category: articles
 language_reference: re:high_extraction_low_agitation

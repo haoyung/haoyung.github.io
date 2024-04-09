@@ -2,6 +2,6 @@
 layout: tag
 title: "#tutorial"
 tag: tutorial
-language: zh-Hant-TW
+language: en
 language_reference: "#tutorial"
 ---

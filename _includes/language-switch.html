@@ -1,6 +1,6 @@
 {%- assign tw_pages = site.pages | concat: site.posts
 | where: 'language_reference', page.language_reference
-| where: 'language', "tw" %}
+| where: 'language', "zh-Hant-TW" %}
 {%- assign en_pages = site.pages | concat: site.posts
 | where: 'language_reference', page.language_reference
 | where: 'language', "en" %}
@@ -12,7 +12,7 @@
   中
 </a>
 <span class="mb-0 py-0 align-self-end nav-item">&nbsp/&nbsp</span>
-<a class="mb-0 py-0 {%- if page.language == 'tw' %} text-decoration-none {%- else %} inactiveLink {%- endif %} align-self-end nav-item"
+<a class="mb-0 py-0 {%- if page.language == "zh-Hant-TW" %} text-decoration-none {%- else %} inactiveLink {%- endif %} align-self-end nav-item"
   href="{{ en_url }}">
   EN
 </a>

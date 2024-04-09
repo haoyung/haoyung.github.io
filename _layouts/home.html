@@ -16,7 +16,7 @@ layout: default
     <div class="flex-column text-end">
       <img src="{{ site.github.url }}/assets/img/about.webp" alt="about" width="100%">
       <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">
-        {%- if page.language == 'tw' %}過去所舉辦的「遇見咖啡」品飲活動
+        {%- if page.language == "zh-Hant-TW" %}過去所舉辦的「遇見咖啡」品飲活動
         {%- else %} The "Meet Coffee" tasting events held in the past
         {%- endif %}
       </span>
@@ -24,7 +24,7 @@ layout: default
     <div class="flex-column text-end mt-4">
       <img src="{{ site.github.url }}/assets/img/home.webp" alt="cupping" width="100%">
       <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">
-        {%- if page.language == 'tw' %}與社團夥伴們一同參加杯測會
+        {%- if page.language == "zh-Hant-TW" %}與社團夥伴們一同參加杯測會
         {%- else %} Participated in cupping sessions with friends from the club
         {%- endif %}
       </span>
@@ -48,12 +48,11 @@ layout: default
     {%- endif %}
     {%- endfor %}
     <div class="flex-column mt-3">
-      {%- if page.language == "tw" %}
-        {%- assign language_url = "" %}
+      {%- if page.language == "zh-Hant-TW" %}
+        <a href="{{ site.github.url }}/articles">更多文章</a>
       {%- else %}
-        {%- assign language_url = "/en" %}
+        <a href="{{ site.github.url }}/en/articles" style="font-style: italic">view all articles</a>
       {%- endif %}
-      <a href="{{ site.github.url }}{{ language_url }}/articles" style="font-style: italic">view all articles</a>
     </div>
   </div>
   <div class="col-md-6">

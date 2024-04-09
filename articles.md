@@ -1,6 +1,6 @@
 ---
 layout: articles
 title: "articles"
-language: tw
+language: zh-Hant-TW
 language_reference: articles
 ---

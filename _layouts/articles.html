@@ -8,13 +8,8 @@ layout: default
   {%- for post in site.posts %}
   {%- if post.language == page.language %}
   <div class="flex-column mt-3">
-    {%- if post.draft %}
-    {%- else if post.subtitle == null %}
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.maintitle }}</a>
-    {%- else %}
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.subtitle }}</a>
-    {%- endif %}
     {%- if post.draft == false %}
+    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
     <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     {%- endif %}
   </div>

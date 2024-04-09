@@ -7,7 +7,7 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-8">
   <div class="d-flex flex-column col-md-6">
-    <h3 class="mb-4">about</h3>
+    <h2 class="mb-4">about</h2>
     <div class="mb-md-0 mb-4">
       {{ content }}
     </div>
@@ -34,7 +34,7 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-8 align-items-end">
   <div class="col-md-6 mb-md-0 mb-8">
-    <h3 class="mb-4">latest articles</h3>
+    <h2 class="mb-4">latest articles</h2>
     {%- assign count = 0 %}
     {%- for post in site.posts %}
     {%- if page.language == post.language and post.draft == false %}
@@ -56,7 +56,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-6">
-    <h3 id="subscribe" class="mb-4">subscribe</h3>
+    <h2 id="subscribe" class="mb-4">subscribe</h2>
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
       <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">

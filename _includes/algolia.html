@@ -38,9 +38,9 @@
       url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
 
     const title = hit._highlightResult.title.value;
-    let subtitle = '';
-    if (hit._highlightResult.subtitle)
-      subtitle = hit._highlightResult.subtitle.value;
+    let description = '';
+    if (hit._highlightResult.description)
+      description = hit._highlightResult.description.value;
 
     let breadcrumbs = '';
     if (hit._highlightResult.headings) {
@@ -68,7 +68,7 @@
     `;
     }
     else {
-      if (subtitle === "") {
+      if (description === "") {
         return `
         <div class="flex-column mt-5">
           <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><div class="search-title">${title}</div></a>
@@ -81,7 +81,7 @@
       else {
         return `
         <div class="flex-column mt-5">
-          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><div class="search-title">${title}：<br>${subtitle}</div></a>
+          <a href="{{ site.baseurl }}${hit.url}" class="text-decoration-none"><div class="search-title">${title}：<br>${description}</div></a>
           <div class="meta border-bottom pb-2 mb-2 style="transition: 0s;">- ${date}&thinsp; &middot;&thinsp; ${tag}</div>
           {{#breadcrumbs}}<a href="${url}" class="text-decoration-none"><div class="post-breadcrumbs">${breadcrumbs}</div></a>{{/breadcrumbs}}
           <div class="post-snippet">${content}</div>

@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "home"
-language: en
 language_reference: home
 ---
 

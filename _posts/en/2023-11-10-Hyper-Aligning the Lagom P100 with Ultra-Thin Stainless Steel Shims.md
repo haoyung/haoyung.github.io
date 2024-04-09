@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hyper-Aligning the Lagom P100 with Ultra-Thin Stainless Steel Shims"
-subtitle: "The extremely thin and incompressible nature of stainless steel shims allows me to achieve a chirp-to-lock distance under 20 microns on the <a href=https://www.option-o.com/shop/lagom-p100>Lagom P100</a>, indicating near-perfect alignment."
+description: "The extremely thin and incompressible nature of stainless steel shims allows me to achieve a chirp-to-lock distance under 20 microns on the <a href=https://www.option-o.com/shop/lagom-p100>Lagom P100</a>, indicating near-perfect alignment."
 tag: [tutorial, grinder]
 category: articles
 language_reference: align_p100

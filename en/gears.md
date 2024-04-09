@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "gears"
-language: en
 language_reference: gears
 ---
 

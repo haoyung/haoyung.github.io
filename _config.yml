@@ -38,6 +38,19 @@ defaults:
     values:
       permalink: 'en/:categories/:title'
       language: en
+      locale: en_US
+  - 
+    scope:
+      path: 'en/*.md'
+    values:
+      language: en
+      locale: en_US
+  - 
+    scope:
+      path: 'en/tag/*.md'
+    values:
+      language: en
+      locale: en_US
 
 algolia:
   application_id: M50XXOEO0I
@@ -52,7 +65,7 @@ algolia:
   settings: 
     searchableAttributes:                                                        
       - title                                                            
-      - subtitle                                              
+      - description                                              
       - headings                                                                 
       - unordered(content)                                                       
       - unordered(tags)  
@@ -61,6 +74,6 @@ algolia:
       - content                                                                  
       - headings                                                                 
       - html                                                                     
-      - subtitle                                                            
+      - description                                                            
       - tags                                                                     
       - title

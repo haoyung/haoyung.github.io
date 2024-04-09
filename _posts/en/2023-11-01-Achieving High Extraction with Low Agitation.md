@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Achieving High Extraction with Low Agitation"
-subtitle: "Sweet, complex, and transparent – A pour-over recipe inspired by SEY that achieves over 24% extraction yield with extremely low agitation."
+description: "Sweet, complex, and transparent – A pour-over recipe inspired by SEY that achieves over 24% extraction yield with extremely low agitation."
 tag: [recipe, pourover]
 category: articles
 language_reference: high_extraction_low_agitation

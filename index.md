@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "home"
-language: zh-Hant-TW
 language_reference: home
 ---
 

@@ -41,6 +41,11 @@ defaults:
       locale: en_US
   - 
     scope:
+      path: '*.md'
+    values:
+      language: zh-Hant-TW
+  - 
+    scope:
       path: 'en/*.md'
     values:
       language: en

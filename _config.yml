@@ -6,8 +6,6 @@ lang: "zh-Hant-TW"
 permalink: /:categories/:title
 future: true
 
-exclude:
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -21,17 +19,17 @@ defaults:
       sitemap: false
   -
     scope:
-      path: "about_text.md"
-    values:
-      sitemap: false
-  -
-    scope:
       path: ""
     values:
       toc: true
   -
     scope:
       path: '_posts/*.md'
+    values:
+      language: zh-Hant-TW
+  -
+    scope:
+      path: '_drafts/*.md'
     values:
       language: zh-Hant-TW
   -

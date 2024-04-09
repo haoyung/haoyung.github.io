@@ -39,7 +39,7 @@ Before receiving the Pulsar, I had high hopes it would outperform the Tricolate,
 
 I learned that SEY was also experimenting with the Pulsar, so I reached out to Lance for their insights.
 
-Lance shared my concerns. He believed the greatest challenge was "how to achieve the highest extraction rate with minimal agitation," echoing the focus of my [previous article](https://whycoffee.blog/en/articles/Achieving-High-Extraction-with-Low-Agitation). After numerous discussions, revisions, and over 50 of my own experiments, I settled on this recipe.
+Lance shared my concerns. He believed the greatest challenge was "how to achieve the highest extraction rate with minimal agitation," echoing the focus of my [previous article]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}). After numerous discussions, revisions, and over 50 of my own experiments, I settled on this recipe.
 
 #### Recipe Introduction
 
@@ -132,7 +132,7 @@ The choice of a single continuous pour stems from our original goal of "low agit
 
 I acknowledge I was somewhat evasive earlier.
 
-Although the overall process is quite different, as highlighted in the title, this recipe shares the same core idea and goal as my previous article [Achieving High Extraction with Low Agitation](https://whycoffee.blog/articles/%E4%BB%A5%E4%BD%8E%E6%93%BE%E5%8B%95%E9%81%94%E6%88%90%E9%AB%98%E8%90%83%E5%8F%96%E7%8E%87). To recap, the previous recipe used the OREA V3 dripper, with the entire brew including five pours, bloom included. So, why does this recipe opt for a unique single continuous pour after the bloom?
+Although the overall process is quite different, as highlighted in the title, this recipe shares the same core idea and goal as my previous article [Achieving High Extraction with Low Agitation]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}). To recap, the previous recipe used the OREA V3 dripper, with the entire brew including five pours, bloom included. So, why does this recipe opt for a unique single continuous pour after the bloom?
 
 Generally, increasing the number of pours has three effects:
 
@@ -158,7 +158,7 @@ Since most of the extraction occurs during the percolation stage, blooming is ne
 
 #### Conclusion
 
-This recipe, while significantly different from the one introduced in my previous article [Achieving High Extraction with Low Agitation](https://whycoffee.blog/articles/%E4%BB%A5%E4%BD%8E%E6%93%BE%E5%8B%95%E9%81%94%E6%88%90%E9%AB%98%E8%90%83%E5%8F%96%E7%8E%87), is based on similar concepts and thus produces a similar flavor profile, with "sweet, complex, and transparent" as the overarching extraction goal.
+This recipe, while significantly different from the one introduced in my previous article [Achieving High Extraction with Low Agitation]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}), is based on similar concepts and thus produces a similar flavor profile, with "sweet, complex, and transparent" as the overarching extraction goal.
 
 In my attempts, this recipe proved more convenient (as it requires only one pour) but had a lower success rate. Some beans produced excessive bitterness no matter how I adjusted this recipe. I'm still puzzling over this, so I invite everyone to try it and share their thoughts with me<sup class="footnote-sup">[E]</sup>! Together, perhaps we can further refine this method.
 

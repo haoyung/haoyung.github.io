@@ -37,9 +37,9 @@ Before receiving the Pulsar, I had high hopes it would outperform the Tricolate,
 
 ### Discussion with SEY
 
-I learned that SEY was also experimenting with the Pulsar, so I reached out to Lance for their insights.
+I learned that SEY was also experimenting with the Pulsar, so I reached out to them for their insights.
 
-Lance shared my concerns. He believed the greatest challenge was "how to achieve the highest extraction rate with minimal agitation," echoing the focus of my [previous article]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}). After numerous discussions, revisions, and over 50 of my own experiments, I settled on this recipe.
+They shared my concerns, and believed the greatest challenge was "how to achieve high extraction with minimal agitation," echoing the focus of my [previous article]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}). After numerous discussions, revisions, and over 50 of my own experiments, I settled on this recipe.
 
 ### Recipe Introduction
 

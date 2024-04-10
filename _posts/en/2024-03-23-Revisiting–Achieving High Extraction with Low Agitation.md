@@ -14,7 +14,7 @@ language_reference: re:high_extraction_low_agitation
     </div>
 </div>
 
-#### The Most Anticipated Dripper of 2023: [NextLevel Pulsar](https://nextlevelbrewer.com/shop/nextlevel-pulsar-brewer/)
+### The Most Anticipated Dripper of 2023: [NextLevel Pulsar](https://nextlevelbrewer.com/shop/nextlevel-pulsar-brewer/)
 
 In *The Physics of Filter Coffee*, Jonathan Gagné outlines his ideal dripper: [cylindrical to minimize bypass, even water distribution at the bottom to maximize filter paper usage, and a valve to control flow rate](https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/). NextLevel, the creators of the LVL-10 dripper, took note. They collaborated with Jonathan to create the Pulsar, a name that not only nods to his profession as an astronomer but also hints at its key feature with the homophone "Pause": the valve allows for precise control over water flow, even pausing it entirely.
 
@@ -22,7 +22,7 @@ After the announcement of this collaboration, coffee enthusiasts around the glob
 
 My initial experiments with the Pulsar were both challenging and somewhat disappointing.
 
-#### The Problems I Encountered with Pulsar
+### The Problems I Encountered with Pulsar
 
 The consensus seems to be that Pulsar excels at reducing astringency. However, I found this to be only partially true. The recommended Pulsar recipes, including those from Jonathan Gagné and others<sup class="footnote-sup">[B]</sup>, advocate for multiple pours to maintain a low water level and reduce pressure, which is believed to help minimize astringency. Despite numerous attempts and adjustments, I found the astringency to be higher than anticipated (or to clarify, about the same as my other brews, but I had higher expectations!).
 
@@ -35,13 +35,13 @@ Before receiving the Pulsar, I had high hopes it would outperform the Tricolate,
   <div class="footnote-content">For example, <a href="https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/">Jonathan's recommended recipe</a> and <a href="https://www.scottrao.com/blog/pulsar-recipe">Scott Rao's recipe</a>.</div>
 </div>
 
-#### Discussion with SEY
+### Discussion with SEY
 
 I learned that SEY was also experimenting with the Pulsar, so I reached out to Lance for their insights.
 
 Lance shared my concerns. He believed the greatest challenge was "how to achieve the highest extraction rate with minimal agitation," echoing the focus of my [previous article]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}). After numerous discussions, revisions, and over 50 of my own experiments, I settled on this recipe.
 
-#### Recipe Introduction
+### Recipe Introduction
 
 Here are the detailed parameters and brewing steps, largely mirroring the previous recipe:
 
@@ -72,7 +72,7 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
 </div>
 
 
-##### Required Equipment
+#### Required Equipment
 
 -   Very lightly roasted coffee
     -   Given our aim for very high extraction yields, it's crucial that the coffee tastes good when highly extracted. Lighter roasted coffees typically fare better at high extractions.
@@ -82,7 +82,7 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
 -   A WDT tool
     -   Alternatively, a spoon, chopsticks, or glass stir stick can be used to stir the coffee bed during the bloom.
 
-##### Detailed Brewing Steps
+#### Detailed Brewing Steps
 
 1.   Separate the Pulsar's wall and base.
 2.   Close the valve, pour a small amount of hot water into the base, just enough to submerge the ribs at the bottom.
@@ -99,11 +99,11 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
 11.   Wait for the water to fully drain. The total brew time should be around 6–8 minutes.
 12.   Re-mineralize using [Lotus Coffee Brew Water](https://lotuscoffeeproducts.com/), adding one drop each of CaCl<sub>2</sub> and MgCl<sub>2</sub> solutions, and two drops of NaHCO<sub>3</sub>, achieving roughly 15 ppm as CaCO<sub>3</sub> for Ca<sup>2+</sup>, Mg<sup>2+</sup>, and HCO<sub>3</sub><sup>-</sup>.
 
-#### Recipe Design Thoughts
+### Recipe Design Thoughts
 
 Below, I'll share some unique aspects of this recipe and the rationale behind them.
 
-##### Immersion-Style Bloom with a Large Amount of Water
+#### Immersion-Style Bloom with a Large Amount of Water
 
 Typically, the water amount for blooming is 2.5 to 3.5 times the coffee dose. A bloom with a large amount of water might seem wasteful (since it would extract more efficiently if added later) and is usually found in recipes not aiming for high extraction, such as [Patrik's April recipe](https://youtu.be/X-fXQKqkYxI).
 
@@ -113,13 +113,13 @@ This extra water plays a crucial role: it ensures that subsequent extraction is 
 
 Therefore, it's important to ensure the coffee bed is sunken and flat at the end of the bloom. If the coffee is too fresh and stirring is not thorough, the coffee bed will continue to absorb water and bubble during brewing, causing an uneven bed and risking uneven water flow or channeling when opening the valve later. In such cases, more thorough stirring is advised.
 
-##### Single Continuous Pour
+#### Single Continuous Pour
 
 A single continuous pour is a technique often seen in low extraction recipes. It not only reduces the agitation of multiple pours but also tends to shorten the total extraction time due to the high flow rate caused by the high water level. However, the Pulsar's "valve" allows us to control the flow rate independently of the water level height, enabling us to ensure sufficient brewing time by adjusting the valve opening.
 
 The choice of a single continuous pour stems from our original goal of "low agitation." It ensures a sufficient buffer layer between the coffee bed and the water surface, and we pour very slowly throughout the entire process, further reducing agitation.
 
-#### Brewing Log and Discussion
+### Brewing Log and Discussion
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
@@ -128,7 +128,7 @@ The choice of a single continuous pour stems from our original goal of "low agit
     </div>
 </div>
 
-##### Why Not Use Multiple Pours?
+#### Why Not Use Multiple Pours?
 
 I acknowledge I was somewhat evasive earlier.
 
@@ -146,7 +146,7 @@ In the original OREA recipe, the main purposes of multiple pours were 2. and 3.,
 
 But the lack of a concentration gradient also required me to use a finer grind to achieve a similar extraction yield. In the previous article's recipe, I used a grind size of 200 to 300 µm, but in this Pulsar recipe, I used 150 to 200 µm, which may increase the bitterness and astringency of some beans. When this occurs, I recommend trying to split the pour and use a slightly coarser grind.
 
-##### Isn't This a Full Immersion Recipe?
+#### Isn't This a Full Immersion Recipe?
 
 When I first received the prototype of this recipe from Lance, my initial question was, "Isn't this essentially a full immersion recipe? Then why is blooming necessary?" Yes, typically, full immersion brews (or "near" full immersion, as most brews still undergo filtration to remove fines) like the inverted AeroPress or Syphon don't require blooming. However, upon closer examination, you'll realize this is not a full immersion recipe but rather a very slow percolation extraction (or a hybrid of immersion and percolation, with percolation likely playing a larger role). Why? Because there is no "immersion" process.
 
@@ -156,7 +156,7 @@ However, in this recipe, because we don't stir after the bloom and pour very slo
 
 Since most of the extraction occurs during the percolation stage, blooming is necessary, and our immersion-style bloom with a large amount of water further reduces agitation, as mentioned earlier.
 
-#### Conclusion
+### Conclusion
 
 This recipe, while significantly different from the one introduced in my previous article [Achieving High Extraction with Low Agitation]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}), is based on similar concepts and thus produces a similar flavor profile, with "sweet, complex, and transparent" as the overarching extraction goal.
 

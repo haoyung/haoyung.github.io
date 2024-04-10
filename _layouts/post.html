@@ -7,7 +7,7 @@ layout: default
     <div class="headers mb-8">
       <h1 class="mb-0">{{ page.title }}</h1>
       {%- if page.description != null %}
-      <h4 class="description mt-3 mb-0">{{ page.description }}</h4>
+      <h4 class="subhead {%- if page.language == 'zh-Hant-TW' %} mt-3 {%- else %} mt-2 {%- endif %} mb-0">{{ page.description }}</h4>
       {%- endif %}
       <!-- {%- if page.image != null %}
       <img class="article-img col-md-6 mt-8" src="/assets/img/{{ page.image }}">
@@ -20,7 +20,8 @@ layout: default
     </div>
     <div class="mb-8">
       {%- for tag in page.tags %}
-      <a href="{%- if page.language == 'en' %} /en/tag/{{tag}} {%- else %} /tag/{{tag}} {%- endif %}">{{tag}}</a>{%- unless forloop.last %}, {%- endunless %}{%- endfor %}
+      <a href="{%- if page.language == 'en' %} /en/tag/{{tag}} {%- else %} /tag/{{tag}} {%- endif %}">{{tag}}</a>{%-
+      unless forloop.last %}, {%- endunless %}{%- endfor %}
     </div>
     {%- if page.language == 'en' %}
     {%- capture note_en %}
@@ -44,6 +45,42 @@ layout: default
 </div>
 
 <style>
+  html {
+    --spacing-spacing-1: .25rem;
+    --spacing-spacing-2: .5rem;
+    --spacing-spacing-3: .5rem;
+    --spacing-spacing-4: 1rem;
+    --spacing-spacing-5: 1.5rem;
+    --spacing-spacing-6: 2.25rem;
+    --spacing-spacing-7: 4.5rem;
+    --spacing-spacing-8: 5.25rem;
+    --spacing-spacing-9: 9rem;
+    --spacing-spacing-10: 11.25rem;
+    --spacing-spacing-11: 11.25rem;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      --spacing-spacing-5: 2.25rem;
+      --spacing-spacing-6: 3rem;
+      --spacing-spacing-7: 5.25rem;
+      --spacing-spacing-8: 7rem;
+      --spacing-spacing-9: 10rem;
+      --spacing-spacing-10: 12.5rem;
+      --spacing-spacing-11: 12.5rem;
+    }
+  }
+
+  h3 {
+    margin-top: var(--spacing-spacing-7);
+    margin-bottom: var(--spacing-spacing-4);
+  }
+
+  h4 {
+    margin-top: var(--spacing-spacing-6);
+    margin-bottom: var(--spacing-spacing-3);
+  }
+
   .description {
     font-weight: 400;
   }
@@ -91,14 +128,6 @@ layout: default
     body table {
       margin-top: 1.5rem;
     }
-  }
-
-  .image-span {
-    font-size: 0.70em;
-    color: var(--img-text-color);
-    transition: color 0.5s;
-    display: block;
-    margin-top: 0.4rem;
   }
 </style>
 

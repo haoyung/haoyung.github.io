@@ -16,7 +16,7 @@ language_reference: align_p100
 
 In this article, I'll guide you through the process of using the marker test and stainless steel shims to align flat burr grinders. I've meticulously documented my alignment of the 98mm SSP Brew burrs in the NTU Coffee Club's Lagom P100. If you own this grinder, you'll find the alignment process incredibly useful. However, even if you have a different grinder, this article should still serve as an excellent reference.
 
-#### The Importance of Alignment
+### The Importance of Alignment
 
 With flat burrs, coffee beans fall through the center hole, are propelled outward by inertia while being ground, and exit as grounds once their size is smaller than the gap between the burrs.
 
@@ -31,17 +31,17 @@ Thus, the parallelism between the burrs is critical. Misaligned burrs result in 
 
 In the bottom right image, the burrs are not parallel: the gap on the right is larger, resulting in larger coffee particles on that side. This leads to non-uniform grinding.
 
-#### Chirp-to-Lock Distance
+### Chirp-to-Lock Distance
 
 A common indicator of burr alignment is the chirp-to-lock distance, which is the distance between the chirp point and the lock point of the burrs.
 
-##### Chirp Point
+#### Chirp Point
 
 The chirp point is usually where the zero point is set on most grinders. With the grinder running, slowly adjust finer until the burrs touch and make a sharp sound (chirping). The setting at this point is the chirp point.
 
 The burrs are very hard, so this process won't damage them, but be careful not to adjust any finer to avoid damaging the motor.
 
-##### Lock Point
+#### Lock Point
 
 After finding the chirp point, **turn off the grinder (be sure to turn it off!)**. You can still adjust finer, and the distance you can adjust until it completely locks up is the chirp-to-lock distance. The setting where it completely locks up is the lock point.
 
@@ -49,7 +49,7 @@ For example, before alignment, the setting on my P100 was -0.8 when the adjustme
 
 Essentially, when the burr size and geometry are the same (e.g., both are 98mm SSP Brew burrs), a smaller chirp-to-lock distance indicates better burr alignment, as it means the burrs don't touch even when very close together, indicating better parallelism.
 
-#### How to Perform the Marker Test and Use Shims for Alignment
+### How to Perform the Marker Test and Use Shims for Alignment
 
 A common method for checking burr alignment is the marker test, which, as the name suggests, uses a marker to check alignment.
 
@@ -76,7 +76,7 @@ The logic behind this method is quite simple: keep adding shims to the lower are
 
 For a clearer explanation, I highly recommend watching this classic [tutorial video](https://www.youtube.com/watch?v=Gb3PgeQ6ewY).
 
-#### Why Use Stainless Steel Shims?
+### Why Use Stainless Steel Shims?
 
 Shims are usually 0.5 cm * 1 cm and often cut from aluminum foil for its availability and consistent thickness. However, I found that aluminum foil introduces uncertainty in the alignment process. After achieving a full wipe, the alignment doesn't last. The aluminum foil shims under the lower parts seem to compress over time.
 
@@ -87,7 +87,7 @@ I'm not sure if this is physically reasonable, but many have observed the instab
   <div class="footnote-content">Original text: "That's when I vaguely remembered Nate Walck (also coincidentally the previous owner of Frankenjolly) mention on Hedrickcord (Lance Hedrick's discord) that one should consider using stainless steel shims for alignment as opposed to aluminium foil (Long Vo probably was the first to suggest this as a solution on EAF but in context of a different discussion)."</div>
 </div>
 
-#### Detailed Alignment Process
+### Detailed Alignment Process
 
 The following outlines the process of aligning the 98mm SSP Brew burrs in the Lagom P100, but most steps are applicable to different grinders as well.<sup class="footnote-sup">[D]</sup>
 
@@ -98,7 +98,7 @@ I want to emphasize again: the two burrs need to be aligned separately, and the 
   <div class="footnote-content">I also aligned the NTU Coffee Club's <a href="https://fellowproducts.com/products/ode-brew-grinder">Fellow Ode</a>, using the exact same method.</div>
 </div>
 
-##### Required Materials
+#### Required Materials
 
 -   Marker
 -   Torque screwdriver (I used the [Wera 7441 torque screwdriver](https://24h.pchome.com.tw/prod/DEACFQ-A900A9GRS))
@@ -110,7 +110,7 @@ I want to emphasize again: the two burrs need to be aligned separately, and the 
     -   Thinner shims allow for more precise alignment but increase the time required.
     -   I used extremely thin 5 µm stainless steel shims, which are more expensive than their 10 µm counterparts.
 
-##### How to Remove the Upper Burr of the P100 (skip if not using the P100)
+#### How to Remove the Upper Burr of the P100 (skip if not using the P100)
 
 Fortunately, my lower burr already showed a full wipe before alignment, so it didn't need removal. However, I immediately ran into difficulty when trying to remove the upper burr. After unscrewing, the burr was stuck tight.
 
@@ -125,7 +125,7 @@ Customer service explained that coffee fines and oils create a near-vacuum state
 
 This issue took me a while to resolve, so I'm sharing it here for other P100 users who might face the same problem.
 
-##### Begin the Marker Test and Insert Stainless Steel Shims
+#### Begin the Marker Test and Insert Stainless Steel Shims
 
 Now, we can officially start the marker test. I recorded the results of each test and the screws under which I added shims. These photos have been aligned and edited in Photoshop for easy comparison.
 
@@ -207,9 +207,9 @@ I compiled the entire alignment process into a gif, as shown below:
 
 The area where the marker is wiped off expands as more stainless steel shims are inserted, indicating gradual improvement in the alignment of the burrs.
 
-#### Conclusion and Discussion
+### Conclusion and Discussion
 
-##### The Precision of the Lagom P100
+#### The Precision of the Lagom P100
 
 When perfect alignment was achieved, 16 pieces of stainless steel shim had been inserted under the top left screw of the burr, totaling 80 µm in thickness. This seems at odds with OPTION-O's precision guarantee. Their website states:
 
@@ -219,7 +219,7 @@ However, I don't fault them. Everything has tolerances, including the burrs made
 
 In essence, don't take the manufacturers' word for it... Performing your own alignment is not only reassuring but also an enlightening experience!
 
-##### The Difference Caused by Alignment and Its Necessity
+#### The Difference Caused by Alignment and Its Necessity
 
 Has the particle size distribution become more uniform after alignment? Does the coffee taste better? I believe so, but to be honest, I'm not entirely confident, as it's difficult to prove with data, and I usually don't consider sensory experience alone as sufficient evidence.
 

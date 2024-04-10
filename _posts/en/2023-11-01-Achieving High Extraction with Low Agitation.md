@@ -23,7 +23,7 @@ Yet, agitation also speeds up the migration of fines, leading to a higher likeli
   <div class="footnote-content">For an in-depth analysis of astringency, consider reading Jonathan Gagné's article <a href="https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/">The Mechanism Behind Astringency in Coffee</a>.</div>
 </div>
 
-#### The Challenges of High Extraction Brews
+### The Challenges of High Extraction Brews
 
 I've always been a fan of high-extraction coffee and generally aim for at least 22% extraction yield when brewing. In my experience, high-extraction coffees tend to offer greater flavor complexity and sweetness, mirroring the flavors found during cupping. Translating these cupping flavors to pour-over has been a long-standing ambition of mine.
 
@@ -33,7 +33,7 @@ Finer grinding increases the likelihood of clogging due to the higher production
 
 This makes the pursuit of high extraction a challenging and sometimes frustrating endeavor. Even with burrs that generate minimal fines (I use the 98mm SSP Brew burrs), avoiding clogging with fine grinding and high agitation is nearly impossible. In such cases, despite achieving high extraction and enjoying the complex flavors and sweetness, one often has to endure a rather poor mouthfeel, more precisely: astringency.
 
-#### The Origin of the Low Agitation Method Idea
+### The Origin of the Low Agitation Method Idea
 
 The coffee enthusiast community has been paying more attention to astringency issues lately. I shared my concerns about excessive astringency at high extractions with numerous international enthusiasts on Discord. However, most don't aim for such high extraction yields, making coarser grinding the simplest solution. This not only reduces fines and the risk of clogging but also decreases the number of times the coffee is cut, which lowers the release of astringent compounds from cell wall damage that are difficult to dissolve in water (for more details, please see [Jonathan Gagné's article](https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/)).
 
@@ -57,7 +57,7 @@ Lance's (or the person I believed to be Lance) suggested solution was to use ext
 
 The last sentence of their email is the crux of this article: **the key is how to use a low agitation method to achieve high extraction yield**.
 
-#### Potential Problems with Low Agitation
+### Potential Problems with Low Agitation
 
 A few potential issues come to mind:
 -   Grinding extremely fine will undoubtedly produce more fines than coarser grinds. Even with reduced agitation, could clogging still be a significant risk?
@@ -68,7 +68,7 @@ Interestingly, SEY uses the same burr set as us ([the 98mm SSP Brew V1](https://
 
 After thorough experimentation, I'm pleased to report that both potential issues are either non-existent or minor. The likelihood of clogging is significantly reduced compared to my usual brewing methods, and achieving an extraction yield of over 24% is straightforward.
 
-#### Recipe Introduction
+### Recipe Introduction
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
@@ -102,7 +102,7 @@ Here are the detailed parameters and brewing steps:
   <div class="footnote-content">For more on brewing water, check out the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
 </div>
 
-##### Required Equipment
+#### Required Equipment
 -   Very lightly roasted coffee
     -   Given our aim for very high extraction yields, it's crucial that the coffee tastes good when highly extracted. Lighter roasted coffees typically fare better at high extractions.
     -   Roasteries I've had success with include [SEY](https://www.seycoffee.com/), [The Picky Chemist](https://en.thepickychemist.com/).
@@ -115,7 +115,7 @@ Here are the detailed parameters and brewing steps:
 -   A WDT tool
     -   Alternatively, a spoon, chopsticks, or glass stick can be used to stir the coffee bed during the bloom.
 
-##### Detailed Brewing Steps
+#### Detailed Brewing Steps
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
@@ -139,7 +139,7 @@ The following steps are tailored to the [Orea V3](https://shop.orea.uk/products/
 11.   Allow the water to fully drain. The total brew time should be about 7–9 minutes, but as long as it's under 10 minutes, flavor issues are unlikely in my experience.
 12.   Re-mineralize with [Lotus Coffee Brew Water](https://lotuscoffeeproducts.com/). Add one drop each of CaCl<sub>2</sub> and MgCl<sub>2</sub> solutions, and two drops of NaHCO<sub>3</sub> to the brewed coffee. This results in approximately 15 ppm of Ca<sup>2+</sup>, Mg<sup>2+</sup>, and HCO<sub>3</sub><sup>-</sup> as CaCO<sub>3</sub>.
 
-#### Brewing Log and Discussion
+### Brewing Log and Discussion
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img src="{{ site.github.url }}/assets/img/samplerecipe.jpg" alt="" class="img-fluid responsive-image">
@@ -159,7 +159,7 @@ This recipe is remarkably stable and boasts the highest success rate among the h
 
 It's important to note that the dispersion screen is not used during the bloom, as outlined in step 4. This detail is crucial. In our tests, using the dispersion screen during the bloom, even with Wet WDT and Rao Spin to ensure the coffee and water mix evenly, reduced the extraction yield by about 2%–3%. This phenomenon is puzzling and warrants further investigation.
 
-#### Conclusion
+### Conclusion
 
 I believe those accustomed to high-extraction coffee will appreciate the clarity this recipe offers, while those who prefer lower extractions will be intrigued by the complexity and sweetness of higher extractions. Regardless, if you give this recipe a try, I'd love to hear your thoughts!
 

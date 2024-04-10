@@ -7,7 +7,7 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-8">
   <div class="d-flex flex-column col-md-6">
-    <h2 class="mb-4">about</h2>
+    <h3 class="mb-3">about</h3>
     <div class="mb-md-0 mb-4">
       {{ content }}
     </div>
@@ -15,7 +15,7 @@ layout: default
   <div class="col-md-6">
     <div class="flex-column text-end">
       <img src="{{ site.github.url }}/assets/img/about.webp" alt="about" width="100%">
-      <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">
+      <span class="image-span">
         {%- if page.language == "zh-Hant-TW" %}過去所舉辦的「遇見咖啡」品飲活動
         {%- else %} The "Meet Coffee" tasting events held in the past
         {%- endif %}
@@ -23,7 +23,7 @@ layout: default
     </div>
     <div class="flex-column text-end mt-4">
       <img src="{{ site.github.url }}/assets/img/home.webp" alt="cupping" width="100%">
-      <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">
+      <span class="image-span">
         {%- if page.language == "zh-Hant-TW" %}與社團夥伴們一同參加杯測會
         {%- else %} Participated in cupping sessions with friends from the club
         {%- endif %}
@@ -34,7 +34,7 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-8 align-items-end">
   <div class="col-md-6 mb-md-0 mb-8">
-    <h2 class="mb-4">latest articles</h2>
+    <h3 class="mb-3">latest articles</h3>
     {%- assign count = 0 %}
     {%- for post in site.posts %}
     {%- if page.language == post.language and post.draft == false %}
@@ -56,7 +56,7 @@ layout: default
     </div>
   </div>
   <div class="col-md-6">
-    <h2 id="subscribe" class="mb-4">subscribe</h2>
+    <h3 class="mb-3" id="subscribe">subscribe</h3>
     <!-- Begin Mailchimp Signup Form -->
     <div id="mc_embed_signup">
       <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">

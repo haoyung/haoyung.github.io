@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Precisely Measuring TDS"
-description: "A plethora of experimental data and a rigorous TDS measurement workflow: measuring TDS remains challenging and frustrating, but at least we finally obtain some accurate measurements."
+description: "A plethora of experimental data and a rigorous TDS measurement workflow: measuring TDS remains challenging and frustrating, but at least we finally obtain some precise measurements."
 tag: [review, tutorial]
 category: articles
 imgfolder: TDS
@@ -13,19 +13,19 @@ sitemap: false
 
 ### Introduction
 
->   Warning: This article is a bit lengthy, please make good use of the directory!
+>   Warning: This article is a bit lengthy, so please make good use of the table of contents!
 
-Flavor is subjective, and similarly, coffee preferences vary widely.
+Flavor is subjective, and similarly, preferences for coffee are subjective.
 
-However, we often need objective data for communication among enthusiasts and to help us adjust brewing parameters to improve a poor cup of coffee.
+However, we often still need objective data, not only for communication and exchange among enthusiasts but also to help us adjust parameters and improve a subpar cup of coffee.
 
-Over the past three years, while teaching the extraction theory course at NTU Coffee Club each semester, I've started with the "objective" data of coffee, specifically TDS (total dissolved solids, a measure of concentration) and extraction yield.
+Over the past three years, when teaching the extraction theory course at NTU Coffee Club each semester, I always start with the *objective* data of coffee, more precisely, TDS (total dissolved solids, a measure of concentration) and extraction yield.
 
-Since the extraction yield is derived from TDS, measuring TDS has become the crucial step in obtaining "objective" data about coffee. Accurately measuring TDS is extremely challenging, as even minor flaws in the process can lead to significant errors. On platforms like Instagram and YouTube, it's common to see videos of measurements being done incorrectly, causing these "objective data" to lose their original meaning.
+Since the extraction yield is calculated from TDS, measuring TDS has become the most crucial step in obtaining *objective* data about coffee. However, accurately measuring TDS is extremely challenging. Even slight flaws in the process can lead to significant errors in the results. On Instagram or YouTube, it's common to see videos of measurements being taken in absolutely incorrect ways, causing these *objective* data measurements to no longer be *objective*, losing their original meaning.
 
-Currently, articles and resources about TDS measurement in Taiwan (or the Chinese-speaking world) are scarce. Therefore, I wrote this article to spark further discussion. I explain my TDS measurement workflow in detail, conduct an experiment to measure the impact of evaporation on TDS, and test several commonly used refractometer models on the market.
+Currently, articles and resources about TDS measurement in Taiwan (or the Chinese-speaking world) are still quite scarce. Therefore, I wrote this article in hopes of initiating further discussion. In this article, I explain my TDS measurement workflow in detail, conduct an experiment to measure the impact of evaporation on TDS, and test several commonly used refractometer models on the market.
 
-All experimental data in this article are [open source](https://docs.google.com/spreadsheets/d/1BQ1JWJI15t-FinSL4U_aB_1EJ0OXRj5Qxc3zgRUO_Ps/edit?usp=sharing), please feel free to use them, and if you have any insights or new findings about the data, please let me know!
+All experimental data in this article are [open source](https://docs.google.com/spreadsheets/d/1BQ1JWJI15t-FinSL4U_aB_1EJ0OXRj5Qxc3zgRUO_Ps/edit?usp=sharing), so please feel free to use them. If you have any insights or new findings about the data, please let me know!
 
 ### What is TDS?
 
@@ -33,7 +33,7 @@ We generally use TDS to indicate the concentration of coffee. By definition, TDS
 
 $$ \mathrm{TDS} = \frac{M_{bev}}{B} $$
 
-For example, if a 100g cup of coffee contains 1.4g of coffee mass (assuming we dry the coffee in an oven to end up with 1.4g of coffee solids), then the TDS is 1.4%.
+For example, if we know that a 100g cup of coffee contains 1.4g of coffee mass (assuming we dry the coffee in an oven and end up with 1.4g of coffee solids), then the TDS is 1.4%.
 
 The vertical axis in the commonly seen SCA's Brewing Control Chart represents the concentration (or the TDS).
 
@@ -48,9 +48,9 @@ The vertical axis in the commonly seen SCA's Brewing Control Chart represents th
 
 With TDS, we can calculate the amount of coffee compounds in the beverage based on its weight, and then calculate the extraction yield. The extraction yield is highly correlated with the flavor of coffee and is one of the most important (and objective) indicators.
 
-Jonathan Gagné wrote a very detailed article in 2019 telling us how to calculate the extraction yield, so I won't reinvent the wheel here. Please refer to his masterpiece [Measuring and Reporting Extraction Yield](https://coffeeadastra.com/2019/02/17/measuring-and-reporting-extraction-yields/).
+Jonathan Gagné wrote a very detailed article in 2019 explaining how to calculate the extraction yield, so I won't reinvent the wheel here. Please refer to his masterpiece [Measuring and Reporting Extraction Yield](https://coffeeadastra.com/2019/02/17/measuring-and-reporting-extraction-yields/).
 
-In simple terms, in filter coffee extraction (e.g., pour-over), we generally use the following formula to estimate the extraction yield (EY), where $B$ represents the beverage weight, and $D$ represents coffee dose.
+In simple terms, for filter coffee extraction (e.g., pour-over), we generally use the following formula to estimate the extraction yield (EY), where $B$ represents the beverage weight, and $D$ represents the coffee dose.
 
 $$ \mathrm{EY} = \displaystyle\frac{\mathrm{TDS} * B}{D} $$
 
@@ -73,13 +73,13 @@ We generally use a refractometer to measure TDS optically. The detailed principl
 
 ### Common Issues When Using a Refractometer
 
-Anyone who has used a refractometer would agree that measuring TDS with a refractometer is extremely frustrating. The reason is that without careful measurement, the readings from the refractometer often vary significantly, making it difficult to obtain stable results.
+Anyone who has used a refractometer would agree that measuring TDS with one is extremely frustrating. The reason is that without careful measurement, the readings from the refractometer often vary significantly, making it difficult to obtain stable results.
 
 #### Sample and Zeroing Temperature
 
 The most common reason for unstable readings during measurement is probably inconsistency in the temperature of the sample and the zeroing temperature. During measurement, we usually zero the device with distilled water first, dry it, then drop the coffee sample for measurement. At this time, we need to ensure that the temperature measured by the device when zeroing with distilled water is completely consistent with the temperature when measuring the coffee sample (or at least as close as possible). Otherwise, as measurements are repeated, there is a high probability that the readings will start to increase or decrease continuously (whether they increase or decrease seems to be more related to the model of the device) and will not converge, preventing us from determining the correct readings.
 
-Generally, we cool the device, the distilled water for zeroing, and the coffee sample to room temperature before measuring. However, this is much more difficult than imagined because even if we place all three in the same indoor location for a while, it is still difficult to ensure their temperatures are exactly the same. In the next section on the measurement process, I will detail how to cool the samples.
+Generally, we cool the device, the distilled water for zeroing, and the coffee sample to room temperature before measuring. However, this is much more difficult than imagined because even if we place all three in the same indoor location for a while, it is still challenging to ensure their temperatures are exactly the same. In the next section on the measurement process, I will detail how to cool the samples.
 
 #### Evaporation
 
@@ -163,7 +163,7 @@ First, the Two Spoon Method is obviously not suitable for measuring a large numb
 
 #### Precautions
 
-I don't know if the phrase "the sample amount must not be too large" has set off alarm bells for everyone. When the sample amount is very small, the reading is very susceptible to the impact of the evaporation. Although pocketsciencecoffee stated in the article that as long as the measurement time is kept within three minutes, the impact should not be too significant, to be safe, I would still recommend keeping the measurement time within one minute (or even half a minute) when using this method.
+I don't know if the phrase "the sample amount must not be too large" has set off alarm bells for everyone. When the sample amount is very small, the reading is very susceptible to the impact of evaporation. Although pocketsciencecoffee stated in the article that as long as the measurement time is kept within three minutes, the impact should not be too significant, to be safe, I would still recommend keeping the measurement time within one minute (or even half a minute) when using this method.
 
 ### Pre-Experiment: Data Measurement Method
 
@@ -171,9 +171,9 @@ Next, we will move on to the experimental part. When handling a large number of 
 
 To obtain readings within a reasonable time during the experiment, I will adopt the following rule for taking values: keep the temperature difference with zeroing within 1°C, continuously measure until the range (maximum value minus minimum value) of three consecutive readings is within 0.01%, and then take the value that appears more frequently.
 
-For example: if the readings in the order are [1.35%, 1.35%, 1.36%], then take 1.35%; if they are [1.35%, 1.36%, 1.37%, 1.36%], then take 1.36% (because the range of the first three readings is 0.02%, exceeding 0.01%, so a fourth measurement is needed).
+For example: if the readings in order are [1.35%, 1.35%, 1.36%], then take 1.35%; if they are [1.35%, 1.36%, 1.37%, 1.36%], then take 1.36% (because the range of the first three readings is 0.02%, exceeding 0.01%, so a fourth measurement is needed).
 
-In most cases, this method of reading allows me to obtain a definite measurement value within the first three readings (i.e., the range of the first three readings does not exceed 0.01%), indicating that although the temperature difference is larger, the readings are still roughly stable, which increases my confidence in reading rule.
+In most cases, this method of reading allows me to obtain a definite measurement value within the first three readings (i.e., the range of the first three readings does not exceed 0.01%), indicating that although the temperature difference is larger, the readings are still roughly stable, which increases my confidence in the reading rule.
 
 ### Experiment I: A Common Mistake Most People Make—The Impact of Evaporation on TDS
 
@@ -366,7 +366,7 @@ Tables 4 and 5 respectively record the differences in the average of TDS and ext
     </div>
 </div>
 
-It can be observed that regardless of whether VST or Difluid was used for measurement, the impact of evaporation led to an average increase of about 1% in extraction yield for both experimental groups. Any reader who regularly measures TDS would agree that a 1% difference in extraction yield is quite significant. While such results might not be so surprising when the cooling time is 30 minutes, the fact that 3 minutes of cooling could have such a significant impact might be somewhat counterintuitive, which is why we need to be extra careful when the sample amount is very small.
+It can be observed that regardless of whether VST or Difluid was used for measurement, the impact of evaporation led to an average increase of about 1% in extraction yield for both experimental groups. Any reader who regularly measures TDS would agree that a 1% difference in extraction yield is quite significant. While such results might not be so surprising when the cooling time is 30 minutes, the fact that 5 minutes of cooling could have such a significant impact might be somewhat counterintuitive, which is why we need to be extra careful when the sample amount is very small.
 
 Ultimately, the reason why the impact of evaporation is so difficult to avoid is because it is positively correlated with time, just like the cooling process, and negatively correlated with the sample amount. To make measurements more accurate, we need to allow the sample to cool sufficiently, but evaporation tends to increase along with the degree of cooling, thereby affecting the readings. Therefore, the simplest solution I recommend here is to store the sample in a sealed container to avoid contact with circulating air.
 
@@ -392,7 +392,7 @@ In this experiment, I will use a VST, an Atago, and three Difluids to measure 20
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image img-fluid">
-             <span class="image-span">Coffee and brewing parameters used in Experiment II<br>Using the parameters introduced in <a href="{%- post_url 2023-11-01-achieving-high-extraction-with-low-agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
+             <span class="image-span">Coffee and brewing parameters used in Experiment II<br>Using the parameters introduced in <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
          </div>
      </div>
 
@@ -419,7 +419,7 @@ Table 6 presents the average measurement values and standard deviations for each
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 6: Average Measurement Values and standard deviations for Five Refractometers</span>
+        <span class="image-span">Table 6: Average Measurement Values and Standard Deviations for Five Refractometers</span>
     </div>
 </div>
 
@@ -571,7 +571,7 @@ It can be observed that most of the measurements are below the previously calcul
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Tables 8 and 9: Average Measured Refractive Index and standard deviations in Experiments 3.1 and 3.2</span>
+        <span class="image-span">Tables 8 and 9: Average Measured Refractive Index and Standard Deviations in Experiments 3.1 and 3.2</span>
     </div>
 </div>
 
@@ -643,3 +643,4 @@ I will also provide the experimental data to Difluid officials for reference, an
 
 -   Thanks to [Quantitative Café](https://www.instagram.com/quantitativecafe/) for providing detailed execution methods for Experiment III, his article [Validating the Difluid R2 Extract Using Sugar Solutions](https://quantitativecafe.com/2023/02/11/validating-the-difluid-r2-extract/) and the post [How Evaporation Affects TDS](https://www.instagram.com/p/CiKsmE6Pz2r) are much more detailed than mine and highly recommended for everyone to read!
 -   Thanks to Zinc for discussing and establishing the TDS measurement workflow in this article with me.
+</revised_blogpost>

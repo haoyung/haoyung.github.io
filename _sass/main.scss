@@ -1,9 +1,8 @@
 // Variables
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-// Light Theme
-html,
-html[data-theme="light"] {
+// Define Mixins for Theme Colors
+@mixin theme-light {
   --main-text-color: rgb(29, 29, 31);
   --main-background-color: rgb(255, 255, 255);
   --img-text-color: rgb(142, 142, 147);
@@ -23,8 +22,7 @@ html[data-theme="light"] {
   }
 }
 
-// Dark Theme
-html[data-theme="dark"] {
+@mixin theme-dark {
   --main-text-color: rgb(245, 245, 247);
   --main-background-color: rgb(0, 0, 0);
   --img-text-color: rgb(142, 142, 147);
@@ -44,25 +42,23 @@ html[data-theme="dark"] {
   }
 }
 
+// Explicit Theme Settings
+html,
+html[data-theme="light"] {
+  @include theme-light;
+}
+
+html[data-theme="dark"] {
+  @include theme-dark;
+}
+
 // Media Query for prefers-color-scheme
 @media (prefers-color-scheme: dark) {
-  html,
-  html[data-theme="dark"] {
-    @extend html[data-theme="dark"];
-
-    .text-img {
-      border-color: var(--bottom-margin-color);
-    }
-  }
-
-  html[data-theme="light"] {
-    @extend html[data-theme="light"];
-
-    .text-img {
-      border-color: var(--bottom-margin-color);
-    }
+  html {
+    @include theme-dark;
   }
 }
+
 
 // Body Styles
 body {
@@ -130,8 +126,9 @@ body {
   }
 
   // Headings
-  h1, h2 {
-    font-size: 28px;
+  h1,
+  h2 {
+    font-size: 1.75rem;
     font-weight: 600;
   }
 
@@ -144,65 +141,65 @@ body {
   }
 
   h3 {
-    font-size: 21px;
+    font-size: 1.3125rem;
     line-height: 1.3;
     font-weight: 600;
   }
 
   h4 {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.3;
     font-weight: 600;
   }
 
   h5 {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.3;
     font-weight: 600;
   }
 
   .title {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: normal;
   }
 
   .subhead {
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: normal;
   }
 
   .four-o-four {
-    font-size: 146px;
+    font-size: 9.125rem;
     font-weight: normal;
   }
 
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 // Media Queries for larger screens
 @media (min-width: 768px) {
   body h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   body h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   body h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   body .title {
-    font-size: 42px;
+    font-size: 2.625rem;
   }
 
   body .subhead {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   body .four-o-four {
-    font-size: 192px;
+    font-size: 12rem;
   }
 
   body table {

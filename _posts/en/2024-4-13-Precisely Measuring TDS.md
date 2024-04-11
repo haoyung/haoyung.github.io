@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Precisely Measuring TDS"
-description: "A plethora of experimental data and a rigorous TDS measurement workflow: measuring TDS remains challenging and frustrating, but at least we finally obtain some accurate measurements."
+description: "A plethora of experimental data and a rigorous TDS measurement workflow: measuring TDS remains challenging and frustrating, but at least we finally obtain some precise measurements."
 tag: [review, tutorial]
 category: articles
 imgfolder: TDS
@@ -19,9 +19,9 @@ Flavor is subjective, and similarly, preferences for coffee are subjective.
 
 However, many times we still need some objective data, not only for communication and exchange among enthusiasts but also to help us adjust parameters and improve a cup of subpar coffee.
 
-Over the past three years, when teaching the extraction theory course at NTU Coffee Club each semester, I always start with the "objective" data of coffee, more precisely, TDS (a measure of concentration) and extraction yield.
+Over the past three years, when teaching the extraction theory course at NTU Coffee Club each semester, I always start with the *objective* data of coffee, more precisely, TDS (total dissolved solids, a measure of concentration) and extraction yield.
 
-Since the extraction yield is calculated from TDS, measuring TDS has become the most crucial step in obtaining "objective" data about coffee. However, measuring TDS accurately is extremely difficult. Even slight flaws in the process can lead to significant errors in the results. On Instagram or YouTube, it's common to see videos of measurements being taken in absolutely incorrect ways, causing these "objective data" measurements to no longer be "objective," losing their original meaning.
+Since the extraction yield is calculated from TDS, measuring TDS has become the most crucial step in obtaining *objective* data about coffee. However, measuring TDS accurately is extremely difficult. Even slight flaws in the process can lead to significant errors in the results. On Instagram or YouTube, it's common to see videos of measurements being taken in absolutely incorrect ways, causing these *objective* data measurements to no longer be *objective*, losing their original meaning.
 
 Currently, articles and resources about TDS measurement in Taiwan (or the Chinese-speaking world) are still quite scarce. Therefore, I wrote this article in hopes of initiating further discussion. In this article, I explain my TDS measurement workflow in detail, conduct an experiment to measure the impact of evaporation on TDS, and test several commonly used refractometer (the instrument used to measure TDS) models on the market.
 
@@ -29,7 +29,7 @@ All experimental data in this article are [open source](https://docs.google.com/
 
 ### What is TDS?
 
-We generally use TDS, total dissolved solids, to indicate the concentration of coffee. By definition, TDS is the amount of coffee mass that made it into your beverage $(M_{bev})$ divided by the beverage weight $(B)$.
+We generally use TDS to indicate the concentration of coffee. By definition, TDS is the amount of coffee mass that made it into your beverage $(M_{bev})$ divided by the beverage weight $(B)$.
 
 $$ \mathrm{TDS} = \frac{M_{bev}}{B} $$
 
@@ -392,7 +392,7 @@ In this experiment, I will use a VST, an Atago, and three Difluids to measure 20
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image img-fluid">
-             <span class="image-span">Coffee and brewing parameters used in Experiment II<br>Using the parameters introduced in <a href="{%- post_url 2023-11-01-achieving-high-extraction-with-low-agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
+             <span class="image-span">Coffee and brewing parameters used in Experiment II<br>Using the parameters introduced in <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
          </div>
      </div>
 

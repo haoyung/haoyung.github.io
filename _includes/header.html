@@ -5,23 +5,19 @@
 {%- endif %}
 
 <header class="d-flex flex-row mb-8">
-    <nav
-      class="mt-0">
-      <a class="text-decoration-none"
-        href="{{ site.github.url }}{{ language_url }}" class="text-decoration-none"><span>{{ site.title }}</span></a>
+  <nav class="mt-0">
+    <a class="text-decoration-none" href="{{ site.github.url }}{{ language_url }}" class="text-decoration-none"><span>{{
+        site.title }}</span></a>
   </nav>
-  
 
   <nav class="d-inline-flex ms-auto">
     {%- for item in site.data.settings.menu %}
     {%- if forloop.last %}
-    <a class="me-0 text-decoration-none"
-      href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
+    <a class="me-0 text-decoration-none" href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
       <span>{{ item.name }}</span>
     </a>
     {%- else %}
-    <a class="me-7 text-decoration-none"
-      href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
+    <a class="me-7 text-decoration-none" href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
       <span>{{ item.name }}</span>
     </a>
     {%- endif %}

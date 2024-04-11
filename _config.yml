@@ -58,7 +58,9 @@ defaults:
       locale: en_US
 
 exclude:
-  - _layouts/archived/*
+  - assets/archived/*
+  - assets/scripts/*
+  - _post/en/wip_translate/*
 
 algolia:
   application_id: M50XXOEO0I

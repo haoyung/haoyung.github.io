@@ -633,9 +633,8 @@ I will also share the experimental data with Difluid's official team for referen
 
 ### Acknowledgments
 
--   Thanks to NTU Coffee Society, Liwei, and Henry for lending me their refractometers, allowing this article to include a broader range of data.
+-   Thanks to NTU Coffee Club, Liwei, and Henry for lending me their refractometers, allowing this article to include a broader range of data.
 
 -   Thanks to [Quantitative Café](https://www.instagram.com/quantitativecafe/) for providing detailed procedures for Experiment Three and for their article on verifying Difluid readings using a sugar solution, which is much more detailed than what I covered here. I highly recommend reading it!
 
--   Thanks to the advisor of NTU Coffee Society, Yuxin, for discussing and helping establish the TDS measurement process presented in this article.
-</coffee_blogpost>
+-   Thanks to the advisor of NTU Coffee Club, Yuxin, for discussing and helping establish the TDS measurement process presented in this article.

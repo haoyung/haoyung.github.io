@@ -75,6 +75,10 @@ body {
     border-radius: 0.3rem;
   }
 
+  video {
+    display: block;
+  }
+
   #table-of-contents {
     background-color: var(--input-color);
     padding: 0.4rem 1rem;
@@ -119,10 +123,11 @@ body {
 
   .image-span {
     font-size: 0.7em;
+    line-height: 1;
     color: var(--img-text-color);
     transition: color 0.5s;
     display: block;
-    margin-top: 0.4rem;
+    margin-top: 0.5rem;
   }
 
   // Headings

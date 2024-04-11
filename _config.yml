@@ -57,6 +57,9 @@ defaults:
       language: en
       locale: en_US
 
+exclude:
+  - _layouts/archived/*
+
 algolia:
   application_id: M50XXOEO0I
   index_name:     whycoffee # You can replace that with whatever name you want

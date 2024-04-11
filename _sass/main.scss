@@ -1,6 +1,10 @@
+// Variables
+$body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Light Theme
 html,
 html[data-theme="light"] {
-  --main-text-color: #1d1d1f;
+  --main-text-color: rgb(29, 29, 31);
   --main-background-color: rgb(255, 255, 255);
   --img-text-color: rgb(142, 142, 147);
   --search-text-color: rgb(108, 108, 112);
@@ -9,19 +13,19 @@ html[data-theme="light"] {
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
   --backquate-color: rgb(209, 209, 214);
-  --red-color: #B00020;
-  --green-color: #015838;
+  --red-color: rgb(176, 0, 32);
+  --green-color: rgb(1, 88, 56);
 
   .text-img {
     -webkit-filter: invert(0);
     filter: invert(0);
     transition: 0.5s;
-    // border-color: var(--bottom-margin-color);
   }
 }
 
+// Dark Theme
 html[data-theme="dark"] {
-  --main-text-color: #f5f5f7;
+  --main-text-color: rgb(245, 245, 247);
   --main-background-color: rgb(0, 0, 0);
   --img-text-color: rgb(142, 142, 147);
   --search-text-color: rgb(174, 174, 178);
@@ -30,152 +34,113 @@ html[data-theme="dark"] {
   --input-placeholder-color: rgb(174, 174, 178);
   --bottom-margin-color: rgb(44, 44, 46);
   --backquate-color: rgb(58, 58, 60);
-  --red-color: #fe002e;
-  --green-color: #02a66a;
+  --red-color: rgb(254, 0, 46);
+  --green-color: rgb(2, 166, 106);
 
   .text-img {
     -webkit-filter: invert(1);
     filter: invert(1);
     transition: 0.5s;
-    // border-color: var(--bottom-margin-color);
   }
 }
 
+// Media Query for prefers-color-scheme
 @media (prefers-color-scheme: dark) {
-
   html,
   html[data-theme="dark"] {
-    --main-text-color: #f5f5f7;
-    --main-background-color: rgb(0, 0, 0);
-    --img-text-color: rgb(142, 142, 147);
-    --search-text-color: rgb(174, 174, 178);
-    --input-color: rgb(28, 28, 30);
-    --input-svg-color: rgb(174, 174, 178);
-    --input-placeholder-color: rgb(174, 174, 178);
-    --bottom-margin-color: rgb(44, 44, 46);
-    --backquate-color: rgb(58, 58, 60);
-    --red-color: #fe002e;
-    --green-color: #02a66a;
+    @extend html[data-theme="dark"];
 
     .text-img {
-      -webkit-filter: invert(1);
-      filter: invert(1);
-      transition: 0.5s;
-      // border-color: var(--bottom-margin-color);
+      border-color: var(--bottom-margin-color);
     }
   }
 
   html[data-theme="light"] {
-    --main-text-color: #1d1d1f;
-    --main-background-color: rgb(255, 255, 255);
-    --img-text-color: rgb(142, 142, 147);
-    --search-text-color: rgb(108, 108, 112);
-    --input-color: rgb(242, 242, 247);
-    --input-svg-color: rgb(108, 108, 112);
-    --input-placeholder-color: rgb(108, 108, 112);
-    --bottom-margin-color: rgb(229, 229, 234);
-    --backquate-color: rgb(209, 209, 214);
-    --red-color: #B00020;
-    --green-color: #015838;
+    @extend html[data-theme="light"];
 
     .text-img {
-      -webkit-filter: invert(0);
-      filter: invert(0);
-      transition: 0.5s;
-      // border-color: var(--bottom-margin-color);
+      border-color: var(--bottom-margin-color);
     }
   }
 }
 
-// @font-face {
-//   font-family: myFont;
-//   src: local("Helvetica");
-//   unicode-range: U+2500;
-// }
-
-// $backgroundColor: #ffffff;
-// $bodyColor: #1d1d1f;
-$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-// $linkColor: #383f45;
-
+// Body Styles
 body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
-  font-family: $bodyFont;
+  font-family: $body-font;
   font-weight: var(--main-font-weight);
   transition: background-color 0.5s, color 0.5s;
   --main-font-weight: 400;
-
   text-underline-offset: 0.2rem;
 
-  video, img {
+  video,
+  img {
     border-radius: 0.3rem;
   }
 
   #table-of-contents {
     background-color: var(--input-color);
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.4rem 1rem;
     margin-bottom: 4.5rem;
   }
 
   #toc {
     margin-bottom: 0.4rem;
-    padding: 0rem;
+    padding: 0;
   }
 
   .toc-entry {
     font-size: 14px;
     list-style: none;
-  }
 
-  .toc-entry .toc-entry {
-    list-style: square;
+    .toc-entry {
+      list-style: square;
+    }
   }
 
   table {
     margin-top: 1rem;
     width: 100%;
     border-collapse: collapse;
-  }
 
-  td, th {
-    padding: 0.5rem;
-    text-align: center;
-  }
+    td,
+    th {
+      padding: 0.5rem;
+      text-align: center;
+    }
 
-  th {
-    // border-bottom: 1px solid var(--main-text-color);    
-    // font-weight: normal;
-    background-color: var(--input-color);
-    transition: background-color 0.5s;
-  }
+    th {
+      background-color: var(--input-color);
+      transition: background-color 0.5s;
+    }
 
-  tbody tr:nth-child(2n) {
-    background-color: var(--input-color);
-    transition: background-color 0.5s;
+    tbody tr:nth-child(2n) {
+      background-color: var(--input-color);
+      transition: background-color 0.5s;
+    }
   }
 
   .image-span {
-    font-size: 0.70em;
+    font-size: 0.7em;
     color: var(--img-text-color);
     transition: color 0.5s;
     display: block;
     margin-top: 0.4rem;
   }
 
-  h1 {
+  // Headings
+  h1, h2 {
     font-size: 28px;
-    line-height: 1.1;
     font-weight: 600;
   }
 
+  h1 {
+    line-height: 1.1;
+  }
+
   h2 {
-    font-size: 28px;
     line-height: 1.2;
-    font-weight: 600;
   }
 
   h3 {
@@ -214,6 +179,7 @@ body {
   line-height: 1.6;
 }
 
+// Media Queries for larger screens
 @media (min-width: 768px) {
   body h1 {
     font-size: 36px;
@@ -244,16 +210,13 @@ body {
   }
 }
 
-// p {
-//   margin-bottom: 1.5rem;
-// }
-
+// Links
 body a {
   color: var(--main-text-color);
-  // text-underline-offset: 1px;
   transition: color 0.5s;
 }
 
+// Scroll Behavior
 html {
   overflow-y: scroll;
 }
@@ -272,26 +235,23 @@ body {
   overflow: hidden;
 }
 
-// p {
-//   margin: 0px;
-//   padding: 0px;
-// }
-
+// Paragraphs and Lists
 p:last-child,
 .textwidget p:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 ol:last-child,
 .textwidget ol:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 li:last-child,
 .textwidget li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
+// Search and Blockquote Styles
 .search-title {
   font-size: 1.3rem;
   font-weight: 600;
@@ -306,7 +266,6 @@ li:last-child,
 }
 
 blockquote {
-  // font-size: 16px;
   padding: 0 0.75rem;
   color: var(--search-text-color);
   border-left: .25em solid var(--backquate-color);
@@ -315,29 +274,17 @@ blockquote {
 ol,
 ul {
   padding-left: 1.25rem;
-  // margin-left: 0px;
-  // margin-bottom: 20px;
-  // margin-top: 4px;
 }
 
 li {
   margin-top: 0.4rem;
 }
 
-li p {
-  // margin-bottom: 4px;
-}
-
-ul {
-  // list-style: none;
-  // padding-left: 0px;
-}
-
 ul ul {
-  // list-style: none;
   padding-left: 1.25rem;
 }
 
+// Input and Placeholder Styles
 input {
   color: var(--main-text-color);
   transition: color 0.5s, background-color 0.5s;
@@ -351,11 +298,11 @@ button:focus {
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: var(--input-placeholder-color);
   transition: 0.5s;
 }
 
+// Border Styles
 .border-bottom {
   border-bottom: 1px solid var(--main-text-color) !important;
   transition: border-color 0.5s !important;
@@ -366,9 +313,10 @@ button:focus {
   transition: border-color 0.5s !important;
 }
 
+// Customize Button
 .customize {
   background-color: var(--input-color);
-  border: 0px;
+  border: 0;
   padding: 10px;
   padding-left: 42px !important;
   box-sizing: border-box;
@@ -377,16 +325,14 @@ button:focus {
   font-size: 14px;
 }
 
-.ais-search-box svg {
-  fill: var(--input-svg-color);
-  transition: fill 0.5s;
-}
-
+// SVG Styles
+.ais-search-box svg,
 button svg {
   fill: var(--input-svg-color);
   transition: fill 0.5s;
 }
 
+// Preload and Selection Styles
 .preload {
   transition: none !important;
   -webkit-transition: none !important;
@@ -400,6 +346,7 @@ button svg {
   background: var(--main-text-color);
 }
 
+// MathJax overflow
 .MathJax {
   overflow-x: auto;
   overflow-y: hidden;

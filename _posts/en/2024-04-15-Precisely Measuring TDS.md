@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Precisely Measuring TDS"
-description: "A ton of experimental data and a rigorous TDS measurement procedure: measuring TDS remains difficult and frustrating, but at least we can finally obtain some precise measurements."
+description: "A plethora of experimental data and a rigorous TDS measurement process: measuring TDS remains challenging and frustrating, but at least we finally obtain some accurate measurements."
 tag: [review, tutorial]
 category: articles
 imgfolder: TDS
@@ -11,31 +11,31 @@ draft: true
 sitemap: false
 ---
 
-### Preface
+### Introduction
 
->   Warning: This article is a bit long, please make good use of the table of contents!
+>   Warning: This article is a bit lengthy, please make good use of the directory!
 
-Flavor is subjective, and naturally, coffee preferences are also subjective.
+Flavor is subjective, and naturally, preferences for coffee are subjective too.
 
-However, we often still need some objective data, not only to facilitate communication and exchange among enthusiasts but also to help us adjust parameters and improve a bad-tasting cup of coffee.
+However, many times we still need some objective data, not only for communication and exchange among enthusiasts but also to help us adjust parameters and improve a cup of bad coffee.
 
-Over the past three years, when teaching the brewing theory course at NTU Coffee Club each semester, I always start by discussing the "objective" data of coffee, more precisely, TDS (an indicator of concentration) and extraction yield.
+Over the past three years, when teaching the brewing theory course at NTU Coffee Club each semester, I always start with the "objective" data of coffee, more precisely, TDS (a measure of concentration) and extraction yield.
 
-Since extraction yield is calculated from TDS, measuring TDS becomes the most critical step in obtaining "objective" coffee data. However, accurately measuring TDS is extremely difficult. Even a slight flaw in the process can lead to very large errors in the results. Videos using absolutely incorrect measurement methods can also be seen frequently online, causing the measured values of these "objective data" to no longer be "objective," losing their original meaning.
+Since the extraction yield is calculated from TDS, measuring TDS has become the most crucial step in obtaining "objective" data about coffee. However, measuring TDS accurately is extremely difficult. Even slight flaws in the process can lead to significant errors in the results. Online, it's common to see videos of measurements being taken in absolutely wrong ways, causing these "objective data" measurements to no longer be "objective," losing their original meaning.
 
-Currently, articles and resources on TDS measurement are still quite scarce in Taiwan (or the Chinese-speaking world). Therefore, I wrote this article, hoping to inspire more discussion. In this article, I explain my TDS measurement process in detail, conduct an experiment to measure the effect of evaporation on TDS, and compare several mainstream TDS meters on the market.
+Currently, articles and resources about TDS measurement in Taiwan (or the Chinese-speaking world) are still quite scarce. Therefore, I wrote this article in hopes of initiating further discussion. In this article, I explain my TDS measurement process in detail, conduct an experiment to measure the impact of evaporation on TDS, and test several mainstream TDS meters on the market.
 
-All the experimental data in this article is [open-sourced](https://docs.google.com/spreadsheets/d/1BQ1JWJI15t-FinSL4U_aB_1EJ0OXRj5Qxc3zgRUO_Ps/edit?usp=sharing). Please feel free to use it. If you have any insights or new discoveries about the data, please let me know!
+All experimental data in this article are [openly available](https://docs.google.com/spreadsheets/d/1BQ1JWJI15t-FinSL4U_aB_1EJ0OXRj5Qxc3zgRUO_Ps/edit?usp=sharing), please feel free to use them, and if you have any insights or new findings about the data, please let me know!
 
 ### What is TDS?
 
-We generally use TDS, or total dissolved solids, to represent the concentration of coffee. By definition, TDS is the weight of coffee solids in the coffee liquid $(M_{bev})$ divided by the weight of the coffee liquid $(B)$.
+We generally use TDS, or total dissolved solids, to indicate the concentration of coffee. By definition, TDS is the weight of coffee material $(M_{bev})$ divided by the weight of the coffee liquid $(B)$.
 
-$$ TDS = \frac{M_{bev}}{B} $$
+$$ \mathrm{TDS} = \frac{M_{bev}}{B} $$
 
-For example, if a 100g cup of coffee contains 1.4g of coffee solids (for instance, if we assume the coffee is dried in an oven and 1.4g of coffee solids remain), then the TDS is 1.4%.
+For example, if we know that a 100g cup of coffee contains 1.4g of coffee material (assuming we dry the coffee in an oven and end up with 1.4g of coffee solids), then the TDS is 1.4%.
 
-In the commonly seen coffee brewing control chart, the vertical axis represents TDS.
+The vertical axis in the commonly seen Golden Cup chart represents TDS.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
@@ -46,170 +46,177 @@ In the commonly seen coffee brewing control chart, the vertical axis represents 
 
 ### Why Measure TDS?
 
-With TDS, we can use the weight of the coffee liquid to calculate the coffee solids content in the liquid and further calculate the extraction yield. Extraction yield is highly correlated with coffee flavor and is one of the very important (and objective) indicators of coffee.
+With TDS, we can calculate the amount of coffee material in the coffee liquid based on its weight, and then calculate the extraction yield. The extraction yield is highly correlated with the flavor of coffee and is one of the most important (and objective) indicators.
 
-Jonathan Gagné wrote a very detailed article back in 2019 telling us how to calculate extraction yield, so I won't reinvent the wheel here. Please refer to his masterpiece [Measuring and Reporting Extraction Yield](https://coffeeadastra.com/2019/02/17/measuring-and-reporting-extraction-yields/).
+Jonathan Gagné wrote a very detailed article in 2019 telling us how to calculate the extraction yield, so I won't reinvent the wheel here. Please refer to his masterpiece [Measuring and Reporting Extraction Yield](https://coffeeadastra.com/2019/02/17/measuring-and-reporting-extraction-yields/).
 
-In simple terms, for filter extraction (such as pour-over), we generally use the following formula to estimate the extraction yield $(EY)$, where $B$ represents the weight of the coffee liquid and $D$ represents the dose of coffee grounds used.
+In simple terms, in filter coffee extraction (e.g., hand brewing), we generally use the following formula to estimate the extraction yield (EY), where $B$ represents the weight of the coffee liquid, and $D$ represents the weight of the coffee used.
 
-$$ EY = \displaystyle\frac{TDS * B}{D} $$
+$$ \mathrm{EY} = \displaystyle\frac{\mathrm{TDS} * B}{D} $$
 
-For example, if we brew a 170g cup of coffee with a TDS of 1.4% using 10g of coffee beans, the extraction yield is:
+For example, if we brew a cup of coffee weighing 170g with a TDS of 1.4% using 10g of coffee beans, the extraction yield is:
 
-$$ \displaystyle\frac{1.4\%*170g}{10g} = 23.8\%$$
+$$ \mathrm{EY} = \displaystyle\frac{1.4\%*170g}{10g} = 23.8\%$$
 
 ### How to Measure TDS?
 
-If we want to know the extraction yield, we must know the weight of the coffee solids in the coffee liquid. This can certainly be done by methods such as drying the coffee in an oven, as mentioned earlier, but it's obviously not very practical. Therefore, how to measure the concentration of coffee while it's still liquid becomes an important issue.
+If we want to know the extraction yield, we must know the weight of the coffee material in the coffee liquid. This could, of course, be done by drying the coffee in an oven as mentioned earlier, but obviously, this is not very practical. Therefore, how to measure the concentration of coffee while it is still a liquid became an important issue.
 
-We generally use a refractometer to measure TDS optically. The detailed principle is not complicated, but since there are already many excellent articles, I won't repeat the explanation here. You can refer to [this IG post by quantitativecafe](https://www.instagram.com/p/Co2cgyOJS8V).
+We generally use a refractometer to measure TDS optically. The detailed principle is not complicated, but since there are already many excellent articles on this, I won't repeat it here. You can refer to [Quantitative Café's IG post](https://www.instagram.com/p/Co2cgyOJS8V).
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">The operating principle of a refractometer (source: quantitativecafe)</span>
+        <span class="image-span">How a refractometer works (source: IG, @quantitativecafe)</span>
     </div>
 </div>
 
-### Some Problems Encountered When Using a Refractometer
+### Common Issues When Using a Refractometer
 
-Anyone who has used a refractometer would agree that using a refractometer to measure TDS is extremely frustrating because when not measuring carefully, the refractometer readings often fluctuate considerably, making it impossible to obtain stable results.
+Anyone who has used a refractometer would agree that measuring TDS with a refractometer is extremely frustrating. The reason is that without careful measurement, the readings from the refractometer often vary significantly, making it difficult to obtain stable results.
 
-#### Sample and Zero Temperature
+#### Sample and Zeroing Temperature
 
-The biggest and most important reason for unstable readings during measurement is probably the sample and zero temperature. When measuring, we usually use pure water to zero the instrument first, wipe it dry, and then drop the coffee liquid for measurement. At this point, we need to ensure that the temperature of the instrument and the pure water used for zeroing is exactly the same as the temperature when measuring the coffee liquid (or as close as possible). Otherwise, as the measurements are repeated, the readings are very likely to keep increasing or decreasing (whether they increase or decrease seems to be more related to the model of the instrument). We then have no way to determine the correct reading.
+The most common reason for unstable readings during measurement is probably inconsistency in the temperature of the sample and the zeroing temperature. During measurement, we usually zero the device with pure water first, dry it, then drop the coffee liquid for measurement. At this time, we need to ensure that the temperature measured by the device when zeroing with pure water is completely consistent with the temperature when measuring the coffee liquid (or at least as close as possible). Otherwise, as measurements are repeated, there is a high probability that the readings will start to increase or decrease continuously (whether they increase or decrease seems to be more related to the model of the device) and will not converge, preventing us from determining the correct readings.
 
-Generally, we cool the instrument, the pure water used for zeroing, and the coffee liquid to room temperature before measuring. However, this is far more difficult than one might imagine because even if we place all three in the same place indoors for a period of time, it's still difficult to ensure that their temperatures are exactly the same. In the measurement process introduced in the next section, I will also detail how to cool the samples.
+Generally, we cool the device, the pure water for zeroing, and the coffee liquid to room temperature before measuring. However, this is much more difficult than imagined because even if we place all three in the same indoor location for a while, it is still difficult to ensure their temperatures are exactly the same. In the next section on the measurement process, I will detail how to cool the samples.
 
-#### Evaporation
+#### Evaporation Amount
 
-Because of the strict temperature requirements of the refractometer for the sample, most people will take out a small amount of coffee liquid before measuring, such as pouring some coffee into a small cup and waiting for the sample to cool down before measuring. But this is precisely the part where it's easiest to make mistakes.
+Because of the strict requirements of the refractometer on sample temperature, most people will take out some coffee liquid before measuring, such as pouring some coffee into a small cup and waiting for the sample to cool before measuring. But this is precisely the most error-prone part.
 
-When the sample volume is extremely small, the amount of evaporation becomes non-negligible. If the sample is uncovered during cooling, the TDS is basically guaranteed to be much higher. This blind spot causes many coffee enthusiasts online to often measure excessively high extraction yields (e.g., 28% for pour-over). We will also conduct experiments to confirm this point in subsequent sections.
+With a smaller sample amount, the ratio of surface area to volume increases, making the evaporation amount non-negligible. If the sample is unsealed during cooling, the evaporation amount could significantly increase the TDS. This blind spot has led many online coffee enthusiasts to frequently measure significantly high extraction yields (e.g., 28% for hand brewing), which we will also experimentally confirm in subsequent sections.
 
 ### My TDS Measurement Process
 
-The following is the complete TDS measurement process. You can see that most of the effort is spent on controlling the temperature difference between the sample and the pure water used for zeroing. In my experience, if the temperature difference can be successfully controlled within 0.1°C, more stable readings can be obtained.
+Here is the complete TDS measurement process I usually use, where most of the effort is spent on controlling the temperature difference between the sample and the pure water used for zeroing. From experience, if the temperature difference can be successfully controlled within 0.1°C, more stable readings can be obtained.
 
-Therefore, in short, the goal of this process is to minimize evaporation while controlling the temperature difference between zeroing and measurement within 0.1°C.
+In short, the goal of this process is to minimize evaporation while controlling the temperature difference between zeroing and measurement within 0.1°C.
 
-**In the following text, this method will be referred to as the "standard method".**
+**In the following text, this method will be referred to as the 'standard method'.**
 
 #### Required Equipment
 
--   TDS meter (refractometer)
-    -   Common choices on the market include: [VST LAB Coffee III Refractometer](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [Atago PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), [Difluid R2](https://digitizefluid.com/products/r2-extract). In the following text, they will be abbreviated as VST, Atago, and Difluid, respectively. Generally, the VST, which was the earliest to be used for coffee measurement and is also the most expensive, is considered the standard, while the Atago and Difluid are more affordable alternatives.
-    -   I have three Difluids and one Atago, and I specially borrowed a VST for this article (many thanks to Henry!). Here, I will demonstrate using the Difluid R2 that I use more often.
--   Sample vials or centrifuge tubes of about 5ml
-    -   Need to have a lid and be airtight. The sample vials I usually use are [this style](https://dgs.com.tw/product/G13570-12331/G13570-15450), and the centrifuge tubes are [this](https://www.sciket.com/product/group/1290879).
+-   TDS Meter (Refractometer)
+    -   Common choices on the market include: [VST LAB Coffee III Refractometer](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [Atago PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), [Difluid R2 Extract](https://digitizefluid.com/products/r2-extract). In the following text, they will be abbreviated as VST, Atago, and Difluid, respectively. Generally, VST, being the earliest used for coffee measurement and the most expensive, is considered the standard, while Atago and Difluid are more affordable alternatives.
+    -   I have three Difluid units and one Atago at hand, and I also borrowed a VST for this article (thanks to reader Henry for lending me his equipment!). Here, I will demonstrate using the Difluid, which I use more frequently.
+-   Sample bottles or centrifuge tubes, about 5ml
+    -   Must have a lid and be airtight, such as [this one](https://dgs.com.tw/product/G13570-12331/G13570-15450).
 -   Plastic pipette
--   Lens cleaning tissue
-    -   Should be available at chemical supply stores and other places. I use the common [KIMTECH](https://dgs.com.tw/product/headCode/D4EK-34155?gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppLfi6upKbFThMP-3fdZV0rOvTJRKJSDgiNxXNzMFcjkdnUVoZQnVrBoCA3wQAvD_BwE).
--   Paper towels or cotton cloth
-    -   Can be used to roughly absorb the liquid on top of the instrument.
--   Distilled water
-    -   Will be used for zeroing.
--   Small water bath for cooling
-    -   Flat-bottomed is best (because the sample vials need to stand in it). You can use the drip tray from your regular pour-over setup.
+-   Lens cleaning paper
+    -   Available at chemical material stores, I use the commonly found [KIMTECH](https://dgs.com.tw/product/headCode/D4EK-34155?gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppLfi6upKbFThMP-3fdZV0rOvTJRKJSDgiNxXNzMFcjkdnUVoZQnVrBoCA3wQAvD_BwE).
+-   Tissue or cloth
+    -   Used to roughly dry the liquid on top of the device.
+-   Pure water
+    -   Used for zeroing.
+-   A small water tank for cooling
+    -   Flat-bottomed is best (because the sample bottle needs to be placed in it), you can use the bottom basin usually used for hand brewing.
 -   Insulated gloves
-    -   Best if you have them, otherwise use a cloth instead.
+    -   If available, otherwise use cloth as a substitute.
 
-#### Sampling and Preparation
+#### Sampling and Preliminary Work
 
-1.   After brewing the coffee, first stir thoroughly with a spoon to avoid concentration differences between the upper and lower layers.
-2.   Use a plastic straw to draw about 5ml of coffee liquid into the sample vial, try to fill the sample vial as much as possible to avoid too much space inside, and immediately put on the lid.
-3.   Fill the small water bath with room temperature distilled water and place the sample vial in it to cool.
-4.   Place the TDS meter next to the small water bath (to ensure their temperatures are close) and wait about 15–30 minutes.
-5.   After cooling is complete, wear insulated gloves (or through a cloth), shake the sample vial, then open the lid and stand it in the small water bath to keep the sample temperature consistent with the distilled water.
+1.   After brewing the coffee, first stir thoroughly with a spoon to avoid different concentrations in the upper and lower layers.
+2.   Use a plastic pipette to take about 5ml of coffee liquid and put it into a sample bottle, try to fill the sample bottle to avoid too much space inside, and then immediately close the lid.
+3.   Fill the small water tank with room temperature pure water and place the sample bottle in it to cool.
+4.   Place the TDS meter next to the small water tank (to ensure their temperatures are similar) and let it sit for about 15–30 minutes to cool.
+5.   After cooling, wear insulated gloves (or use a cloth) to shake the sample bottle evenly, open the lid, and place it in the small water tank to maintain the same temperature as the pure water.
 
 #### Measurement
 
-After completing the preparation, the temperatures of the sample, the distilled water used for zeroing, and the TDS meter should be roughly the same. Then you can start measuring.
+After the preliminary work, the temperature of the sample, the pure water for zeroing, and the TDS meter should be roughly the same, and then the measurement can begin.
 
-1.   First, make sure the sample well of the TDS meter is clean. If there is dirt, you can clean it with a small amount of alcohol or acetone and wipe it dry with lens cleaning tissue.
-2.   Drop a small amount of distilled water into the sample well, wait about 10 seconds, and then zero the instrument.
-     -   To be honest, I don't know why you need to wait, but the official instructions specifically mention this point. Maybe it's to let the temperature stabilize a bit more.
-3.   Wipe the sample well dry, then drop in a small amount of sample, measure, and observe the temperature change. The temperature during zeroing and when measuring the sample should not differ by more than 0.1°C.
-     -   If the temperature difference is still greater than 0.1°C, repeat steps 2–3 until the temperature difference can be controlled within 0.1°C.
-4.   Keep measuring until three consecutive identical values appear. This value is the measurement result.
+1.   First, ensure the sample trough on the TDS meter is clean. If there are impurities, spray a little alcohol or acetone on the lens cleaning paper to clean it.
+2.   Drop a little pure water into the sample trough, wait about 10 seconds, then zero.
+     -   Honestly, I don't know why we need to wait, but Difluid's manual specifically mentions this, probably to allow the temperature to stabilize further.
+3.   Use a tissue or cloth to dry the liquid, and do not apply pressure at this time to avoid scratching the sample trough.
+4.   Wipe the sample trough clean with lens cleaning paper.
+5.   Then drop a little sample, measure and observe the temperature change. The temperature difference between zeroing and measuring the sample should not exceed 0.1°C.
+     -   If the temperature difference is still greater than 0.1°C, repeat steps 1 to 5 until the temperature difference can be controlled within 0.1°C.
+6.   Under the condition that the temperature difference is within 0.1°C, continue measuring until three consecutive identical values appear. This value is the measurement result.
 
-### Other TDS Measurement Processes Worth Referencing
+### Other TDS Measurement Processes Worth Considering
 
 #### Jonathan Gagné's Method
 
-For details, see one of Jonathan Gagné's most well-known articles, [Measuring Coffee Concentration with a 0.01% Precision](https://coffeeadastra.com/2019/09/21/measuring-coffee-concentration-with-a-0-01-precision/).
+For detailed information, please refer to one of Jonathan Gagné's most famous articles, [Measuring Coffee Concentration with a 0.01% Precision](https://coffeeadastra.com/2019/09/21/measuring-coffee-concentration-with-a-0-01-precision/).
 
-In it, Jonathan measures and explains in detail the various factors that can cause measurement errors, but the whole method is actually quite cumbersome and not so suitable for measuring a large number of samples in a short time. If my memory serves me right, Jonathan mentioned that he has also switched to using the Two Spoon Method in his daily routine, so we won't spend more space introducing it here. If you're interested, be sure to read his article (it's very interesting and includes many things to pay attention to when measuring!).
+Jonathan thoroughly measured and explained various factors that could cause measurement errors in the article, but the entire method is quite cumbersome and not very suitable for measuring a large number of samples in a short time. If I remember correctly, Jonathan mentioned that he usually uses the Two Spoon Method as well, so we won't spend time introducing it here. If you are interested, please be sure to read his article (it's very interesting and includes many details to be aware of when measuring!).
 
 #### Two Spoon Method
 
-When it comes to TDS measurement processes, the Two Spoon Method must be mentioned. As the name suggests, it's a method of measuring using two spoons. Below, I will briefly explain its operating process and why I didn't use this method in this experiment. For a more detailed introduction to the Two Spoon Method, please see [this article by pocketsciencecoffee](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/).
+Speaking of TDS measurement processes, the Two Spoon Method is definitely worth mentioning. This method also comes from Jonathan Gagné, and as the name suggests, it involves using two spoons to measure. Below, I will briefly explain the operational process and why I did not use this method in this experiment. For a more detailed introduction to the Two Spoon Method, please see the article [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by [pocketsciencecoffee](https://www.instagram.com/pocketsciencecoffee/).
 
-##### Operating Process
+##### Operational Process
 
-First, prepare two room temperature spoons (I like to use cupping spoons) and room temperature distilled water for zeroing.
+First, prepare two room-temperature spoons (I like to use cupping spoons) and room-temperature pure water for zeroing.
 
-After stirring the brewed coffee evenly, use one of the spoons to scoop a small amount of sample (no more than 2 ml), wait a bit, then pour about 1 ml of the sample onto the other spoon, wait a bit again, and then directly measure. Because the sample volume is very small, the large heat capacity of the spoon will immediately cool the coffee to near room temperature. Similar to my measurement process, the goal here is also to keep the temperature difference between the sample and the zeroing temperature within 0.1°C. If the temperature difference is too large, the sampling volume needs to be reduced.
+After thoroughly stirring the brewed coffee, use one of the spoons to scoop a small amount of sample (no more than 2 ml), wait a moment, then pour about 1 ml of the sample onto the other spoon, wait again, then directly pour into the sample trough for measurement. Because the sample amount is very small, the large heat capacity of the spoon will immediately cool the coffee to near room temperature.
 
-##### Reasons for Not Using It in This Experiment
+As with my measurement process, the goal here is to keep the temperature difference between the sample and the zeroing temperature within 0.1°C. If the temperature difference is too large, the sample amount needs to be reduced.
 
-First, the Two Spoon Method is obviously not suitable for measuring a large number of samples in a short time (I don't have that many cupping spoons...). And in order to allow the sample to cool down quickly, the sample volume must not be too much. This leads to the inability to perform the subsequent experiment of measuring the same sample with multiple refractometers.
+##### Reasons for Not Using This Method in This Experiment
 
-##### Precautions
+First, the Two Spoon Method is obviously not suitable for measuring a large number of samples in a short time (I don't have that many cupping spoons...), and to allow the sample to cool quickly, the sample amount must not be too large, which makes it impossible to conduct subsequent experiments measuring the same sample with multiple refractometers.
 
-Doesn't the phrase "the sample volume must not be too much" set off alarm bells in your mind? When the sample volume is extremely small, the readings are very easily affected by evaporation. Although pocketsciencecoffee states in the article that as long as the measurement time is kept within three minutes, it won't be too affected. But to be on the safe side, I would still recommend keeping the measurement time within one minute (or even half a minute) when using this method.
+#### Precautions
 
-### Written Before the Experiment: Data Measurement Method
+I don't know if the phrase "the sample amount must not be too large" has set off alarm bells for everyone. When the sample amount is very small, the reading is very susceptible to the impact of the evaporation amount. Although pocketsciencecoffee stated in the article that as long as the measurement time is kept within three minutes, the impact should not be too significant, to be safe, I would still recommend keeping the measurement time within one minute (or even half a minute) when using this method.
 
-Next, we will enter the experimental part. When handling a large number of samples in the experiment, the temperature of the refractometer will inevitably rise with continuous use, so it will be a bit difficult to meet the 0.1°C temperature difference limit. And when the temperature difference is larger, it's also less easy to get three consecutive readings.
+### Pre-Experiment: Data Measurement Method
 
-In order to obtain readings within a reasonable time during the experiment, I will adopt the following value-taking rules in the following experiments: keep the temperature difference from the zeroing temperature within 0.5°C, and keep measuring until the range of three consecutive readings (maximum value minus minimum value) is within 0.01%, then take the value that appears more frequently.
+Next, we will move on to the experimental part. When handling a large number of samples during the experiment, the temperature of the refractometer will inevitably rise with continuous use, making it difficult to meet the 0.1°C temperature difference limit. When the temperature difference is larger, it is also less likely to produce three consecutive readings.
 
-For example: If the readings are [1.35%, 1.35%, 1.36%] in sequence, take 1.35%, and if they are [1.35%, 1.36%, 1.37%, 1.36%], take 1.36% (because the range of the first three readings is 0.02%, exceeding 0.01%, so a fourth measurement is needed).
+To obtain readings within a reasonable time during the experiment, I will adopt the following rule for taking values: keep the temperature difference with zeroing within 1°C, continuously measure until the range (maximum value minus minimum value) of three consecutive readings is within 0.01%, and then take the value that appears more frequently.
 
-In the vast majority of cases, this interpretation method allows me to obtain a definite measured value in the first three values (that is, in the vast majority of cases, the range of the first three readings will not exceed 0.01%).
+For example: if the readings are [1.35%, 1.35%, 1.36%], then take 1.35%; if they are [1.35%, 1.36%, 1.37%, 1.36%], then take 1.36% (because the range of the first three readings is 0.02%, exceeding 0.01%, so a fourth measurement is needed).
 
-### Experiment 1: The Mistake Most People Make - The Effect of Evaporation on TDS
+In most cases, this method of judgment allows me to obtain a definite measurement value within the first three readings (i.e., the range of the first three readings does not exceed 0.01%), indicating that although the temperature difference is larger, the readings are still roughly stable, which increases my confidence in this method of judgment.
 
-I often see many obviously high extraction yields in the coffee community. In my experience, extraction yields above 27% in brewing without pressure (e.g., pour-over) and above 28% in brewing with pressure (e.g., espresso) are extremely rare. When obtaining such readings, most of the time, it's because the measurement method is flawed. In addition to temperature instability, a very common blind spot is forgetting the effect of evaporation on TDS.
+### Experiment 1: A Common Mistake Most People Make—The Impact of Evaporation on TDS
 
-In the previous sections, it was mentioned that many people's TDS measurement process involves placing the sample in an uncovered small cup to cool, such as in the measurement process video [Coffee Refraction 101](https://www.youtube.com/watch?v=fL7vNbEcsxk) by Matt Perger, whom I greatly admire. The effect of evaporation is closely related to the sample volume and cooling time. Obviously, the longer the cooling time, the greater the effect of evaporation, but the effect brought by the sample volume may not be so intuitive. When the sample is less, the ratio of its surface area to volume increases dramatically, causing the rate at which the sample concentration increases with cooling time to also increase sharply. When measuring TDS, the effect of sample volume will far exceed that of cooling time, which may be somewhat counterintuitive.
+I often see many obviously high extraction yields in the coffee community. In my experience, extraction yields exceeding 27% in brewing methods without pressure involvement (such as hand brewing) and exceeding 28% in brewing methods with pressure involvement (such as espresso) are extremely rare. When such readings are obtained, it is mostly due to flaws in the measurement method. Besides unstable temperatures, a common oversight is forgetting the impact of evaporation on TDS.
 
-In Matt Perger's video, because the entire cooling process is likely only about 15 seconds long, the effect of evaporation may not be too significant. But when the sample volume is extremely small (visually, the sample volume in the video may only be about 0.5 ml), doing so is still very risky. If you really want to cool an extremely small amount of sample in an unsealed environment, I would recommend not exceeding 30 seconds.
+In previous sections, it was mentioned that many people's TDS measurement processes involve cooling the sample in an uncovered small cup, such as [Matt Perger](https://www.baristahustle.com/matt-perger/)'s measurement process video [Coffee Refraction 101](https://www.youtube.com/watch?v=fL7vNbEcsxk).
 
-In the following experiment, I will compare the TDS measurement results of cooling samples in sealed and unsealed environments. In addition to the control group cooled in a sealed environment, I selected two combinations of sample volume and cooling time, namely 1 ml sample volume cooled for 5 minutes and 5ml sample volume cooled for 30 minutes.
+The impact of evaporation is closely related to the sample amount and cooling time. Obviously, the longer the cooling time, the greater the impact of evaporation. However, the impact of the sample amount may not be as intuitive. When the sample amount is smaller, the ratio of surface area to volume sharply increases, causing the concentration of the sample to increase rapidly as the cooling time increases. In TDS measurements, the impact of the sample amount is far greater than that of the cooling time, which may be somewhat counterintuitive.
+
+For example: When the coffee is freshly brewed in the carafe, I am not worried about evaporation because the opening of the carafe (the area where the coffee is exposed to air) is too small relative to the entire pot of coffee to affect the results. But when I start taking samples, because the sample amount is very small at this point, I need to be very careful about whether there is circulating air contacting the sample, otherwise the measurement value is very likely to increase.
+
+In Matt Perger's video, since the entire cooling process lasts only about 15 seconds, the impact of evaporation may not be too significant. However, it is still very risky to do this when the sample amount is very small (visually, the sample amount in the video appears to be only about 0.5 ml). If it is really necessary to cool such a small amount of sample in an unsealed environment, I would recommend not exceeding 1 minute.
+
+In the following experiment, I will compare the TDS measurement results of samples cooled in sealed and unsealed environments. I have chosen two combinations of sample amount and cooling time as the experimental group for cooling in an unsealed environment, namely 1 ml of sample amount cooled for 5 minutes, and 5 ml of sample amount cooled for 30 minutes.
 
 #### Experimental Steps
 
-1.   Brew a pot of coffee and measure the weight of the coffee liquid.
+1.   Brew a pot of coffee and measure the weight of the coffee liquid, so that we can later convert the TDS into extraction yield.
 
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image">
-             <span class="image-span">The coffee and brewing parameters used in Experiment 1<br>Using the tricolate, which seems to have not been introduced on this blog yet<br>Brewing <a href="https://www.seycoffee.com/products/2024-enrique-merino-lugmapata-l1-ecuador">SEY's Lugmapata Washed L1</a> (truly an impressive coffee)</span>
+             <span class="image-span">Coffee and brewing parameters used in Experiment 1<br>Using the tricolate, which seems not yet introduced in this blog<br>Brewing <a href="https://www.seycoffee.com/products/2024-enrique-merino-lugmapata-l1-ecuador">SEY's Lugmapata Washed L1</a> (truly an impressive coffee)</span>
          </div>
      </div>
 
-2.   After thorough stirring, sample using the standard sampling method. All samples are divided into three groups, as follows:
+2.   After thorough stirring, take samples. All samples are divided into three groups, as follows:
 
-     - Control group: Take 5 samples of 5 ml each, and perform sampling and pretreatment using the standard method introduced in the previous section (put into sample vials and immerse in distilled water to cool).
+     - Control Group (Control): Take 5 samples of 5 ml each, using the standard method introduced in the previous chapter for sampling and pre-treatment (put in a centrifuge tube and immersed in pure water for cooling).
 
-     -   Experimental group 1 (NL-5min, No Lid 5min): Take 5 samples of 1ml each, place in uncovered cupping bowls and cool for 5 minutes.
-     -   Experimental group 2 (NL-30min, No Lid 30min): Take 5 samples of 5ml each, place in uncovered cupping bowls and cool for 30 minutes.
+     -   Experimental Group One (NL-5min, No Lid 5min): Take 5 samples of 1ml each, placed in an uncovered cupping bowl to cool for 5 minutes.
+     -   Experimental Group Two (NL-30min, No Lid 30min): Take 5 samples of 5ml each, placed in an uncovered cupping bowl to cool for 30 minutes.
 
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image">
-             <span class="image-span">The experimental groups (NL-5min & NL-30min) placed in cupping bowls and the control group (Control) placed in sealed centrifuge tubes</span>
+             <span class="image-span">Experimental groups (NL-5min & NL-30min) placed in cupping bowls and the control group (Control) placed in sealed centrifuge tubes</span>
          </div>
      </div>
 
-3.   In this experiment, I selected the most representative VST and the Difluid I usually use, one of each, to measure using the standard method.
-
+3.   In this experiment, I chose to use the most representative VST and my commonly used Difluid, one each, to measure using the standard method.
 
 #### Experimental Results
 
-Table 1 shows the TDS measurement results of the 15 samples in the three groups of Experiment 1, with the upper half being the values measured by VST and the lower half being the values obtained using Difluid.
+Table 1 shows the TDS measurement results of the three groups in Experiment 1, totaling 15 samples, where the upper half shows the values measured by VST, and the lower half shows the values obtained using Difluid.
 
 <table class="table-i">
 <thead>
@@ -277,11 +284,9 @@ Table 1 shows the TDS measurement results of the 15 samples in the three groups 
 </table>
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 1: TDS measurement results of the uncovered experimental groups (NL-5min & NL-30min) and the control group (Control) in Experiment 1</span>
+        <span class="image-span">Table 1: TDS measurement results of the unsealed experimental groups (NL-5min & NL-30min) and the control group (Control)</span>
     </div>
 </div>
-
-
 
 <style>
   .table-i th:nth-child(1), .table-i th:nth-child(2), .table-i th:nth-child(3), .table-i td:nth-child(1), .table-i td:nth-child(2) {
@@ -289,12 +294,11 @@ Table 1 shows the TDS measurement results of the 15 samples in the three groups 
   }
 </style>
 
-
-Table 2 records the mean and standard deviation<sup class="footnote-sup">[B]</sup> of the TDS and extraction yield data of the two groups in Experiment 1.1.
+Tables 2 and 3 respectively record the average values and standard deviations<sup class="footnote-sup">[B]</sup> of TDS and extraction yield for each group.
 
 <div class="footnote">
   <div class="footnote-label">[B]</div>
-  <div class="footnote-content">In this article, data will be expressed as $\mu \pm \sigma$, where $\mu$ represents the mean of the data and $\sigma$ represents the standard deviation.</div>
+  <div class="footnote-content">In this article, data are presented as $\mu \pm \sigma$, where $\mu$ represents the average value, and $\sigma$ is the standard deviation.</div>
 </div>
 
 | ΔTDS    | NL-5min         | NL-30min        | Control         |
@@ -304,10 +308,9 @@ Table 2 records the mean and standard deviation<sup class="footnote-sup">[B]</su
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 2: Mean and standard deviation of TDS</span>
+        <span class="image-span">Table 2: Average TDS and Standard Deviation</span>
     </div>
 </div>
-
 
 | ΔEY     | NL-5min          | NL-30min         | Control          |
 | ------- | ---------------- | ---------------- | ---------------- |
@@ -316,26 +319,29 @@ Table 2 records the mean and standard deviation<sup class="footnote-sup">[B]</su
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 3: Mean and standard deviation of extraction yield</span>
+        <span class="image-span">Table 3: Average Extraction Yield and Standard Deviation</span>
     </div>
 </div>
 
-
-Figure 1 is the result of visualizing the data in Tables 2 and 3, with the left half being the values measured by VST and the right half being the values obtained using Difluid. The error bars represent plus or minus one standard deviation.
+Figure 1 visualizes the data from Tables 2 and 3, with the left half showing values measured by VST and the right half showing values obtained using Difluid. The error bars represent a 95% confidence interval (approximately plus or minus two standard deviations).
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1-4.webp" alt="" class="img-fluid">
-        <span class="image-span">Figure 1: Mean TDS and extraction yield of the experimental groups (NL-5min & NL-30min) and the control group</span>
+        <span class="image-span">Figure 1: Average TDS and Extraction Yield of the experimental groups (NL-5min & NL-30min) and the control group</span>
     </div>
 </div>
 
+It can be observed that the TDS measurements of the two experimental groups, which were cooled in cupping bowls without preventing evaporation, are higher than those of the control group. After a t-test, this difference was confirmed to be statistically significant. At the same time, we can also observe that when using the more affordable Difluid, the control group's measurements have a smaller standard deviation than the experimental groups, indicating higher measurement stability.<sup class="footnote-sup">[C]</sup>
 
-It can be seen that the measured TDS of the two experimental groups cooled in the cupping bowls without preventing evaporation is higher than that of the control group. After a t-test, it was also confirmed that this gap is statistically significant. At the same time, we can also observe that the control group has a smaller standard deviation of measured values, indicating higher measurement stability.
+<div class="footnote">
+  <div class="footnote-label">[C]</div>
+  <div class="footnote-content">When using VST, the differences between the three groups are not significant.</div>
+</div>
 
 #### Discussion
 
-Tables 4 and 5 record the average TDS and extraction yield differences between the two experimental groups and the control group, respectively.
+Tables 4 and 5 respectively record the average differences in TDS and extraction yield between the two experimental groups (NL-5min & NL-30min) and the control group.
 
 | ΔTDS    | NL-5min | NL-30min |
 | ------- | ------- | -------- |
@@ -344,11 +350,9 @@ Tables 4 and 5 record the average TDS and extraction yield differences between t
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 4: Average TDS difference between the experimental groups (NL-5min & NL-30min) and the control group</span>
+        <span class="image-span">Table 4: Average TDS Differences Between the Experimental Groups and the Control Group</span>
     </div>
 </div>
-
-
 
 | ΔEY     | NL-5min | NL-30min |
 | ------- | ------- | -------- |
@@ -357,23 +361,26 @@ Tables 4 and 5 record the average TDS and extraction yield differences between t
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 5: Average extraction yield difference between the experimental groups (NL-5min & NL-30min) and the control group</span>
+        <span class="image-span">Table 5: Average Extraction Yield Differences Between the Experimental Groups and the Control Group</span>
     </div>
 </div>
 
+It can be observed that regardless of whether VST or Difluid was used for measurement, the impact of evaporation led to an average increase of about 1% in extraction yield for both experimental groups. Any reader who has measured TDS would agree that a 1% difference in extraction yield is quite significant. While such results might not be so surprising when the cooling time is 30 minutes, the fact that 3 minutes of cooling could have such a significant impact might be somewhat counterintuitive, which is why we need to be extra careful when the sample amount is very small.
 
-It can be seen that the effect of evaporation causes an increase of about 1% in the average extraction yield of both experimental groups. Any reader who measures TDS would agree that a 1% difference in extraction yield is quite significant. When the cooling time is 30 minutes, this result may not be so surprising, but the impact of 3 minutes of cooling being so large may be a bit counterintuitive. This is precisely why we need to be more careful when the sample volume is extremely small.
+Ultimately, the reason why the impact of evaporation is so difficult to avoid is because it is positively correlated with time, just like the cooling process, and negatively correlated with the sample amount. To make measurements more accurate, we need to allow the sample to cool sufficiently, but evaporation tends to increase along with the degree of cooling, thereby affecting the readings. Therefore, the simplest solution I recommend here is to store the sample in a sealed container to avoid contact with circulating air.
 
-The above experiment illustrates the importance of avoiding the effect of evaporation when measuring, and the standard sampling and pretreatment methods introduced in the previous section help us obtain stable and accurate values.
+The above experiment illustrates the importance of avoiding the impact of evaporation when measuring, and the standard sampling and pre-treatment method introduced in the previous chapter helps us obtain stable and accurate values.
 
-### Experiment 2: Testing Refractometers from Various Manufacturers
+### Experiment 2: Testing Different Brands of Refractometers
 
-In this experiment, I will use one VST, one Atago, and three Difluids to measure 20 samples taken from the same pot of coffee to evaluate the accuracy and stability of each instrument.
+Compared to the expensive VST, Atago and Difluid are much more affordable, but does this mean that their measurement accuracy is significantly inferior to VST?
+
+In this experiment, I will use one VST, one Atago, and three Difluid units to measure 20 samples from the same pot of coffee, to assess the accuracy and stability of each device.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right are three Difluids, Atago, and VST</span>
+        <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three Difluid units, Atago, and VST</span>
     </div>
 </div>
 
@@ -384,27 +391,26 @@ In this experiment, I will use one VST, one Atago, and three Difluids to measure
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image img-fluid">
-             <span class="image-span">The coffee and brewing parameters used in Experiment 2<br>Using the recipe introduced in <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">〈Achieving High Extraction with Low Agitation〉
-     </a><br>Brewing <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">SEY's Colombia Washed Pink Bourbon</a></span>
+             <span class="image-span">Coffee and brewing parameters used in Experiment 2<br>Using the parameters introduced in <a href="{%- post_url 2023-11-01-achieving-high-extraction-with-low-agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">SEY's a Colombian Washed Pink Bourbon</a></span>
          </div>
      </div>
 
-2.   After thorough stirring, use the standard sampling method to take samples, a total of 20 samples of 5ml each.
+2.   After thorough stirring, use the standard sampling method to take 20 samples of 5ml each.
 
-3.   Measure in the order of sample number using the four refractometers and the standard method.
+3.   Measure each sample in numerical order with the five refractometers using the standard method.
 
 #### Experimental Results
 
-Figure 3 plots the data obtained by measuring 20 samples with three Difluid R2s and one Atago PAL-COFFEE, respectively, with the horizontal axis being the sample number (from 1 to 20) and the vertical axis being TDS (in %).
+Figure 3 plots the data obtained by measuring 20 samples with the five refractometers. The horizontal axis represents the sample number (from 1 to 20), and the vertical axis represents TDS (in %).
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2-3.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 3: TDS measurement values of 20 samples measured by three Difluid R2s, Atago PAL-COFFEE, and VST LAB Coffee III Refractometer, respectively</span>
+        <span class="image-span">Figure 3: Line chart of TDS measurements for 20 samples measured by three Difluid units, Atago, and VST</span>
     </div>
 </div>
 
-Table 6 shows the average measured values and standard deviations of each instrument.
+Table 6 presents the average measurement values and standard deviations for each device.
 
 | Difluid #1      | Difluid #2      | Difluid #3      | Atago           | VST             |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
@@ -412,30 +418,28 @@ Table 6 shows the average measured values and standard deviations of each instru
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 6: Average measured values and standard deviations of the four refractometers</span>
+        <span class="image-span">Table 6: Average Measurement Values and Standard Deviations for Five Refractometers</span>
     </div>
 </div>
 
+From Figure 3 and Table 6, we can observe a generally stable relationship in the measurement values of the five devices, namely Atago > VST > Difluid #1 > Difluid #2 > Difluid #3. This relationship will be discussed in more detail in Experiment 3.
 
-From Figure 3 and Table 6, it can be observed that the measured values of the five instruments generally show a stable size relationship, i.e., Atago > VST > Difluid #1 > Difluid #2 > Difluid #3. More detailed discussion on this point will be provided in the next chapter.
-
-I also plotted the measured values of the five refractometers into violin plots, as shown in Figure 3, where the three horizontal lines from top to bottom represent the maximum, mean, and minimum values, respectively, and the light-colored part represents the probability distribution of the measured values.
+I also plotted the measurement values of the five refractometers as violin plots (see [violin plot](https://en.wikipedia.org/wiki/Violin_plot)). The three horizontal lines from top to bottom represent the maximum, average, and minimum values, respectively, and the lighter area represents the probability distribution of the measurement values.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3-3.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 4: Violin plots of the measured values of the five refractometers</span>
+        <span class="image-span">Figure 4: Violin plots of measurement values for five refractometers</span>
     </div>
 </div>
 
-
-Through the violin plots, we can see that the range of measured values of the VST is significantly narrower, indicating its higher precision, while the Atago and Difluid are slightly inferior. However, even so, the standard deviation of the measured values of the three Difluids and Atago is still only about 0.01%, significantly surpassing their claimed precision (0.03% for Difluid and 0.15% for Atago).
+Through the violin plots, we can see that VST has a noticeably narrower range of measurement values, indicating higher precision. Atago and Difluid are slightly less precise, but even so, the standard deviations of the three Difluid units and Atago are still only about 0.01%, significantly exceeding their advertised precision (Difluid is 0.03%, and Atago is 0.15%).
 
 #### Discussion
 
-To be honest, I didn't expect to obtain such precise data. Even for Difluid #2, which has the largest data fluctuation range, the range of measured values (maximum value minus minimum value) is only 0.04%, which is surprisingly small. I think this proves that the standard sampling, pretreatment, and measurement processes introduced in this article can help us obtain very precise measured values.
+Honestly, I did not expect to obtain such precise data. Even with Difluid #2, which had the largest range of measurement values, the full range (maximum value minus minimum value) was only 0.04%, which is surprisingly small. I think this proves that the standard sampling, pre-treatment, and measurement process introduced in this article can help us obtain very precise measurement values.
 
-What I find most interesting in this experiment is the stable size relationship between different refractometers. I subsequently repeated the experiment and plotted the data into Figures 5 and 6. It can be seen that similar trends can still be observed.
+What I found most interesting in this experiment is the stable relationship between the different refractometers. I repeated the experiment and plotted the data in Figures 5 and 6, and we can still observe a similar trend, namely Atago > VST > Difluid #1 > Difluid #2 > Difluid #3.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-6">
@@ -444,45 +448,48 @@ What I find most interesting in this experiment is the stable size relationship 
     <div class="col-md-6 mt-md-0 mt-3">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3-2.webp" alt="" class="img-fluid">
     </div>
-    <span class="image-span">Figures 5 and 6: Line chart and violin plots obtained after repeating the experiment once</span>
+    <span class="image-span">Figures 5 and 6: Line chart and violin plot from a repeat experiment showing similar trends</span>
 </div>
 
+However, after conducting some surveys, I found that this trend of measurements being consistently higher or lower with certain devices differs from the conclusions reached by others, such as in the article by [@espressofun](https://www.instagram.com/espressofun/) titled [DiFluid R2 Coffee Refractometer Device Variation](https://rmckeon.medium.com/difluid-r2-coffee-refractometer-device-variation-20cf1a663d99), which may require further verification.
 
-### Experiment 3: Using Sugar Solution to Test the Accuracy of Difluid R2
+### Experiment 3: Testing the Accuracy of Difluid R2 Extract with Sugar Solution
 
-In Experiment 2, I found that the measured values of our three Difluids were all lower than the VST, which is widely regarded as the standard, and there was also a size relationship between different instruments, although not large. So I wondered if there is a so-called "standard solution" that can help me verify whether this size relationship really exists and examine which of these instruments is closest to the theoretical value.
+In Experiment 2, I noticed that all three Difluid units measured lower than the widely accepted standard VST, and there was also a consistent high-to-low relationship among the different Difluid units. This made me curious if there was a so-called "standard solution" that could help verify whether this high-to-low relationship really exists and examine which machine is closest to the theoretical value.
 
-The Difluid R2 is the only one among these refractometers that displays the refractive index, which is the original value measured by the instrument. Different instruments may use slightly different algorithms to obtain the TDS measured value from the refractive index.
+Difluid is the only one among these refractometers that displays the refractive index, which is the raw value measured by the device. Different devices may use slightly different algorithms to convert the refractive index into the TDS measurement. For more about refractive index, I highly recommend the article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/27/estimating-tds-from-refractive-index/) by Quantitative Café, which was very enlightening.
 
-Because the refractive indices of many common solutions have been measured and recorded by predecessors, we have the opportunity to use this value to test whether the measured value of the Difluid R2 is the same as the experiments of predecessors. After some searching, I found that a 10% standard solution prepared with white sugar or rock sugar can be used to test the accuracy of the R2. Below, I provide my operating and calculation steps for your reference.
+Since many common solutions have their refractive index measured and recorded by predecessors, we have the opportunity to use this value to check if the measurements by Difluid match those from previous experiments. After some research, I found that using sugar to prepare a 10% sucrose solution could test the accuracy of Difluid. Below, I provide the steps I used for preparation and calculation.
 
->   Special thanks to [quantitativecafe](https://quantitativecafe.com/) for providing the data and operation details!
+>   Special thanks to [Quantitative Café](https://quantitativecafe.com/) for providing data and detailed operational methods!
 
 #### Experimental Steps
 
-1.   Zero the scale, preferably using a scale with a minimum unit of 0.01g (e.g., a jewelry scale).
+For clarity, I will use the data from my operation as an example.
 
-2.   Measure the weight of the container (I use a very light plastic cup), which weighs 7.98g.
+1.   Zero the balance, preferably using a scale with a minimum unit of 0.01g (e.g., a gem scale).
 
-3.   Add about 10g of white sugar, with a total weight of 17.99g, indicating that 17.99 - 7.98 = 10.01 (g) of white sugar was added.
+2.   Measure the weight of the container (I used a lightweight plastic cup), which was 7.98g.
 
-4.   Add about 90g of 60°C distilled water, with a total weight of 108.02g (this weight is not important, it will be measured again after cooling to exclude the effect of evaporation).
+3.   Add about 10g of white sugar, total weight became 17.99g, meaning 17.99 - 7.98 = 10.01 (g) of white sugar was added.
 
-5.   Stir thoroughly, seal with plastic wrap, and let cool at room temperature for about 1 hour.
+4.   Add about 90g of 60°C pure water, total weight became 108.02g (this weight is not important, it will be measured again after cooling to exclude evaporation effects).
 
-6.   Re-measure the total weight, which is 107.77g, indicating that there is a total of 107.77 - 7.98 = 99.79 (g) of solution, containing 10.01g of sugar, which means the solution concentration is:
+5.   After thorough mixing, seal with cling film and leave to cool at room temperature for about 1 hour.
+
+6.   Re-measure the total weight, which was 107.77g, meaning there was 107.77 - 7.98 = 99.79 (g) of solution containing 10.01g of sugar, indicating a solution concentration of:
 
      $$ \displaystyle\frac{10.01}{99.79} \approx 10.03\%$$
 
-7.   The following table (thanks again to [quantitativecafe](https://github.com/quantitativecafe/blog/blob/main/refractive-index/refractive-index.xlsx) and [Weber State University](https://faculty.weber.edu/ewalker/Chem2990/Chem%202990%20Refractive%20Index%20Readings.pdf) for the data) and [interpolation](https://en.wikipedia.org/wiki/Interpolation) can be used to calculate the theoretical refractive index (i.e., the original value measured by the R2, which will be displayed in the upper left corner of the screen).
+7.   Use the following table (thanks again to [Quantitative Café](https://github.com/quantitativecafe/blog/blob/main/refractive-index/refractive-index.xlsx) and [Weber State University](https://faculty.weber.edu/ewalker/Chem2990/Chem%202990%20Refractive%20Index%20Readings.pdf)) and [interpolation](https://en.wikipedia.org/wiki/Interpolation) to calculate the theoretical refractive index (which is what Difluid measures and displays in the top left corner of the screen).
 
-     | Sugar Solution Concentration | 9%     | 10%    | 11%    |
-     | ---------------------------- | ------ | ------ | ------ |
-     | refractive index             | 1.3463 | 1.3478 | 1.3494 |
+     | Sucrose Solution Concentration | 9%     | 10%    | 11%    |
+     | ------------------------------ | ------ | ------ | ------ |
+     | refractive index               | 1.3463 | 1.3478 | 1.3494 |
 
      <div class="row mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
-             <span class="image-span">Refractive indices corresponding to various concentrations of sugar solution</span>
+             <span class="image-span">Refractive index corresponding to different concentrations of sucrose solution</span>
          </div>
      </div>
 
@@ -490,21 +497,21 @@ Because the refractive indices of many common solutions have been measured and r
 
      $$ 1.3463 + (1.3494-1.3478)*\displaystyle\frac{10.031-10}{11-10}\approx1.34785 $$
 
-8.   Sample according to the standard method, taking a total of 10 samples of 5ml each, and cool for another 15 minutes.
+8.   Sample using the standard method, taking 10 samples of 5ml each, and then cool for 15 minutes.
 
-9.   Measure according to the standard method and record the data.
+9.   Measure using the standard method and record the data.
 
-##### Refractive Index Theoretical Value Calculator
+##### Refractive Index Calculator
 
-The solution concentration we just calculated actually contains a very important assumption: the purity of the sugar is 100%, and it does not contain any moisture, but this seems to deviate slightly from reality. Therefore, we can use the 99.7% concentration indicated on the sugar packaging and the estimated moisture content of about 1% from [some data](https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/documents/884/936/s5391pis.pdf) to calculate another lower concentration:
+The concentration we calculated earlier implicitly assumes that the purity of the sugar is 100% and that it contains no water, which seems slightly unrealistic. Therefore, we can use the 99.7% purity marked on the sugar packaging and [some data](https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/documents/884/936/s5391pis.pdf) estimating about 1% water content to calculate a slightly lower concentration:
 
 $$ 10.03\% \times 99.7\% \times (1-1\%) \approx 9.90\%$$
 
-Here, we treat the concentration calculated at the beginning as the upper bound and this concentration as the lower bound, that is, we assume that the actual concentration will fall within the interval [10.03%, 9.90%].
+Here, we treat the concentration initially calculated as the upper bound, and this concentration as the lower bound, i.e., we assume the actual concentration falls within the [10.03%, 9.90%] range.
 
-Similarly, we can also use this lower bound of concentration to calculate the lower bound of the refractive index.
+Similarly, we can also calculate the lower bound of the refractive index.
 
-I also made a calculator that can calculate the upper and lower bounds of concentration and refractive index. Please go to this [google sheet](https://docs.google.com/spreadsheets/d/1w87A-c4GNcAff21fg4g3mESp85NV0uIajSgKQFZD5Vg/edit?usp=sharing) and enter the three weights we measured in the experimental steps in the green-backed boxes to obtain the upper and lower bounds of the concentration and refractive index calculated by the interpolation method.
+I also created a calculator that can calculate the upper and lower bounds of the concentration and refractive index. Please go to this [google sheet](https://docs.google.com/spreadsheets/d/1w87A-c4GNcAff21fg4g3mESp85NV0uIajSgKQFZD5Vg/edit?usp=sharing) and enter the three weights measured during the experimental steps to get the interpolated concentration and refractive index bounds.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
@@ -517,21 +524,22 @@ I also made a calculator that can calculate the upper and lower bounds of concen
 
 #### Experimental Results
 
-In this experiment, I obtained lower data, which made me suspect whether there was a problem with the solution preparation. Therefore, I repeated this experiment twice. Below, I will present the data of the two experiments side by side. The two experiments are called Experiment 3.1 and 3.2, respectively.
+During the first execution of this experiment, I obtained lower-than-expected data, making me suspect there might have been an issue with the preparation of the solution, so I conducted a second experiment. Below, I will present the data from both experiments, referred to as Experiment 3.1 and 3.2, respectively.
 
-Table 4 shows the concentration range of the sugar solution I prepared and the refractive index range calculated based on the concentration in Experiments 3.1 and 3.2.
+Table 7 shows the concentration range of the sucrose solution prepared in Experiments 3.1 and 3.2 and the calculated range of refractive index based on the concentration.
 
-|          | Concentration Range | refractive index Range |
+|          | Concentration Range | Refractive Index Range |
 | -------- | ------------------- | ---------------------- |
 | Experiment 3.1 | [9.90%, 10.03%] | [1.34765, 1.34785]    |
 | Experiment 3.2 | [9.80%, 9.93%]  | [1.34750, 1.34769]    |
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 4: Concentration and refractive index ranges of the sugar solutions prepared in Experiments 3.1 and 3.2</span>
+        <span class="image-span">Table 7: Concentration and Refractive Index Ranges of Sucrose Solutions in Experiments 3.1 and 3.2</span>
     </div>
 </div>
-Figures 7 and 8 plot the data obtained by measuring 10 samples with three Difluid R2s in Experiments 3.1 and 3.2, respectively, with the horizontal axis being the sample number (from 1 to 10) and the vertical axis being the refractive index. The upper and lower bounds of the theoretical value (Ground Truth) are marked with red dashed lines.
+
+Figures 7 and 8 plot the measurements of 10 samples taken in Experiments 3.1 and 3.2, with the horizontal axis representing the sample number (from 1 to 10), and the vertical axis representing the refractive index. The calculated theoretical refractive index bounds (ground truth) are marked with red dashed lines.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-6">
@@ -540,40 +548,35 @@ Figures 7 and 8 plot the data obtained by measuring 10 samples with three Diflui
     <div class="col-md-6 mt-md-0 mt-3">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig6.webp" alt="" class="img-fluid">
     </div>
-    <span class="image-span">Figures 7 and 8: Line charts of sample measured values and theoretical refractive index range in Experiments 3.1 and 3.2</span>
+    <span class="image-span">Figures 7 and 8: Line charts of measurements in Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
 
-It can be seen that most of the measured values are lower than the theoretical values measured by predecessors. Tables 6 and 7 show the average measured values and standard deviations of each instrument, as well as the percentage difference from the theoretical values<sup class="footnote-sup">[C]</sup><sup class="footnote-sup">[D]</sup>.
-
-<div class="footnote">
-  <div class="footnote-label">[C]</div>
-  <div class="footnote-content">Here, I treat the midpoint of the calculated refractive index range as the theoretical value.</div>
-</div>
+It can be observed that most of the measurements are below the previously measured theoretical values. Tables 8 and 9 present the average measured values and standard deviations for each device, as well as the percentage difference from the theoretical value<sup class="footnote-sup">[D]</sup>.
 
 <div class="footnote">
   <div class="footnote-label">[D]</div>
-  <div class="footnote-content">Here, the error relative to distilled water is presented. Since the refractive index of distilled water is 1.33299, assuming the average measured value of an instrument is $ \mu $ and the theoretical value is $ \theta $, then the error relative to distilled water is: $\displaystyle\frac{\mu-\theta}{\theta-1.33299}$.</div>
+  <div class="footnote-content">Here, I take the middle value of the calculated refractive index theoretical range as the theoretical value.</div>
 </div>
 
-
 | Experiment 3.1     | Difluid #1        | Difluid #2        | Difluid #3        |
-| ------------------ | ----------------- | ----------------- | ----------------- |
-| Measured Value     | 1.34757 ± 0.00001 | 1.34755 ± 0.00002 | 1.34750 ± 0.00001 |
-| Difference from Theoretical Value | -1.26%            | -1.40%            | -1.69%            |
+| ------------ | ----------------- | ----------------- | ----------------- |
+| Measurement       | 1.34757 ± 0.00001 | 1.34755 ± 0.00002 | 1.34750 ± 0.00001 |
+| Difference from Theoretical Value | -1.24%            | -1.37%            | -1.65%            |
 
 | Experiment 3.2     | Difluid #1        | Difluid #2        | Difluid #3        |
-| ------------------ | ----------------- | ----------------- | ----------------- |
-| Measured Value     | 1.34749 ± 0.00001 | 1.34747 ± 0.00002 | 1.34741 ± 0.00001 |
-| Difference from Theoretical Value | -0.72%            | -0.84%            | -1.26%            |
+| ------------ | ----------------- | ----------------- | ----------------- |
+| Measurement       | 1.34749 ± 0.00001 | 1.34747 ± 0.00002 | 1.34741 ± 0.00001 |
+| Difference from Theoretical Value | -0.71%            | -0.82%            | -1.23%            |
 
 <div class="row mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Tables 6 and 7: Average values and standard deviations of refractive indices measured by the three Difluid R2s in the two experiments</span>
+        <span class="image-span">Tables 8 and 9: Average Measured Refractive Index and Standard Deviations in Experiments 3.1 and 3.2</span>
     </div>
 </div>
-The measured values of the three R2s are all lower than the theoretical values, and the size relationship is #1 > #2 > #3, roughly the same as the trend in Experiment 2. This means that the R2 may have a so-called "constitution" difference, that is, some instruments will consistently measure lower values, while others will be the opposite. And this may also mean that the VST or Atago, which had higher measured values in Experiment 2, are more accurate, but this still needs further verification.
 
-I also plotted the measurement data of the three R2s into the following violin plots:
+It can be observed that the measurements from all three Difluid units are lower than the theoretical value, and the order of measurements is #1 > #2 > #3, roughly consistent with the trend observed in Experiment 2. This suggests that Difluid units may indeed have a sort of "constitution," where some machines consistently measure lower values, and others the opposite. This might also indicate that the higher measurements from VST or Atago observed in Experiment 2 are more accurate, but this still requires further verification.
+
+I also plotted the measurement data from the three Difluid units into violin plots as shown below:
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-6">
@@ -582,45 +585,60 @@ I also plotted the measurement data of the three R2s into the following violin p
     <div class="col-md-6 mt-md-0 mt-3">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig7.webp" alt="" class="img-fluid">
     </div>
-    <span class="image-span">Figures 7 and 8: Violin plots of sample measured values and theoretical refractive index range in Experiments 3.1 and 3.2</span>
+    <span class="image-span">Figures 9 and 10: Violin plots of measurement data from Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
 
-It can be seen that the fluctuation range of the measured values of the three Difluids is very small (except for #2 being slightly larger), once again making me admire their precision. And although the three values have size differences, they differ by about the same amount.
+It can be seen that the range of measurement fluctuations for all three Difluid units is very small (except for #2, which is slightly larger), once again impressing me with their precision. Although there are slight differences in the measurements among the three units, they are still fairly close.
 
-However, although they perform very well in terms of precision, they are not so ideal in terms of accuracy. After all, most of the measured values are still some distance from the refractive index range we calculated. However, this result does not rule out the possibility of problems with the solution preparation, such as a small amount of sugar not being completely dissolved, the sugar concentration being lower than the indicated 99.7%, the sugar moisture content being higher than our estimated 1%, etc.
+However, although their precision is excellent, their accuracy is not as ideal, as most of the measurements are still some distance from the calculated theoretical refractive index range. However, this result does not rule out the possibility of issues with the preparation of the solution, as in the article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/11/validating-the-difluid-r2-extract/) by Quantitative Café, where he successfully obtained measurements very close to the theoretical value, unfortunately, I was unable to replicate his results in this experiment.
+
+Below are some possible reasons for the lower measurement values:
+
+1.   Some sugar may not have fully dissolved.
+2.   The concentration of sugar may be lower than the 99.7% indicated.
+3.   The water content in the sugar may be higher than our estimate of 1%.
 
 #### Discussion
 
-What I find most interesting is actually the similarity between Figures 7 and 8. Even though the sugar solution concentrations are different in the two experiments, the three instruments still show highly consistent measurement tendencies, seemingly confirming my guess that the Difluid R2 has "constitution" differences.
+What I find most interesting is actually the similarity between Figures 7 and 8, even though the concentrations of the sucrose solutions in the two experiments were different, the three machines still showed highly consistent measurement inertia.
 
-[TODO] show more graphs
+Let's further extract the Difluid data from the two sets of data in Experiment 2 (Figures 4 and 6) and compare them with Figures 7 and 8 as shown below:
 
-It's just a pity that the R2 currently doesn't have a calibration function, so this method can only be used for testing and can't actually improve the instrument's accuracy. Otherwise, we might be able to make the performance of R2s with different "constitutions" more consistent through calibration.
+<div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
+    <div class="col-md-12">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid responsive-plot">
+        <span class="image-span">From left to right, top to bottom: parts of three Difluid units extracted from four violin plots in Figures 4, 6, 7, and 8</span>
+    </div>
+</div>
+
+It can be seen that these four plots are very similar! This seems to confirm my speculation that Difluid R2 Extract has different "constitutions," but in the article [DiFluid R2 Coffee Refractometer Device Variation](https://rmckeon.medium.com/difluid-r2-coffee-refractometer-device-variation-20cf1a663d99) by [@espressofun](https://www.instagram.com/espressofun/), he did not observe such obvious differences, so I have not yet concluded on this matter.
+
+Unfortunately, Difluid currently does not have a calibration function, so this method can only be used for testing and cannot actually improve the accuracy of the machines. Otherwise, we might be able to use calibration to make the performance of various Difluid units more consistent.
 
 ### TL;DR and Conclusion
 
-In this article, I introduced the TDS measurement process I usually use. To ensure accuracy, I put a lot of effort into controlling evaporation and temperature differences, making the process quite cumbersome, but this is all indispensable for obtaining accurate and stable measured values.
+In this article, I first introduced my usual TDS measurement process. To ensure accuracy, I put a lot of effort into controlling evaporation and temperature differences, making the process quite cumbersome, but this is essential for obtaining precise and stable measurements.
 
-In the three subsequent experiments, we obtained the following conclusions:
+In the subsequent three experiments, we concluded:
 
--   Experiment 1: The effect of evaporation on TDS
-    -   In our experimental setup, if the sample is not contained in a sealed container to prevent evaporation, the evaporation will cause the calculated extraction yield to increase by as much as 1%, indicating that the effect of evaporation is very large and needs to be particularly careful when measuring.
-    -   The standard sampling and pretreatment methods I introduced can effectively avoid the effect of evaporation on TDS measurement.
--   Experiment 2: Testing refractometers from various manufacturers
-    -   In terms of stability, the VST readings are the least likely to fluctuate, while the Difluid and Atago perform similarly.
-    -   The Difluid readings are generally lower than the VST, while the Atago readings are the opposite, generally higher than the VST.
-    -   The readings of the three Difluids also have a size relationship with each other, although not large, but this size relationship appears repeatedly in multiple experiments and does not seem to be caused by chance or experimental error.
--   Experiment 3: Using sugar solution to test the accuracy of Difluid R2
-    -   The refractive indices of the sugar solution measured by the three Difluids are all lower than the theoretical values, but this does not rule out the possibility that it is caused by the low purity of the sugar.
-    -   The three Difluids also have a size relationship when measuring the refractive index of the sugar solution, which is very similar to the situation observed in Experiment 2.
+-   Experiment 1: The Impact of Evaporation on TDS
+    -   In our experimental setup, if samples are not stored in sealed containers to prevent evaporation, evaporation can lead to an increase of up to 1% in calculated extraction yield, showing that the impact of evaporation is very significant and must be carefully managed during measurement.
+    -   The standard sampling and pre-treatment method I introduced effectively prevents evaporation from affecting TDS measurements.
+-   Experiment 2: Testing Different Brands of Refractometers (VST & Atago & Difluid)
+    -   In terms of stability, VST readings fluctuate the least, while Difluid and Atago show little difference in performance.
+    -   Difluid readings are generally lower than VST, while Atago readings are generally higher.
+    -   The three Difluid units also show a consistent high-to-low relationship in their readings, although not large, this relationship has appeared repeatedly in multiple experiments, suggesting it is not due to chance or experimental error.
+-   Experiment 3: Testing the Accuracy of Difluid with a Sucrose Solution
+    -   The refractive index of the sucrose solution measured by all three Difluid units is lower than the theoretical value.
+    -   The three Difluid units also show a consistent high-to-low relationship when measuring the refractive index of the sucrose solution, and this is very similar to the situation observed in Experiment 2.
 
-The results of Experiments 2 and 3 make me speculate that perhaps each Difluid has "constitution" differences, that is, some instruments will habitually measure higher values, while some instruments will be the opposite. This is an interesting finding, but it probably still needs more time to further verify.
+The results of Experiments 2 and 3 lead me to speculate that perhaps each Difluid unit has a different "constitution," meaning some machines consistently measure higher values, and others the opposite. This is an interesting finding, but it probably still requires more time for further verification.
 
-I will also provide the experimental data to Difluid officials for reference. Perhaps a calibration method will be available in the future to reduce such "constitution" differences.
+I will also provide the experimental data to Difluid officials for reference, and perhaps in the future, there will be calibration methods to reduce these "constitutional" differences.
 
 ### Acknowledgments
 
--   Thanks to NTU Coffee Club, consultant Li-Wei, and Henry for lending me their refractometers, allowing this article to have more data to use.
+-   Thanks to NTU Coffee Club, Li-Wei, and Henry for lending me their refractometers, allowing this article to have more usable data.
 
--   Thanks to [quantitativecafe](https://www.instagram.com/quantitativecafe/) for providing the detailed execution method of Experiment 3. Their [article on validating Difluid readings using sugar solutions](https://quantitativecafe.com/2023/02/11/validating-the-difluid-r2-extract/) and [post on how evaporation affects TDS](https://www.instagram.com/p/CiKsmE6Pz2r) are much more detailed than mine. I highly recommend everyone to read them!
--   Thanks to NTU Coffee Club consultant Yu-Zhen for discussing and establishing the TDS measurement process in this article with me.
+-   Thanks to [Quantitative Café](https://www.instagram.com/quantitativecafe/) for providing detailed execution methods for Experiment 3, his article [Validating the Difluid R2 Extract Using Sugar Solutions](https://quantitativecafe.com/2023/02/11/validating-the-difluid-r2-extract/) and the post [How Evaporation Affects TDS](https://www.instagram.com/p/CiKsmE6Pz2r) are much more detailed than mine and highly recommended for everyone to read!
+-   Thanks to Yu-Xin, the advisor of NTU Coffee Club, for discussing and establishing the TDS measurement process in this article with me.

@@ -23,10 +23,10 @@ layout: default
     <div class="flex-row mb-4">
       {%- for item in site.data.settings.social %}
       {%- if forloop.first %}
-      <a href="{{ item.link }}" class="ms-0 fs-5"><i class="{{ item.icon }}"
+      <a href="{{ item.link }}" class="ms-0 fs-6"><i class="{{ item.icon }}"
           style="color:var(--main-text-color);"></i></a>
       {%- else %}
-      <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.icon }}"
+      <a href="{{ item.link }}" class="ms-3 fs-6"><i class="{{ item.icon }}"
           style="color:var(--main-text-color);"></i></a>
       {%- endif %}
       {%- endfor %}

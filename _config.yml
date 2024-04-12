@@ -60,6 +60,7 @@ defaults:
 exclude:
   - assets/archived/*
   - assets/scripts/*
+  - assets/libs/bootstrap/*
   - _post/en/wip_translate/*
 
 algolia:

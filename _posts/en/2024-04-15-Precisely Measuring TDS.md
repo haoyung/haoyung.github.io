@@ -7,8 +7,6 @@ category: articles
 imgfolder: TDS
 language_reference: measuring_tds
 usemathjax: true
-draft: true
-sitemap: false
 ---
 
 ### Introduction
@@ -84,7 +82,7 @@ Due to the strict sample temperature requirements, most people take a small amou
 
 With a smaller sample volume, the surface area to volume ratio increases, making evaporation non-negligible. If the sample is unsealed while cooling, evaporation can significantly increase the TDS. This common oversight leads many coffee enthusiasts to frequently report implausibly high extraction yields online (e.g. 28% for pour-over). I will experimentally confirm the impact of evaporation in a later section.
 
-### My TDS Measurement Process
+### My TDS Measurement Workflow
 
 Here is my complete TDS measurement workflow. Most of the effort focuses on controlling the temperature difference between the sample and zeroing liquid to within 0.1°C, which I have found enables more stable readings.
 
@@ -130,7 +128,7 @@ I will demonstrate using the Difluid, which I use most frequently.
      -   If it does, repeat steps 1-5 until the difference is within 0.1°C.
 6.   Under the condition that the temperature difference is within 0.1°C, continue measuring until you get three identical consecutive readings. This is your measurement result.
 
-### Other TDS Measurement Processes Worth Considering
+### Other TDS Measurement Workflows Worth Considering
 
 #### Jonathan Gagné's Method
 
@@ -154,11 +152,11 @@ As with my method, the goal is to keep the sample and zeroing temperature differ
 
 The Two Spoon Method is obviously not suitable for measuring many samples quickly (I don't have that many cupping spoons!). Additionally, to enable rapid cooling, the sample volume must be very small, making it impossible to measure the same sample with multiple refractometers, which I needed to do in these experiments.
 
-#### Precautions
+##### Precautions
 
 The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although pocketsciencecoffee's article states that the impact should not be too significant if the measurement is completed within three minutes, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
 
-### Pre-Experiment: Data Measurement Method
+### Pre-Experiment: Data Collection
 
 Next, we move on to the experiments. When handling many samples, the refractometer temperature will inevitably rise with continuous use, making it difficult to consistently meet the 0.1°C temperature difference limit. With larger temperature differences, getting three stable consecutive readings also becomes less likely.
 
@@ -168,7 +166,7 @@ For example, if the readings are [1.35%, 1.35%, 1.36%], I take 1.35%. If they ar
 
 In most cases, this method allows me to obtain a definite measurement within the first three readings (i.e. their range does not exceed 0.01%), indicating that although the temperature difference is larger, the readings are still roughly stable, increasing my confidence in the results.
 
-### Experiment I: A Common Mistake—The Impact of Evaporation on TDS
+### Experiment I: A Common Mistake – The Impact of Evaporation on TDS
 
 I often see implausibly high extraction yields reported in the coffee community. In my experience, yields over 27% for non-pressurized brewing (e.g. pour-over) and over 28% for pressurized brewing (e.g. espresso) are extremely rare. When such values are reported, it is usually due to measurement flaws. Besides temperature instability, a common oversight is forgetting the impact of evaporation on TDS.
 

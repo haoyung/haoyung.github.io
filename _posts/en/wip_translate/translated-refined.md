@@ -15,9 +15,7 @@ sitemap: false
 
 >   Warning: This article is a bit lengthy, so please make good use of the table of contents!
 
-Flavor is subjective, and similarly, preferences for coffee are subjective.
-
-However, many times we still need some objective data, not only for communication and exchange among enthusiasts but also to help us adjust parameters and improve a cup of subpar coffee.
+Flavor is subjective, and similarly, preferences for coffee are subjective. However, many times we still need some objective data, not only for communication and exchange among enthusiasts but also to help us adjust parameters and improve a cup of subpar coffee.
 
 Over the past three years, when teaching the extraction theory course at NTU Coffee Club each semester, I always start with the *objective* data of coffee, more precisely, TDS (total dissolved solids, a measure of concentration) and extraction yield.
 

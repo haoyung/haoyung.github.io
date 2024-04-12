@@ -279,7 +279,12 @@ ul {
 }
 
 li {
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+li li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 ul ul {

@@ -2,6 +2,5 @@
 layout: tag
 title: "#grinder"
 tag: grinder
-language: zh-Hant-TW
 language_reference: "#grinder"
 ---

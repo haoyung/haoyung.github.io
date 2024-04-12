@@ -2,6 +2,5 @@
 layout: tag
 title: "#recipe"
 tag: recipe
-language: zh-Hant-TW
 language_reference: "#recipe"
 ---

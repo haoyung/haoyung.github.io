@@ -32,7 +32,9 @@
 
 </html>
 
+{%- if page.url != '/' %}
 <script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+{%- endif %}
 <script>
   jQuery(function ($) {
     $(window).on('load', function () {
@@ -40,7 +42,6 @@
     });
   });
 </script>
-<!-- for mathjax support -->
 {%- if page.usemathjax %}
 <script>
   MathJax = {

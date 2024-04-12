@@ -13,14 +13,14 @@ plugins:
 defaults:
   -
     scope:
-      path: "tag/*.md"
-    values:
-      sitemap: false
-  -
-    scope:
       path: ""
     values:
       toc: true
+  - 
+    scope:
+      path: '*.md'
+    values:
+      language: zh-Hant-TW
   -
     scope:
       path: '_posts/*.md'
@@ -33,16 +33,10 @@ defaults:
       language: zh-Hant-TW
   -
     scope:
-      path: '_posts/en/*.md'
-    values:
-      permalink: 'en/:categories/:title'
-      language: en
-      locale: en_US
-  - 
-    scope:
-      path: '*.md'
+      path: 'tag/*.md'
     values:
       language: zh-Hant-TW
+      sitemap: false
   - 
     scope:
       path: 'en/*.md'
@@ -53,6 +47,13 @@ defaults:
     scope:
       path: 'en/tag/*.md'
     values:
+      language: en
+      locale: en_US
+  -
+    scope:
+      path: '_posts/en/*.md'
+    values:
+      permalink: 'en/:categories/:title'
       language: en
       locale: en_US
 

@@ -425,7 +425,7 @@ I also plotted the measurements as violin plots (see [violin plot](https://en.wi
     </div>
 </div>
 
-VST has a noticeably narrower measurement range, indicating higher precision. Atago and Difluids are slightly less precise but still significantly exceed their advertised precision with standard deviations about 0.01%. (Difluid 0.03%, Atago 0.15%).
+VST has a noticeably narrower measurement range, indicating higher precision. Atago and Difluids are slightly less precise but still significantly exceed their advertised precision (Difluid 0.03%, Atago 0.15%) with standard deviations only about 0.01%.
 
 #### Discussion
 

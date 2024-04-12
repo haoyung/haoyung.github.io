@@ -449,7 +449,7 @@ However, after some research, I found that this trend of certain devices consist
 
 In Experiment II, I noticed that all three Difluids measured lower than the widely accepted standard VST, and there was a consistent high-to-low relationship among the Difluids. This made me wonder if there was a "standard solution" that could verify this relationship and determine which device was closest to the theoretical value.
 
-Difluid is the only one of these refractometers that displays the refractive index, the raw value the device measures. Different devices may use different algorithms to convert refractive index to TDS. For more on refractive index, I highly recommend Quantitative Café's enlightening article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/27/estimating-tds-from-refractive-index/).
+Difluid is the only one of these refractometers that displays the refractive index, the raw value the device measures. Different devices may use different algorithms to convert refractive index to TDS. For more on refractive index, I highly recommend [Quantitative Café](https://quantitativecafe.com/)'s enlightening article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/27/estimating-tds-from-refractive-index/).
 
 Since the refractive indices of many common solutions have been measured by others, we can use these values to check if Difluid matches previous experiments. After some research, I found that a 10% sucrose solution could test Difluid's accuracy. Below are the preparation and calculation steps I used.
 
@@ -594,12 +594,12 @@ Some possible reasons for the lower measurement values:
 
 What I find most interesting is the similarity between Figures 7 and 8. Even though the sucrose solution concentrations were different in the two experiments, the three machines still showed highly consistent measurement inertia.
 
-Let's further extract the Difluid data from the two datasets in Experiment II (Figures 4 and 6) and compare them with Figures 7 and 8:
+Let's further extract the Difluid data from the two datasets in Experiment II (Figures 4 and 6) and compare them with Figures 9 and 10:
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 4, 6, 7, and 8</span>
+        <span class="image-span">From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 4, 6, 9, and 10</span>
     </div>
 </div>
 

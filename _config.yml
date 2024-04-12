@@ -1,7 +1,6 @@
-url: "https://whycoffee.blog" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "why coffee?" # the name of your site, e.g. ACME Corp.
-# description: "Exploring the brews and beyond."
+url: "https://whycoffee.blog"
+baseurl: ""
+title: "why coffee?"
 lang: "zh-Hant-TW"
 permalink: /:categories/:title
 future: true

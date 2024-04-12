@@ -138,7 +138,7 @@ Jonathan thoroughly measured and explained various factors that could cause meas
 
 #### Two Spoon Method
 
-Speaking of TDS measurement workflows, the Two Spoon Method is definitely worth mentioning. As the name suggests, it involves using two spoons to measure. I will briefly explain the procedure and why I did not use it for the experiments in this article. For a more detailed introduction, please read [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by [pocketsciencecoffee](https://www.instagram.com/pocketsciencecoffee/).
+Speaking of TDS measurement workflows, the Two Spoon Method is definitely worth mentioning. As the name suggests, it involves using two spoons to measure. I will briefly explain the procedure and why I did not use it for the experiments in this article. For a more detailed introduction, please read [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by [PocketScienceCoffee](https://www.instagram.com/pocketsciencecoffee/).
 
 ##### Procedure
 
@@ -154,7 +154,7 @@ The Two Spoon Method is obviously not suitable for measuring many samples quickl
 
 ##### Precautions
 
-The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although pocketsciencecoffee's article states that the impact should not be too significant if the measurement is completed within three minutes, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
+The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although PocketScienceCoffee's article states that the impact should not be too significant if the measurement is completed within three minutes, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
 
 ### Pre-Experiment: Data Collection
 

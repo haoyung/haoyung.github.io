@@ -1,27 +1,22 @@
-{%- if page.language == "zh-Hant-TW" %}
-{%- assign language_url = "/" %}
-{%- else %}
-{%- assign language_url = "/en/" %}
-{%- endif %}
+{% if page.language == "zh-Hant-TW" %}
+  {% assign language_url = "/" %}
+{% else %}
+  {% assign language_url = "/en/" %}
+{% endif %}
 
 <header class="d-flex flex-row mb-8">
   <nav class="mt-0">
-    <a class="text-decoration-none" href="{{ site.github.url }}{{ language_url }}" class="text-decoration-none"><span>{{
-        site.title }}</span></a>
+    <a href="{{ site.github.url }}{{ language_url }}" class="text-decoration-none">
+      <span>{{ site.title }}</span>
+    </a>
   </nav>
 
   <nav class="d-inline-flex ms-auto">
-    {%- for item in site.data.settings.menu %}
-    {%- if forloop.last %}
-    <a class="me-0 text-decoration-none" href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
-      <span>{{ item.name }}</span>
-    </a>
-    {%- else %}
-    <a class="me-3 text-decoration-none" href="{{ site.github.url }}{{ language_url }}{{ item.url }}">
-      <span>{{ item.name }}</span>
-    </a>
-    {%- endif %}
-    {%- endfor %}
-    {%- include language-switch.html %}
+    {% for item in site.data.settings.menu %}
+      <a href="{{ site.github.url }}{{ language_url }}{{ item.url }}" class="text-decoration-none {%- if forloop.last %} me-0 {%- else %} me-3 {%- endif %}">
+        <span>{{ item.name }}</span>
+      </a>
+    {% endfor %}
+    {% include language-switch.html %}
   </nav>
 </header>

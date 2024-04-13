@@ -1,58 +1,28 @@
 <!DOCTYPE html>
-<html lang={{ page.language }}>
+<html lang="{{ page.language }}">
 
-{%- include head.html %}
+{% include head.html %}
 
-<script>
-  window.addEventListener('pageshow', function (e) {
-    if (e.persisted) {
-      let theme = sessionStorage.getItem('theme');
-
-      if (theme === 'light') {
-        document.documentElement.setAttribute('data-theme', 'light');
-        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(255, 255, 255)');
-      }
-      else if (theme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        document.querySelector('meta[name="theme-color"]').setAttribute('content', 'rgb(0, 0, 0)');
-      }
-    }
-  })
-</script>
-<script src="{{ site.github.url }}/assets/libs/mode-switcher.js"></script>
-
-<body class="preload">
+<body>
   <div class="col-lg-7 mx-auto p-3 pb-md-6 pt-md-6 pb-4 pt-4">
-    {%- seo %}
-    {%- include header.html %}
+    {% include header.html %}
     {{ content }}
-    {%- include footer.html %}
+    {% include footer.html %}
   </div>
+
+  {% if page.usemathjax %}
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" type="text/javascript" id="MathJax-script" async></script>
+  {% endif %}
+  
 </body>
-
 </html>
-
-{%- if page.url != '/' %}
-<script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-{%- endif %}
-<script>
-  jQuery(function ($) {
-    $(window).on('load', function () {
-      $("body").removeClass("preload");
-    });
-  });
-</script>
-{%- if page.usemathjax %}
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-{%- endif %}

@@ -5,21 +5,15 @@ layout: default
 <div class="row mb-8">
   <div class="col-md-12">
   <h3 class="mb-3">articles</h3>
-  {%- for post in site.posts %}
-  {%- if post.language == page.language %}
+  {% for post in site.posts %}
+  {% if post.language == page.language %}
   <div class="flex-column mt-3">
-    {%- if post.draft == false %}
+    {% if post.draft == false %}
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
     <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
-    {%- endif %}
+    {% endif %}
   </div>
-  {%- endif %}
-  {%- endfor %}
+  {% endif %}
+  {% endfor %}
   </div>
 </div>
-
-<style>
-  .post-date {
-    display: inline-block;
-  }
-</style>

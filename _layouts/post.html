@@ -9,9 +9,6 @@ layout: default
       {%- if page.description != null %}
       <h4 class="subhead mt-3 mb-0">{{ page.description }}</h4>
       {%- endif %}
-      <!-- {%- if page.image != null %}
-      <img class="article-img col-md-6 mt-8" src="/assets/img/{{ page.image }}">
-      {%- endif %} -->
     </div>
     <div class="pt-2 border-top">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{
@@ -133,11 +130,11 @@ layout: default
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', (event) => {
-    document.querySelectorAll('a').forEach(function (link) {
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('a').forEach(link => {
       if (link.hostname !== window.location.hostname) {
         link.target = '_blank';
-        link.rel = 'noopener noreferrer'; // For security and performance reasons
+        link.rel = 'noopener noreferrer';
       }
     });
   });

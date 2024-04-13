@@ -41,7 +41,7 @@ layout: default
     {%- if count < 5 %}
     <div class="flex-column mt-3">
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    <span style="display: inline-block;"> - {{ post.date | date: "%B %-d, %Y" }}</span>
+    <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
     {%- assign count = count | plus: 1 %}
     {%- endif %}

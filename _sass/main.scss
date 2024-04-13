@@ -309,6 +309,10 @@ button:focus {
   transition: 0.5s;
 }
 
+.post-date {
+  display: inline-block;
+}
+
 // Border Styles
 .border-bottom {
   border-bottom: 1px solid var(--main-text-color) !important;
@@ -337,15 +341,6 @@ button:focus {
 button svg {
   fill: var(--input-svg-color);
   transition: fill 0.5s;
-}
-
-// Preload and Selection Styles
-.preload {
-  transition: none !important;
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
 }
 
 ::selection {

@@ -193,14 +193,14 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
 
 2.   After thorough stirring, take samples. All samples are divided into three groups:
 
-     -   Control: 5 samples of 5 ml each, using the standard sealed cooling method introduced earlier (in centrifuge tubes immersed in distilled water).
-     -   Experimental Group I (NL-5min, No Lid 5min): 5 samples of 1ml each, cooled in uncovered cupping bowls for 5 minutes. 
-     -   Experimental Group II (NL-30min, No Lid 30min): 5 samples of 5ml each, cooled in uncovered cupping bowls for 30 minutes.
+     -   Control (CTL): 5 samples of 5 ml each, using the standard sealed cooling method introduced earlier (in centrifuge tubes immersed in distilled water).
+     -   Experimental Group I (E5, Evaporation 5 min): 5 samples of 1ml each, cooled in uncovered cupping bowls for 5 minutes. 
+     -   Experimental Group II (E30, Evaporation 30 min): 5 samples of 5ml each, cooled in uncovered cupping bowls for 30 minutes.
 
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image">
-             <span class="image-span">Experimental groups (NL-5min & NL-30min) in uncovered cupping bowls and the control group (Control) in sealed centrifuge tubes</span>
+             <span class="image-span">Experimental groups (E5 & E30) in uncovered cupping bowls and the control group (Control) in sealed centrifuge tubes</span>
          </div>
      </div>
 
@@ -214,8 +214,8 @@ Table 1 shows the TDS measurements for all 15 samples, with VST in the top half 
 <thead>
   <tr style="border-bottom: 1px solid var(--main-text-color);">
     <th></th>
-    <th>NL-5min</th>
-    <th>NL-30min</th>
+    <th>E5</th>
+    <th>E30</th>
     <th>Control</th>
   </tr>
 </thead>
@@ -276,7 +276,7 @@ Table 1 shows the TDS measurements for all 15 samples, with VST in the top half 
 </table>
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 1: TDS measurements for the unsealed experimental groups (NL-5min & NL-30min) and sealed control group (Control)</span>
+        <span class="image-span">Table 1: TDS measurements for the unsealed experimental groups (E5 & E30) and sealed control group (Control)</span>
     </div>
 </div>
 
@@ -293,7 +293,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
   <div class="footnote-content">In this article, data are presented as $\mu \pm \sigma$, where $\mu$ is the average and $\sigma$ is the standard deviation.</div>
 </div>
 
-| TDS    | NL-5min         | NL-30min        | Control         |
+| TDS    | E5         | E30        | Control         |
 | ------- | --------------- | --------------- | --------------- |
 | VST     | 1.44 ± 0.00 (%) | 1.45 ± 0.00 (%) | 1.39 ± 0.00 (%) |
 | Difluid | 1.41 ± 0.01 (%) | 1.41 ± 0.00 (%) | 1.35 ± 0.00 (%) |
@@ -304,7 +304,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
     </div>
 </div>
 
-| EY     | NL-5min          | NL-30min         | Control          |
+| EY     | E5          | E30         | Control          |
 | ------- | ---------------- | ---------------- | ---------------- |
 | VST     | 25.87 ± 0.07 (%) | 26.01 ± 0.09 (%) | 24.93 ± 0.09 (%) |
 | Difluid | 25.33 ± 0.13 (%) | 25.44 ± 0.09 (%) | 24.29 ± 0.00 (%) |
@@ -320,7 +320,7 @@ Figure 1 visualizes Tables 2 and 3, with VST on the left and Difluid on the righ
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1-4.webp" alt="" class="img-fluid">
-        <span class="image-span">Figure 1: Average TDS and extraction yield for the experimental groups (NL-5min & NL-30min) and control</span>
+        <span class="image-span">Figure 1: Average TDS and extraction yield for the experimental groups (E5 & E30) and control</span>
     </div>
 </div>
 
@@ -333,27 +333,27 @@ The unsealed experimental groups have higher TDS than the sealed control. A t-te
 
 #### Discussion
 
-Tables 4 and 5 show the differences in average TDS and extraction yield between the experimental groups (NL-5min & NL-30min) and the control.
+Tables 4 and 5 show the differences in average TDS and extraction yield between the experimental groups (E5 & E30) and the control.
 
-| ΔTDS    | NL-5min | NL-30min |
+| ΔTDS    | E5 | E30 |
 | ------- | ------- | -------- |
 | VST     | +0.05%  | +0.06%   |
 | Difluid | +0.06%  | +0.06%   |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 4: Average TDS differences between the experimental groups (NL-5min & NL-30min) and control</span>
+        <span class="image-span">Table 4: Average TDS differences between the experimental groups (E5 & E30) and control</span>
     </div>
 </div>
 
-| ΔEY     | NL-5min | NL-30min |
+| ΔEY     | E5 | E30 |
 | ------- | ------- | -------- |
 | VST     | +0.94%  | +1.08%   |
 | Difluid | +1.04%  | +1.15%   |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 5: Average extraction yield differences between the experimental groups (NL-5min & NL-30min) and control</span>
+        <span class="image-span">Table 5: Average extraction yield differences between the experimental groups (E5 & E30) and control</span>
     </div>
 </div>
 

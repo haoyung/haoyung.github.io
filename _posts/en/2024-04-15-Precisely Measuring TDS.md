@@ -319,7 +319,7 @@ Figure 1 visualizes Tables 2 and 3, with VST on the left and Difluid on the righ
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1-4.webp" alt="" class="img-fluid">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid">
         <span class="image-span">Figure 1: Average TDS and extraction yield for the experimental groups (E5 & E30) and control</span>
     </div>
 </div>
@@ -393,12 +393,12 @@ In this experiment, I used a VST, an Atago, and three Difluids to measure 20 sam
 
 #### Results
 
-Figure 3 plots the TDS measurements for all 20 samples with each refractometer.
+Figure 2 plots the TDS measurements for all 20 samples with each refractometer.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2-3.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 3: Line chart of TDS measurements for 20 samples with three Difluids, Atago, and VST</span>
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
+        <span class="image-span">Figure 2: Line chart of TDS measurements for 20 samples with three Difluids, Atago, and VST</span>
     </div>
 </div>
 
@@ -414,14 +414,14 @@ Table 6 shows the average measurement and standard deviation for each device.
     </div>
 </div>
 
-Figure 3 and Table 6 show a generally stable relationship between the five devices' measurements: Atago > VST > Difluid #1 > Difluid #2 > Difluid #3. This will be discussed further in Experiment III.
+Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: Atago > VST > Difluid #1 > Difluid #2 > Difluid #3. This will be discussed further in Experiment III.
 
 I also plotted the measurements as violin plots (see [violin plot](https://en.wikipedia.org/wiki/Violin_plot)). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3-3.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 4: Violin plots of measurements for five refractometers</span>
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
+        <span class="image-span">Figure 3: Violin plots of measurements for five refractometers</span>
     </div>
 </div>
 
@@ -431,14 +431,14 @@ VST has a noticeably narrower measurement range, indicating higher precision. At
 
 I did not expect such precise data. Even Difluid #2, with the largest measurement range, had a full range (maximum minus minimum) of only 0.04%, which is surprisingly small. This demonstrates that the standard sampling, cooling, and measurement process introduced in this article can help obtain very precise measurements.
 
-Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 5 and 6, and we can still observe a similar trend: Atago > VST > Difluid #1 > Difluid #2 > Difluid #3.
+Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 4 and 5, and we can still observe a similar trend: Atago > VST > Difluid #1 > Difluid #2 > Difluid #3.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2-2.webp" alt="" class="img-fluid">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid">
     </div>
     <div class="col-md-6 mt-md-0 mt-4">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3-2.webp" alt="" class="img-fluid">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig5.webp" alt="" class="img-fluid">
     </div>
     <span class="image-span">Figures 5 and 6: Line chart and violin plot from a repeat experiment showing similar trends</span>
 </div>
@@ -531,16 +531,16 @@ Table 7 shows the sucrose solution concentration range prepared in Experiments 3
     </div>
 </div>
 
-Figures 7 and 8 plot the measurements of 10 samples taken in Experiments 3.1 and 3.2. The calculated theoretical refractive index bounds (which I marked as ground truth) are shown as red dashed lines.
+Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and 3.2. The calculated theoretical refractive index bounds (which I marked as ground truth) are shown as red dashed lines.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid">
-    </div>
-    <div class="col-md-6 mt-md-0 mt-4">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig6.webp" alt="" class="img-fluid">
     </div>
-    <span class="image-span">Figures 7 and 8: Line charts of measurements in Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
+    <div class="col-md-6 mt-md-0 mt-4">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig7.webp" alt="" class="img-fluid">
+    </div>
+    <span class="image-span">Figures 6 and 7: Line charts of measurements in Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
 
 Most measurements are below the calculated theoretical values. Tables 8 and 9 show the average measured values, standard deviations, and percentage differences from the theoretical value<sup class="footnote-sup">[D]</sup> for each device.
@@ -572,10 +572,10 @@ I also plotted the three Difluids' measurements as violin plots:
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig5.webp" alt="" class="img-fluid">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid">
     </div>
     <div class="col-md-6 mt-md-0 mt-4">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig7.webp" alt="" class="img-fluid">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig9.webp" alt="" class="img-fluid">
     </div>
     <span class="image-span">Figures 9 and 10: Violin plots of measurements from Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
@@ -598,8 +598,8 @@ Let's further extract the Difluid data from the two datasets in Experiment II (F
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 4, 6, 9, and 10</span>
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig10.webp" alt="" class="img-fluid responsive-plot">
+        <span class="image-span">Figure 10: From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 4, 6, 9, and 10</span>
     </div>
 </div>
 

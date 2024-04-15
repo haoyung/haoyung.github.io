@@ -53,7 +53,7 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
     - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, with equal amounts of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
     - If unsure about your water, normal tap water with a low TDS is acceptable.
 - Grind size: Burr gap set between 150 to 200 µm from lock.
-    - Comparable to typical 9 bar espresso settings.
+    - Comparable to traditional 9 bar espresso settings.
     - I used the Lagom P100 with the 98mm SSP Brew burrs, with grind settings between 2.0 and 3.0.
     - If your grinder produces more fines, consider a slightly coarser grind.
 - Target concentration (TDS): 1.35%+

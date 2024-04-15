@@ -592,14 +592,14 @@ Some possible reasons for the lower measurement values:
 
 #### Discussion
 
-What I find most interesting is the similarity between Figures 7 and 8. Even though the sucrose solution concentrations were different in the two experiments, the three machines still showed highly consistent measurement inertia.
+What I find most interesting is the similarity between Figures 8 and 9. Even though the sucrose solution concentrations were different in the two experiments, the three machines still showed highly consistent measurement inertia.
 
-Let's further extract the Difluid data from the two datasets in Experiment II (Figures 4 and 6) and compare them with Figures 9 and 10:
+Let's further extract the Difluid data from the two datasets in Experiment II (Figures 3 and 5) and compare them with Figures 8 and 9:
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig10.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 10: From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 4, 6, 9, and 10</span>
+        <span class="image-span">Figure 10: From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 3, 5, 8, and 9</span>
     </div>
 </div>
 
@@ -635,4 +635,4 @@ I will also provide the experimental data to Difluid for reference. Perhaps in t
 
 -   Thanks to [Quantitative Café](https://www.instagram.com/quantitativecafe/) for providing detailed methods for Experiment III. His articles [about validating the DiFluid R2 Extract](https://quantitativecafe.com/2023/02/11/validating-the-difluid-r2-extract/) and post about [how evaporation affects TDS](https://www.instagram.com/p/CiKsmE6Pz2r) are much more detailed than mine and highly recommended!
 
--   Thanks to Zinc for discussing and establishing the TDS measurement workflow in this article with me.
+-   Thanks to Zinc from NTU Coffee Club for discussing and establishing the TDS measurement workflow in this article with me.

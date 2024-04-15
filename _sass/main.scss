@@ -218,25 +218,6 @@ body a {
   transition: color 0.5s;
 }
 
-// Scroll Behavior
-html {
-  overflow-y: scroll;
-}
-
-:root {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-:root body {
-  position: absolute;
-}
-
-body {
-  width: 100vw;
-  overflow: hidden;
-}
-
 // Paragraphs and Lists
 p:last-child,
 .textwidget p:last-child {

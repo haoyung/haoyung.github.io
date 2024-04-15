@@ -359,7 +359,7 @@ Tables 4 and 5 show the differences in average TDS and extraction yield between 
 
 With both VST and Difluid, evaporation increased the average extraction yield by about 1% for both experimental groups. Anyone who regularly measures TDS would agree that a 1% extraction yield difference is quite significant. While this might not be too surprising for a 30-minute cooling time, the fact that just 5 minutes of unsealed cooling can have such an impact might be counterintuitive, highlighting the need for extra care with small sample volumes.
 
-Evaporation is so difficult to avoid because it increases with both cooling time and exposed surface area. To improve accuracy, we need sufficient sample cooling, which also correlates to cooling time and exposed surface area, but this tends to increase evaporation. The simplest solution is to store the sample in a sealed container to prevent exposure to circulating air.
+Evaporation is so difficult to avoid because it increases with both cooling time and exposed surface area. To improve accuracy, we need sufficient sample cooling, which also depends on both cooling time and surface area. However, this typically leads to greater evaporation. A straightforward way to mitigate this issue is by storing the sample in a sealed container, which reduces its exposure to circulating air.
 
 This experiment illustrates the importance of preventing evaporation during TDS measurement. The standard sampling and cooling method I introduced effectively mitigates evaporation and enables more stable measurements.
 

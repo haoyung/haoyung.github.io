@@ -94,7 +94,7 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
 7.   (With the valve closed) Place the disperser on top, pour in 100g of water quickly, and stir with a WDT tool or stir stick to ensure all grounds are wet.
      -   If the coffee is very fresh, stir more carefully and evenly to prevent the coffee bed from bubbling and forming many small holes.
 8.   Perform a gentle spin (i.e., Rao Spin) to ensure the coffee bed is flat.
-9.   (With the valve closed) At 1:00, begin pouring slowly (about 2.5g/s) until reaching 360g. The pour should not finish before 2:30.
+9.   (With the valve closed) At 1:00, begin pouring slowly in a circular pattern (about 2.5g/s) until reaching 360g. The pour should not finish before 2:30.
 10.   Half-open the valve, about 1 to 2 o'clock (or 10 to 11 o'clock). The smaller the valve opening, the better, but ensure a smooth water flow (not dripping).
 11.   Wait for the water to fully drain. The total brew time should be around 6–8 minutes.
 12.   Re-mineralize using [Lotus Coffee Brew Water](https://lotuscoffeeproducts.com/), adding one drop each of CaCl<sub>2</sub> and MgCl<sub>2</sub> solutions, and two drops of NaHCO<sub>3</sub>, achieving roughly 15 ppm as CaCO<sub>3</sub> for Ca<sup>2+</sup>, Mg<sup>2+</sup>, and HCO<sub>3</sub><sup>-</sup>.

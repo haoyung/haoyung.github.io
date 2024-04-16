@@ -35,7 +35,7 @@ def convert_image(image_path):
 
 def process_directory(directory):
     # Define the allowed extensions
-    extensions = ('.jpg', '.JPG', '.png', '.PNG')
+    extensions = ('.jpg', '.JPG', '.png', '.PNG', '.jpeg', '.JPEG')
     
     # Walk through the directory and convert images
     for root, dirs, files in os.walk(directory):

@@ -37,7 +37,7 @@ The vertical axis of SCA's commonly seen Brewing Control Chart represents TDS.
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-span">SCA's old version of the Brewing Control Chart (source: SCA)</span>
     </div>
 </div>
@@ -63,7 +63,7 @@ If we want to know the extraction yield, we must know the weight of the coffee c
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-span">How a refractometer works (source: IG, @quantitativecafe)</span>
     </div>
 </div>
@@ -188,7 +188,7 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
 
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
-             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image">
+             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-span">Coffee and brewing parameters used in Experiment I<br>Using the tricolate, which I haven't introduced on this blog yet<br>Brewing <a href="https://www.seycoffee.com/products/2024-enrique-merino-lugmapata-l1-ecuador">SEY's Lugmapata Washed L1</a> (truly an impressive coffee)</span>
          </div>
      </div>
@@ -201,7 +201,7 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
 
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
-             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image">
+             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-span">Experimental groups (NL-5min & NL-30min) in uncovered cupping bowls and the control group (Control) in sealed centrifuge tubes</span>
          </div>
      </div>
@@ -373,7 +373,7 @@ In this experiment, I used a VST, an Atago, and three Difluids to measure 20 sam
 
 <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three Difluids, Atago, and VST</span>
     </div>
 </div>
@@ -384,7 +384,7 @@ In this experiment, I used a VST, an Atago, and three Difluids to measure 20 sam
 
      <div class="row mt-md-4 mt-3 mb-md-4 mb-3 justify-content-center text-center">
          <div class="col-md-12">
-             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image img-fluid">
+             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image-vertical img-fluid">
              <span class="image-span">Coffee and brewing parameters used in Experiment II<br>Using the parameters from <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
          </div>
      </div>

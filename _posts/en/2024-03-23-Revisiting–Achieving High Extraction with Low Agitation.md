@@ -4,15 +4,11 @@ title: "Revisiting: Achieving High Extraction with Low Agitation"
 description: "Another high extraction, low agitation recipe inspired by SEY, but this time for Pulsar."
 tag: [recipe, pourover]
 category: articles
+image: /assets/img/pulsar.webp
+image_orientation: vertical
+image_caption: "This article introduces a Pulsar recipe aimed at achieving high extraction with low agitation"
 language_reference: re:high_extraction_low_agitation
 ---
-
-<div class="row justify-content-center">
-    <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/img/pulsar.webp" alt="" class="img-fluid responsive-image">
-        <span class="image-span">This article introduces a Pulsar recipe aimed at achieving high extraction with low agitation</span>
-    </div>
-</div>
 
 ### The Most Anticipated Dripper of 2023: [NextLevel Pulsar](https://nextlevelbrewer.com/shop/nextlevel-pulsar-brewer/)
 
@@ -123,7 +119,7 @@ The choice of a single continuous pour stems from our original goal of "low agit
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/img/pulsar_log.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/pulsar_log.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-span">A successful brew log using this recipe<br>The coffee used was SEY's <a href="https://www.seycoffee.com/products/2024-octavio-rueda-el-mirador-colombia">Colombia Washed Pink Bourbon</a><br>The TDS and extraction yield were 1.39% and 24.43% respectively</span>
     </div>
 </div>

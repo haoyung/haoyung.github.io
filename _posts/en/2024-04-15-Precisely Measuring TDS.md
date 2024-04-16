@@ -5,6 +5,9 @@ description: "A plethora of experimental data and a rigorous TDS measurement wor
 tag: [review, tutorial]
 category: articles
 imgfolder: TDS
+image: /assets/img/TDS/refractometers.webp
+image_orientation: horizontal
+image_caption: "The refractometers that are used to measure TDS in this article and a sample that is being cooled"
 language_reference: measuring_tds
 usemathjax: true
 ---
@@ -35,7 +38,7 @@ The vertical axis of SCA's commonly seen Brewing Control Chart represents TDS.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-span">SCA's old version of the Brewing Control Chart (source: SCA)</span>
     </div>
 </div>
@@ -61,7 +64,7 @@ To calculate extraction yield, we need to know the weight of the coffee compound
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-span">How a refractometer works (source: IG, @quantitativecafe)</span>
     </div>
 </div>
@@ -112,6 +115,13 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 3.   Fill the small water tank with room temperature distilled water and place the sealed sample bottle in it for a water bath to cool.
 4.   Place the refractometer next to the water tank (for temperature equilibration) and let everything sit for 15-30 minutes.
 5.   After cooling, wear insulated gloves or use a cloth to handle the sample bottle to prevent heating it up. Shake it to homogenize, open the lid, and place it back in the water tank to maintain the same temperature as the distilled water.
+
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
+    <div class="col-md-12">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/cooling_sample.webp" alt="" class="img-fluid responsive-image-horizontal">
+        <span class="image-span">A sample that is being cooled in my beloved Orea Porcelain Sense Cup (proudly made in Taiwan!)</span>
+    </div>
+</div>
 
 #### Measurement
 
@@ -186,25 +196,28 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
 
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
          <div class="col-md-12">
-             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image">
+             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-span">Coffee and brewing parameters used in Experiment I<br>Using the tricolate, which I haven't introduced on this blog yet<br>Brewing <a href="https://www.seycoffee.com/products/2024-enrique-merino-lugmapata-l1-ecuador">SEY's Lugmapata Washed L1</a> (truly an impressive coffee)</span>
          </div>
      </div>
 
 2.   After thorough stirring, take samples. All samples are divided into three groups:
 
-     -   Control (CTL): 5 samples of 5 ml each, using the standard sealed cooling method introduced earlier (in centrifuge tubes immersed in distilled water).
-     -   Experimental Group I (E5, Evaporation 5 min): 5 samples of 1ml each, cooled in uncovered cupping bowls for 5 minutes. 
-     -   Experimental Group II (E30, Evaporation 30 min): 5 samples of 5ml each, cooled in uncovered cupping bowls for 30 minutes.
+     -   Control (CTL):  
+     5 samples of 5 ml each, using the standard sealed cooling method introduced earlier (in centrifuge tubes immersed in distilled water).
+     -   Experimental Group I (E5, Evaporation 5 min):  
+     5 samples of 1ml each, cooled in uncovered cupping bowls for 5 minutes. 
+     -   Experimental Group II (E30, Evaporation 30 min):  
+     5 samples of 5ml each, cooled in uncovered cupping bowls for 30 minutes.
 
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
          <div class="col-md-12">
-             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image">
+             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-span">Experimental groups (E5 & E30) in uncovered cupping bowls and the control group (Control) in sealed centrifuge tubes</span>
          </div>
      </div>
 
-3.   I used one VST, the most representative refractometer, and one Difluid, the model I use most, to measure each sample using the standard method.
+1.   I used one VST, the most representative refractometer, and one Difluid, the model I use most, to measure each sample using the standard method.
 
 #### Results
 
@@ -216,7 +229,7 @@ Table 1 shows the TDS measurements for all 15 samples, with VST in the top half 
     <th></th>
     <th>E5</th>
     <th>E30</th>
-    <th>Control</th>
+    <th>CTL</th>
   </tr>
 </thead>
 <tbody>
@@ -293,7 +306,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
   <div class="footnote-content">In this article, data are presented as $\mu \pm \sigma$, where $\mu$ is the average and $\sigma$ is the standard deviation.</div>
 </div>
 
-| TDS    | E5         | E30        | Control         |
+| TDS    | E5         | E30        | CTL         |
 | ------- | --------------- | --------------- | --------------- |
 | VST     | 1.44 ± 0.00 (%) | 1.45 ± 0.00 (%) | 1.39 ± 0.00 (%) |
 | Difluid | 1.41 ± 0.01 (%) | 1.41 ± 0.00 (%) | 1.35 ± 0.00 (%) |
@@ -304,7 +317,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
     </div>
 </div>
 
-| EY     | E5          | E30         | Control          |
+| EY     | E5          | E30         | CTL          |
 | ------- | ---------------- | ---------------- | ---------------- |
 | VST     | 25.87 ± 0.07 (%) | 26.01 ± 0.09 (%) | 24.93 ± 0.09 (%) |
 | Difluid | 25.33 ± 0.13 (%) | 25.44 ± 0.09 (%) | 24.29 ± 0.00 (%) |
@@ -371,7 +384,7 @@ In this experiment, I used a VST, an Atago, and three Difluids to measure 20 sam
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-horizontal">
         <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three Difluids, Atago, and VST</span>
     </div>
 </div>
@@ -382,7 +395,7 @@ In this experiment, I used a VST, an Atago, and three Difluids to measure 20 sam
 
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
          <div class="col-md-12">
-             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image img-fluid">
+             <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image-vertical img-fluid">
              <span class="image-span">Coffee and brewing parameters used in Experiment II<br>Using the parameters from <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
          </div>
      </div>
@@ -459,7 +472,7 @@ Since the refractive indices of many common solutions have been measured by othe
 
 For clarity, I will use my own data as an example.
 
-1.   Zero the balance, preferably one with 0.01g precision.
+1.   Zero the scale, preferably one with 0.01g precision.
 
 2.   Measure the container weight (I used a lightweight plastic cup), which was 7.98g.
 

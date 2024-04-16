@@ -4,17 +4,13 @@ title: "Ninety Plus Innovation Line"
 description: "一些特殊、稀有、貴得驚人的咖啡"
 tag: [review, 台大咖啡社]
 category: articles
+image: /assets/img/InnovationSet.webp
+image_orientation: vertical
+image_caption: "Innovation Gift Set (Source: Ninety Plus Coffee)"
 redirect_from: /articles/2021/07/13/Ninety-Plus-Innovation-Line
 ---
 
 剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。
-
-<div class="row justify-content-center">
-    <div class="col-md-6 text-center">
-        <img src="{{ site.github.url }}/assets/img/InnovationSet.jpeg" alt="" width="100%">
-        <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Innovation Gift Set (Photo: Ninety Plus Coffee)</span>
-    </div>
-</div>
 
 ### Ninety Plus Innovation Line
 

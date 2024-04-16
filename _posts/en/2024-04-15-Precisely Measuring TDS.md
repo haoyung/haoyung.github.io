@@ -544,7 +544,7 @@ Table 7 shows the sucrose solution concentration range prepared in Experiments 3
     </div>
 </div>
 
-Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and 3.2. The calculated theoretical refractive index bounds (which I marked as ground truth) are shown as red dashed lines.
+Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and 3.2. The calculated theoretical refractive index interval (which I marked as ground truth) is depicted as the red region.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">

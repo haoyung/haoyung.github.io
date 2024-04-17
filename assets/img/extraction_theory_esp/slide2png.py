@@ -23,9 +23,9 @@ def create_markdown_file(output_folder, num_pages, md_file_path):
 
 """)
 
-pdf_path = '義式修正投影片.pdf'
+pdf_path = '26義式修正/義式修正投影片.pdf'
 output_folder = '.'  # Ensure this folder exists
-md_file_path = 'output.md'
+md_file_path = 'slide_imgs.md'
 
 num_pages = convert_pdf_to_images(pdf_path, output_folder)
 create_markdown_file(output_folder, num_pages, md_file_path)

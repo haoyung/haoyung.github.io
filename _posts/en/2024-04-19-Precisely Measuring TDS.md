@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Precisely Measuring TDS"
-description: "Exploring the challenges and frustrations of precise TDS measurement——My detailed refractometer workflow, extensive experiments on evaporation's impact, along with comparisons and validations of popular refractometer models."
+description: "Exploring the challenges and frustrations of precise TDS measurement—My detailed refractometer workflow, extensive experiments on evaporation's impact, along with comparisons and validations of popular refractometer models."
 tag: [review, tutorial]
 category: articles
 imgfolder: TDS
@@ -22,7 +22,7 @@ In the extraction theory course I teach each semester at NTU Coffee Club, I alwa
 
 Since extraction yield is calculated from TDS, accurate TDS measurement is vital for obtaining meaningful *objective* coffee data. However, precisely measuring TDS is extremely challenging. Even minor flaws in the process can lead to significant errors, rendering the supposedly *objective* data meaningless.
 
-Currently, there is a scarcity of Chinese language resources on proper TDS measurement. This article aims to help fill that gap and stimulate further discussion. I will explain my detailed TDS measurement workflow, experimentally assess the impact of evaporation on TDS, and compare the performance of several popular refractometer models.
+Currently, there is a scarcity of Chinese language resources on proper TDS measurement. This article aims to help fill that gap and stimulate further discussion. I will explain my detailed TDS measurement workflow, experimentally assess the impact of evaporation on TDS, and compare the performance of several popular refractometer models including [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [ATAGO PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), and [Difluid R2 Extract](https://digitizefluid.com/products/r2-extract).
 
 All experimental data is [open source](https://docs.google.com/spreadsheets/d/1BQ1JWJI15t-FinSL4U_aB_1EJ0OXRj5Qxc3zgRUO_Ps/edit?usp=sharing). Please feel free to use it and share any new insights you glean from the data!
 
@@ -96,9 +96,9 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 #### Required Equipment
 
 -   Refractometer
-    -   Common choices: [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [Atago PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), [Difluid R2 Extract](https://digitizefluid.com/products/r2-extract). I will abbreviate them as VST, Atago, and Difluid.
-    -   VST is the most expensive and considered the standard, while Atago and Difluid are more affordable alternatives.
-    -   I have three Difluids and one Atago. I also borrowed a VST for this article (thanks to my reader Henry!).
+    -   Common choices: [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [ATAGO PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), [Difluid R2 Extract](https://digitizefluid.com/products/r2-extract). I will abbreviate them as VST, ATAGO, and Difluid.
+    -   VST is the most expensive and considered the standard, while ATAGO and Difluid are more affordable alternatives.
+    -   I have three Difluids and one ATAGO. I also borrowed a VST for this article (thanks to my reader Henry!).
 -   Sample bottles or centrifuge tubes in the size of about 5ml
     -   must be airtight with a lid.
 -   Plastic pipette
@@ -378,14 +378,14 @@ This experiment illustrates the importance of preventing evaporation during TDS 
 
 ### Experiment II: Testing Different Refractometer Models
 
-Compared to the expensive VST, Atago and Difluid are much more affordable, but are they significantly less accurate?
+Compared to the expensive VST, ATAGO and Difluid are much more affordable, but are they significantly less accurate?
 
-In this experiment, I used a VST, an Atago, and three Difluids to measure 20 samples from the same coffee to assess each device's accuracy and stability.
+In this experiment, I used a VST, an ATAGO, and three Difluids to measure 20 samples from the same coffee to assess each device's accuracy and stability.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-horizontal">
-        <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three Difluids, Atago, and VST</span>
+        <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three Difluids, ATAGO, and VST</span>
     </div>
 </div>
 
@@ -411,13 +411,13 @@ Figure 2 plots the TDS measurements for all 20 samples with each refractometer.
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 2: Line chart of TDS measurements for 20 samples with three Difluids, Atago, and VST</span>
+        <span class="image-span">Figure 2: Line chart of TDS measurements for 20 samples with three Difluids, ATAGO, and VST</span>
     </div>
 </div>
 
 Table 6 shows the average measurement and standard deviation for each device.
 
-| Difluid #1      | Difluid #2      | Difluid #3      | Atago           | VST             |
+| Difluid #1      | Difluid #2      | Difluid #3      | ATAGO           | VST             |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 | 1.36 ± 0.01 (%) | 1.35 ± 0.01 (%) | 1.33 ± 0.01 (%) | 1.41 ± 0.01 (%) | 1.38 ± 0.00 (%) |
 
@@ -427,7 +427,7 @@ Table 6 shows the average measurement and standard deviation for each device.
     </div>
 </div>
 
-Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: Atago > VST > Difluid #1 > Difluid #2 > Difluid #3. This will be discussed further in Experiment III.
+Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: ATAGO > VST > Difluid #1 > Difluid #2 > Difluid #3. This will be discussed further in Experiment III.
 
 I also plotted the measurements as violin plots (see [violin plot](https://en.wikipedia.org/wiki/Violin_plot)). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements.
 
@@ -438,13 +438,13 @@ I also plotted the measurements as violin plots (see [violin plot](https://en.wi
     </div>
 </div>
 
-VST has a noticeably narrower measurement range, indicating higher precision. Atago and Difluids are slightly less precise but still significantly exceed their advertised precision (Difluid 0.03%, Atago 0.15%) with standard deviations only about 0.01%.
+VST has a noticeably narrower measurement range, indicating higher precision. ATAGO and Difluids are slightly less precise but still significantly exceed their advertised precision (Difluid 0.03%, ATAGO 0.15%) with standard deviations only about 0.01%.
 
 #### Discussion
 
 I did not expect such precise data. Even Difluid #2, with the largest measurement range, had a full range (maximum minus minimum) of only 0.04%, which is surprisingly small. This demonstrates that the standard sampling, cooling, and measurement process introduced in this article can help obtain very precise measurements.
 
-Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 4 and 5, and we can still observe a similar trend: Atago > VST > Difluid #1 > Difluid #2 > Difluid #3.
+Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 4 and 5, and we can still observe a similar trend: ATAGO > VST > Difluid #1 > Difluid #2 > Difluid #3.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">
@@ -579,7 +579,7 @@ Most measurements are below the calculated theoretical values. Tables 8 and 9 sh
     </div>
 </div>
 
-All three Difluids measured lower than the theoretical value, and the order of measurements is #1 > #2 > #3, roughly consistent with the trend in Experiment II. This suggests Difluids may indeed have a "constitution," where some consistently measure lower and others higher. It might also indicate that VST or Atago's higher measurements in Experiment II are more accurate, but this requires further verification.
+All three Difluids measured lower than the theoretical value, and the order of measurements is #1 > #2 > #3, roughly consistent with the trend in Experiment II. This suggests Difluids may indeed have a "constitution," where some consistently measure lower and others higher. It might also indicate that VST or ATAGO's higher measurements in Experiment II are more accurate, but this requires further verification.
 
 I also plotted the three Difluids' measurements as violin plots:
 
@@ -629,9 +629,9 @@ In the subsequent three experiments, we concluded:
 -   Experiment I: The Impact of Evaporation on TDS
     -   In our setup, if samples are not stored in sealed containers to prevent evaporation, evaporation can increase the calculated extraction yield by up to 1%, showing that evaporation's impact is very significant and must be carefully managed during measurement.
     -   The standard sampling and cooling method I introduced effectively prevents evaporation from affecting TDS measurements and makes the measurements more stable.
--   Experiment II: Testing Different Refractometer Models (VST, Atago, Difluid)
-    -   In terms of stability, VST readings fluctuate the least, while Difluid and Atago show little difference in performance.
-    -   Difluid readings are generally lower than VST, while Atago readings are generally higher.
+-   Experiment II: Testing Different Refractometer Models (VST, ATAGO, Difluid)
+    -   In terms of stability, VST readings fluctuate the least, while Difluid and ATAGO show little difference in performance.
+    -   Difluid readings are generally lower than VST, while ATAGO readings are generally higher.
     -   The three Difluids also show a consistent high-to-low relationship in their readings. Although not large, this relationship has appeared repeatedly in multiple experiments, suggesting it is not due to chance or experimental error.
 -   Experiment III: Testing Difluid R2 Extract Accuracy with Sucrose Solution
     -   The refractive index of the sucrose solution measured by all three Difluids is lower than the theoretical value.

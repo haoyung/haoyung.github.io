@@ -22,7 +22,7 @@ In the extraction theory course I teach each semester at NTU Coffee Club, I alwa
 
 Since extraction yield is calculated from TDS, accurate TDS measurement is vital for obtaining meaningful *objective* coffee data. However, precisely measuring TDS is extremely challenging. Even minor flaws in the process can lead to significant errors, rendering the supposedly *objective* data meaningless.
 
-Currently, there is a scarcity of Chinese language resources on proper TDS measurement. This article aims to help fill that gap and stimulate further discussion. I will explain my detailed TDS measurement workflow, experimentally assess the impact of evaporation on TDS, and compare the performance of several popular refractometer models including [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [ATAGO PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), and [Difluid R2 Extract](https://digitizefluid.com/products/r2-extract).
+Currently, there is a scarcity of Chinese language resources on proper TDS measurement. This article aims to help fill that gap and stimulate further discussion. I will explain my detailed TDS measurement workflow, experimentally assess the impact of evaporation on TDS, and compare the performance of several popular refractometer models including [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [ATAGO PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), and [DiFluid R2 Extract](https://digitizefluid.com/products/r2-extract).
 
 All experimental data is [open source](https://docs.google.com/spreadsheets/d/1BQ1JWJI15t-FinSL4U_aB_1EJ0OXRj5Qxc3zgRUO_Ps/edit?usp=sharing). Please feel free to use it and share any new insights you glean from the data!
 
@@ -96,9 +96,9 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 #### Required Equipment
 
 -   Refractometer
-    -   Common choices: [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [ATAGO PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), [Difluid R2 Extract](https://digitizefluid.com/products/r2-extract). I will abbreviate them as VST, ATAGO, and Difluid.
-    -   VST is the most expensive and considered the standard, while ATAGO and Difluid are more affordable alternatives.
-    -   I have three Difluids and one ATAGO. I also borrowed a VST for this article (thanks to my reader Henry!).
+    -   Common choices: [VST LAB Coffee III](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer-2022), [ATAGO PAL-COFFEE](https://www.atago.net/product/?l=en&k=CCF59218), [DiFluid R2 Extract](https://digitizefluid.com/products/r2-extract). I will abbreviate them as VST, ATAGO, and DiFluid.
+    -   VST is the most expensive and considered the standard, while ATAGO and DiFluid are more affordable alternatives.
+    -   I have three DiFluids and one ATAGO. I also borrowed a VST for this article (thanks to my reader Henry!).
 -   Sample bottles or centrifuge tubes in the size of about 5ml
     -   must be airtight with a lid.
 -   Plastic pipette
@@ -127,11 +127,11 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 
 After the above steps, the sample, distilled water for zeroing, and refractometer should all be at roughly the same temperature. Now we can begin measuring.
 
-I will demonstrate using the Difluid, which I use most frequently.
+I will demonstrate using the DiFluid, which I use most frequently.
 
 1.   Ensure the refractometer lens is clean. If dirty, spray a little Isopropyl alcohol on lens paper to clean it.
 2.   Place a few drops of distilled water on the lens, wait about 10 seconds, then zero the device.
-     -   I don't know the reason for waiting, but Difluid's manual specifies this, likely to further stabilize the temperature.
+     -   I don't know the reason for waiting, but DiFluid's manual specifies this, likely to further stabilize the temperature.
 3.   Use a tissue or cloth to gently dry the lens, being careful not to apply pressure and scratch it.
 4.   Wipe the lens clean with Kimwipes.
 5.   Place a few drops of sample on the lens and observe the temperature. The difference between zeroing and sample temperatures should not exceed 0.1°C.
@@ -217,11 +217,11 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
          </div>
      </div>
 
-1.   I used one VST, the most representative refractometer, and one Difluid, the model I use most, to measure each sample using the standard method.
+1.   I used one VST, the most representative refractometer, and one DiFluid, the model I use most, to measure each sample using the standard method.
 
 #### Results
 
-Table 1 shows the TDS measurements for all 15 samples, with VST in the top half and Difluid in the bottom half.
+Table 1 shows the TDS measurements for all 15 samples, with VST in the top half and DiFluid in the bottom half.
 
 <table class="table-i">
 <thead>
@@ -260,7 +260,7 @@ Table 1 shows the TDS measurements for all 15 samples, with VST in the top half 
     <td>1.39%</td>
   </tr>
   <tr style="border-top: 1px solid var(--main-text-color);">
-    <td rowspan="5" style="font-weight: bold">Difluid</td>
+    <td rowspan="5" style="font-weight: bold">DiFluid</td>
     <td>1.40%</td>
     <td style="border-right: 1px solid var(--main-text-color);">1.41%</td>
     <td>1.35%</td>
@@ -309,7 +309,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
 | TDS    | E5         | E30        | CTL         |
 | ------- | --------------- | --------------- | --------------- |
 | VST     | 1.44 ± 0.00 (%) | 1.45 ± 0.00 (%) | 1.39 ± 0.00 (%) |
-| Difluid | 1.41 ± 0.01 (%) | 1.41 ± 0.00 (%) | 1.35 ± 0.00 (%) |
+| DiFluid | 1.41 ± 0.01 (%) | 1.41 ± 0.00 (%) | 1.35 ± 0.00 (%) |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -320,7 +320,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
 | EY     | E5          | E30         | CTL          |
 | ------- | ---------------- | ---------------- | ---------------- |
 | VST     | 25.87 ± 0.07 (%) | 26.01 ± 0.09 (%) | 24.93 ± 0.09 (%) |
-| Difluid | 25.33 ± 0.13 (%) | 25.44 ± 0.09 (%) | 24.29 ± 0.00 (%) |
+| DiFluid | 25.33 ± 0.13 (%) | 25.44 ± 0.09 (%) | 24.29 ± 0.00 (%) |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -328,7 +328,7 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
     </div>
 </div>
 
-Figure 1 visualizes Tables 2 and 3, with VST on the left and Difluid on the right. Error bars represent a 95% confidence interval (roughly two standard deviations).
+Figure 1 visualizes Tables 2 and 3, with VST on the left and DiFluid on the right. Error bars represent a 95% confidence interval (roughly two standard deviations).
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -337,7 +337,7 @@ Figure 1 visualizes Tables 2 and 3, with VST on the left and Difluid on the righ
     </div>
 </div>
 
-The unsealed experimental groups have higher TDS than the sealed control. A t-test confirmed this difference is statistically significant. We can also see that the control group has a smaller confidence interval than the experimental groups when measured with the more affordable Difluid, indicating higher precision.<sup class="footnote-sup">[C]</sup>
+The unsealed experimental groups have higher TDS than the sealed control. A t-test confirmed this difference is statistically significant. We can also see that the control group has a smaller confidence interval than the experimental groups when measured with the more affordable DiFluid, indicating higher precision.<sup class="footnote-sup">[C]</sup>
 
 <div class="footnote">
   <div class="footnote-label">[C]</div>
@@ -351,7 +351,7 @@ Tables 4 and 5 show the differences in average TDS and extraction yield between 
 | ΔTDS    | E5 | E30 |
 | ------- | ------- | -------- |
 | VST     | +0.05%  | +0.06%   |
-| Difluid | +0.06%  | +0.06%   |
+| DiFluid | +0.06%  | +0.06%   |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -362,7 +362,7 @@ Tables 4 and 5 show the differences in average TDS and extraction yield between 
 | ΔEY     | E5 | E30 |
 | ------- | ------- | -------- |
 | VST     | +0.94%  | +1.08%   |
-| Difluid | +1.04%  | +1.15%   |
+| DiFluid | +1.04%  | +1.15%   |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -370,7 +370,7 @@ Tables 4 and 5 show the differences in average TDS and extraction yield between 
     </div>
 </div>
 
-With both VST and Difluid, evaporation increased the average extraction yield by about 1% for both experimental groups. Anyone who regularly measures TDS would agree that a 1% extraction yield difference is quite significant. While this might not be too surprising for a 30-minute cooling time, the fact that just 5 minutes of unsealed cooling can have such an impact might be counterintuitive, highlighting the need for extra care with small sample volumes.
+With both VST and DiFluid, evaporation increased the average extraction yield by about 1% for both experimental groups. Anyone who regularly measures TDS would agree that a 1% extraction yield difference is quite significant. While this might not be too surprising for a 30-minute cooling time, the fact that just 5 minutes of unsealed cooling can have such an impact might be counterintuitive, highlighting the need for extra care with small sample volumes.
 
 Evaporation is so difficult to avoid because it increases with both cooling time and exposed surface area. To improve accuracy, we need sufficient sample cooling, which also depends on both cooling time and surface area. However, this typically leads to greater evaporation. A straightforward way to mitigate this issue is by storing the sample in a sealed container, which reduces its exposure to circulating air.
 
@@ -378,14 +378,14 @@ This experiment illustrates the importance of preventing evaporation during TDS 
 
 ### Experiment II: Testing Different Refractometer Models
 
-Compared to the expensive VST, ATAGO and Difluid are much more affordable, but are they significantly less accurate?
+Compared to the expensive VST, ATAGO and DiFluid are much more affordable, but are they significantly less accurate?
 
-In this experiment, I used a VST, an ATAGO, and three Difluids to measure 20 samples from the same coffee to assess each device's accuracy and stability.
+In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 samples from the same coffee to assess each device's accuracy and stability.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-horizontal">
-        <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three Difluids, ATAGO, and VST</span>
+        <span class="image-span">Measuring with five refractometers simultaneously<br>From left to right: three DiFluids, ATAGO, and VST</span>
     </div>
 </div>
 
@@ -411,13 +411,13 @@ Figure 2 plots the TDS measurements for all 20 samples with each refractometer.
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 2: Line chart of TDS measurements for 20 samples with three Difluids, ATAGO, and VST</span>
+        <span class="image-span">Figure 2: Line chart of TDS measurements for 20 samples with three DiFluids, ATAGO, and VST</span>
     </div>
 </div>
 
 Table 6 shows the average measurement and standard deviation for each device.
 
-| Difluid #1      | Difluid #2      | Difluid #3      | ATAGO           | VST             |
+| DiFluid #1      | DiFluid #2      | DiFluid #3      | ATAGO           | VST             |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
 | 1.36 ± 0.01 (%) | 1.35 ± 0.01 (%) | 1.33 ± 0.01 (%) | 1.41 ± 0.01 (%) | 1.38 ± 0.00 (%) |
 
@@ -427,7 +427,7 @@ Table 6 shows the average measurement and standard deviation for each device.
     </div>
 </div>
 
-Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: ATAGO > VST > Difluid #1 > Difluid #2 > Difluid #3. This will be discussed further in Experiment III.
+Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: ATAGO > VST > DiFluid #1 > DiFluid #2 > DiFluid #3. This will be discussed further in Experiment III.
 
 I also plotted the measurements as violin plots (see [violin plot](https://en.wikipedia.org/wiki/Violin_plot)). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements.
 
@@ -438,13 +438,13 @@ I also plotted the measurements as violin plots (see [violin plot](https://en.wi
     </div>
 </div>
 
-VST has a noticeably narrower measurement range, indicating higher precision. ATAGO and Difluids are slightly less precise but still significantly exceed their advertised precision (Difluid 0.03%, ATAGO 0.15%) with standard deviations only about 0.01%.
+VST has a noticeably narrower measurement range, indicating higher precision. ATAGO and DiFluids are slightly less precise but still significantly exceed their advertised precision (DiFluid 0.03%, ATAGO 0.15%) with standard deviations only about 0.01%.
 
 #### Discussion
 
-I did not expect such precise data. Even Difluid #2, with the largest measurement range, had a full range (maximum minus minimum) of only 0.04%, which is surprisingly small. This demonstrates that the standard sampling, cooling, and measurement process introduced in this article can help obtain very precise measurements.
+I did not expect such precise data. Even DiFluid #2, with the largest measurement range, had a full range (maximum minus minimum) of only 0.04%, which is surprisingly small. This demonstrates that the standard sampling, cooling, and measurement process introduced in this article can help obtain very precise measurements.
 
-Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 4 and 5, and we can still observe a similar trend: ATAGO > VST > Difluid #1 > Difluid #2 > Difluid #3.
+Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 4 and 5, and we can still observe a similar trend: ATAGO > VST > DiFluid #1 > DiFluid #2 > DiFluid #3.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">
@@ -458,13 +458,13 @@ Most interesting to me is the stable relationship between the refractometers. I 
 
 However, after some research, I found that this trend of certain devices consistently measuring higher or lower differs from others' conclusions, such as in [@espressofun](https://www.instagram.com/espressofun/)'s article [DiFluid R2 Coffee Refractometer Device Variation](https://rmckeon.medium.com/difluid-r2-coffee-refractometer-device-variation-20cf1a663d99), which may require further verification.
 
-### Experiment III: Testing Difluid R2 Extract Accuracy with Sucrose Solution
+### Experiment III: Testing DiFluid R2 Extract Accuracy with Sucrose Solution
 
-In Experiment II, I noticed that all three Difluids measured lower than the widely accepted standard VST, and there was a consistent high-to-low relationship among the Difluids. This made me wonder if there was a "standard solution" that could verify this relationship and determine which device was closest to the theoretical value.
+In Experiment II, I noticed that all three DiFluids measured lower than the widely accepted standard VST, and there was a consistent high-to-low relationship among the DiFluids. This made me wonder if there was a "standard solution" that could verify this relationship and determine which device was closest to the theoretical value.
 
-Difluid is the only one of these refractometers that displays the refractive index, the raw value the device measures. Different devices may use different algorithms to convert refractive index to TDS. For more on refractive index, I highly recommend [Quantitative Café](https://quantitativecafe.com/)'s enlightening article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/27/estimating-tds-from-refractive-index/).
+DiFluid is the only one of these refractometers that displays the refractive index, the raw value the device measures. Different devices may use different algorithms to convert refractive index to TDS. For more on refractive index, I highly recommend [Quantitative Café](https://quantitativecafe.com/)'s enlightening article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/27/estimating-tds-from-refractive-index/).
 
-Since the refractive indices of many common solutions have been measured by others, we can use these values to check if Difluid matches previous experiments. After some research, I found that a 10% sucrose solution could test Difluid's accuracy. Below are the preparation and calculation steps I used.
+Since the refractive indices of many common solutions have been measured by others, we can use these values to check if DiFluid matches previous experiments. After some research, I found that a 10% sucrose solution could test DiFluid's accuracy. Below are the preparation and calculation steps I used.
 
 >   Special thanks to [Quantitative Café](https://quantitativecafe.com/) for providing data and detailed methods!
 
@@ -486,7 +486,7 @@ For clarity, I will use my own data as an example.
 
      $$ \displaystyle\frac{10.01}{99.79} \approx 10.03\%$$
 
-7.   Use the following table (thanks again to [Quantitative Café](https://github.com/quantitativecafe/blog/blob/main/refractive-index/refractive-index.xlsx) and [Weber State University](https://faculty.weber.edu/ewalker/Chem2990/Chem%202990%20Refractive%20Index%20Readings.pdf) for the data) and [interpolation](https://en.wikipedia.org/wiki/Interpolation) to calculate the theoretical refractive index (which Difluid measures and displays in the top left corner of the screen).
+7.   Use the following table (thanks again to [Quantitative Café](https://github.com/quantitativecafe/blog/blob/main/refractive-index/refractive-index.xlsx) and [Weber State University](https://faculty.weber.edu/ewalker/Chem2990/Chem%202990%20Refractive%20Index%20Readings.pdf) for the data) and [interpolation](https://en.wikipedia.org/wiki/Interpolation) to calculate the theoretical refractive index (which DiFluid measures and displays in the top left corner of the screen).
 
      | Sucrose Solution Concentration | 9%     | 10%    | 11%    |
      | ------------------------------ | ------ | ------ | ------ |
@@ -563,12 +563,12 @@ Most measurements are below the calculated theoretical values. Tables 8 and 9 sh
   <div class="footnote-content">Here, I take the middle value of the calculated theoretical refractive index range as the theoretical value.</div>
 </div>
 
-| Experiment III.1     | Difluid #1        | Difluid #2        | Difluid #3        |
+| Experiment III.1     | DiFluid #1        | DiFluid #2        | DiFluid #3        |
 | ------------ | ----------------- | ----------------- | ----------------- |
 | Measurement       | 1.34757 ± 0.00001 | 1.34755 ± 0.00002 | 1.34750 ± 0.00001 |
 | Difference from Theoretical | -1.24%            | -1.37%            | -1.65%            |
 
-| Experiment III.2     | Difluid #1        | Difluid #2        | Difluid #3        |
+| Experiment III.2     | DiFluid #1        | DiFluid #2        | DiFluid #3        |
 | ------------ | ----------------- | ----------------- | ----------------- |
 | Measurement       | 1.34749 ± 0.00001 | 1.34747 ± 0.00002 | 1.34741 ± 0.00001 |
 | Difference from Theoretical | -0.71%            | -0.82%            | -1.23%            |
@@ -579,9 +579,9 @@ Most measurements are below the calculated theoretical values. Tables 8 and 9 sh
     </div>
 </div>
 
-All three Difluids measured lower than the theoretical value, and the order of measurements is #1 > #2 > #3, roughly consistent with the trend in Experiment II. This suggests Difluids may indeed have a "constitution," where some consistently measure lower and others higher. It might also indicate that VST or ATAGO's higher measurements in Experiment II are more accurate, but this requires further verification.
+All three DiFluids measured lower than the theoretical value, and the order of measurements is #1 > #2 > #3, roughly consistent with the trend in Experiment II. This suggests that the DiFluids may indeed exhibit a "measurement tendency," where some consistently measure lower and others higher. It might also indicate that the measurements by VST or ATAGO in Experiment II are more accurate, but this requires further verification.
 
-I also plotted the three Difluids' measurements as violin plots:
+I also plotted the three DiFluids' measurements as violin plots:
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-6">
@@ -593,11 +593,11 @@ I also plotted the three Difluids' measurements as violin plots:
     <span class="image-span">Figures 9 and 10: Violin plots of measurements from Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
 
-The measurement range for all three Difluids is very small (except for #2, which is slightly larger), once again demonstrating their excellent precision. Although there are slight differences between the three units, they are still fairly close.
+The measurement range for all three DiFluids is very small (except for #2, which is slightly larger), once again demonstrating their excellent precision. Although there are slight differences between the three units, they are still fairly close.
 
 However, while their precision is excellent, their accuracy is not as ideal, as most measurements are still somewhat distant from the calculated theoretical refractive index range. This result does not rule out the possibility of issues with the solution preparation. In Quantitative Café's article [Estimating TDS from Refractive Index](https://quantitativecafe.com/2023/02/11/validating-the-difluid-r2-extract/), he successfully obtained measurements very close to the theoretical value, but unfortunately, I was unable to replicate his results here.
 
-Some possible reasons for the lower measurement values:
+Some possible reasons for the lower measurement values, besides measurement errors of DiFluid, include:
 
 1.   Some sugar may not have fully dissolved.
 2.   The sugar concentration may be lower than the indicated 99.7%.
@@ -605,20 +605,20 @@ Some possible reasons for the lower measurement values:
 
 #### Discussion
 
-What I find most interesting is the similarity between Figures 8 and 9. Even though the sucrose solution concentrations were different in the two experiments, the three machines still showed highly consistent measurement inertia.
+What I find most interesting is the similarity between Figures 8 and 9. Even though the sucrose solution concentrations were different in the two experiments, the three machines still showed highly consistent measurement tendencies.
 
-Let's further extract the Difluid data from the two datasets in Experiment II (Figures 3 and 5) and compare them with Figures 8 and 9:
+Let's further extract the DiFluid data from the two datasets in Experiment II (Figures 3 and 5) and compare them with Figures 8 and 9:
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig10.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-span">Figure 10: From left to right, top to bottom: parts of the violin chart of three Difluid units extracted from four violin plots in Figures 3, 5, 8, and 9</span>
+        <span class="image-span">Figure 10: Parts of the violin chart for three DiFluid units, extracted and arranged from top left to bottom right, corresponding to Figures 3, 5, 8, and 9, respectively</span>
     </div>
 </div>
 
-These four plots are very similar! This seems to confirm my speculation that Difluid R2 Extract units have different "constitutions." However, in [@espressofun](https://www.instagram.com/espressofun/)'s article [DiFluid R2 Coffee Refractometer Device Variation](https://rmckeon.medium.com/difluid-r2-coffee-refractometer-device-variation-20cf1a663d99), he did not observe such obvious differences, so I have not yet reached a conclusion on this matter.
+These four plots are very similar! This seems to confirm my speculation that DiFluid R2 Extract units have different measurement tendencies. However, in [@espressofun](https://www.instagram.com/espressofun/)'s article [DiFluid R2 Coffee Refractometer Device Variation](https://rmckeon.medium.com/difluid-r2-coffee-refractometer-device-variation-20cf1a663d99), he did not observe such obvious differences, so I have not yet reached a conclusion on this matter.
 
-Unfortunately, Difluid currently does not have a calibration function, so this method can only be used for testing and cannot actually improve the machines' accuracy. Otherwise, we might be able to use calibration to make the performance of various Difluid units more consistent.
+Unfortunately, DiFluid currently does not have a calibration function, so this method of validating with sucrose solution can only be used for testing and cannot actually improve the machines' accuracy. Otherwise, we might be able to use calibration to make the performance of various DiFluid units more consistent.
 
 ### TL;DR and Conclusion
 
@@ -629,18 +629,18 @@ In the subsequent three experiments, we concluded:
 -   Experiment I: The Impact of Evaporation on TDS
     -   In our setup, if samples are not stored in sealed containers to prevent evaporation, evaporation can increase the calculated extraction yield by up to 1%, showing that evaporation's impact is very significant and must be carefully managed during measurement.
     -   The standard sampling and cooling method I introduced effectively prevents evaporation from affecting TDS measurements and makes the measurements more stable.
--   Experiment II: Testing Different Refractometer Models (VST, ATAGO, Difluid)
-    -   In terms of stability, VST readings fluctuate the least, while Difluid and ATAGO show little difference in performance.
-    -   Difluid readings are generally lower than VST, while ATAGO readings are generally higher.
-    -   The three Difluids also show a consistent high-to-low relationship in their readings. Although not large, this relationship has appeared repeatedly in multiple experiments, suggesting it is not due to chance or experimental error.
--   Experiment III: Testing Difluid R2 Extract Accuracy with Sucrose Solution
-    -   The refractive index of the sucrose solution measured by all three Difluids is lower than the theoretical value.
-    -   The three Difluids also show a consistent high-to-low relationship when measuring the refractive index of the sucrose solution, very similar to what was observed in Experiment II.
-    -   Compared with the violin charts in Experiment II showed highly consistent measurement inertia for the Difluids.
+-   Experiment II: Testing Different Refractometer Models (VST, ATAGO, DiFluid)
+    -   In terms of stability, VST readings fluctuate the least, while DiFluid and ATAGO show little difference in performance.
+    -   DiFluid readings are generally lower than VST, while ATAGO readings are generally higher.
+    -   The three DiFluids also show a consistent high-to-low relationship in their readings. Although not large, this relationship has appeared repeatedly in multiple experiments, suggesting it is not due to chance or experimental error.
+-   Experiment III: Testing DiFluid R2 Extract Accuracy with Sucrose Solution
+    -   The refractive index of the sucrose solution measured by all three DiFluids is lower than the theoretical value.
+    -   The three DiFluids also show a consistent high-to-low relationship when measuring the refractive index of the sucrose solution, very similar to what was observed in Experiment II.
+    -   Compared with the violin charts in Experiment II showed highly consistent measurement inertia for the DiFluids.
 
-The results of Experiments II and III lead me to speculate that perhaps each Difluid unit has a different "constitution," meaning some consistently measure higher and others lower. This is an interesting finding, but probably still requires more time for further verification.
+The results of Experiments II and III lead me to speculate that perhaps each DiFluid unit has different "measurement tendencies," meaning some consistently measure higher and others lower. This is an interesting finding, but probably still requires more time for further verification.
 
-I will also provide the experimental data to Difluid for reference. Perhaps in the future, there will be calibration methods to reduce these "constitutional" differences.
+I will also provide the experimental data to DiFluid for reference. Perhaps in the future, there will be calibration methods to reduce these measurement differences.
 
 ### Acknowledgments
 

@@ -521,7 +521,7 @@ I created a calculator that can calculate the concentration and refractive index
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <video width="100%" controls playsinline autoplay muted loop>
-    		<source src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/RI_calculater.mov" type="video/mp4">
+    		<source src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/RI_calculater_en.mov" type="video/mp4">
 		</video>
         <span class="image-span">A video of me using this concentration and refractive index calculator</span>
     </div>

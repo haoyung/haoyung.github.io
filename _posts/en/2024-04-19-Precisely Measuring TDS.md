@@ -429,7 +429,7 @@ Table 6 shows the average measurement and standard deviation for each device.
 
 Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: ATAGO > VST > DiFluid #1 > DiFluid #2 > DiFluid #3. This will be discussed further in Experiment III.
 
-I also plotted the measurements as violin plots (see [violin plot](https://en.wikipedia.org/wiki/Violin_plot)). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements.
+I also plotted the measurements as [violin plots](https://en.wikipedia.org/wiki/Violin_plot). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">

@@ -145,11 +145,11 @@ I will demonstrate using the DiFluid, which I use most frequently.
 
 For details, see Jonathan Gagné's famous article [Measuring Coffee Concentration with a 0.01% Precision](https://coffeeadastra.com/2019/09/21/measuring-coffee-concentration-with-a-0-01-precision/).
 
-Jonathan thoroughly measured and explained various factors that could cause measurement errors. However, his method is quite cumbersome and not very suitable for measuring many samples in a short period of time. If I remember correctly, Jonathan mentioned he currently uses the Two Spoon Method regularly, so I won't spend time introducing his full method here. Please read his fascinating and detailed article if you're interested!
+Jonathan thoroughly measured and explained various factors that could cause measurement errors. However, his method is quite cumbersome and not very suitable for measuring many samples in a short period of time. If I remember correctly, Jonathan mentioned he currently uses the two-spoon method regularly, so I won't spend time introducing his full method here. Please read his fascinating and detailed article if you're interested!
 
-#### Two Spoon Method
+#### Two-Spoon Method
 
-Speaking of TDS measurement workflows, the Two Spoon Method is definitely worth mentioning. As the name suggests, it involves using two spoons to measure. I will briefly explain the procedure and why I did not use it for the experiments in this article. For a more detailed introduction, please read [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by PocketScienceCoffee.
+Speaking of TDS measurement workflows, the two-spoon method, which also comes from Jonathan Gagné, is definitely worth mentioning. As the name suggests, it involves using two spoons to measure. I will briefly explain the procedure and why I did not use it for the experiments in this article. For a more detailed introduction, please read [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by PocketScienceCoffee.
 
 ##### Procedure
 
@@ -161,7 +161,7 @@ As with my method, the goal is to keep the sample and zeroing temperature differ
 
 ##### Why I Didn't Use This Method Here
 
-The Two Spoon Method is obviously not suitable for measuring many samples quickly (I don't have that many cupping spoons!). Additionally, to enable rapid cooling, the sample volume must be very small, making it impossible to measure the same sample with multiple refractometers, which I needed to do in these experiments.
+The two-spoon method is obviously not suitable for measuring many samples quickly (I don't have that many cupping spoons!). Additionally, to enable rapid cooling, the sample volume must be very small, making it impossible to measure the same sample with multiple refractometers, which I needed to do in these experiments.
 
 ##### Precautions
 
@@ -386,7 +386,7 @@ This experiment illustrates the importance of preventing evaporation during TDS 
 
 Compared to the expensive VST, ATAGO and DiFluid are much more affordable, but are they significantly less accurate?
 
-In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 samples from the same coffee to assess each device's accuracy and stability.
+In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 samples from the same coffee to assess each device's accuracy and stability. Additionally, I conducted a measurement using the two-spoon method with VST immediately after brewing, which served as a reference point.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -406,9 +406,11 @@ In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 sam
          </div>
      </div>
 
-2.   After thorough stirring, use the standard method to take 20 samples of 5ml each.
+2.   Measure the coffee using the two-spoon method with VST, recording the results as a preliminary reference.
 
-3.   Measure each sample in order with all five refractometers using the standard method.
+3.   After thorough stirring, use the standard method to take 20 samples of 5ml each.
+
+4.   Measure each sample in order with all five refractometers using the standard method.
 
 #### Results
 
@@ -435,7 +437,7 @@ Table 6 shows the average measurement and standard deviation for each device.
 
 Figure 2 and Table 6 show a generally stable relationship between the five devices' measurements: ATAGO > VST > DiFluid #1 > DiFluid #2 > DiFluid #3. This will be discussed further in Experiment III.
 
-I also plotted the measurements as [violin plots](https://en.wikipedia.org/wiki/Violin_plot). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements.
+I also plotted the measurements as [violin plots](https://en.wikipedia.org/wiki/Violin_plot). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements. Additionally, I marked the measurement obtained from the two-spoon method using VST, which shows little difference compared to the average measurement.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">

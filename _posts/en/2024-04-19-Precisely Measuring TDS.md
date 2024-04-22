@@ -102,7 +102,8 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 -   Sample bottles or centrifuge tubes in the size of about 5ml
     -   must be airtight with a lid.
 -   Plastic pipette
--   Lens cleaning paper like KIMTECH
+-   Lint-free microfiber cloth or lens cleaning paper like KIMTECH
+    - microfiber cloth is recommended by [PocketScienceCoffee](https://www.instagram.com/pocketsciencecoffee/) as it can be less abrasive than lens cleaning paper during heavy use.
 -   Tissue or cloth to roughly dry liquid on the device
 -   Distilled water for zeroing
 -   Small flat-bottomed water tank for cooling the sample bottle
@@ -148,7 +149,7 @@ Jonathan thoroughly measured and explained various factors that could cause meas
 
 #### Two Spoon Method
 
-Speaking of TDS measurement workflows, the Two Spoon Method is definitely worth mentioning. As the name suggests, it involves using two spoons to measure. I will briefly explain the procedure and why I did not use it for the experiments in this article. For a more detailed introduction, please read [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by [PocketScienceCoffee](https://www.instagram.com/pocketsciencecoffee/).
+Speaking of TDS measurement workflows, the Two Spoon Method is definitely worth mentioning. As the name suggests, it involves using two spoons to measure. I will briefly explain the procedure and why I did not use it for the experiments in this article. For a more detailed introduction, please read [My Current Refractometry Workflow](https://pocketsciencecoffee.com/2022/12/07/my-current-refractometry-workflow/) by PocketScienceCoffee.
 
 ##### Procedure
 
@@ -164,7 +165,12 @@ The Two Spoon Method is obviously not suitable for measuring many samples quickl
 
 ##### Precautions
 
-The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although PocketScienceCoffee's article states that the impact should not be too significant if the measurement is completed within three minutes, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
+The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although PocketScienceCoffee's article states that the impact should not be too significant if the measurement is completed within three minutes<sup class="footnote-sup">[B]</sup>, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
+
+<div class="footnote">
+  <div class="footnote-label">[B]</div>
+  <div class="footnote-content">PocketScienceCoffee mentioned in his Instagram comment that he tested a sample size of about 0.5 ml at starting temperatures of 80°C, 90°C, and 100°C, and found no evaporation loss in weight at 1, 2, and 3 minutes after sampling, indicating that we can use this method with less concern.</div>
+</div>
 
 ### Pre-Experiment: Data Collection
 
@@ -299,10 +305,10 @@ Table 1 shows the TDS measurements for all 15 samples, with VST in the top half 
   }
 </style>
 
-Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">[B]</sup> of TDS and extraction yield for each group.
+Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">[C]</sup> of TDS and extraction yield for each group.
 
 <div class="footnote">
-  <div class="footnote-label">[B]</div>
+  <div class="footnote-label">[C]</div>
   <div class="footnote-content">In this article, data are presented as $\mu \pm \sigma$, where $\mu$ is the average and $\sigma$ is the standard deviation.</div>
 </div>
 
@@ -337,10 +343,10 @@ Figure 1 visualizes Tables 2 and 3, with VST on the left and DiFluid on the righ
     </div>
 </div>
 
-The unsealed experimental groups have higher TDS than the sealed control. A t-test confirmed this difference is statistically significant. We can also see that the control group has a smaller confidence interval than the experimental groups when measured with the more affordable DiFluid, indicating higher precision.<sup class="footnote-sup">[C]</sup>
+The unsealed experimental groups have higher TDS than the sealed control. A t-test confirmed this difference is statistically significant. We can also see that the control group has a smaller confidence interval than the experimental groups when measured with the more affordable DiFluid, indicating higher precision.<sup class="footnote-sup">[D]</sup>
 
 <div class="footnote">
-  <div class="footnote-label">[C]</div>
+  <div class="footnote-label">[D]</div>
   <div class="footnote-content">When using VST, the differences between the groups are not significant.</div>
 </div>
 
@@ -556,10 +562,10 @@ Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and
     <span class="image-span">Figures 6 and 7: Line charts of measurements in Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
 
-Most measurements are below the calculated theoretical values. Tables 8 and 9 show the average measured values, standard deviations, and percentage differences from the theoretical value<sup class="footnote-sup">[D]</sup> for each device.
+Most measurements are below the calculated theoretical values. Tables 8 and 9 show the average measured values, standard deviations, and percentage differences from the theoretical value<sup class="footnote-sup">[E]</sup> for each device.
 
 <div class="footnote">
-  <div class="footnote-label">[D]</div>
+  <div class="footnote-label">[E]</div>
   <div class="footnote-content">Here, I take the middle value of the calculated theoretical refractive index range as the theoretical value.</div>
 </div>
 

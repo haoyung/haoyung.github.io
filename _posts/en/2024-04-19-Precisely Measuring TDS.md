@@ -2,7 +2,7 @@
 layout: post
 title: "Precisely Measuring TDS"
 description: "Exploring the challenges and frustrations of precise TDS measurement—my detailed refractometer workflow, extensive experiments on evaporation's impact, along with comparisons and validations of popular refractometer models."
-tag: [review, tutorial]
+tag: [experiment, review, tutorial]
 category: articles
 imgfolder: TDS
 image: /assets/img/TDS/refractometers.webp

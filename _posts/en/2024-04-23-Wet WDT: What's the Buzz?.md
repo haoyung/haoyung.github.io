@@ -10,7 +10,9 @@ image_orientation:
 image_caption: ""
 language_reference: wwdt
 usemathjax: true
-redirect_from: /en/articles/Wet-WDT-What’s-the-Buzz
+redirect_from: 
+  - /en/articles/Wet-WDT-What‘s-the-Buzz
+  - /en/articles/Wet-WDT-What’s-the-Buzz
 draft: true
 sitemap: false
 ---

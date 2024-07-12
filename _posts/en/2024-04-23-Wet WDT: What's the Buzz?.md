@@ -10,6 +10,7 @@ image_orientation:
 image_caption: ""
 language_reference: wwdt
 usemathjax: true
+redirect_from: /articles/en/Wet-WDT-What’s-the-Buzz
 draft: true
 sitemap: false
 ---
@@ -152,8 +153,8 @@ From Table 1, we can observe:
 
 Point 2 is what we aim to observe in this experiment. For the similar extraction yields, I propose two hypotheses:
 
-Hypothesis 1: The increase in extraction yield from WWDT is purely due to the longer total brew time, unrelated to stirring and mixing coffee with water.
-Hypothesis 2: The stirring and mixing effects of WWDT do increase extraction yield, but the accelerated fines migration from WWDT results in suboptimal extraction conditions, such as channeling, which lowers extraction yield. These effects cancel each other out, leading to similar extraction yields.
+- **Hypothesis 1:** The increase in extraction yield from WWDT is purely due to the longer total brew time, unrelated to stirring and mixing coffee with water.
+- **Hypothesis 2:** The stirring and mixing effects of WWDT do increase extraction yield, but the accelerated fines migration from WWDT results in suboptimal extraction conditions, such as channeling, which lowers extraction yield. These effects cancel each other out, leading to similar extraction yields.
 
 Hypothesis 1 is more intuitive, but Hypothesis 2 arises because the WWDT brew had noticeably more astringency than the other two. I suspect this might be due to channeling, which may lower the strength of filtration of the coffee bed, causing larger molecules responsible for astringency to pass through the coffee bed and into the carafe more easily.
 

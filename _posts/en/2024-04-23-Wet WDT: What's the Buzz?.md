@@ -144,11 +144,18 @@ The parameters used here are modified from PocketScienceCoffee's article [How to
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 1: Total brew time (TBT) and extraction yield (EY) for the three groups in the pre-experiment</span>
+        <span class="image-span">Table 1: Total brew time (TBT) and extraction yield (EY) for three pre-Experiment groups</span>
     </div>
 </div>
 
-From Table 1, we can observe:
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
+    <div class="col-md-12">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid responsive-plot">
+        <span class="image-span">Figure 1: Total brew time (TBT) and extraction yield (EY) for three pre-Experiment groups</span>
+    </div>
+</div>
+
+From Table 1 and Figure 1, we can observe:
 
 1. Both WWDT and CTL-fast had the valve fully open during brewing, but WWDT had a significantly longer TBT, confirming the earlier statement that WWDT accelerates fines migration. It also had a higher EY, confirming the result from Barista Hustle's experiment.
 2. WWDT and CTL-slow, which had similar TBT, had similar EY.

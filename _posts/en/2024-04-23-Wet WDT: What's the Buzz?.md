@@ -140,7 +140,7 @@ The parameters used here are modified from PocketScienceCoffee's article [How to
 | ------------ | ----------------- | ----------------- | ----------------- |
 | Total Brew Time (TBT) (s) | 263    | 187      | 269      |
 | Extraction Yield (EY) (%) | 21.30% | 20.65%   | 21.52%   |
-| Notes | Noticeably more astringent | None | None |
+| Notes | Noticeably more astringent |  |  |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">

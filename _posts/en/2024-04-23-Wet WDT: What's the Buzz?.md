@@ -180,7 +180,8 @@ After completing the main experiment, we obtained the relationship between total
 First, let's make the following assumptions:
 
 1. The maximum extraction yield is $$ \text{EY}_{\text{max}} $$. Different coffees, grind sizes, and methods will result in different values for $$ \text{EY}_{\text{max}} $$, but generally, we expect it to be less than 30%.
-2. At any given time $t$, the extraction rate $r(t)$ is proportional to the concentration difference between the coffee and the water. Since we assume the water concentration is 0, the concentration difference is the proportion of extractable material remaining in the coffee, $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$. Thus, $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EY}(t)) $$.
+2. We assume that the water extracting the coffee is always perfectly clean (with a concentration of 0). In reality, this is not the case—for example, in pour-over brewing, the water in the dripper is usually not clear, meaning we are effectively extracting coffee with coffee. However, for simplicity, we will assume this here.
+3. At any given time $t$, the extraction rate $r(t)$ is proportional to the concentration difference between the coffee and the water. Since we assume the water concentration is 0, the concentration difference is the proportion of extractable material remaining in the coffee, $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$. Thus, $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EY}(t)) $$.
 
 Based on assumption 3, we can assume $$ r(t) = k(\text{EY}_{\text{max}} - \text{EY}(t)) $$. From the definition $$ \text{EY}(t) = \int_0^t r(\tau) \, d\tau $$, we can solve for:
 

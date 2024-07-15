@@ -179,14 +179,14 @@ After completing the main experiment, we obtained the relationship between total
 
 First, let's make the following assumptions:
 
-1. The maximum extraction yield is $\text{EY}_{\text{max}}$. Different coffees, grind sizes, and methods will result in different values for $\text{EY}_{\text{max}}$, but generally, we expect it to be less than 30%.
-2. At any given time $t$, the extraction rate $r(t)$ is proportional to the concentration difference between the coffee and the water. Since we assume the water concentration is 0, the concentration difference is the proportion of extractable material remaining in the coffee, $(\text{EY}_{\text{max}} - \text{EY}(t))$. Thus, $r(t) \propto (\text{EY}_{\text{max}} - \text{EY}(t))$.
+1. The maximum extraction yield is $$ \text{EY}_{\text{max}} $$. Different coffees, grind sizes, and methods will result in different values for $$ \text{EY}_{\text{max}} $$, but generally, we expect it to be less than 30%.
+2. At any given time $t$, the extraction rate $r(t)$ is proportional to the concentration difference between the coffee and the water. Since we assume the water concentration is 0, the concentration difference is the proportion of extractable material remaining in the coffee, $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$. Thus, $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EY}(t)) $$.
 
-Based on assumption 3, we can assume $r(t) = k(\text{EY}_{\text{max}} - \text{EY}(t))$. From the definition $\text{EY}(t) = \int_0^t r(\tau) \, d\tau$, we can solve for:
+Based on assumption 3, we can assume $$ r(t) = k(\text{EY}_{\text{max}} - \text{EY}(t)) $$. From the definition $$ \text{EY}(t) = \int_0^t r(\tau) \, d\tau $$, we can solve for:
 
 $$ \text{EY}(t) = \text{EY}_{\text{max}}\left(1 - e^{-kt}\right) $$
 
-Therefore, we will use this theoretical model of TBT and EY to approximate the data for the groups with and without WWDT and calculate the corresponding $\text{EY}_{\text{max}}$ and $k$.
+Therefore, we will use this theoretical model of TBT and EY to approximate the data for the groups with and without WWDT and calculate the corresponding $$ \text{EY}_{\text{max}} $$ and $k$.
 
 ### Conclusion
 

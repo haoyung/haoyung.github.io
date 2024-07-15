@@ -175,7 +175,18 @@ In the main experiment, I will look for more evidence to support or refute these
 
 #### Discussion
 
-(WIP)
+After completing the main experiment, we obtained the relationship between total brew time (TBT) and extraction yield (EY) for each of the 9 brews with and without WWDT. Now, let’s predict the theoretical relationship between TBT and EY.
+
+First, we make the following assumptions:
+
+1. The maximum extraction yield $\text{EY}_{\text{max}} = 0.30$, meaning only 30% of the coffee is soluble.
+2. At any given time $t$, the extraction rate $r(t)$ is proportional to the concentration difference between the coffee and water. Since we assume the water concentration is 0, the concentration difference is the remaining extractable material in the coffee, $(\text{EY}_{\text{max}} - \text{EY}(t)) = (0.3 - \text{EY}(t))$, so $r(t) \propto (0.3 - \text{EY}(t))$.
+
+Based on assumption 3, we can assume $r(t) = k(0.3 - \text{EY}(t))$, and by definition $\text{EY}(t) = \int_0^t r(\tau) \, d\tau$, we can solve:
+
+$$ \text{EY}(t) = 0.30 \left(1 - e^{-kt}\right) $$
+
+Thus, we will use this theoretical model of TBT and EY to approximate the data for both the WWDT and non-WWDT groups and calculate their respective $k$ values.
 
 ### Conclusion
 

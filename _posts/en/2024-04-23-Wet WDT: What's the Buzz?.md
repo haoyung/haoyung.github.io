@@ -226,7 +226,7 @@ We can see that the two curves are very similar. In Table 2, I list the constant
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-span">Table 2: Constants for the fitted theoretical curves of the WWDT and control groups in the main experiment and their $$ p \text{-value} $$</span>
+        <span class="image-span">Table 2: Constants for the fitted theoretical curves of the WWDT and control groups in the main experiment and their $p \text{-value}$</span>
     </div>
 </div>
 

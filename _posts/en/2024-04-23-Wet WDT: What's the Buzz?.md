@@ -222,7 +222,7 @@ We can see that the two curves are very similar. In Table 2, I list the constant
 | Fitted Curve Constants  | WWDT   | CTL | $$ p \text{-value} $$ |
 | ------------ | ----------------- | ----------------- | ----------------- |
 | $k$ | 0.0116    | 0.0118      | 0.522      |
-| $$ \text{EY}_{\text{max}} $$ | 23.08 | 23.07   | 0.881   |
+| $$ \text{EY}_{\text{max}} $$ | 23.08% | 23.07%   | 0.881   |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">

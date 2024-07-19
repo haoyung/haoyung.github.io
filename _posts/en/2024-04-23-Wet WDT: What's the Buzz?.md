@@ -125,22 +125,22 @@ The parameters used here are adapted from PocketScienceCoffee's article [How to 
 
 #### Detailed Brewing Steps
 
-1. Disassemble the filter cup wall and base of the Pulsar.
-2. Close the valve and pour a small amount of hot water into the base, just enough to cover the ribs at the bottom.
-3. Place the filter paper in, which will float on the water.
-4. Open the valve, allowing the filter paper to adhere neatly to the bottom.
-     - This method ensures there are no air bubbles between the valve and the filter paper, allowing for smoother water flow.
-5. Reassemble the filter cup wall onto the base and close the valve.
-6. Weigh 20g of coffee, grind it, pour it into the filter cup, and level the grounds (using a WDT tool is recommended).
-7. (With the valve closed) Place the showerhead and pour 60g of water in a steady stream.
-8. Use different pre-infusion methods for the two groups:
-     - Wet WDT: Use a WDT tool (I use the Comb from Barista Hustle Tools) to perform a deep Wet WDT, stirring the grounds all the way to the bottom layer. Refer to the video.
-     - Control: Perform two clockwise and two counterclockwise Rao Spins.
-9. At 0:30, fully open the valve to let the water drain.
-10. At 1:00, quickly pour water until the total weight reaches 230g at a rate of about 8-10 ml/s, then perform one clockwise and one counterclockwise Rao Spin.
-11. Open the valve to the set direction.
-12. When the water level reaches the 100 ml mark on the side of the Pulsar, close the valve and pour water until the total weight reaches 360g at a rate of about 8-10 ml/s, then perform one clockwise and one counterclockwise Rao Spin.
-13. Open the valve to the set direction, let it drain completely, record the total brewing time, and take a sample.
+1.   Separate the Pulsar's wall and base.
+2.   Close the valve, pour a small amount of hot water into the base, just enough to submerge the ribs at the bottom.
+3.   Place the filter paper inside; it will float on the water.
+4.   Open the valve; the filter paper will adhere neatly to the bottom.
+     -   This ensures no air bubbles are trapped between the valve and filter paper, allowing for smoother water flow.
+5.   Install the wall onto the base and close the valve.
+6.   Measure 20 g of coffee, grind, and pour into the filter, leveling the grounds (a WDT tool is recommended).
+7.   (With the valve closed) Place the disperser on top, pour in 60g of water.
+8.   Each group uses a different method during the bloom:
+     -   Wet WDT: Use a WDT tool (I used Barista Hustle Tools' the Comb) for deep Wet WDT, stirring deep into the coffee bed, as demonstrated in the video.
+     -   Control: Perform two swirls to ensure all grounds contact the water.
+9.   At 0:30, fully open the valve to drain the water.
+10.  At 1:00, quickly pour up to 230g at about 8–10 ml/s, then perform a swirl.
+11.  Open the valve to the set direction.
+12.  When the water level reaches the 100 ml mark on the side of the Pulsar, close the valve and pour water to 360 g at about 8–10 ml/s, then perform another swirl.
+13.  Open the valve to the set direction, wait for the water to fully drain, record the TBT, and take a sample for measuring the TDS and extraction yield.
 
 ### Preliminary Experiment
 
@@ -181,7 +181,7 @@ For such seemingly counterintuitive results, I propose the following two hypothe
 - **Hypothesis 1:** Perhaps the effect of Wet WDT on improving extraction yield is purely due to the extended total brewing time and has nothing to do with stirring or helping the coffee and water mix.
 - **Hypothesis 2:** Perhaps the stirring and mixing effect of Wet WDT still has the ability to improve extraction yield, but the accelerated fines migration effect of Wet WDT results in poor subsequent extraction conditions, such as channeling in the coffee bed, which reduces the extraction yield. This back-and-forth effect cancels out, resulting in similar extraction yields.
 
-Hypothesis 1 is more intuitive, while Hypothesis 2 is proposed because the brew with WWDT had a noticeably more astringent taste compared to the other two cups. I believe this might be due to the reduced filtering capacity of the coffee bed after channeling, allowing larger molecules that cause astringency to pass through the coffee bed and into the coffee liquid.
+Hypothesis 1 is more intuitive, while Hypothesis 2 is proposed because the brew with Wet WDT had a noticeably more astringent taste compared to the other two cups. I believe this might be due to the reduced filtering capacity of the coffee bed after channeling, allowing larger molecules that cause astringency to pass through the coffee bed and into the coffee liquid.
 
 I will look for more clues to confirm or refute these two hypotheses in the main experiment.
 
@@ -214,7 +214,7 @@ First, let's make the following assumptions:
 
 1. The maximum extraction yield is $$ {\text{EY}}_{\text{max}} $$, which varies with different coffees, grind sizes, and methods, but we generally believe it to be less than 30%.
 2. At any given time, the water extracting the coffee is completely clean (concentration of 0), which is not realistic since the water in the dripper during brewing is usually not clear, meaning we are extracting coffee with coffee. However, for simplicity, we will assume this here.
-3. At any given time $t$, the extraction rate $r(t)$ is proportional to the concentration difference between the coffee and water. Since we assume the water concentration is 0 in assumption 2, the concentration difference is the proportion of extractable substances remaining in the coffee, which is $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$, meaning $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EYt)) $$.
+3. At any given time $t$, the extraction yield $r(t)$ is proportional to the concentration difference between the coffee and water. Since we assume the water concentration is 0 in assumption 2, the concentration difference is the proportion of extractable substances remaining in the coffee, which is $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$, meaning $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EYt)) $$.
 
 Based on assumption 3, we can assume $$ r(t) = k(\text{EY}_{\text{max}} - \text{EY}(t)) $$, and by definition $$ \text{EY}(t) = \int_0^t r(\tau) \, d\tau $$, we can solve for:
 
@@ -248,20 +248,20 @@ In both the preliminary and main experiments, I consistently observed that Wet W
 
 Overall, the main experiment and the preliminary experiment produced similar results:
 
-1. Data-wise, whether Wet WDT is performed or not does not affect the relationship between extraction rate and total brewing time. In other words, when the total brewing time is the same, performing Wet WDT does not affect the extraction rate.
+1. Data-wise, whether Wet WDT is performed or not does not affect the relationship between extraction yield and total brewing time. In other words, when the total brewing time is the same, performing Wet WDT does not affect the extraction yield.
 2. Flavor-wise, the groups that performed Wet WDT generally had a more astringent taste.
 
 The two hypotheses I proposed in the preliminary experiment were not refuted:
 
-- **Hypothesis 1:** Perhaps the effect of Wet WDT on increasing the extraction rate is purely due to the extended total brewing time and has nothing to do with stirring or aiding the mixing of coffee and water.
-- **Hypothesis 2:** Perhaps the stirring and mixing effect of Wet WDT still has the potential to increase the extraction rate, but the accelerated fines migration caused by Wet WDT results in poor extraction conditions later on, such as the formation of channels in the coffee bed, which in turn decreases the extraction rate. This effect might just cancel out.
+- **Hypothesis 1:** Perhaps the effect of Wet WDT on increasing the extraction yield is purely due to the extended total brewing time and has nothing to do with stirring or aiding the mixing of coffee and water.
+- **Hypothesis 2:** Perhaps the stirring and mixing effect of Wet WDT still has the potential to increase the extraction yield, but the accelerated fines migration caused by Wet WDT results in poor extraction conditions later on, such as the formation of channels in the coffee bed, which in turn decreases the extraction yield. This effect might just cancel out.
 
 These experimental results clearly indicate that Wet WDT is not "magical" and might even be considered unimpressive. However, whether this conclusion applies universally requires further investigation. For example, in this experiment, we used an immersion method with three times the weight of the coffee grounds for pre-infusion, ensuring there was plenty of water. But when using less water, would simple shaking be insufficient to fully mix the grounds and water? In such cases, would Wet WDT be more effective? This is quite possible.
 
 ### Conclusion
 
-After Barista Hustle published an article claiming that Wet WDT could significantly increase the extraction rate of brewing, Wet WDT gained popularity. However, its increase in extraction rate also extends the total brewing time, leading me to suspect that the increased extraction rate might not be directly related to Wet WDT itself, but rather a result of the extended total brewing time due to the increased agitation accelerating fines migration.
+After Barista Hustle published an article claiming that Wet WDT could significantly increase the extraction yield of brewing, Wet WDT gained popularity. However, its increase in extraction yield also extends the total brewing time, leading me to suspect that the increased extraction yield might not be directly related to Wet WDT itself, but rather a result of the extended total brewing time due to the increased agitation accelerating fines migration.
 
-This article uses the Pulsar's ability to control flow rate via a valve to try to answer the question: "How much of the increased extraction rate from Wet WDT is directly related to it, and how much is merely a result of the extended total brewing time?" According to the experimental results, we found that Wet WDT does not significantly alter the relationship between total brewing time and extraction rate. In other words, when the total brewing time is the same, performing Wet WDT does not significantly affect the extraction rate.
+This article uses the Pulsar's ability to control flow rate via a valve to try to answer the question: "How much of the increased extraction yield from Wet WDT is directly related to it, and how much is merely a result of the extended total brewing time?" According to the experimental results, we found that Wet WDT does not significantly alter the relationship between total brewing time and extraction yield. In other words, when the total brewing time is the same, performing Wet WDT does not significantly affect the extraction yield.
 
-Moreover, Wet WDT generally resulted in higher astringency when used with the Pulsar, leading me to believe that when the flow rate of the filter cup is controllable, we should avoid using Wet WDT and instead achieve the desired extraction rate by simply adjusting the valve size.
+Moreover, Wet WDT generally resulted in higher astringency when used with the Pulsar, leading me to believe that when the flow rate of the filter cup is controllable, we should avoid using Wet WDT and instead achieve the desired extraction yield by simply adjusting the valve size.

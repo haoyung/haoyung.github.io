@@ -19,7 +19,7 @@ sitemap: false
 
 ### Introduction
 
-In this article, I conducted experiments to explore the effects of Wet WDT on brewing and reached some rather counterintuitive conclusions: under the specific conditions of this experiment, we might want to avoid using Wet WDT. As always, the experimental data is [completely open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing), feel free to use it, and please share any findings with me!
+In this article, I conducted experiments to explore the effects of Wet WDT on brewing and reached some rather counterintuitive conclusions: under the specific conditions of this experiment, we might want to avoid using Wet WDT. As always, the experimental data is [open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing), feel free to use it, and please share any findings with me!
 
 ### What is Wet WDT (WWDT)?
 

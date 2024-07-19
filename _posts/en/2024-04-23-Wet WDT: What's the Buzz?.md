@@ -19,19 +19,19 @@ sitemap: false
 
 ### Introduction
 
-In this article, I conducted an experiment to explore the effects of Wet WDT on brewing and reached some rather counterintuitive conclusions: under the specific conditions of this experiment, we might want to avoid using Wet WDT. As always, the experimental data is [completely open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing), feel free to use it, and please share any findings with me!
+In this article, I conducted experiments to explore the effects of Wet WDT on brewing and reached some rather counterintuitive conclusions: under the specific conditions of this experiment, we might want to avoid using Wet WDT. As always, the experimental data is [completely open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing), feel free to use it, and please share any findings with me!
 
 ### What is Wet WDT (WWDT)?
 
-Before introducing Wet WDT, we need to first discuss WDT. WDT stands for Weiss Distribution Technique, proposed by John Weiss in 2005, and it has become a very common method for distributing coffee grounds.
+Before delving into Wet WDT, let's first discuss WDT. WDT stands for Weiss Distribution Technique, proposed by John Weiss in 2005. It has become a common method for distributing coffee grounds evenly.
 
-WDT involves using needle-like tools to stir the coffee grounds, breaking up clumps and ensuring an even distribution. WDT is commonly used in preparing espresso pucks, but in recent years, it has also been frequently used to level the coffee grounds in a pour-over filter, making the coffee bed fluffier and aiding in pre-infusion.
+WDT involves using needle-like tools to stir the coffee grounds, breaking up clumps and ensuring an even distribution. While it originated for use with espresso pucks, it has recently been applied to leveling coffee grounds in a pour-over filter, making the coffee bed fluffier and aiding in pre-infusion.
 
-As WDT became widely used, people naturally wanted to apply it to more scenarios. Wet WDT, as the name suggests, is a "wet" version of WDT, meaning using WDT tools to stir the coffee grounds halfway through the pour-over process. Wet WDT is usually done during the bloom phase, but of course, there's no rule saying you can't do it later in the brewing process (be careful! It can easily clog the filter paper!).
+As WDT gained popularity, it was naturally adapted for more scenarios. Wet WDT, as the name suggests, is a "wet" version of WDT. This involves using WDT tools to stir the coffee grounds halfway through the pour-over process, typically during the bloom phase. However, it can be done at any point in the brewing process (though be cautious, as it can easily clog the filter paper!).
 
 ### Barista Hustle's Blog Post
 
-Wet WDT suddenly became popular in the second half of 2022, largely due to this [blog post](https://www.baristahustle.com/blog/Wet-weiss-distribution/) by Barista Hustle. In their experiment, they brewed ten cups of coffee using a Tricolate, five with the usual method and five with Wet WDT during the bloom phase.
+Wet WDT gained traction in the second half of 2022, largely due to this [blog post](https://www.baristahustle.com/blog/Wet-weiss-distribution/) by Barista Hustle. In their experiment, they brewed ten cups of coffee using a Tricolate, five with the usual method and five with Wet WDT during the bloom phase.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
@@ -42,7 +42,7 @@ Wet WDT suddenly became popular in the second half of 2022, largely due to this 
 
 They found that Wet WDT increased the average extraction time from 266 seconds to 334 seconds, and the average extraction yield from 21.66% to 23.33%—a notable increase of 1.67%.
 
-At this point, you might be wondering, as I did, **how much of this increase in extraction yield is related to the extended extraction time?** After all, any agitation technique, including Wet WDT, is likely to increase both extraction time and yield. This is because agitation speeds up fines migration (in layman's terms, the settling of fine particles), causing filter clogging, which slows down the flow rate, and the increased extraction time naturally leads to a higher extraction yield.
+You might wonder, as I did, **how much of this increase in extraction yield is related to the extended extraction time?** Any agitation technique, including Wet WDT, is likely to increase both the extraction time and yield. This is because agitation speeds up fines migration (the settling of fine particles), causing filter clogging, which slows down the flow rate and naturally leads to a higher extraction yield.
 
 Barista Hustle concluded (for detailed reasoning, please refer to the original article):
 
@@ -51,7 +51,7 @@ Barista Hustle concluded (for detailed reasoning, please refer to the original a
 
 From these conclusions, Wet WDT seems almost magical. It is not only a gentler agitation technique that is less likely to cause clogging but also dramatically increases the extraction yield. After reading this article, like millions of coffee enthusiasts worldwide, I couldn't help but feel uneasy if I didn't stir with a WDT tool during the bloom phase.
 
-But are the conclusions really that wonderful? Is Wet WDT really that magical? Some subsequent events made me start to doubt, and this doubt is the motivation behind writing this article. I wanted to conduct an experiment to explore the question I had when I first read Barista Hustle's article:
+But are these conclusions really that wonderful? Is Wet WDT really that magical? Some subsequent events made me start to doubt, and this doubt is the motivation behind writing this article. I wanted to conduct an experiment to explore the question I had when I first read Barista Hustle's article:
 
 <p class="mb-md-5 mb-4 mt-md-5 mt-4 quote">How much of the increase in extraction yield from Wet WDT is directly related to it, and how much is simply due to the extended total brew time?</p>
 

@@ -152,7 +152,7 @@ I recorded the total brewing time and extraction yield of the three brews in the
 | ------------ | ----------------- | ----------------- | ----------------- |
 | Total Brewing Time (TBT) (s) | 263    | 187      | 269      |
 | Extraction Yield (EY) (%) | 21.30% | 20.65%   | 21.52%   |
-| Notes | Noticeably more astringent taste |  |  |
+| Notes | noticeably more astringent |  |  |
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">

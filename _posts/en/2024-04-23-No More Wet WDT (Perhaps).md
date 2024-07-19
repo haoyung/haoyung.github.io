@@ -215,7 +215,7 @@ First, let's make the following assumptions:
 
 1. The maximum extraction yield is $$ {\text{EY}}_{\text{max}} $$, which varies with different coffees, grind sizes, and methods, but we generally believe it to be less than 30%.
 2. At any given time, the water extracting the coffee is completely clean (concentration of 0), which is not realistic since the water in the dripper during brewing is usually not clear, meaning we are extracting coffee with coffee. However, for simplicity, we will assume this here.
-3. At any given time $t$, the extraction yield $r(t)$ is proportional to the concentration difference between the coffee and water. Since we assume the water concentration is 0 in assumption 2, the concentration difference is the proportion of extractable substances remaining in the coffee, which is $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$, meaning $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EYt)) $$.
+3. At any given time $t$, the extraction yield $r(t)$ is proportional to the concentration difference between the coffee and water. Since we assume the water concentration is 0 in assumption 2, the concentration difference is the proportion of extractable substances remaining in the coffee, which is $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$, meaning $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EY}(t)) $$.
 
 Based on assumption 3, we can assume $$ r(t) = k(\text{EY}_{\text{max}} - \text{EY}(t)) $$, and by definition $$ \text{EY}(t) = \int_0^t r(\tau) \, d\tau $$, we can solve for:
 

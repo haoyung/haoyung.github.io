@@ -20,7 +20,7 @@ def convert_image(image_path):
     image_size = get_image_size(image_path)
     
     # Prepare the conversion command
-    convert_command = ['convert', image_path]
+    convert_command = ['magick', image_path]
     
     if image_size > 2 * 1024 * 1024:
         # Check if image size is greater than 2MB

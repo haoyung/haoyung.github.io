@@ -14,8 +14,6 @@ redirect_from:
   - /en/articles/Wet-WDT-What's-the-Buzz
   - /en/articles/Wet-WDT-What‘s-the-Buzz
   - /en/articles/Wet-WDT-What’s-the-Buzz
-draft: true
-sitemap: false
 ---
 
 ### Introduction

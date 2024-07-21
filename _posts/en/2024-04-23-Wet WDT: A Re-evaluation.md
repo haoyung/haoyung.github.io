@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "No More Wet WDT (Probably)"
+title: "Wet WDT: A Re-evaluation"
 description: ""
 tag: [experiment, pourover]
 category: articles
@@ -20,7 +20,9 @@ sitemap: false
 
 ### Introduction
 
-In this article, I explored the effects of Wet WDT on brewing and arrived at some surprising conclusions: we might need to reconsider using Wet WDT—at least under the conditions of this experiment. As always, the experimental data is [open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing). Feel free to use it, and please share any findings with me!
+Wet WDT, popularized by the notable [Barista Hustle blog post](https://www.baristahustle.com/blog/Wet-weiss-distribution/) two years ago (though Lance Hedrick was experimenting with it even earlier), is said to enhance coffee brewing and increase extraction yield. However, I found the conclusions in Barista Hustle's post somewhat premature and occasionally contradictory to my own experiences. Thus, I decided to re-evaluate Wet WDT’s effects on brewing, leading to some surprising insights: we may want to avoid Wet WDT entirely—at least under specific conditions.
+
+As always, the experimental data is [open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing). Feel free to use it, and please share any findings with me!
 
 ### What is Wet WDT (WWDT)?
 

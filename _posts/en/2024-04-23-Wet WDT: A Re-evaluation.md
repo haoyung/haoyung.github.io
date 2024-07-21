@@ -202,9 +202,9 @@ I recorded the total brew time and extraction yield of the 12 brews in the main 
 
 From Figure 2, we can see that as brewing time increases, extraction yield also tends to rise. Flavor-wise, I noticed that the groups with Wet WDT generally had higher astringency. Additionally, whether or not Wet WDT was used, the sweetness and mouthfeel of the coffee improved with longer brewing times. Of all the brews, I found CTL-slow to have the best flavor. (Note: These flavor descriptions were not blind-tested and are for reference only.)
 
-Except for the fast groups (WWDT-fast and CTL-fast), the other four groups showed very similar total brew times and extraction yields in their repeated brews, indicating stable brewing.
+Except for the slow groups (WWDT-slow and CTL-slow), the other four groups showed very similar total brew times and extraction yields in their repeated brews, indicating stable brewing.
 
-When the valve is smaller, the flow rate becomes more sensitive to the valve angle. However, since the Pulsar valve lacks a scale, I suspect the instability in the fast groups (WWDT-fast and CTL-fast) is due to not controlling the valve at exactly the same angle during operation.
+When the valve is smaller, the flow rate becomes more sensitive to the valve angle. However, since the Pulsar valve lacks a scale, I suspect the instability in the slow groups (WWDT-slow and CTL-slow) is due to not controlling the valve at exactly the same angle during operation.
 
 With these data, we can begin addressing our question: "What proportion of the extraction yield increase from Wet WDT is directly related to it, and how much is simply due to the extended brew time?" We will discuss this in detail in the discussion section.
 

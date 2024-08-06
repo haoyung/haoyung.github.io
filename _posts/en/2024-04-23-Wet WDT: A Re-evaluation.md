@@ -244,7 +244,21 @@ It can be observed that the two curves are very similar. In Table 2, I have list
     </div>
 </div>
 
-It can be seen that if we use the conventional standard of $$ p \text{-value} < 0.05 $$ to determine significance, there is no significant difference between the fitted theoretical curves for both $$ \text{EY}_{\text{max}} $$ and $k$. This indicates that the presence or absence of Wet WDT does not significantly affect the relationship between TBT and EY. In other words, considering only the extraction yield, performing Wet WDT and simply closing the valve slightly to achieve a longer total brew time does not make a significant difference.
+While searching for references, I found that Michael from [quantitativecafé](https://quantitativecafe.com/) used a very similar extraction model in his article, [A Simple Model of Extraction](https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/). With his help, I used the Markov chain Monte Carlo method (MCMC) he employed to calculate the 95% confidence intervals for the two fitted curves through sampling, which are plotted in Figure 4.
+
+<div class="footnote">
+  <div class="footnote-label">[A]</div>
+  <div class="footnote-content">For more detailed methods, please refer to the <a href="https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/">Error analysis chapter in the original article</a> and another article recommended by Michael, <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">written by Jake VanderPlas</a>.</div>
+</div>
+
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
+    <div class="col-md-12">
+        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid responsive-plot">
+        <span class="image-span">Figure 4: Scatter plot of experimental and control group data, fitted theoretical curves, and their 95% confidence intervals</span>
+    </div>
+</div>
+
+It can be observed that if we use the conventional criterion of $$ p \text{-value} < 0.05 $$ for significance, then there is no significant difference between the two fitted theoretical curves regarding $$ \text{EY}_{\text{max}} $$ and $k$. This indicates that whether Wet WDT is performed or not does not significantly affect the relationship between TBT and EY. In other words, considering only the extraction rate, performing Wet WDT and simply closing the valve slightly to achieve a longer total brewing time do not result in significant differences. Observing the 95% confidence intervals of the two curves reveals that these intervals almost completely overlap.
 
 In both the preliminary and main experiments, I consistently observed that Wet WDT resulted in a more pronounced astringency. If this observation holds true (which requires more blind tests to confirm), then perhaps we should avoid using Wet WDT when the dripper allows for adjustable flow rates since we can simply turn down the valve for the longer total brew time and a higher extraction yield.
 

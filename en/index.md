@@ -4,10 +4,12 @@ title: "home"
 language_reference: home
 ---
 
-Hi, I'm Hao-Yung Weng, a passionate coffee aficionado. My coffee journey began when I led the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee), where I currently serve as a mentor for new members. Our club has a strong focus on research. We dive into blog posts (favorites include those by [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), among others), host cupping sessions, document our brews, and measure extraction yields.
+Hi, I'm Hao-Yung Weng, a passionate coffee aficionado. During my university years, I served as the president of the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee). Even after graduating and pursuing a master’s degree in machine learning at Carnegie Mellon, I still occasionally provide remote technical support to the club.
 
-Years of coffee exploration have yielded numerous insights that, while not conclusive, are probably worth sharing. This blog, named "why coffee?" after my initials "WHY," serves as a platform to express my thoughts and experiences. The name also prompts reflection: What draws us to coffee? Is it the desire to explore the diverse flavors imparted by different terroirs? Or perhaps the joy of engaging in nuanced discussions, sharing insights with fellow enthusiasts?
+As president, we took pride in being a research-driven organization. We delved into insightful blog posts (favorites include those by [Jonathan Gagné](https://coffeeadastra.com/), [Christopher Feran](https://christopherferan.com/), among others), hosted cupping sessions, meticulously documented our brews, and measured extraction yields.
 
-When hosting tasting events, I like to use the concept of "connections between people" to capture coffee's essence. Each coffee undertakes an extensive journey – from cultivation and harvesting to processing and roasting, which interlinks the individuals involved. I often convey, "Notice how coffee connects us – you and me, in this very moment."
+Years of coffee exploration have provided me with numerous insights that, while not definitive, I believe are worth sharing. This blog, "why coffee?"—inspired by my initials "WHY"—is my platform to share these thoughts and experiences. The name also invites reflection: What draws us to coffee? Is it the desire to explore the diverse flavors shaped by different terroirs? Or perhaps the joy of engaging in meaningful discussions and sharing insights with fellow enthusiasts?
 
-In that same spirit, I extend this camaraderie to you, dear reader.
+When hosting tasting events, I often speak about "connections between people" as a way to capture coffee’s essence. Every coffee bean undertakes an extensive journey—from cultivation and harvesting to processing and roasting—that connects the individuals involved along the way. I like to say, "Notice how coffee connects us—you and me, right in this very moment."
+
+And it’s this very connection that I hope to share with you, dear reader.

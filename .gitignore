@@ -3,5 +3,4 @@
 .jekyll-cache
 .sass-cache
 _site
-_algolia_api_key
 Gemfile.lock

@@ -135,7 +135,7 @@ The parameters used here are adapted from PocketScienceCoffee's article [How to 
 6. Measure 20 g of coffee, grind, and pour into the filter, leveling the grounds (a WDT tool is recommended).
 7. (With the valve closed) Place the disperser on top, pour in 60g of water.
 8. Each group uses a different method during the bloom:
-   - Wet WDT: Use a WDT tool (I used Barista Hustle Tools' [the Comb](https://baristahustletools.com/products/the-comb)) for deep Wet WDT, stirring deep into the coffee bed, as demonstrated in the video.
+   - Wet WDT: Use a WDT tool (I used Barista Hustle Tools' [the Comb](https://baristahustletools.com/products/the-comb)) for deep Wet WDT, stirring deep into the coffee bed, as demonstrated in the video below.
    - Control: Perform two swirls for both clockwise and counterclockwise to ensure all grounds contact the water.
 9. At 0:30, fully open the valve to drain the water.
 10. At 0:50, close the valve.
@@ -143,6 +143,15 @@ The parameters used here are adapted from PocketScienceCoffee's article [How to 
 12. Open the valve to the set direction.
 13. When the water level reaches the 100 ml mark on the side of the Pulsar, close the valve and pour water to 360 g at about 8–10 ml/s, then perform another swirl.
 14. Open the valve to the set direction, wait for the water to fully drain, record the total brew time, and take a sample for measuring the TDS and extraction yield.
+
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
+    <div class="col-md-12">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/T-HagoE0mbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <span class="image-span">Wet WDT Demonstration</span>
+    </div>
+</div>
 
 ### Preliminary Experiment
 

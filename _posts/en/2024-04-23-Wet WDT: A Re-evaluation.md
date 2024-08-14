@@ -98,7 +98,7 @@ Three brews were conducted:
 
 1. Experimental group (Wet WDT, WWDT): Wet WDT during the bloom phase.
 2. Control group-fast (Control-fast, CTL-fast): Only swirling during the bloom phase to evenly mix water and coffee, with the valve fully open.
-3. Control group-slow (Control-slow, CTL-slow): Only swirling during the bloom phase to evenly mix water and coffee, with the valve opened to about the 1 o'clock position.
+3. Control group-slow (Control-slow, CTL-slow): Only swirling during the bloom phase to evenly mix water and coffee, with the valve opened to about 22.5 degrees.
 
 ##### Main Experiment
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Wet WDT: A Re-evaluation"
-description: ""
+title: "Wet WDT: A Re-Evaluation"
+description: "Wet WDT—claimed to boost not only extraction but also flavor, really that magical?"
 tag: [experiment, pourover]
 category: articles
 imgfolder: WWDT

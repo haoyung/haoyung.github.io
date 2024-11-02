@@ -32,18 +32,20 @@ layout: default
     </div>
     {%- endif %}
 
-    {%- if page.language == 'en' %}
-    {%- capture note_en %}
-    {%- include note_en.md %}
-    {%- endcapture %}
+    {%- if page.note != false -%}
+    {%- if page.language == 'en' -%}
+    {%- capture note_en -%}
+    {%- include note_en.md -%}
+    {%- endcapture -%}
     {{ note_en | markdownify }}
 
-    {%- else %}
-    {%- capture note %}
-    {%- include note.md %}
-    {%- endcapture %}
+    {%- else -%}
+    {%- capture note -%}
+    {%- include note.md -%}
+    {%- endcapture -%}
     {{ note | markdownify }}
-    {%- endif %}
+    {%- endif -%}
+    {%- endif -%}
 
     {%- if page.toc %}
     <div id="table-of-contents" class="mt-8">

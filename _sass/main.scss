@@ -67,7 +67,8 @@ body {
   font-family: $body-font;
   font-weight: var(--main-font-weight);
   line-height: 1.7;
-  text-underline-offset: 0.2rem;
+  text-underline-offset: 0.2em;
+  letter-spacing: .02em;
   transition: background-color 0.5s, color 0.5s;
   --main-font-weight: 400;
 }

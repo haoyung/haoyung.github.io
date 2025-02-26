@@ -1,16 +1,23 @@
 <footer class="pt-3 pt-md-4 border-top">
   <div class="row">
-    <div class="d-inline-flex justify-content-center">
-      <a id="theme-toggle" onclick="toggleTheme()" style="cursor: pointer;" class="me-auto">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
-          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-        </svg>
-      </a>
-      {% for item in site.data.settings.social %}
-      <a href="{{ item.link }}" class="ms-4" target="_blank">
-        {{ item.icon }}
-      </a>
-      {% endfor %}
+    <div class="d-inline-flex justify-content-between align-items-end">
+      <div>
+        <a id="theme-toggle" onclick="toggleTheme()" style="cursor: pointer;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+          </svg>
+        </a>
+      </div>
+      <div class="d-inline-block" style="line-height: 1.5;">
+        {% include language-switch.html %}
+      </div>
+      <div>
+        {% for item in site.data.settings.social %}
+        <a href="{{ item.link }}" target="_blank">
+          {{ item.icon }}
+        </a>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </footer>

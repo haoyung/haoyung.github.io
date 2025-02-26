@@ -13,10 +13,10 @@
 
   <nav class="d-inline-flex ms-auto">
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}{{ language_url }}{{ item.url }}" class="text-decoration-none {%- if forloop.last %} me-0 {%- else %} me-3 {%- endif %}">
+      <a href="{{ site.github.url }}{{ language_url }}{{ item.url }}" class="text-decoration-none ms-3">
         <span>{{ item.name }}</span>
       </a>
     {% endfor %}
-    {% include language-switch.html %}
+    <!-- {% include language-switch.html %} -->
   </nav>
 </header>

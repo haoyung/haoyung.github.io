@@ -7,15 +7,10 @@
 {%- assign tw_url = site.baseurl | append: tw_pages[0].url -%}
 {%- assign en_url = site.baseurl | append: en_pages[0].url -%}
 
-<a class="mb-0 ms-3 py-0 {%- if page.language == 'en' %} text-decoration-none {%- else %} inactiveLink {%- endif %} align-self-end nav-item"
-  href="{{ tw_url }}">
-  中
-</a>
-<span class="mb-0 py-0 align-self-end nav-item">&nbsp/&nbsp</span>
-<a class="mb-0 py-0 {%- if page.language == 'zh-Hant-TW' %} text-decoration-none {%- else %} inactiveLink {%- endif %} align-self-end nav-item"
-  href="{{ en_url }}">
-  EN
-</a>
+<a class="mb-0 py-0 {%- if page.language == 'en' %} text-decoration-none {%- else %} inactiveLink {%- endif %} align-self-end nav-item"
+  href="{{ tw_url }}" lang="en">中</a><span class="mb-0 py-0 align-self-end nav-item">&nbsp/&nbsp</span><a
+  class="mb-0 py-0 {%- if page.language == 'zh-Hant-TW' %} text-decoration-none {%- else %} inactiveLink {%- endif %} align-self-end nav-item"
+  href="{{ en_url }}">EN</a>
 {%- endif %}
 
 <style>

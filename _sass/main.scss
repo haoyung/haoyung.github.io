@@ -51,10 +51,6 @@ html {
   &[data-theme="dark"] {
     @include theme-dark;
   }
-
-  &[lang="en"] {
-    font-size: 18px; // Different font size for English
-  }
 }
 
 // 3. Dark Mode Media Query

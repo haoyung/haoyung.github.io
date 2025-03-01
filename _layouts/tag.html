@@ -2,18 +2,16 @@
 layout: default
 ---
 
-<div class="row mb-8">
-  <div class="col-md-12">
-    <h3 class="mb-3">#{{ page.tag }}</h3>
-    {%- for post in site.posts %}
-    {%- if post.tags contains page.tag %}
-    {%- if post.language == page.language %}
-    <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
-    </div>
-    {%- endif %}
-    {%- endif %}
-    {%- endfor %}
+<div class="col-md-12">
+  <h3>#{{ page.tag }}</h3>
+  {%- for post in site.posts %}
+  {%- if post.tags contains page.tag %}
+  {%- if post.language == page.language %}
+  <div class="flex-column mt-3">
+    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
   </div>
+  {%- endif %}
+  {%- endif %}
+  {%- endfor %}
 </div>

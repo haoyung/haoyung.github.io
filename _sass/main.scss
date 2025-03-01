@@ -2,24 +2,19 @@
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
+// Theme mixins
 @mixin theme-light {
   --main-text-color: rgb(29, 29, 31);
   --main-background-color: rgb(255, 255, 255);
   --img-text-color: rgb(142, 142, 147);
   --search-text-color: rgb(108, 108, 112);
-  --input-color: rgb(242, 242, 247);
+  --box-background-color: rgb(242, 242, 247);
   --input-svg-color: rgb(108, 108, 112);
   --input-placeholder-color: rgb(108, 108, 112);
   --bottom-margin-color: rgb(229, 229, 234);
   --backquate-color: rgb(209, 209, 214);
   --red-color: rgb(176, 0, 32);
   --green-color: rgb(1, 88, 56);
-
-  .text-img {
-    -webkit-filter: invert(0);
-    filter: invert(0);
-    transition: 0.5s;
-  }
 }
 
 @mixin theme-dark {
@@ -27,22 +22,21 @@ $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, san
   --main-background-color: rgb(0, 0, 0);
   --img-text-color: rgb(142, 142, 147);
   --search-text-color: rgb(174, 174, 178);
-  --input-color: rgb(28, 28, 30);
+  --box-background-color: rgb(28, 28, 30);
   --input-svg-color: rgb(174, 174, 178);
   --input-placeholder-color: rgb(174, 174, 178);
   --bottom-margin-color: rgb(44, 44, 46);
   --backquate-color: rgb(58, 58, 60);
   --red-color: rgb(254, 0, 46);
   --green-color: rgb(2, 166, 106);
-
-  .text-img {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-    transition: 0.5s;
-  }
 }
 
-// 2. Root Styles
+// Common transitions mixin (new)
+@mixin theme-transitions {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+// 2. Theme Application
 html {
   &[data-theme="light"] {
     @include theme-light;
@@ -51,139 +45,143 @@ html {
   &[data-theme="dark"] {
     @include theme-dark;
   }
-}
 
-// 3. Dark Mode Media Query
-@media (prefers-color-scheme: dark) {
-  html {
+  // Default dark mode
+  @media (prefers-color-scheme: dark) {
     @include theme-dark;
   }
 }
 
-// 4. Base Styles
+// 3. Base Styles
 body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
   font-family: $body-font;
-  font-weight: var(--main-font-weight);
-  line-height: 1.7;
+  line-height: 1.6;
   text-underline-offset: 0.2em;
   letter-spacing: .02em;
-  transition: background-color 0.5s, color 0.5s;
-  --main-font-weight: 400;
+  @include theme-transitions;
+  -webkit-font-smoothing: antialiased;
 }
 
-// 5. Links
+// 4. Typography
 a {
   color: var(--main-text-color);
   transition: color 0.5s;
 }
 
-// 6. Media Elements
-video,
-img {
-  border-radius: 0.3rem;
+h3 {
+  margin-top: 4.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h4 {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  
+  &:last-child,
+  .textwidget &:last-child {
+    margin-bottom: 0rem;
+  }
+  
+  &:has(+ ul),
+  &:has(+ ol) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.title,
+.subtitle {
+  font-weight: normal;
+}
+
+.matadata {
+  line-height: 1.5;
+}
+
+.quote {
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.35;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.four-o-four {
+  font-size: 12rem;
+  font-weight: 300;
+}
+
+// 5. Layout Elements
+hr {
+  margin: 4.5rem 0rem;
+  opacity: 1;
+  border: none;
+  height: 1px;
+  background-color: var(--main-text-color);
+}
+
+blockquote {
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--main-text-color);
+  margin-bottom: 1.5rem;
+  
+  @media (min-width: 992px) {
+    margin-left: -0.75rem;
+  }
 }
 
 video {
   display: block;
 }
 
-// 7. Typography
-h1,
-h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
-}
-
-h1 {
-  line-height: 1.1;
-}
-
-h2 {
-  line-height: 1.2;
-}
-
-h3 {
-  font-size: 1.125rem;
-  // line-height: 1.3;
-  // font-weight: 600;
-}
-
-h4 {
-  font-size: 1.125rem;
-  line-height: 1.3;
-  font-weight: 600;
-}
-
-h5,
-h6 {
-  font-size: 1rem;
-  line-height: 1.3;
-  font-weight: 600;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: normal;
-}
-
-.subhead {
-  font-size: 1.3125rem;
-  font-weight: normal;
-}
-
-.four-o-four {
-  font-size: 9.125rem;
-  font-weight: normal;
-}
-
-// 8. Layout Elements
-hr {
-  margin: 4rem 0;
-}
-
-blockquote {
-  padding: 0 0.75rem;
-  color: var(--search-text-color);
-  border-left: 0.25em solid var(--backquate-color);
-}
-
-// 9. Lists
+// 6. Lists
 ol,
 ul {
-  padding-left: 1.25rem;
+  padding-left: 1.5rem;
+  
+  &:last-child,
+  .textwidget &:last-child {
+    margin-bottom: 0rem;
+  }
+  
+  @media (min-width: 992px) {
+    &:not(li > &) {
+      margin-left: -0.25rem;
+      padding-left: 0rem;
+    }
+  }
+}
+
+ul {
+  list-style: square;
 }
 
 li {
   margin-top: 0.5rem;
-
+  padding-left: 0.25rem;
+  
   li {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
   }
+  
+  &:last-child,
+  .textwidget &:last-child {
+    margin-bottom: 0rem;
+  }
 }
 
-ul ul {
-  padding-left: 1.25rem;
-}
-
-p:last-child,
-.textwidget p:last-child {
-  margin-bottom: 0;
-}
-
-ol:last-child,
-.textwidget ol:last-child {
-  margin-bottom: 0;
-}
-
-li:last-child,
-.textwidget li:last-child {
-  margin-bottom: 0;
-}
-
-// 10. Table Styles
+// 7. Table Styles
 table {
   margin-top: 1.5rem;
   width: 100%;
@@ -196,59 +194,91 @@ table {
   }
 
   th {
-    background-color: var(--input-color);
+    background-color: var(--box-background-color);
     transition: background-color 0.5s;
   }
 
   tbody tr:nth-child(2n) {
-    background-color: var(--input-color);
+    background-color: var(--box-background-color);
     transition: background-color 0.5s;
   }
-}
-
-// 11. Form Elements
-input {
-  color: var(--main-text-color);
-  transition: color 0.5s, background-color 0.5s;
-
-  &:focus {
-    outline: none;
+  
+  @media (min-width: 768px) {
+    margin-top: 2rem;
   }
 }
 
-select:focus,
-textarea:focus,
-button:focus {
-  outline: none;
-}
-
-::placeholder {
-  color: var(--input-placeholder-color);
-  transition: 0.5s;
-}
-
-// 12. Table of Contents
+// 8. Table of Contents
 #table-of-contents {
-  background-color: var(--input-color);
+  background-color: var(--box-background-color);
   padding: 0.3rem 1rem;
   margin-bottom: 4.5rem;
 }
 
 #toc {
   margin-bottom: 0.5rem;
-  padding: 0;
+  padding: 0rem;
 }
 
 .toc-entry {
-  font-size: 14px;
+  font-size: .875rem;
   list-style: none;
+  padding-left: 0rem;
 
   .toc-entry {
     list-style: square;
   }
 }
 
-// 13. Utility Classes
+// 9. Footnotes
+.footnote {
+  display: flex;
+  align-items: flex-start;
+  font-size: .875rem;
+  margin-left: -0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footnote-label {
+  margin-right: 0.4rem;
+  font-family: monospace;
+}
+
+.footnote-content {
+  flex: 1;
+}
+
+.footnote-sup {
+  font-family: monospace;
+}
+
+// 10. Responsive Images
+.responsive-image-horizontal {
+  width: 100%;
+  
+  @media (min-width: 768px) {
+    width: 70%;
+  }
+}
+
+.responsive-image-vertical {
+  width: 100%;
+  
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+
+.responsive-plot {
+  width: 100%;
+  
+  @media (min-width: 768px) {
+    width: 70%;
+  }
+}
+
+// 11. Utility Classes
 .border-bottom {
   border-bottom: 1px solid var(--main-text-color) !important;
   transition: border-color 0.5s !important;
@@ -259,13 +289,14 @@ button:focus {
   transition: border-color 0.5s !important;
 }
 
-.image-span {
-  font-size: 0.7em;
+.image-description {
+  font-size: 0.75rem;
   line-height: 1.5;
-  color: var(--img-text-color);
+  color: var(--main-text-color);
   transition: color 0.5s;
   display: block;
   margin-top: 0.5rem;
+  text-align: center;
 }
 
 .post-date {
@@ -277,37 +308,8 @@ button:focus {
   background: var(--main-text-color);
 }
 
-// 14. MathJax
+// 12. Special Components
 .MathJax {
   overflow-x: auto;
   overflow-y: hidden;
-}
-
-// 15. Media Queries
-@media (min-width: 768px) {
-
-  h1,
-  h2 {
-    font-size: 2.25rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  .title {
-    font-size: 2.625rem;
-  }
-
-  .subhead {
-    font-size: 1.5rem;
-  }
-
-  .four-o-four {
-    font-size: 12rem;
-  }
-
-  table {
-    margin-top: 2rem;
-  }
 }

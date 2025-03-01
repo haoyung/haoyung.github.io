@@ -2,9 +2,8 @@
 layout: default
 ---
 
-<div class="row mb-8">
-  <div class="col-md-12">
-  <h3 class="mb-3">articles</h3>
+<div class="col-md-12">
+  <h3>articles</h3>
   {% for post in site.posts %}
   {% if post.language == page.language %}
   <div class="flex-column mt-3">
@@ -15,5 +14,4 @@ layout: default
   </div>
   {% endif %}
   {% endfor %}
-  </div>
 </div>

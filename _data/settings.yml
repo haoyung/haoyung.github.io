@@ -2,7 +2,7 @@ menu:
 # - {name: 'home', url: '/'}
 # - {name: 'about', url: '/about'}
 - {name: 'articles', url: 'articles'}
-- {name: 'gears', url: 'gears'}
+# - {name: 'gears', url: 'gears'}
 # - {name: 'gallery', url: '/gallery'}
 # - {name: 'contact', url: '/contact'}
 # - {name: 'search', url: '/search'}

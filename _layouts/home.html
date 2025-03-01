@@ -1,21 +1,22 @@
 ---
 layout: default
 ---
-<script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- <script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="//rawgit.com/ddimitrioglo/jquery-mailchimp/master/dist/jquery-mailchimp.min.js"></script>
-<script src="{{ site.github.url }}/assets/libs/mailchimp/index.js"></script>
+<script src="{{ site.github.url }}/assets/libs/mailchimp/index.js"></script> -->
 
 <div class="row gx-md-6 gx-0 mb-8">
   <div class="d-flex flex-column col-md-12">
-    <h3 class="mb-3">about</h3>
-    <div class="mb-md-0 mb-4">
-      {{ content }}
-    </div>
+    <h3 class="mt-0">about</h3>
+    <!-- <div class="mb-md-0 mb-4"> -->
+    {{ content }}
+    <!-- </div> -->
   </div>
   <!-- <div class="col-md-6">
     <div class="flex-column text-end">
       <img src="{{ site.github.url }}/assets/img/about.webp" alt="about" width="100%">
-      <span class="image-span">
+      <span class="image-description">
         {%- if page.language == "zh-Hant-TW" %}過去所舉辦的「遇見咖啡」品飲活動
         {%- else %}The "Meet Coffee" tasting events held in the past
         {%- endif %}
@@ -23,7 +24,7 @@ layout: default
     </div>
     <div class="flex-column text-end mt-4 mt-md-5">
       <img src="{{ site.github.url }}/assets/img/home.webp" alt="cupping" width="100%">
-      <span class="image-span">
+      <span class="image-description">
         {%- if page.language == "zh-Hant-TW" %}與社團夥伴們一同參加杯測會
         {%- else %}Participated in cupping sessions with friends from the club
         {%- endif %}
@@ -34,28 +35,27 @@ layout: default
 
 <div class="row gx-md-6 gx-0 mb-8 align-items-end">
   <div class="col-md-12 mb-md-0 mb-8">
-    <h3 class="mb-3">latest articles</h3>
+    <h3 class="mt-0">latest articles</h3>
     {%- assign count = 0 %}
     {%- for post in site.posts %}
     {%- if page.language == post.language and post.draft == false %}
-    {%- if count < 5 %}
-    <div class="flex-column mt-3">
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
-    </div>
-    {%- assign count = count | plus: 1 %}
-    {%- endif %}
-    {%- endif %}
-    {%- endfor %}
-    <div class="flex-column mt-3">
-      {%- if page.language == "zh-Hant-TW" %}
-        <a href="{{ site.github.url }}/articles">更多文章</a>
-      {%- else %}
-        <a href="{{ site.github.url }}/en/articles">view all articles</a>
-      {%- endif %}
-    </div>
+    {%- if count < 5 %} <div class="flex-column mt-3">
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
   </div>
-  <!-- <div class="col-md-6">
+  {%- assign count = count | plus: 1 %}
+  {%- endif %}
+  {%- endif %}
+  {%- endfor %}
+  <div class="flex-column mt-3">
+    {%- if page.language == "zh-Hant-TW" %}
+    <a href="{{ site.github.url }}/articles">更多文章</a>
+    {%- else %}
+    <a href="{{ site.github.url }}/en/articles">view all articles</a>
+    {%- endif %}
+  </div>
+</div>
+<!-- <div class="col-md-6">
     <h3 class="mb-3" id="subscribe">subscribe</h3>
     <div id="mc_embed_signup">
       <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">
@@ -76,7 +76,7 @@ layout: default
   </div> -->
 </div>
 
-<style>
+<!-- <style>
   input {
     box-sizing: border-box;
     outline: none;
@@ -111,4 +111,4 @@ layout: default
     color: var(--red-color);
     transition: 0s;
   }
-</style>
+</style> -->

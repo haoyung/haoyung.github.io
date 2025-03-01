@@ -13,9 +13,12 @@
 
   <nav class="d-inline-flex ms-auto">
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}{{ language_url }}{{ item.url }}" class="text-decoration-none ms-3">
-        <span>{{ item.name }}</span>
-      </a>
+      {% assign current_page_url = language_url | append: item.url %}
+      {% if page.url != current_page_url %}
+        <a href="{{ site.github.url }}{{ language_url }}{{ item.url }}" class="text-decoration-none ms-3">
+          <span>{{ item.name }}</span>
+        </a>
+      {% endif %}
     {% endfor %}
     <!-- {% include language-switch.html %} -->
   </nav>

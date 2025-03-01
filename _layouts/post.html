@@ -2,166 +2,54 @@
 layout: default
 ---
 
-<div class="row mb-8">
-  <div class="col-md-12">
-    <div class="headers mb-8">
-      <h1 class="title mb-0">{{ page.alt_title | default: page.title }}</h1>
-      {%- if page.description != null %}
-      <h4 class="subhead mt-3 mb-0">{{ page.description }}</h4>
-      {%- endif %}
-    </div>
-    <div class="pt-2 border-top">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{
-        page.date | date:
-        "%B %-d, %Y" }}</time>
-    </div>
-    <div class="mb-8">
-      {%- for tag in page.tags %}
-      <a href="{%- if page.language == 'en' %} /en/tag/{{tag}} {%- else %} /tag/{{tag}} {%- endif %}">{{tag}}</a>{%-
-      unless forloop.last %}, {%- endunless %}{%- endfor %}
-    </div>
-
-
-    {%- if page.image %}
-    <div class="row mb-8 justify-content-center text-center">
-      <div class="col-md-12">
-        <img src="{{ site.github.url }}{{ page.image }}" alt=""
-          class="img-fluid responsive-image-{{ page.image_orientation }}">
-        <span class="image-span">{{ page.image_caption }}</span>
-      </div>
-    </div>
+<div class="col-md-12 mb-8">
+  <div class="headers mb-8">
+    <h1 class="display-5 title mb-0">{{ page.alt_title | default: page.title }}</h1>
+    {%- if page.description != null %}
+    <h4 class="subtitle mt-9 mb-0">{{ page.description }}</h4>
     {%- endif %}
-
-    {%- if page.note != false -%}
-    {%- if page.language == 'en' -%}
-    {%- capture note_en -%}
-    {%- include note_en.md -%}
-    {%- endcapture -%}
-    {{ note_en | markdownify }}
-
-    {%- else -%}
-    {%- capture note -%}
-    {%- include note.md -%}
-    {%- endcapture -%}
-    {{ note | markdownify }}
-    {%- endif -%}
-    {%- endif -%}
-
-    {%- if page.toc %}
-    <div id="table-of-contents" class="mt-8">
-      {%- include toc.html html=content id="toc" item_class="toc-entry" %}
-    </div>
-    {%- endif %}
-    {{ content }}
   </div>
+  <div class="matadata pt-2 border-top">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{
+      page.date | date:
+      "%B %-d, %Y" }}</time>
+  </div>
+  <div class="matadata mb-8">
+    {%- for tag in page.tags %}
+    <a href="{%- if page.language == 'en' %} /en/tag/{{tag}} {%- else %} /tag/{{tag}} {%- endif %}">{{tag}}</a>{%-
+    unless forloop.last %}, {%- endunless %}{%- endfor %}
+  </div>
+
+
+  {%- if page.image %}
+  <div class="row mb-8 justify-content-center text-center">
+    <div class="col-md-12">
+      <img src="{{ site.github.url }}{{ page.image }}" alt=""
+        class="img-fluid responsive-image-{{ page.image_orientation }}">
+      <span class="image-description">{{ page.image_caption }}</span>
+    </div>
+  </div>
+  {%- endif %}
+
+  {%- if page.note != false -%}
+  {%- if page.language == 'en' -%}
+  {%- capture note_en -%}
+  {%- include note_en.md -%}
+  {%- endcapture -%}
+  {{ note_en | markdownify }}
+
+  {%- else -%}
+  {%- capture note -%}
+  {%- include note.md -%}
+  {%- endcapture -%}
+  {{ note | markdownify }}
+  {%- endif -%}
+  {%- endif -%}
+
+  {%- if page.toc %}
+  <div id="table-of-contents" class="mt-8">
+    {%- include toc.html html=content id="toc" item_class="toc-entry" %}
+  </div>
+  {%- endif %}
+  {{ content }}
 </div>
-
-<style>
-  html {
-    --spacing-spacing-1: .25rem;
-    --spacing-spacing-2: .5rem;
-    --spacing-spacing-3: .5rem;
-    --spacing-spacing-4: 1rem;
-    --spacing-spacing-5: 1.5rem;
-    --spacing-spacing-6: 2.25rem;
-    --spacing-spacing-7: 4.5rem;
-    --spacing-spacing-8: 5.25rem;
-    --spacing-spacing-9: 9rem;
-    --spacing-spacing-10: 11.25rem;
-    --spacing-spacing-11: 11.25rem;
-  }
-
-  @media (min-width: 768px) {
-    html {
-      --spacing-spacing-5: 2.25rem;
-      --spacing-spacing-6: 3rem;
-      --spacing-spacing-7: 5.25rem;
-      --spacing-spacing-8: 7rem;
-      --spacing-spacing-9: 10rem;
-      --spacing-spacing-10: 12.5rem;
-      --spacing-spacing-11: 12.5rem;
-    }
-  }
-
-  h3 {
-    margin-top: var(--spacing-spacing-7);
-    margin-bottom: var(--spacing-spacing-4);
-  }
-
-  h4 {
-    margin-top: var(--spacing-spacing-6);
-    margin-bottom: var(--spacing-spacing-3);
-  }
-
-  h5 {
-    margin-top: var(--spacing-spacing-5);
-    margin-bottom: var(--spacing-spacing-2);
-  }
-
-  h6 {
-    margin-top: var(--spacing-spacing-5);
-    margin-bottom: var(--spacing-spacing-2);
-  }
-
-  .description {
-    font-weight: 400;
-  }
-
-  .footnote {
-    display: flex;
-    align-items: flex-start;
-    font-size: 14px;
-    margin-left: -0.2rem;
-    margin-top: 0.4rem;
-    margin-bottom: 1rem;
-  }
-
-  .footnote-label {
-    margin-right: 0.4rem;
-    font-family: monospace;
-  }
-
-  .footnote-content {
-    flex: 1;
-  }
-
-  .footnote-sup {
-    font-family: monospace;
-  }
-
-  .quote {
-    font-size: 1.3125rem;
-    line-height: 1.3;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1.6;
-  }
-
-  /* Default style for mobile: Image will take 100% width */
-  .responsive-image-horizontal {
-    width: 100%;
-  }
-
-  .responsive-image-vertical {
-    width: 100%;
-  }
-
-  .responsive-plot {
-    width: 100%;
-  }
-
-  /* For medium screens and above, set the width to 50% */
-  @media (min-width: 768px) {
-    .responsive-image-horizontal {
-      width: 70%;
-    }
-
-    .responsive-image-vertical {
-      width: 50%;
-    }
-
-    .responsive-plot {
-      width: 70%;
-    }
-  }
-</style>

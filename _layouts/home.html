@@ -6,75 +6,86 @@ layout: default
 <script src="//rawgit.com/ddimitrioglo/jquery-mailchimp/master/dist/jquery-mailchimp.min.js"></script>
 <script src="{{ site.github.url }}/assets/libs/mailchimp/index.js"></script> -->
 
-<div class="row gx-md-6 gx-0 mb-8">
-  <div class="d-flex flex-column col-md-12">
-    <h3 class="mt-0">about</h3>
-    <!-- <div class="mb-md-0 mb-4"> -->
-    {{ content }}
-    <!-- </div> -->
+<div class="row gx-md-4 gx-0 order-md-1">
+  <div class="col-md-6 mb-5 mb-md-0 order-md-2 home-image-container">
+    <img src="{{ site.github.url }}/assets/img/popup.webp" class="home-image"
+      alt="Brewing coffee at the Taipei pop-up event in January 2025." style="margin-top: 0.3rem;">
+    <span class="image-description">
+      {%- if page.language == "zh-Hant-TW" %}在 2025 年初的<a href="{{ site.github.url }}/%E6%9D%AF%E6%B8%AC%E6%9C%83%E8%88%87%E5%AE%A2%E5%BA%A7%E6%B4%BB%E5%8B%95%E5%9C%A8%E5%8F%B0%E7%81%A3">台北客座活動</a>中沖煮咖啡
+      {%- else %}Me brewing coffee at the <a href="{{ site.github.url }}/assets/files/tw-events.pdf">Taipei pop-up</a> in January 2025
+      {%- endif %}
+    </span>
   </div>
-  <!-- <div class="col-md-6">
-    <div class="flex-column text-end">
-      <img src="{{ site.github.url }}/assets/img/about.webp" alt="about" width="100%">
-      <span class="image-description">
-        {%- if page.language == "zh-Hant-TW" %}過去所舉辦的「遇見咖啡」品飲活動
-        {%- else %}The "Meet Coffee" tasting events held in the past
-        {%- endif %}
-      </span>
-    </div>
-    <div class="flex-column text-end mt-4 mt-md-5">
-      <img src="{{ site.github.url }}/assets/img/home.webp" alt="cupping" width="100%">
-      <span class="image-description">
-        {%- if page.language == "zh-Hant-TW" %}與社團夥伴們一同參加杯測會
-        {%- else %}Participated in cupping sessions with friends from the club
-        {%- endif %}
-      </span>
-    </div>
-  </div> -->
+
+  <div class="col-md-12 order-md-0">
+    <h3 class="mt-0">about</h3>
+  </div>
+
+  <div class="col-md-6 order-md-1">
+    {{ content }}
+  </div>
 </div>
 
-<div class="row gx-md-6 gx-0 mb-8 align-items-end">
-  <div class="col-md-12 mb-md-0 mb-8">
-    <h3 class="mt-0">latest articles</h3>
-    {%- assign count = 0 %}
-    {%- for post in site.posts %}
-    {%- if page.language == post.language and post.draft == false %}
-    {%- if count < 5 %} <div class="flex-column mt-3">
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-      <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
-  </div>
-  {%- assign count = count | plus: 1 %}
-  {%- endif %}
-  {%- endif %}
-  {%- endfor %}
-  <div class="flex-column mt-3">
-    {%- if page.language == "zh-Hant-TW" %}
-    <a href="{{ site.github.url }}/articles">更多文章</a>
-    {%- else %}
-    <a href="{{ site.github.url }}/en/articles">view all articles</a>
-    {%- endif %}
-  </div>
+<div class="col-md-12">
+  <h3>latest articles</h3>
+  {%- assign count = 0 %}
+  {%- for post in site.posts %}
+  {%- if page.language == post.language and post.draft == false %}
+  {%- if count < 5 %} <div class="mt-3">
+    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
 </div>
+{%- assign count = count | plus: 1 %}
+{%- endif %}
+{%- endif %}
+{%- endfor %}
+
+<div class="mt-3">
+  {%- if page.language == "zh-Hant-TW" %}
+  <a href="{{ site.github.url }}/articles">更多文章</a>
+  {%- else %}
+  <a href="{{ site.github.url }}/en/articles">view all articles</a>
+  {%- endif %}
+</div>
+</div>
+
+<style>
+  .home-image-container {
+    text-align: end;
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      text-align: center;
+    }
+  }
+
+  .home-image {
+    width: 100%;
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      width: 50%;
+    }
+  }
+</style>
+
 <!-- <div class="col-md-6">
-    <h3 class="mb-3" id="subscribe">subscribe</h3>
-    <div id="mc_embed_signup">
-      <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">
-        <div class="mc-form-group-EMAIL input-group" id="mc_embed_signup_scroll">
-          <input type="email" value="" name="EMAIL" class="required email flex-grow-1" id="mce-EMAIL"
-            placeholder="Your email" autocomplete="email">
-          <button type="submit" id="submit-form" name="submit-form" id="mc-embedded-subscribe">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill=var(--input-svg-color)
-              class="bi bi-plus" viewBox="0 0 16 16">
-              <path
-                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-            </svg>
-          </button>
-          <div class="mc-error" id="mc-error" style="display: none;"></div>
-        </div>
-      </form>
-    </div>
-  </div> -->
-</div>
+  <h3 class="mb-3" id="subscribe">subscribe</h3>
+  <div id="mc_embed_signup">
+    <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">
+      <div class="mc-form-group-EMAIL input-group" id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="required email flex-grow-1" id="mce-EMAIL"
+          placeholder="Your email" autocomplete="email">
+        <button type="submit" id="submit-form" name="submit-form" id="mc-embedded-subscribe">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill=var(--input-svg-color) class="bi bi-plus"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+          </svg>
+        </button>
+        <div class="mc-error" id="mc-error" style="display: none;"></div>
+      </div>
+    </form>
+  </div>
+</div> -->
 
 <!-- <style>
   input {

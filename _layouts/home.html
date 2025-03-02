@@ -7,33 +7,30 @@ layout: default
 <script src="{{ site.github.url }}/assets/libs/mailchimp/index.js"></script> -->
 
 <div class="row gx-md-4 gx-0 order-md-1">
-  <div class="col-md-6 mb-5 mb-md-0 order-md-2 home-image-container">
+  <div class="col-md-6 order-md-2 home-image-container">
     <img src="{{ site.github.url }}/assets/img/popup.webp" class="home-image"
-      alt="Brewing coffee at the Taipei pop-up event in January 2025." style="margin-top: 0.3rem;">
+      alt="Brewing coffee at the Taipei pop-up event in January 2025." style="margin-top: calc((1.4116rem + .8618666667vw) * 0.1);">
     <span class="image-description">
-      {%- if page.language == "zh-Hant-TW" %}在 2025 年初的<a href="{{ site.github.url }}/%E6%9D%AF%E6%B8%AC%E6%9C%83%E8%88%87%E5%AE%A2%E5%BA%A7%E6%B4%BB%E5%8B%95%E5%9C%A8%E5%8F%B0%E7%81%A3">台北客座活動</a>中沖煮咖啡
-      {%- else %}Me brewing coffee at the <a href="{{ site.github.url }}/assets/files/tw-events.pdf">Taipei pop-up</a> in January 2025
+      {%- if page.language == "zh-Hant-TW" %}我在 2025 年初的<a href="{{ site.github.url }}/%E6%9D%AF%E6%B8%AC%E6%9C%83%E8%88%87%E5%AE%A2%E5%BA%A7%E6%B4%BB%E5%8B%95%E5%9C%A8%E5%8F%B0%E7%81%A3">客座活動</a>中沖煮咖啡
+      {%- else %}Me brewing at the <a href="{{ site.github.url }}/assets/files/tw-events.pdf">Taipei pop-up</a> in January 2025
       {%- endif %}
     </span>
   </div>
 
-  <div class="col-md-12 order-md-0">
-    <h3 class="mt-0">about</h3>
-  </div>
-
-  <div class="col-md-6 order-md-1">
+  <div class="col-md-6 order-md-0">
+    <h3 class="section-title mt-md-0">about</h3>
     {{ content }}
   </div>
 </div>
 
 <div class="col-md-12">
-  <h3>latest articles</h3>
+  <h3 class="section-title">latest articles</h3>
   {%- assign count = 0 %}
   {%- for post in site.posts %}
   {%- if page.language == post.language and post.draft == false %}
   {%- if count < 5 %} <div class="mt-3">
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
+    <span class="post-date"> - {{ post.date | date: "%b. %-d, %Y" }}</span>
 </div>
 {%- assign count = count | plus: 1 %}
 {%- endif %}

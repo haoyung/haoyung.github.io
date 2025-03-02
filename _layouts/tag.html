@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="col-md-12">
-  <h3>#{{ page.tag }}</h3>
+  <h3 class="section-title">#{{ page.tag }}</h3>
   {%- for post in site.posts %}
   {%- if post.tags contains page.tag %}
   {%- if post.language == page.language %}

@@ -12,11 +12,18 @@ language_reference: measuring_tds
 usemathjax: true
 ---
 
+*Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*
+{: .text-center }
+
 ### Introduction
 
 >   Warning: This article is a bit lengthy, so please make good use of the table of contents!
 
+<!-- sep -->
+
 Flavor preferences are highly subjective, and this is especially true for coffee. However, objective data remains crucial for communication among enthusiasts and for fine-tuning brewing parameters to improve a subpar cup.
+
+<!-- /sep -->
 
 In the extraction theory course I teach each semester at NTU Coffee Club, I always begin with the *objective* data of coffee: TDS (total dissolved solids, a measure of concentration) and EY (extraction yield).
 
@@ -36,7 +43,7 @@ For example, if a 100g cup of coffee contains 1.4g of coffee compounds (assuming
 
 The vertical axis of SCA's commonly seen Brewing Control Chart represents TDS.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">SCA's old version of the Brewing Control Chart (source: SCA)</span>
@@ -62,7 +69,7 @@ $$ \mathrm{EY} = \displaystyle\frac{1.4\%*150g}{10g} = 21\%$$
 
 To calculate extraction yield, we need to know the weight of the coffee compounds in the beverage. This could be done by drying the coffee in an oven as mentioned earlier, but obviously, this is not very practical. Instead, we use an optical refractometer to measure the TDS of liquid coffee. The principle is not complicated, and many excellent articles already explain it, such as [Quantitative Café's Instagram post](https://www.instagram.com/p/Co2cgyOJS8V).
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">How a refractometer works (source: IG, @quantitativecafe)</span>
@@ -117,7 +124,7 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 4.   Place the refractometer next to the water tank (for temperature equilibration) and let everything sit for 15-30 minutes.
 5.   After cooling, wear insulated gloves or use a cloth to handle the sample bottle to prevent heating it up. Shake it to homogenize, open the lid, and place it back in the water tank to maintain the same temperature as the distilled water.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/cooling_sample.webp" alt="" class="img-fluid responsive-image-horizontal">
         <span class="image-description">A sample that is being cooled in my beloved Orea Porcelain Sense Cup (proudly made in Taiwan!)</span>
@@ -165,10 +172,10 @@ The two-spoon method is obviously not suitable for measuring many samples quickl
 
 ##### Precautions
 
-The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although PocketScienceCoffee's article states that the impact should not be too significant if the measurement is completed within three minutes<sup class="footnote-sup">[B]</sup>, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
+The phrase "sample volume must be very small" may have raised red flags. When the sample is tiny, the reading is very susceptible to evaporation effects. Although PocketScienceCoffee's article states that the impact should not be too significant if the measurement is completed within three minutes<sup class="footnote-sup">[A]</sup>, I would still recommend keeping it under one minute (or even 30 seconds) to be safe.
 
 <div class="footnote">
-  <div class="footnote-label">[B]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">PocketScienceCoffee mentioned in his Instagram comment that he tested a sample size of about 0.5 ml at starting temperatures of 80°C, 90°C, and 100°C, and found no evaporation loss in weight at 1, 2, and 3 minutes after sampling, indicating that we can use this method with less concern.</div>
 </div>
 
@@ -200,7 +207,8 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
 
 1.   Brew coffee and measure the beverage weight, so we can later calculate extraction yield.
 
-     <div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+     <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center
+    ">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-description">Coffee and brewing parameters used in Experiment I<br>Using the tricolate, which I haven't introduced on this blog yet<br>Brewing <a href="https://www.seycoffee.com/products/2024-enrique-merino-lugmapata-l1-ecuador">SEY's Lugmapata Washed L1</a> (truly an impressive coffee)</span>
@@ -216,7 +224,8 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
      -   Experimental Group II (E30, Evaporation 30 min):  
      5 samples of 5ml each, cooled in uncovered cupping bowls for 30 minutes.
 
-     <div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+     <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center
+    ">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-description">Experimental groups (E5 & E30) in uncovered cupping bowls and the control group (Control) in sealed centrifuge tubes</span>
@@ -303,10 +312,10 @@ Table 1 shows the TDS measurements for all 15 samples, with VST in the top half 
   }
 </style>
 
-Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">[C]</sup> of TDS and extraction yield for each group.
+Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">[A]</sup> of TDS and extraction yield for each group.
 
 <div class="footnote">
-  <div class="footnote-label">[C]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">In this article, data are presented as $\mu \pm \sigma$, where $\mu$ is the average and $\sigma$ is the standard deviation.</div>
 </div>
 
@@ -330,17 +339,17 @@ Tables 2 and 3 show the average and standard deviation<sup class="footnote-sup">
 
 Figure 1 visualizes Tables 2 and 3, with VST on the left and DiFluid on the right. Error bars represent a 95% confidence interval (roughly two standard deviations).
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid">
         <span class="image-description">Figure 1: Average TDS and extraction yield for the experimental groups (E5 & E30) and control</span>
     </div>
 </div>
 
-The unsealed experimental groups have higher TDS than the sealed control. A t-test confirmed this difference is statistically significant. We can also see that the control group has a smaller confidence interval than the experimental groups when measured with the more affordable DiFluid, indicating higher precision.<sup class="footnote-sup">[D]</sup>
+The unsealed experimental groups have higher TDS than the sealed control. A t-test confirmed this difference is statistically significant. We can also see that the control group has a smaller confidence interval than the experimental groups when measured with the more affordable DiFluid, indicating higher precision.<sup class="footnote-sup">[B]</sup>
 
 <div class="footnote">
-  <div class="footnote-label">[D]</div>
+  <div class="footnote-label">[B]</div>
   <div class="footnote-content">When using VST, the differences between the groups are not significant.</div>
 </div>
 
@@ -382,7 +391,7 @@ Compared to the expensive VST, ATAGO and DiFluid are much more affordable, but a
 
 In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 samples from the same coffee to assess each device's accuracy and stability. Additionally, I conducted a measurement using the two-spoon method with VST immediately after brewing, which served as a reference point.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-horizontal">
         <span class="image-description">Measuring with five refractometers simultaneously<br>From left to right: three DiFluids, ATAGO, and VST</span>
@@ -393,7 +402,8 @@ In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 sam
 
 1.   Brew coffee and measure the beverage weight.
 
-     <div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+     <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center
+    ">
          <div class="col-md-12">
              <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image-vertical img-fluid">
              <span class="image-description">Coffee and brewing parameters used in Experiment II<br>Using the parameters from <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
@@ -410,7 +420,7 @@ In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 sam
 
 Figure 2 plots the TDS measurements for all 20 samples with each refractometer.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 2: Line chart of TDS measurements for 20 samples with three DiFluids, ATAGO, and VST</span>
@@ -433,7 +443,7 @@ Figure 2 and Table 6 show a generally stable relationship between the five devic
 
 I also plotted the measurements as [violin plots](https://en.wikipedia.org/wiki/Violin_plot). The three horizontal lines from top to bottom represent the maximum, average, and minimum values. The shaded area represents the probability distribution of the measurements. Additionally, I marked the measurement obtained from the two-spoon method using VST, which shows little difference compared to the average measurement.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 3: Violin plots of measurements for five refractometers</span>
@@ -448,7 +458,7 @@ I did not expect such precise data. Even DiFluid #2, with the largest measuremen
 
 Most interesting to me is the stable relationship between the refractometers. I repeated the experiment and plotted the data in Figures 4 and 5, and we can still observe a similar trend: ATAGO > VST > DiFluid #1 > DiFluid #2 > DiFluid #3.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-6">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid">
     </div>
@@ -520,7 +530,7 @@ Similarly, we can calculate the refractive index lower bound.
 
 I created a calculator that can calculate the concentration and refractive index bounds. Go to this [google sheet](https://docs.google.com/spreadsheets/d/1w87A-c4GNcAff21fg4g3mESp85NV0uIajSgKQFZD5Vg/edit?usp=sharing) and enter the three weights measured during the experiment to get the concentration and interpolated refractive index bounds.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <video width="100%" controls playsinline autoplay muted loop>
     		<source src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/RI_calculater_en.mov" type="video/mp4">
@@ -548,7 +558,7 @@ Table 7 shows the sucrose solution concentration range prepared in Experiments 3
 
 Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and 3.2. The calculated theoretical refractive index interval (which I marked as ground truth) is depicted as the red region.
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-6">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig6.webp" alt="" class="img-fluid">
     </div>
@@ -558,10 +568,10 @@ Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and
     <span class="image-description">Figures 6 and 7: Line charts of measurements in Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
 
-Most measurements are below the calculated theoretical values. Tables 8 and 9 show the average measured values, standard deviations, and percentage differences from the theoretical value<sup class="footnote-sup">[E]</sup> for each device.
+Most measurements are below the calculated theoretical values. Tables 8 and 9 show the average measured values, standard deviations, and percentage differences from the theoretical value<sup class="footnote-sup">[C]</sup> for each device.
 
 <div class="footnote">
-  <div class="footnote-label">[E]</div>
+  <div class="footnote-label">[C]</div>
   <div class="footnote-content">Here, I take the middle value of the calculated theoretical refractive index range as the theoretical value.</div>
 </div>
 
@@ -585,7 +595,7 @@ All three DiFluids measured lower than the theoretical value, and the order of m
 
 I also plotted the three DiFluids' measurements as violin plots:
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-6">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid">
     </div>
@@ -611,7 +621,7 @@ What I find most interesting is the similarity between Figures 8 and 9. Even tho
 
 Let's further extract the DiFluid data from the two datasets in Experiment II (Figures 3 and 5) and compare them with Figures 8 and 9:
 
-<div class="row mt-md-5 mt-4 mb-md-5 mb-4">
+<div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig10.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 10: Parts of the violin chart for three DiFluid units, extracted and arranged from top left to bottom right, corresponding to Figures 3, 5, 8, and 9, respectively</span>

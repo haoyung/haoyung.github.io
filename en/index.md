@@ -4,7 +4,7 @@ title: "home"
 language_reference: home
 ---
 
-Hi, I’m [Hao-Yung Weng](https://haoyungweng.me).
+Hi, my name is [Hao-Yung Weng](https://haoyungweng.me).
 
 My coffee journey began as the director of the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee). Even after graduating and pursuing a master’s degree at Carnegie Mellon, I’ve stayed close with the club—they’re my best friends. We prided ourselves on being highly research-driven. We read blog posts and research papers, hosted cupping sessions, and meticulously documented our brews.
 

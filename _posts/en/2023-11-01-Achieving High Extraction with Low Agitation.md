@@ -10,12 +10,19 @@ image_caption: "The brewing method we'll explore: using the Pulsar's dispersion 
 language_reference: high_extraction_low_agitation
 ---
 
+*Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*
+{: .text-center }
+
+<!-- sep -->
+
 At first glance, low agitation and high extraction might appear to be at odds. Agitation facilitates the thorough mixing of coffee grounds with water, typically [increasing extraction and making extraction more even](https://www.instagram.com/p/CygUKuNLw94/?img_index=2).
 
-Yet, agitation also speeds up the migration of fines, leading to a higher likelihood of filter clogging. Clogging can intensify channeling and bypass, resulting in the underfiltration of more astringent compounds by the coffee bed. Consequently, clogging is often linked with astringency and undesirable flavors<sup class="footnote-sup">[B]</sup>.
+<!-- /sep -->
+
+Yet, agitation also speeds up the migration of fines, leading to a higher likelihood of filter clogging. Clogging can intensify channeling and bypass, resulting in the underfiltration of more astringent compounds by the coffee bed. Consequently, clogging is often linked with astringency and undesirable flavors<sup class="footnote-sup">[A]</sup>.
 
 <div class="footnote">
-  <div class="footnote-label">[B]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">For an in-depth analysis of astringency, consider reading Jonathan Gagné's article <a href="https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/">The Mechanism Behind Astringency in Coffee</a>.</div>
 </div>
 
@@ -77,8 +84,8 @@ Here are the detailed parameters and brewing steps:
 
 - Coffee to water ratio: 16g:320g (1:20)
 - Water temperature: 100°C
-- Brewing water: distilled water, re-mineralized post-brew (minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
-    - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, with equal amounts of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
+- Brewing water: distilled water, re-mineralized post-brew (minerals are added directly to the brewed coffee<sup class="footnote-sup">[A]</sup>).
+    - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[B]</sup>, with equal amounts of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
     - If unsure about your water, normal tap water with a low TDS is acceptable.
     
 - Grind size: Burr gap set between 200 to 300 µm from lock.
@@ -90,11 +97,11 @@ Here are the detailed parameters and brewing steps:
 - Target extraction yield: 24%+
 
 <div class="footnote">
-  <div class="footnote-label">[C]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">Many, myself included, believe minerals don't significantly affect extraction, so adding them before or after doesn't hugely impact the brew. I find adding them post-brew more convenient. I use mineral concentrate from <a href="https://lotuscoffeeproducts.com/">Lotus Coffee Brew Water</a>.</div>
 </div>
 <div class="footnote">
-  <div class="footnote-label">[D]</div>
+  <div class="footnote-label">[B]</div>
   <div class="footnote-content">For more on brewing water, check out the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
 </div>
 

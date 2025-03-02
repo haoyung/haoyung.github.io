@@ -16,9 +16,16 @@ redirect_from:
   - /en/articles/Wet-WDT-What’s-the-Buzz
 ---
 
+*Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*
+{: .text-center }
+
 ### Introduction
 
+<!-- sep -->
+
 Wet WDT, popularized by the notable [Barista Hustle blog post](https://www.baristahustle.com/blog/Wet-weiss-distribution/) two years ago (though Lance Hedrick was experimenting with it even earlier), is said to enhance coffee brewing and increase extraction yield. However, I found the conclusions in Barista Hustle's post somewhat premature and occasionally contradictory to my own experiences. Thus, I decided to re-evaluate Wet WDT’s effects on brewing, leading to some surprising insights: we may want to avoid Wet WDT—at least under specific conditions.
+
+<!-- /sep -->
 
 As always, the experimental data is [open-source](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing). Feel free to use it, and please share any findings with me!
 
@@ -54,8 +61,8 @@ From these conclusions, Wet WDT seems almost magical. Not only does it gently ag
 
 But is Wet WDT really that magical? Some subsequent events made me doubtful, motivating me to write this article. I aimed to answer the question I had when I first read Barista Hustle's article:
 
-#### How much of the increase in extraction yield from Wet WDT is directly related to it, and how much is simply due to the extended brew time?
-{: .quote}
+How much of the increase in extraction yield from Wet WDT is directly related to it, and how much is simply due to the extended brew time?
+{: .quote }
 
 ### Wet WDT and Agitation
 
@@ -65,8 +72,8 @@ The first thing that made me doubt was [Rohan (PocketScienceCoffee)](https://www
 
 When I first read this article, I was skeptical because I thought Wet WDT was a "gentle" technique incapable of causing fines migration and clogging.
 
-#### However, after trying it myself, I realized I was completely wrong.
-{: .quote}
+However, after trying it myself, I realized I was completely wrong.
+{: .quote }
 
 Using a very coarse grind where the total brew yield wouldn't exceed 2 minutes, performing Wet WDT during the bloom phase can easily clog the filter paper, extending the total brew yield to nearly 10 minutes. This shows that Wet WDT is actually the opposite of the "gentle" technique I had imagined. It causes very intense agitation, and while it increases extraction yield, it also accelerates fines migration as a side effect (although in Rohan's parameters, this is expected). In this respect, it is no different from other agitation techniques.
 
@@ -150,7 +157,7 @@ The parameters used here are adapted from PocketScienceCoffee's article [How to 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/T-HagoE0mbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/T-HagoE0mbs?si=EBeJNNfb3j8DmprK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <span class="image-description">Wet WDT Demonstration</span>
     </div>
@@ -193,14 +200,14 @@ The extraction yields of WWDT and CTL-slow are what we aim to compare in this ex
 For such seemingly counterintuitive results, I propose two hypotheses:
 
 - **Hypothesis 1:** The effect of Wet WDT on improving extraction yield is purely due to the extended total brew time and has nothing to do with stirring or helping the coffee and water mix.
-- **Hypothesis 2:** The stirring and mixing effect of Wet WDT still improves extraction yield, but the accelerated fines migration results in poor subsequent extraction conditions. For example, channels may form in the coffee bed, or a more clogged filter paper might increase the ratio of bypass water<sup class="footnote-sup">[B]</sup>, resulting in a decrease in extraction yields. This back-and-forth effect cancels out, resulting in similar extraction yields.
+- **Hypothesis 2:** The stirring and mixing effect of Wet WDT still improves extraction yield, but the accelerated fines migration results in poor subsequent extraction conditions. For example, channels may form in the coffee bed, or a more clogged filter paper might increase the ratio of bypass water<sup class="footnote-sup">[A]</sup>, resulting in a decrease in extraction yields. This back-and-forth effect cancels out, resulting in similar extraction yields.
 
 Hypothesis 1 is more intuitive, while Hypothesis 2 arises from the observation that the brew made with Wet WDT had a noticeably more astringent taste compared to the other two cups. I suspect this could be due to a reduced filtering capacity of the coffee bed after channeling, or possibly because some bypass water entered the cup without being filtered by the coffee bed, both of which might allow larger, astringency-causing molecules to pass through.
 
 I will look for more clues to confirm or refute these hypotheses in the main experiment.
 
 <div class="footnote">
-  <div class="footnote-label">[B]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">Theoretically, the cylindrical Pulsar is a filter cup without bypass, but could there still be some bypass at the edges of the coffee bed?</div>
 </div>
 
@@ -231,9 +238,9 @@ After completing the main experiment, we obtained the relationship between total
 
 First, let's make the following assumptions:
 
-1. The maximum EY, the “asymptotic” value of EY the brew approaches if it's long enough, is $$ \text{EY}_{\text{max}} $$, which varies with different coffees, grind sizes, and methods, but we generally believe it to be less than 30%<sup class="footnote-sup">[C]</sup>.
+1. The maximum EY, the “asymptotic” value of EY the brew approaches if it's long enough, is $$ \text{EY}_{\text{max}} $$, which varies with different coffees, grind sizes, and methods, but we generally believe it to be less than 30%<sup class="footnote-sup">[A]</sup>.
     <div class="footnote">
-    <div class="footnote-label">[C]</div>
+    <div class="footnote-label">[A]</div>
     <div class="footnote-content">According to Rohan's <a href="https://docs.google.com/spreadsheets/d/1ACJnczVXw5qEg98v6UfmGlW94PU-SdXuaUCUCt9qf50/edit?gid=0#gid=0">experimental data</a>, this number is closer to 26% for light roasts with sufficiently fine grinds.</div>
     </div>
 2. At any given time, the water extracting the coffee is completely clean (concentration of 0), which is not realistic since the water in the dripper during brewing is usually not clear, meaning we are essentially extracting coffee with coffee. However, for simplicity, we will assume this here.
@@ -265,10 +272,10 @@ It can be observed that the two curves are very similar. In Table 2, I have list
     </div>
 </div>
 
-While searching for references, I found that Michael from [quantitativecafé](https://quantitativecafe.com/) used a very similar extraction model in his article, [A Simple Model of Extraction](https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/). With his help, I used the Markov chain Monte Carlo method (MCMC)<sup class="footnote-sup">[D]</sup> he employed to calculate the 95% confidence intervals for the two fitted curves through sampling, which are plotted in Figure 4.
+While searching for references, I found that Michael from [quantitativecafé](https://quantitativecafe.com/) used a very similar extraction model in his article, [A Simple Model of Extraction](https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/). With his help, I used the Markov chain Monte Carlo method (MCMC)<sup class="footnote-sup">[B]</sup> he employed to calculate the 95% confidence intervals for the two fitted curves through sampling, which are plotted in Figure 4.
 
 <div class="footnote">
-  <div class="footnote-label">[D]</div>
+  <div class="footnote-label">[B]</div>
   <div class="footnote-content">For more detailed methods, please refer to the <a href="https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/">Error analysis chapter in the original article</a> and another article recommended by Michael, <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">written by Jake VanderPlas</a>.</div>
 </div>
 
@@ -301,10 +308,10 @@ After Barista Hustle published an article claiming that Wet WDT could significan
 
 This article uses the Pulsar's ability to control flow rate via the valve to answer the question: "How much of the increased extraction yield from Wet WDT is directly related to it, and how much is merely a result of the extended total brew time?" According to the experimental results, we found that Wet WDT does not significantly alter the relationship between total brew time and extraction yield. In other words, when the total brew time is the same, performing Wet WDT does not significantly affect the extraction yield.
 
-Moreover, Wet WDT generally resulted in higher astringency when used with the Pulsar, leading me to believe that when the flow rate of the dripper is controllable, we should avoid using Wet WDT and instead achieve the desired extraction yield by simply adjusting the valve<sup class="footnote-sup">[E]</sup>.
+Moreover, Wet WDT generally resulted in higher astringency when used with the Pulsar, leading me to believe that when the flow rate of the dripper is controllable, we should avoid using Wet WDT and instead achieve the desired extraction yield by simply adjusting the valve<sup class="footnote-sup">[C]</sup>.
 
 <div class="footnote">
-  <div class="footnote-label">[E]</div>
+  <div class="footnote-label">[C]</div>
   <div class="footnote-content">When shaking is insufficient to fully mix the coffee and water, it may still be necessary to perform Wet WDT to assist with mixing, but it should be done super gently.</div>
 </div>
 

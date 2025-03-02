@@ -10,13 +10,21 @@ image_caption: "Innovation Gift Set (Source: Ninety Plus Coffee)"
 redirect_from: /articles/2021/07/13/Ninety-Plus-Innovation-Line
 ---
 
-剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/){:target="_blank"}，我也就買了一些多餘的豆子來嚐嚐看。
+<!-- sep -->
+
+剛好因為社團要舉辦分享會的關係，訂了一組 [Ninety Plus Innovation Gift Set](https://ninetypluscoffee.com/innovation-gift-set/)，我也就買了一些多餘的豆子來嚐嚐看。
+
+<!-- /sep -->
 
 ### Ninety Plus Innovation Line
 
-[Innovation](https://ninetypluscoffee.com/shop/#innovation){:target="_blank"} 系列是 Ninety Plus 目前有在供應的一個常駐系列，官方給出的解釋是 "Rare and Prototype Coffees"，也就是一些比較稀有且目前也還在試驗的 flavor profiles。從價格上來看的話，Innovation 系列介於 [Signature](https://ninetypluscoffee.com/shop/#signature){:target="_blank"} 系列與 [Founder's Selection](https://ninetypluscoffee.com/shop/#foundersselection){:target="_blank"} 之間。
+<!-- sep -->
 
-截至目前為止 Innovation 系列中包含 6 支豆子，分別為：[Ruby](https://ninetypluscoffee.com/ruby/){:target="_blank"}, [Ubo](https://ninetypluscoffee.com/ubo/){:target="_blank"}, [Carmo](https://ninetypluscoffee.com/carmo/){:target="_blank"}, [Tigre](https://ninetypluscoffee.com/tigre/){:target="_blank"}, [Yuzo](https://ninetypluscoffee.com/yuzo/){:target="_blank"} 與 [Kulé](https://ninetypluscoffee.com/kule/){:target="_blank"}，而我們所購買的 Ninety Plus Innovation Gift Set 則包含除了 Ubo 以外（老實說我沒有很理解為什麼不加入 Ubo，我個人相當喜歡這支）的豆子每支各 50g。
+[Innovation](https://ninetypluscoffee.com/shop/#innovation) 系列是 Ninety Plus 目前有在供應的一個常駐系列，官方給出的解釋是 "Rare and Prototype Coffees"，也就是一些比較稀有且目前也還在試驗的 flavor profiles。從價格上來看的話，Innovation 系列介於 [Signature](https://ninetypluscoffee.com/shop/#signature) 系列與 [Founder's Selection](https://ninetypluscoffee.com/shop/#foundersselection) 之間。
+
+<!-- /sep -->
+
+截至目前為止 Innovation 系列中包含 6 支豆子，分別為：[Ruby](https://ninetypluscoffee.com/ruby/), [Ubo](https://ninetypluscoffee.com/ubo/), [Carmo](https://ninetypluscoffee.com/carmo/), [Tigre](https://ninetypluscoffee.com/tigre/), [Yuzo](https://ninetypluscoffee.com/yuzo/) 與 [Kulé](https://ninetypluscoffee.com/kule/)，而我們所購買的 Ninety Plus Innovation Gift Set 則包含除了 Ubo 以外（老實說我沒有很理解為什麼不加入 Ubo，我個人相當喜歡這支）的豆子每支各 50g。
 
 ### 沖煮參數
 
@@ -84,6 +92,6 @@ Ruby 帶有明顯的巧克力與可可香氣，一開豆罐的時候立刻散出
 
 這次購買時採用的也是 Ninety Plus 的全新包裝，不得不說相當有質感。雖然真的很貴（這 5 杯我花了將近 2000 元⋯⋯），但整個體驗過程我覺得還是讓我感到相當滿足的，尤其是 Yuzo 這個 profile，真的是令我印象深刻。
 
-昨天 Ninety Plus 也公布了他們到年末的計畫，以 [Urracá](https://ninetypluscoffee.com/urraca/){:target="_blank"} 打頭陣，他們每個月會推出一支限量批次，而這些批次是從他們上個月所測試的 700 個（！）實驗批次中選出的，只不過 85 US$ / 50g  的價格是在是令人有點望而卻步啊。
+昨天 Ninety Plus 也公布了他們到年末的計畫，以 [Urracá](https://ninetypluscoffee.com/urraca/) 打頭陣，他們每個月會推出一支限量批次，而這些批次是從他們上個月所測試的 700 個（！）實驗批次中選出的，只不過 85 US$ / 50g  的價格是在是令人有點望而卻步啊。
 
 最後也希望 Ninety Plus 與 Comandante 聯名的 C40 可以盡快推出，我真的想換磨豆機了。

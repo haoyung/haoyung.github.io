@@ -10,7 +10,14 @@ image_caption: "98mm SSP Brew burrs showing full wipe after alignment"
 language_reference: align_p100
 ---
 
+*Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*
+{: .text-center }
+
+<!-- sep -->
+
 In this article, I'll guide you through the process of using the marker test and stainless steel shims to align flat burr grinders. I've meticulously documented my alignment of the 98mm SSP Brew burrs in the NTU Coffee Club's Lagom P100. If you own this grinder, you'll find the alignment process incredibly useful. However, even if you have a different grinder, this article should still serve as an excellent reference.
+
+<!-- /sep -->
 
 ### The Importance of Alignment
 
@@ -76,21 +83,21 @@ For a clearer explanation, I highly recommend watching this classic [tutorial vi
 
 Shims are usually 0.5 cm * 1 cm and often cut from aluminum foil for its availability and consistent thickness. However, I found that aluminum foil introduces uncertainty in the alignment process. After achieving a full wipe, the alignment doesn't last. The aluminum foil shims under the lower parts seem to compress over time.
 
-I'm not sure if this is physically reasonable, but many have observed the instability of aluminum foil. The well-known coffee blogger Rohan also recommended using stainless steel shims instead in his [article](https://pocketsciencecoffee.com/2023/03/23/superjolly-bearing-replacement-part-2-alignment/)<sup class="footnote-sup">[C]</sup>. Additionally, I found that I can get stainless steel shims that are even thinner than aluminum foil, leading me to realign using stainless steel shims, hence this article.
+I'm not sure if this is physically reasonable, but many have observed the instability of aluminum foil. The well-known coffee blogger Rohan also recommended using stainless steel shims instead in his [article](https://pocketsciencecoffee.com/2023/03/23/superjolly-bearing-replacement-part-2-alignment/)<sup class="footnote-sup">[A]</sup>. Additionally, I found that I can get stainless steel shims that are even thinner than aluminum foil, leading me to realign using stainless steel shims, hence this article.
 
 <div class="footnote">
-  <div class="footnote-label">[C]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">Original text: "That's when I vaguely remembered Nate Walck (also coincidentally the previous owner of Frankenjolly) mention on Hedrickcord (Lance Hedrick's discord) that one should consider using stainless steel shims for alignment as opposed to aluminium foil (Long Vo probably was the first to suggest this as a solution on EAF but in context of a different discussion)."</div>
 </div>
 
 ### Detailed Alignment Process
 
-The following outlines the process of aligning the 98mm SSP Brew burrs in the Lagom P100, but most steps are applicable to different grinders as well.<sup class="footnote-sup">[D]</sup>
+The following outlines the process of aligning the 98mm SSP Brew burrs in the Lagom P100, but most steps are applicable to different grinders as well.<sup class="footnote-sup">[B]</sup>
 
 I want to emphasize again: the two burrs need to be aligned separately, and the burr with the marker applied is the one being aligned. To achieve better alignment, it's crucial to align the two burrs separately, ensuring both achieve a full wipe and are perpendicular to the rotation axis.
 
 <div class="footnote">
-  <div class="footnote-label">[D]</div>
+  <div class="footnote-label">[B]</div>
   <div class="footnote-content">I also aligned the NTU Coffee Club's <a href="https://fellowproducts.com/products/ode-brew-grinder">Fellow Ode</a>, using the exact same method.</div>
 </div>
 

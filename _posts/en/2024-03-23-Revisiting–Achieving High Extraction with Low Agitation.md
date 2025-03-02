@@ -10,24 +10,31 @@ image_caption: "This article introduces a Pulsar recipe aimed at achieving high 
 language_reference: re:high_extraction_low_agitation
 ---
 
+*Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*
+{: .text-center }
+
 ### The Most Anticipated Dripper of 2023: [NextLevel Pulsar](https://nextlevelbrewer.com/shop/nextlevel-pulsar-brewer/)
 
 In *The Physics of Filter Coffee*, Jonathan Gagné outlines his ideal dripper: [cylindrical to minimize bypass, even water distribution at the bottom to maximize filter paper usage, and a valve to control flow rate](https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/). NextLevel, the creators of the LVL-10 dripper, took note. They collaborated with Jonathan to create the Pulsar, a name that not only nods to his profession as an astronomer but also hints at its key feature with the homophone "Pause": the valve allows for precise control over water flow, even pausing it entirely.
 
 After the announcement of this collaboration, coffee enthusiasts around the globe eagerly awaited its release. Two years flew by, and in August 2023, Pulsar announced pre-orders. I quickly ordered two, and after a month of anticipation, they finally arrived.
 
+<!-- sep -->
+
 My initial experiments with the Pulsar were both challenging and somewhat disappointing.
+
+<!-- /sep -->
 
 ### The Problems I Encountered with Pulsar
 
-The consensus seems to be that Pulsar excels at reducing astringency. However, I found this to be only partially true. The recommended Pulsar recipes, including those from Jonathan Gagné and others<sup class="footnote-sup">[B]</sup>, advocate for multiple pours to maintain a low water level and reduce pressure, which is believed to help minimize astringency. Despite numerous attempts and adjustments, I found the astringency to be higher than anticipated (or to clarify, about the same as my other brews, but I had higher expectations!).
+The consensus seems to be that Pulsar excels at reducing astringency. However, I found this to be only partially true. The recommended Pulsar recipes, including those from Jonathan Gagné and others<sup class="footnote-sup">[A]</sup>, advocate for multiple pours to maintain a low water level and reduce pressure, which is believed to help minimize astringency. Despite numerous attempts and adjustments, I found the astringency to be higher than anticipated (or to clarify, about the same as my other brews, but I had higher expectations!).
 
 I suspect the issue lies in excessive agitation. While multiple pours keep the water level low, they also increase agitation. Observing the coffee bed during brewing with similar recipes, it's common to find it uneven, potentially leading to inconsistent water flow. **The primary issue is Pulsar's height. To ensure adequate capacity, there's a significant distance between Pulsar's disperser and the coffee bed, causing more agitation than expected, even with the disperser.**
 
 Before receiving the Pulsar, I had high hopes it would outperform the Tricolate, which required considerable effort to dial in. However, after nearly 20 brews, the results, in terms of both flavor and data, were not noticeably better, which was quite disheartening.
 
 <div class="footnote">
-  <div class="footnote-label">[B]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">For example, <a href="https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/">Jonathan's recommended recipe</a> and <a href="https://www.scottrao.com/blog/pulsar-recipe">Scott Rao's recipe</a>.</div>
 </div>
 
@@ -45,8 +52,8 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
     - Avoid using more than 20g of coffee, as the Pulsar's capacity may be exceeded, risking overflow.
 
 - Water temperature: 100°C
-- Brewing water: distilled water, re-mineralized post-brew (minerals are added directly to the brewed coffee<sup class="footnote-sup">[C]</sup>).
-    - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[D]</sup>, with equal amounts of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
+- Brewing water: distilled water, re-mineralized post-brew (minerals are added directly to the brewed coffee<sup class="footnote-sup">[A]</sup>).
+    - Aim for water with 30–40GH, 15–20KH<sup class="footnote-sup">[B]</sup>, with equal amounts of Ca<sup>2+</sup> and Mg<sup>2+</sup>.
     - If unsure about your water, normal tap water with a low TDS is acceptable.
 - Grind size: Burr gap set between 150 to 200 µm from lock.
     - Comparable to traditional 9 bar espresso settings.
@@ -59,11 +66,11 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
     - African coffee can often reach 25%+.
 
 <div class="footnote">
-  <div class="footnote-label">[C]</div>
+  <div class="footnote-label">[A]</div>
   <div class="footnote-content">Many, myself included, believe minerals don't significantly affect extraction, so adding them before or after doesn't hugely impact the brew. I find adding them post-brew more convenient. I use mineral concentrate from <a href="https://lotuscoffeeproducts.com/">Lotus Coffee Brew Water</a>.</div>
 </div>
 <div class="footnote">
-  <div class="footnote-label">[D]</div>
+  <div class="footnote-label">[B]</div>
   <div class="footnote-content">For more on brewing water, check out the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
 </div>
 
@@ -156,9 +163,9 @@ Since most of the extraction occurs during the percolation stage, blooming is ne
 
 This recipe, while significantly different from the one introduced in my previous article [Achieving High Extraction with Low Agitation]({%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}), is based on similar concepts and thus produces a similar flavor profile, with "sweet, complex, and transparent" as the overarching extraction goal.
 
-In my attempts, this recipe proved more convenient (as it requires only one pour) but had a lower success rate. Some beans produced excessive bitterness no matter how I adjusted this recipe. I'm still puzzling over this, so I invite everyone to try it and share their thoughts with me<sup class="footnote-sup">[E]</sup>! Together, perhaps we can further refine this method.
+In my attempts, this recipe proved more convenient (as it requires only one pour) but had a lower success rate. Some beans produced excessive bitterness no matter how I adjusted this recipe. I'm still puzzling over this, so I invite everyone to try it and share their thoughts with me<sup class="footnote-sup">[C]</sup>! Together, perhaps we can further refine this method.
 
 <div class="footnote">
-  <div class="footnote-label">[E]</div>
+  <div class="footnote-label">[C]</div>
   <div class="footnote-content">DM me on <a href="https://instagram.com/whycoffee.blog">IG</a>!</div>
 </div>

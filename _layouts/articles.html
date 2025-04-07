@@ -15,7 +15,7 @@ layout: default
       <a href="{{ site.github.url }}{{ post.url }}" style="font-weight: normal; text-decoration: none;">{{ post.title
         }}</a>
     </h3>
-    <span class="post-date mt-2">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <span class="article-excerpt post-date mt-2">{{ post.date | date: "%B %-d, %Y" }}</span>
     {% if post.content contains '<!-- sep -->' and post.content contains '<!-- /sep -->' %}
     {% assign content_parts = post.content | split: '<!-- sep -->' %}
     <div class="article-excerpt mt-2">

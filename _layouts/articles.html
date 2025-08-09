@@ -15,17 +15,17 @@ layout: base
       <a href="{{ site.github.url }}{{ post.url }}" style="font-weight: normal; text-decoration: none;">{{ post.title
         }}</a>
     </h3>
-    <span class="article-excerpt post-date mt-2">{{ post.date | date: "%B %-d, %Y" }}</span>
     {% if post.content contains '<!-- sep -->' and post.content contains '<!-- /sep -->' %}
     {% assign content_parts = post.content | split: '<!-- sep -->' %}
-    <div class="article-excerpt mt-2">
+    <div class="article-excerpt mt-3">
       {% for part in content_parts offset:1 %}
       {% if part contains '<!-- /sep -->' %}
       {% assign excerpt = part | split: '<!-- /sep -->' | first %}
       {% assign excerpt_without_sup = excerpt | replace: '<sup', '<span style="display:none"' | replace: '</sup>'
         , '</span>' %} {{ excerpt_without_sup | strip | markdownify }} {% endif %} {% endfor %} </div>
-        <div class="article-excerpt mt-2">
+        <div class="article-excerpt d-flex justify-content-between">
           <a href="{{ site.github.url }}{{ post.url }}">{%- if page.language == "zh-Hant-TW" %}繼續閱讀{%- else %}continue reading{%- endif %}</a>
+          <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         </div>
         {% endif %}
         {% assign first_post = false %}

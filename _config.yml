@@ -11,55 +11,43 @@ plugins:
   - jekyll-redirect-from
 
 defaults:
+  # Default for all files
   -
     scope:
       path: ""
     values:
       toc: true
-  - 
-    scope:
-      path: '*.md'
-    values:
       language: zh-Hant-TW
+  # English content (any path containing 'en/')
   -
     scope:
-      path: '_posts/*.md'
-    values:
-      language: zh-Hant-TW
-  -
-    scope:
-      path: '_drafts/*.md'
-    values:
-      language: zh-Hant-TW
-      sitemap: false
-  -
-    scope:
-      path: 'tag/*.md'
-    values:
-      language: zh-Hant-TW
-      sitemap: false
-  - 
-    scope:
-      path: 'en/*.md'
+      path: "**/en/**"
     values:
       language: en
       locale: en_US
-  - 
-    scope:
-      path: 'en/tag/*.md'
-    values:
-      language: en
-      locale: en_US
-      sitemap: false
+  # English posts need special permalink
   -
     scope:
-      path: '_posts/en/*.md'
+      path: "_posts/en"
     values:
       permalink: 'en/:categories/:title'
-      language: en
-      locale: en_US
+  # Drafts and tag pages excluded from sitemap
+  -
+    scope:
+      path: "_drafts"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "tag"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "en/tag"
+    values:
+      sitemap: false
 
 exclude:
   - assets/archived/*
   - assets/scripts/*
-  - _post/en/wip_translate/*

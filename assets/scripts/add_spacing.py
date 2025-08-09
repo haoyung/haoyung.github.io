@@ -40,8 +40,18 @@ def process_markdown_files(directory):
             else:
                 print(f"No changes made to {filename}")
 
-# Get the directory of the script
+# Get the root directory (2 levels up from script location)
 script_directory = os.path.dirname(os.path.abspath(__file__))
+root_directory = os.path.dirname(os.path.dirname(script_directory))
 
-# Process the Markdown files in the script's directory
-process_markdown_files(script_directory)
+# Process the Markdown files in _posts directories
+posts_directory = os.path.join(root_directory, '_posts')
+if os.path.exists(posts_directory):
+    print(f"Processing files in {posts_directory}")
+    process_markdown_files(posts_directory)
+
+# Also process English posts
+posts_en_directory = os.path.join(root_directory, '_posts', 'en')
+if os.path.exists(posts_en_directory):
+    print(f"Processing files in {posts_en_directory}")
+    process_markdown_files(posts_en_directory)

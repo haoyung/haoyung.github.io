@@ -1,18 +1,17 @@
 ---
-layout: default
+layout: base
 ---
-
-<!-- <script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="//rawgit.com/ddimitrioglo/jquery-mailchimp/master/dist/jquery-mailchimp.min.js"></script>
-<script src="{{ site.github.url }}/assets/libs/mailchimp/index.js"></script> -->
 
 <div class="row gx-md-10 gx-0 order-md-1">
   <div class="col-md-6 order-md-2 home-image-container">
     <img src="{{ site.github.url }}/assets/img/popup.webp" class="home-image"
-      alt="Brewing coffee at the Taipei pop-up event in January 2025." style="margin-top: calc((1.4116rem + .8618666667vw) * 0.1);">
+      alt="Brewing coffee at the Taipei pop-up event in January 2025."
+      style="margin-top: calc((1.4116rem + .8618666667vw) * 0.1);">
     <span class="image-description">
-      {%- if page.language == "zh-Hant-TW" %}我在 2025 年初的<a href="{{ site.github.url }}/%E6%9D%AF%E6%B8%AC%E6%9C%83%E8%88%87%E5%AE%A2%E5%BA%A7%E6%B4%BB%E5%8B%95%E5%9C%A8%E5%8F%B0%E7%81%A3">客座活動</a>中沖煮咖啡
-      {%- else %}Me brewing at the <a href="{{ site.github.url }}/assets/files/tw-events.pdf">Taipei pop-up</a> in January 2025
+      {%- if page.language == "zh-Hant-TW" %}我在 2025 年初的<a
+        href="{{ site.github.url }}/%E6%9D%AF%E6%B8%AC%E6%9C%83%E8%88%87%E5%AE%A2%E5%BA%A7%E6%B4%BB%E5%8B%95%E5%9C%A8%E5%8F%B0%E7%81%A3">客座活動</a>中沖煮咖啡
+      {%- else %}Me brewing at the <a href="{{ site.github.url }}/assets/files/tw-events.pdf">Taipei pop-up</a> in
+      January 2025
       {%- endif %}
     </span>
   </div>
@@ -45,78 +44,3 @@ layout: default
   {%- endif %}
 </div>
 </div>
-
-<style>
-  .home-image-container {
-    text-align: end;
-
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      text-align: center;
-    }
-  }
-
-  .home-image {
-    width: 100%;
-
-    @media (min-width: 576px) and (max-width: 767.98px) {
-      width: 50%;
-    }
-  }
-</style>
-
-<!-- <div class="col-md-6">
-  <h3 class="mb-3" id="subscribe">subscribe</h3>
-  <div id="mc_embed_signup">
-    <form id="subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate class="col-8">
-      <div class="mc-form-group-EMAIL input-group" id="mc_embed_signup_scroll">
-        <input type="email" value="" name="EMAIL" class="required email flex-grow-1" id="mce-EMAIL"
-          placeholder="Your email" autocomplete="email">
-        <button type="submit" id="submit-form" name="submit-form" id="mc-embedded-subscribe">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill=var(--input-svg-color) class="bi bi-plus"
-            viewBox="0 0 16 16">
-            <path
-              d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-          </svg>
-        </button>
-        <div class="mc-error" id="mc-error" style="display: none;"></div>
-      </div>
-    </form>
-  </div>
-</div> -->
-
-<!-- <style>
-  input {
-    box-sizing: border-box;
-    outline: none;
-    padding: 10px;
-    padding-left: 15px;
-    border: 0px;
-    margin-left: 0px;
-    box-sizing: border-box;
-    border-radius: 0;
-    box-shadow: none;
-    background-color: var(--input-color);
-    display: inline-block;
-    position: relative;
-    height: 45px;
-    font-size: 14px;
-  }
-
-  button {
-    padding-right: 11px;
-    padding-left: 11px;
-    border: 0px;
-    background-color: var(--input-color);
-    transition: background-color 0.5s;
-  }
-
-  .green-class::-webkit-input-placeholder {
-    color: var(--green-color);
-    transition: 0s;
-  }
-
-  .red-class::-webkit-input-placeholder {
-    color: var(--red-color);
-    transition: 0s;
-  }
-</style> -->

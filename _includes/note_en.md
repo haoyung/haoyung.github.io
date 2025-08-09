@@ -1,1 +1,0 @@
->   [This blog's instagram account](https://instagram.com/whycoffee.blog) is live! Going forward, shorter reviews and thoughts will be posted on IG. Please follow!

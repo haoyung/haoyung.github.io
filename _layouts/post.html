@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: base
 ---
 
 <div class="col-md-12 mb-8">
@@ -32,23 +32,15 @@ layout: default
   {%- endif %}
 
   {%- if page.note != false -%}
-  {%- if page.language == 'en' -%}
-  {%- capture note_en -%}
-  {%- include note_en.md -%}
+  {%- capture note_content -%}
+  {%- include components/post-note.html -%}
   {%- endcapture -%}
-  {{ note_en | markdownify }}
-
-  {%- else -%}
-  {%- capture note -%}
-  {%- include note.md -%}
-  {%- endcapture -%}
-  {{ note | markdownify }}
-  {%- endif -%}
+  {{ note_content | markdownify }}
   {%- endif -%}
 
   {%- if page.toc %}
   <div id="table-of-contents" class="mt-8">
-    {%- include toc.html html=content id="toc" item_class="toc-entry" %}
+    {%- include components/toc.html html=content id="toc" item_class="toc-entry" %}
   </div>
   {%- endif %}
   {{ content }}

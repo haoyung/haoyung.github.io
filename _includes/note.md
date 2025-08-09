@@ -1,1 +1,0 @@
->   [本部落格的 instagram 帳號](https://instagram.com/whycoffee.blog)上線了！未來較為簡短的 Review 及心得文章都會發在 IG，非常歡迎大家追蹤！

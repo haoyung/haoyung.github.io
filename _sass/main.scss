@@ -309,7 +309,43 @@ table {
   background: var(--main-text-color);
 }
 
-// 12. Special Components
+// 12. Footer
+footer {
+  margin-top: 4.5rem;
+  padding-top: 0.75rem;
+}
+
+// 13. Home Page Styles
+.home-image-container {
+  text-align: end;
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    text-align: center;
+  }
+}
+
+.home-image {
+  width: 100%;
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    width: 50%;
+  }
+}
+
+// 14. Articles Page Styles
+.article-item {
+  margin-top: 3rem;
+}
+
+.article-excerpt {
+  font-size: calc(1rem / pow(1.618, 0.25));
+  
+  p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// 15. Special Components
 .MathJax {
   overflow-x: auto;
   overflow-y: hidden;

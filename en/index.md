@@ -4,12 +4,12 @@ title: "home"
 language_reference: home
 ---
 
-Hi, my name is [Hao-yung Weng](https://haoyungweng.me).
+Hi, I'm [Hao-yung Weng](https://haoyungweng.me).
 
-My coffee journey began as the director of the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee). Even after graduating and pursuing a master’s degree at Carnegie Mellon, I’ve stayed close with the club—they’re my best friends. We prided ourselves on being highly research-driven. We read blog posts and research papers, hosted cupping sessions, and meticulously documented our brews.
+My coffee journey began in college, where I served as president and later advisor of the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee). Now, while pursuing graduate studies in the US, I stay connected with the club and occasionally provide remote technical support. We pride ourselves on being research-driven: reading papers, hosting cupping sessions, and carefully [measuring]({% link _posts/en/2024-04-19-Precisely Measuring TDS.md %}) and documenting our brews. We are always asking how we can improve.
 
-Years of exploration have given me insights that, while not definitive, seem worth sharing. This blog, “whycoffee.blog”—inspired by my initials “WHY”—is where I do that. The name also invites reflection: What draws us to coffee? Is it exploring unique flavors, or the joy of discussing coffee with others?
+Years of exploration have given me insights that, while not definitive, feel worth sharing. This blog, *whycoffee.blog*, is a play on my initials "WHY" and a prompt for reflection. Why coffee? Is it about exploring the unique flavors of different origins? Or geeking out with fellow enthusiasts?
 
-When hosting events, I often talk about the “connections between people” that coffee creates. Each bean travels a long road—from cultivation and harvesting to processing and roasting—that links everyone involved. I like to say, “Notice how coffee connects us—you and me, right here and now.”
+When hosting events, I often talk about how coffee creates connection. Each bean travels a long road—from cultivation and harvesting to processing and roasting—that links everyone involved. I like to tell my audience: “Notice how coffee connects us—you and me—right here.”
 
-It’s that very connection I hope to share with you, dear reader.
+That's the connection I hope to share with you here.

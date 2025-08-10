@@ -3,11 +3,12 @@ layout: post
 title: "Achieving High Extraction with Low Agitation"
 description: "Sweet, complex, and transparent—A pour-over recipe inspired by SEY that achieves over 24% extraction yield with extremely low agitation."
 tag: [recipe, pourover]
-category: articles
+category: article
 image: /assets/img/orea_and_pulsar_disperser.webp
 image_orientation: vertical
 image_caption: "The brewing method we'll explore: using the Pulsar's dispersion screen atop the Orea V3"
 language_reference: high_extraction_low_agitation
+redirect_from: /en/articles/Achieving-High-Extraction-with-Low-Agitation
 ---
 
 *Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*

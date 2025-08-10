@@ -6,3 +6,17 @@ layout: base
   <h1 class="four-o-four mb-4" align="center">{{ page.title }}</h1>
   {{ content }}
 </div>
+
+<script>
+  // Fallback redirect for /articles/* to /article/*
+  (function() {
+    var path = window.location.pathname;
+    // Check if the path contains /articles/ (both English and Chinese versions)
+    if (path.includes('/articles/')) {
+      // Replace /articles/ with /article/
+      var newPath = path.replace('/articles/', '/article/');
+      // Redirect to the new path, keeping query string and hash if present
+      window.location.replace(newPath + window.location.search + window.location.hash);
+    }
+  })();
+</script>

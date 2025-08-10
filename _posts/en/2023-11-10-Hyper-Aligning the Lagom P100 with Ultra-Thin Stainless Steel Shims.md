@@ -3,11 +3,12 @@ layout: post
 title: "Hyper-Aligning the Lagom P100 with Ultra-Thin Stainless Steel Shims"
 description: "The extremely thin and incompressible nature of stainless steel shims allows me to achieve a chirp-to-lock distance under 20 microns on the Lagom P100, indicating near-perfect alignment."
 tag: [tutorial, grinder]
-category: articles
+category: articlems
 image: /assets/img/alignment-8.webp
 image_orientation: vertical
 image_caption: "98mm SSP Brew burrs showing full wipe after alignment"
 language_reference: align_p100
+redirect_from: /en/articles/Hyper-Aligning-the-Lagom-P100-with-Ultra-Thin-Stainless-Steel-Shi
 ---
 
 *Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*

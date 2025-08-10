@@ -3,7 +3,7 @@ layout: post
 title: "Wet WDT: A Re-Evaluation"
 description: "Wet WDT—said to enhance both extraction and flavor, but is it truly that magical?"
 tag: [experiment, pourover]
-category: articles
+category: article
 imgfolder: WWDT
 image: /assets/img/WWDT/wwdt_cover.webp
 image_orientation: horizontal
@@ -14,6 +14,7 @@ redirect_from:
   - /en/articles/Wet-WDT-What's-the-Buzz
   - /en/articles/Wet-WDT-What‘s-the-Buzz
   - /en/articles/Wet-WDT-What’s-the-Buzz
+  - /en/articles/Wet-WDT-A-Re-Evaluation
 ---
 
 *Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*

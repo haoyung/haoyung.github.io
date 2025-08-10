@@ -3,13 +3,14 @@ layout: post
 title: "Precisely Measuring TDS"
 description: "Exploring the challenges and frustrations of precise TDS measurement—my detailed refractometer workflow, extensive experiments on evaporation's impact, along with comparisons and validations of popular refractometer models."
 tag: [experiment, review, tutorial]
-category: articles
+category: article
 imgfolder: TDS
 image: /assets/img/TDS/refractometers.webp
 image_orientation: horizontal
 image_caption: "The refractometers that are used to measure TDS in this article and a sample that is being cooled"
 language_reference: measuring_tds
 usemathjax: true
+redirect_from: /en/articles/Precisely-Measuring-TDS
 ---
 
 *Disclaimer: All English content in this blog is AI-translated. Apologies for any quirks–blame the bots!*

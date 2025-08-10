@@ -1,23 +1,3 @@
----
-layout: post
-title: "萃取理論：義式修正"
-description: "台大咖啡社 112-2 社課"
-tag: [台大咖啡社]
-category: article
-imgfolder: extraction_theory_esp
-draft: true
-sitemap: false
-toc: false
-redirect_from:
-    - /articles/萃取理論：義式修正
-    - /articles/%E8%90%83%E5%8F%96%E7%90%86%E8%AB%96-%E7%BE%A9%E5%BC%8F%E4%BF%AE%E6%AD%A3
----
-
-### 補充連結
-- [社課講義]({{ site.github.url }}/assets/images/{{ page.imgfolder }}/義式修正講義.pdf)
-- [〈精準地測量 TDS〉]({%- post_url 2024-04-19-精準地測量 TDS %})
-
-### 社課投影片
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/slide_page1.webp" alt="" class="img-fluid responsive-image-horizontal" style="border:1px var(--main-text-color) solid;">
@@ -287,3 +267,4 @@ redirect_from:
         <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/slide_page45.webp" alt="" class="img-fluid responsive-image-horizontal" style="border:1px var(--main-text-color) solid;">
     </div>
 </div>
+

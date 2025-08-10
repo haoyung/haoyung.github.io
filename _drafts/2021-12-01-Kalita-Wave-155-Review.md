@@ -9,7 +9,7 @@ category: articles
 
 <div class="row justify-content-center">
     <div class="col-md-6 text-center">
-        <img src="{{ site.github.url }}/assets/img/kalita-waves.webp" alt="" width="100%">
+        <img src="{{ site.github.url }}/assets/images/kalita-waves.webp" alt="" width="100%">
         <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 185 & 155 (Photo: Kurasu Kyoto)</span>
     </div>
 </div>
@@ -30,19 +30,19 @@ category: articles
 
 <div class="row gx-md-6 gx-3 gy-3 mb-3">
     <div class="col-md-6 text-center">
-        <img src="{{ site.github.url }}/assets/img/wave-hasami.jpeg" width="100%">
+        <img src="{{ site.github.url }}/assets/images/wave-hasami.jpeg" width="100%">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 波佐見燒 (Photo: Kurasu Kyoto)</span>
     </div>
     <div class="col-md-6 text-center">
-        <img src="{{ site.github.url }}/assets/img/wave-sagan.jpeg" width="100%">
+        <img src="{{ site.github.url }}/assets/images/wave-sagan.jpeg" width="100%">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 砂岩陶土 波佐見燒 (Photo: Kurasu Kyoto)</span>
     </div>
     <div class="col-md-6 text-center">
-        <img src="{{ site.github.url }}/assets/img/wave-glass.jpeg" width="100%">
+        <img src="{{ site.github.url }}/assets/images/wave-glass.jpeg" width="100%">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 玻璃 (Photo: Kurasu Kyoto)</span>
     </div>
     <div class="col-md-6 text-center">
-        <img src="{{ site.github.url }}/assets/img/wave-tsubame.jpeg" width="100%">
+        <img src="{{ site.github.url }}/assets/images/wave-tsubame.jpeg" width="100%">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 TSUBAME (Photo: Kurasu Kyoto)</span>
     </div>
 </div>  

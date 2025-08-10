@@ -53,7 +53,7 @@ def process_directory(directory):
                         print(f"Converted {file} to WEBP.")
 
 def main(image_dir):
-    # Process the 'assets/img' directory itself
+    # Process the 'assets/images' directory itself
     process_directory(image_dir)
     
     # Traverse the directory tree recursively for subdirectories
@@ -62,5 +62,5 @@ def main(image_dir):
             process_directory(os.path.join(root, dir))
 
 if __name__ == "__main__":
-    image_directory = 'assets/img'  # Replace with your directory
+    image_directory = 'assets/images'  # Replace with your directory
     main(image_directory)

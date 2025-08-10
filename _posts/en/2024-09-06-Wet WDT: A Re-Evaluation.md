@@ -5,7 +5,7 @@ description: "Wet WDT—said to enhance both extraction and flavor, but is it tr
 tag: [experiment, pourover]
 category: article
 imgfolder: WWDT
-image: /assets/img/WWDT/wwdt_cover.webp
+image: /assets/images/WWDT/wwdt_cover.webp
 image_orientation: horizontal
 image_caption: "Performing Wet WDT when brewing Pulsar"
 language_reference: wwdt
@@ -44,7 +44,7 @@ Wet WDT caught on in the latter half of 2022, mainly due to [this blog post](htt
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/BH_result.webp" alt="" class="img-fluid">
+        <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/BH_result.webp" alt="" class="img-fluid">
         <span class="image-description">Barista Hustle's experimental data</span>
     </div>
 </div>
@@ -184,7 +184,7 @@ I recorded the total brew time (TBT) and extraction yield (EY) for the three bre
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid responsive-plot">
+        <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 1: Scatter plot of total brew time and extraction yield in the preliminary experiment</span>
     </div>
 </div>
@@ -220,7 +220,7 @@ I recorded the total brew time and extraction yield of the 12 brews in the main 
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
+        <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 2: Scatter plot of total brew time and extraction yield in the main experiment</span>
     </div>
 </div>
@@ -255,7 +255,7 @@ Therefore, we will use this theoretical model of TBT and EY to fit the data for 
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
+        <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 3: Scatter plot of data and fitted theoretical curves for the experimental and control groups in the main experiment</span>
     </div>
 </div>
@@ -282,7 +282,7 @@ While searching for references, I found that Michael from [quantitativecafé](ht
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="{{ site.github.url }}/assets/img/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid responsive-plot">
+        <img src="{{ site.github.url }}/assets/images/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 4: Scatter plot of experimental and control group data, fitted theoretical curves, and their 95% confidence intervals</span>
     </div>
 </div>

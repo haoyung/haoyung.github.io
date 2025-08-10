@@ -4,7 +4,7 @@ title: "Ninety Plus Innovation Line"
 description: "一些特殊、稀有、貴得驚人的咖啡"
 tag: [review, 台大咖啡社]
 category: article
-image: /assets/img/InnovationSet.webp
+image: /assets/images/InnovationSet.webp
 image_orientation: vertical
 image_caption: "Innovation Gift Set (Source: Ninety Plus Coffee)"
 redirect_from:

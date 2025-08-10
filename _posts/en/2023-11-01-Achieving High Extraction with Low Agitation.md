@@ -4,7 +4,7 @@ title: "Achieving High Extraction with Low Agitation"
 description: "Sweet, complex, and transparent—A pour-over recipe inspired by SEY that achieves over 24% extraction yield with extremely low agitation."
 tag: [recipe, pourover]
 category: article
-image: /assets/img/orea_and_pulsar_disperser.webp
+image: /assets/images/orea_and_pulsar_disperser.webp
 image_orientation: vertical
 image_caption: "The brewing method we'll explore: using the Pulsar's dispersion screen atop the Orea V3"
 language_reference: high_extraction_low_agitation
@@ -76,7 +76,7 @@ After thorough experimentation, I'm pleased to report that both potential issues
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/img/sey_grind_size.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img src="{{ site.github.url }}/assets/images/sey_grind_size.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Grind size reference<br>This is <a href="https://www.seycoffee.com/products/las-perlitas">SEY's Las Perlitas (Washed Colombian Field Blend)</a> ground with 98mm SSP Brew, burr gap set to 225 µm from lock</span>
     </div>
 </div>
@@ -123,7 +123,7 @@ Here are the detailed parameters and brewing steps:
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/img/sey_recipe_setup.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img src="{{ site.github.url }}/assets/images/sey_recipe_setup.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Equipment setup during brewing (note: the disperser isn't needed during bloom)<br>The background is the cluttered NTU Coffee Club clubroom</span>
     </div>
 </div>
@@ -146,13 +146,13 @@ The following steps are tailored to the [Orea V3](https://shop.orea.uk/products/
 ### Brewing Log and Discussion
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/img/samplerecipe.jpg" alt="" class="img-fluid responsive-image-vertical">
+        <img src="{{ site.github.url }}/assets/images/samplerecipe.jpg" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">One of the more successful brews, achieving the target TDS and extraction yield<br>The TDS and extraction yield were 1.37% and 24.47% respectively</span>
     </div>
 </div>
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/img/sampleflowchart.jpg" alt="" width="100%">
+        <img src="{{ site.github.url }}/assets/images/sampleflowchart.jpg" alt="" width="100%">
         <span class="image-description">Graph showing changes in pour rate (blue line) and weight (brown line)</span>
     </div>
 </div>

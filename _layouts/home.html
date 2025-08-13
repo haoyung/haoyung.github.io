@@ -24,23 +24,26 @@ layout: base
 
 <div class="col-md-12">
   <h3 class="section-title">latest articles</h3>
-  {%- assign count = 0 %}
-  {%- for post in site.posts %}
-  {%- if page.language == post.language and post.draft == false %}
-  {%- if count < 5 %} <div class="mt-3">
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    <span class="post-date"> - {{ post.date | date: "%b. %-d, %Y" }}</span>
-</div>
-{%- assign count = count | plus: 1 %}
-{%- endif %}
-{%- endif %}
-{%- endfor %}
-
-<div class="mt-3">
-  {%- if page.language == "zh-Hant-TW" %}
-  <a href="{{ site.github.url }}/articles">更多文章</a>
-  {%- else %}
-  <a href="{{ site.github.url }}/en/articles">view all articles</a>
-  {%- endif %}
-</div>
+  <div class="row gx-md-6 gx-0">
+    {%- assign post_count = 0 %}
+    {%- for post in site.posts %}
+    {%- if page.language == post.language and post.draft == false and post_count < 4 %}
+    <div class="col-md-6 mb-3">
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+      <div class="article-excerpt">
+        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      </div>
+    </div>
+    {%- assign post_count = post_count | plus: 1 %}
+    {%- endif %}
+    {%- endfor %}
+  </div>
+  
+  <div class="mt-2">
+    {%- if page.language == "zh-Hant-TW" %}
+    <a href="{{ site.github.url }}/articles">更多文章</a>
+    {%- else %}
+    <a href="{{ site.github.url }}/en/articles">view all articles</a>
+    {%- endif %}
+  </div>
 </div>

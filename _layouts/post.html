@@ -34,6 +34,7 @@ layout: base
   {%- comment -%}
     A post may place <!-- toc --> in its body to have everything above the
     marker rendered before the table of contents (e.g. a recipe up top).
+    The table of contents then only covers what comes after the marker.
   {%- endcomment -%}
   {%- assign parts = content | split: "<!-- toc -->" -%}
   {%- if parts.size > 1 %}
@@ -41,7 +42,8 @@ layout: base
   {%- endif %}
   {%- if page.toc %}
   <div id="table-of-contents" class="mt-8">
-    {%- include components/toc.html html=content id="toc" item_class="toc-entry" %}
+    {%- assign toc_source = parts | last -%}
+    {%- include components/toc.html html=toc_source id="toc" item_class="toc-entry" %}
   </div>
   {%- endif %}
   {{ parts | last }}

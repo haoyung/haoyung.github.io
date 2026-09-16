@@ -9,55 +9,54 @@ language_reference: gear
 ### 磨豆機
 {: .section-title }
 
--   *[Titus Nautilus](https://www.instagram.com/titusgrinding/) w/ 98mm SSP Brew
--   [OPTION-O LAGOM P100](https://www.option-o.com/shop/lagom-p100) w/ 98mm SSP Brew
--   [Fellow ODE](https://fellowproducts.com/products/ode-brew-grinder-gen-2) w/ 64mm SSP Brew
--   [Fellow ODE](https://fellowproducts.com/products/ode-brew-grinder-gen-2) w/ 64mm SSP MP
--   [Kalita NEXT G](https://www.kalita.co.jp/products/nextg.php)
--   [1zpresso ZP6](https://1zpresso.com/zp6-%E7%89%B9%E4%BB%95%E7%89%88/)
--   [Comandante C40](https://www.comandantegrinder.com/)
+-   *[Titus Nautilus](https://www.instagram.com/titusgrinding/) w/ Titus 98mm SSP Brew
+-   [Mahlkönig EK43](https://www.mahlkoenig.com/products/ek43) w/ Titus 98mm SSP Brew
+-   [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) w/ Blind 102mm SSP Brew
+-   [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) w/ Blind 102mm SSP HU
+-   [Kafatek M98V](https://www.kafatek.com/index.php/store/m98v-deposit/) w/ 98mm Shuriken CR v4
+-   [Comandante C40](https://comandantegrinder.com/collections/c40)
 
 ### 濾杯
 {: .section-title }
 
--   *[Pulsar](https://nextlevelbrewer.com/pulsar-brewer/)
--   *[Orea V4](https://shop.orea.uk/products/orea-brewer-v4-set?variant=42792700313752)
+-   *[Orea Z1](https://www.orea.uk/z1-brewer)
+-   [Orea V4](https://www.orea.uk/guides-v4)
 -   [Orea V3](https://www.orea.uk/orea-brewer-v3)
--   [Tricolate](https://tricolate.com/)
--   [KONO MDK-21](https://coffee-syphon.co.jp/meimon_filter/)
--   [V60](https://www.hario.com/v60/v60series.html)（塑膠版）
+-   [NextLevel Pulsar](https://nextlevelbrewer.com/shop/nextlevel-pulsar-brewer/)
+-   [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/)
+-   [Hario V60](https://www.hario.com/v60/v60series.html)（塑膠版）
 
 ### 手沖壺
 {: .section-title }
 
--   *[Fellow EKG900](https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle)
--   [Bonavita Variable Temperature Kettle](https://bonavita.co/products/1-0l-variable-temperature-kettle)
+-   [Fellow Stagg EKG Pro](https://www.fellowproducts.com.tw/products/ekgpro)
 
 ### 秤
 {: .section-title }
 
--   [Acaia Pearl](https://acaia.co/products/pearl)
+-   *[Acaia Pearl](https://acaia.co/products/pearl)
+-   [Acaia Lunar](https://acaia.co/products/lunar_2021)
 
 ### 折射儀
 {: .section-title }
 
--   *[Difluid R2 Extract](https://digitizefluid.com/collections/new-releae/products/r2-extract)
--   [Atago PAL-COFFEE](https://www.atago.net/zh_tw/products-pal-top.php)
+-   *[VST LAB Coffee III Refractometer](https://store.vstapps.com/products/vst-lab-coffee-iii-refractometer)
+-   *[Difluid R2 Extract](https://digitizefluid.com/products/r2-extract)
+-   [Atago PAL-COFFEE](https://www.atago.net/product/?l=zh&k=CGD50756)
 
 ### 杯測碗
 {: .section-title }
 
--   *[Barista Hustle Tools the Bowl](https://baristahustletools.com/the-bowls)
--   [Duralex Picardie](https://www.duralex.com.tw/collections/picardie)
+-   *[Bormioli Rocco Bodega Mini Drinking Glasses](https://bormioliroccous.com/products/bodega-7-5-oz-mini-drinking-glasses-set-of-12)
+-   [Barista Hustle Tools the Bowl](https://baristahustletools.com/products/the-cupping-bowls)
 
 ### 杯測匙
 {: .section-title }
 
--   [Umeshiso Little Dipper](https://www.umeshiso.com/product/little-dipper/)
--   [Umeshiso Big Dipper](https://www.umeshiso.com/product/big-dipper/)（撈渣用）
+-   [AKIRAKOKI TCS-22 純鈦杯測匙](https://www.akira-coffee.com/product_1447756.html)
 
 ### 咖啡用水相關
 {: .section-title }
 
--   *[ZeroWater Pitcher](https://zerowater.com/products/10-cup-rp-water-filter-pitcher)
+-   *[ZeroWater Pitcher](https://zerowater.com/products/10-cup-water-filter-pitcher)
 -   *[Lotus Coffee Brew Water Kit](https://lotuscoffeeproducts.com/products/lotus-water-1)

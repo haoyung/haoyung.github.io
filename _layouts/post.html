@@ -31,10 +31,18 @@ layout: base
   </div>
   {%- endif %}
 
+  {%- comment -%}
+    A post may place <!-- toc --> in its body to have everything above the
+    marker rendered before the table of contents (e.g. a recipe up top).
+  {%- endcomment -%}
+  {%- assign parts = content | split: "<!-- toc -->" -%}
+  {%- if parts.size > 1 %}
+  {{ parts[0] }}
+  {%- endif %}
   {%- if page.toc %}
   <div id="table-of-contents" class="mt-8">
     {%- include components/toc.html html=content id="toc" item_class="toc-entry" %}
   </div>
   {%- endif %}
-  {{ content }}
+  {{ parts | last }}
 </div>

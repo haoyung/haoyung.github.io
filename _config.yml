@@ -49,5 +49,4 @@ defaults:
       sitemap: false
 
 exclude:
-  - assets/archived/*
   - assets/scripts/*

@@ -127,7 +127,7 @@ The choice of a single continuous pour stems from our original goal of "low agit
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="{{ site.github.url }}/assets/images/pulsar_log.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img src="/assets/images/pulsar_log.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">A successful brew log using this recipe<br>The coffee used was SEY's <a href="https://www.seycoffee.com/products/2024-octavio-rueda-el-mirador-colombia">Colombia Washed Pink Bourbon</a><br>The TDS and extraction yield were 1.39% and 24.43% respectively</span>
     </div>
 </div>

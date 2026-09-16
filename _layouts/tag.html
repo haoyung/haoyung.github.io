@@ -8,7 +8,7 @@ layout: base
   {%- if post.tags contains page.tag %}
   {%- if post.language == page.language %}
   <div class="flex-column mt-3">
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a>
     <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
   </div>
   {%- endif %}

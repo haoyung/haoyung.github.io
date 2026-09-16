@@ -12,7 +12,7 @@ layout: base
   {% if post.draft == false %}
   <div class="{% if first_post != true %}article-item border-top{% endif %}">
     <h3 class="mb-0 {% if first_post != true %}mt-6{% endif %}">
-      <a href="{{ site.github.url }}{{ post.url }}" style="font-weight: normal; text-decoration: none;">{{ post.title
+      <a href="{{ post.url }}" style="font-weight: normal; text-decoration: none;">{{ post.title
         }}</a>
     </h3>
     {% if post.content contains '<!-- sep -->' and post.content contains '<!-- /sep -->' %}
@@ -24,7 +24,7 @@ layout: base
       {% assign excerpt_without_sup = excerpt | replace: '<sup', '<span style="display:none"' | replace: '</sup>'
         , '</span>' %} {{ excerpt_without_sup | strip | markdownify }} {% endif %} {% endfor %} </div>
         <div class="article-excerpt d-flex justify-content-between">
-          <a href="{{ site.github.url }}{{ post.url }}">{%- if page.language == "zh-Hant-TW" %}繼續閱讀{%- else %}continue reading{%- endif %}</a>
+          <a href="{{ post.url }}">{%- if page.language == "zh-Hant-TW" %}繼續閱讀{%- else %}continue reading{%- endif %}</a>
           <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         </div>
         {% endif %}

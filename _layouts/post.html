@@ -16,15 +16,15 @@ layout: base
   </div>
   <div class="metadata mb-8">
     {%- for tag in page.tags %}
-    <a href="{%- if page.language == 'en' %} /en/tag/{{tag}} {%- else %} /tag/{{tag}} {%- endif %}">{{tag}}</a>{%-
-    unless forloop.last %}, {%- endunless %}{%- endfor %}
+    <a href="{% if page.language == 'en' %}/en{% endif %}/tag/{{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    {%- endfor %}
   </div>
 
 
   {%- if page.image %}
   <div class="row mb-8 justify-content-center text-center">
     <div class="col-md-12">
-      <img src="{{ site.github.url }}{{ page.image }}" alt=""
+      <img src="{{ page.image }}" alt=""
         class="img-fluid responsive-image-{{ page.image_orientation }}">
       <span class="image-description">{{ page.image_caption }}</span>
     </div>

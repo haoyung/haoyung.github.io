@@ -15,7 +15,7 @@ Below are some of the equipment I use. If any of the categories have multiple it
 -   [Fellow ODE](https://fellowproducts.com/products/ode-brew-grinder-gen-2) w/ 64mm SSP MP
 -   [Kalita NEXT G](https://www.kalita.co.jp/products/nextg.php)
 -   [1zpresso ZP6](https://1zpresso.com/zp6-%E7%89%B9%E4%BB%95%E7%89%88/)
--   [Commandante C40](https://www.comandantegrinder.com/)
+-   [Comandante C40](https://www.comandantegrinder.com/)
 
 ### Drippers
 {: .section-title }

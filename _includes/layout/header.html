@@ -6,7 +6,7 @@
 
 <header class="d-flex flex-row mb-8">
   <nav class="mt-0">
-    <a href="{{ site.github.url }}{{ language_url }}" class="text-decoration-none">
+    <a href="{{ language_url }}" class="text-decoration-none">
       <span style="letter-spacing: .02em;">{{ site.title }}</span>
     </a>
   </nav>
@@ -15,7 +15,7 @@
     {% for item in site.data.settings.menu %}
     {% assign current_page_url = language_url | append: item.url %}
     {% if page.url != current_page_url %}
-    <a href="{{ site.github.url }}{{ language_url }}{{ item.url }}" class="text-decoration-none ms-3">
+    <a href="{{ language_url }}{{ item.url }}" class="text-decoration-none ms-3">
       <span>{{ item.name }}</span>
     </a>
     {% endif %}

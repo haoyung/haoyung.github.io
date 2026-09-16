@@ -1,7 +1,17 @@
-{%- assign tw_pages = site.pages | concat: site.posts | where: 'language_reference', page.language_reference | where:
-'language', 'zh-Hant-TW' -%}
-{%- assign en_pages = site.pages | concat: site.posts | where: 'language_reference', page.language_reference | where:
-'language', 'en' -%}
+{%- comment -%}
+  Find this page's counterpart in the other language via `language_reference`.
+  Posts only need to search site.posts; static pages only search site.pages.
+  Scanning site.pages is slow in Jekyll 3 (each page is re-serialised on access),
+  so we do it once and only when necessary.
+{%- endcomment -%}
+{%- if page.collection == "posts" -%}
+  {%- assign candidates = site.posts -%}
+{%- else -%}
+  {%- assign candidates = site.pages -%}
+{%- endif -%}
+{%- assign pair = candidates | where: 'language_reference', page.language_reference -%}
+{%- assign tw_pages = pair | where: 'language', 'zh-Hant-TW' -%}
+{%- assign en_pages = pair | where: 'language', 'en' -%}
 
 {%- if tw_pages.size == 1 and en_pages.size == 1 -%}
 {%- assign tw_url = site.baseurl | append: tw_pages[0].url -%}

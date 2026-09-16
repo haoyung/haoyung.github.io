@@ -18,18 +18,20 @@ defaults:
     values:
       toc: true
       language: zh-Hant-TW
-  # English content (any path containing 'en/')
+  # English pages
   -
     scope:
-      path: "**/en/**"
+      path: "en"
     values:
       language: en
       locale: en_US
-  # English posts need special permalink
+  # English posts
   -
     scope:
       path: "_posts/en"
     values:
+      language: en
+      locale: en_US
       permalink: 'en/:categories/:title'
   # Drafts and tag pages excluded from sitemap
   -

@@ -7,10 +7,12 @@ layout: base
   {%- for post in site.posts %}
   {%- if post.tags contains page.tag %}
   {%- if post.language == page.language %}
+  {%- unless post.draft %}
   <div class="flex-column mt-3">
     <a href="{{ post.url }}">{{ post.title }}</a>
     <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
   </div>
+  {%- endunless %}
   {%- endif %}
   {%- endif %}
   {%- endfor %}

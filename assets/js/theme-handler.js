@@ -1,5 +1,5 @@
 const setTheme = (theme) => {
-  const color = theme === 'dark' ? 'rgb(0, 0, 0)' : 'rgb(255, 255, 254)';
+  const color = theme === 'dark' ? 'rgb(0, 0, 0)' : 'rgb(255, 255, 255)';
   document.documentElement.setAttribute('data-theme', theme);
   let metaThemeColor = document.querySelector('meta[name="theme-color"]');
   if (!metaThemeColor) {

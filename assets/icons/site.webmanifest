@@ -1,6 +1,6 @@
 {
     "name": "whycoffee.blog",
-    "short_name": "whycoffee",
+    "short_name": "whycoffee.blog",
     "icons": [
         {
             "src": "/assets/icons/android-chrome-192x192.png",

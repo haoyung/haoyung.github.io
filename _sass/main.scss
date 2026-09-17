@@ -2,40 +2,25 @@
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
-// Theme mixins
-@mixin theme-light {
-  --main-text-color: rgb(0, 0, 0);
-  --main-background-color: rgb(255, 255, 255);
+// Theme
+// Each colour is declared once with light-dark(); which half applies is decided by
+// color-scheme. With no data-theme attribute the page follows the OS live. A forced
+// theme (set by theme-handler.js after a toggle click) pins color-scheme to one side.
+// color-scheme also switches scrollbars and native form controls.
+html {
+  color-scheme: light dark;
+  --main-text-color: light-dark(rgb(0, 0, 0), rgb(245, 245, 247));
+  --main-background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));
   --img-text-color: rgb(142, 142, 147);
-  --box-background-color: rgb(242, 242, 247);
+  --box-background-color: light-dark(rgb(242, 242, 247), rgb(28, 28, 30));
+
+  &[data-theme="light"] { color-scheme: light; }
+  &[data-theme="dark"]  { color-scheme: dark; }
 }
 
-@mixin theme-dark {
-  --main-text-color: rgb(245, 245, 247);
-  --main-background-color: rgb(0, 0, 0);
-  --img-text-color: rgb(142, 142, 147);
-  --box-background-color: rgb(28, 28, 30);
-}
-
-// Common transitions mixin (new)
+// Common transitions mixin
 @mixin theme-transitions {
   transition: background-color 0.5s, color 0.5s;
-}
-
-// 2. Theme Application
-html {
-  &[data-theme="light"] {
-    @include theme-light;
-  }
-
-  &[data-theme="dark"] {
-    @include theme-dark;
-  }
-
-  // Default dark mode
-  @media (prefers-color-scheme: dark) {
-    @include theme-dark;
-  }
 }
 
 // 3. Base Styles
@@ -303,6 +288,16 @@ table {
 }
 
 // 12. Footer
+.theme-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  line-height: 0;
+  cursor: pointer;
+  transition: none;
+}
+
 footer {
   margin-top: 4.5rem;
   padding-top: 0.75rem;

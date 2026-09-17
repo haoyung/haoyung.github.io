@@ -22,7 +22,7 @@ layout: base
       {% if part contains '<!-- /sep -->' %}
       {% assign excerpt = part | split: '<!-- /sep -->' | first %}
       {% assign excerpt_without_sup = excerpt | replace: '<sup', '<span style="display:none"' | replace: '</sup>'
-        , '</span>' %} {{ excerpt_without_sup | strip | markdownify }} {% endif %} {% endfor %} </div>
+        , '</span>' %} {{ excerpt_without_sup | strip }} {% endif %} {% endfor %} </div>
         <div class="article-excerpt d-flex justify-content-between">
           <a href="{{ post.url }}">{%- if page.language == "zh-Hant-TW" %}繼續閱讀{%- else %}continue reading{%- endif %}</a>
           <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>

@@ -6,6 +6,8 @@ tag: [experiment, review, tutorial]
 category: article
 imgfolder: TDS
 image: /assets/images/TDS/refractometers.webp
+image_width: 3461
+image_height: 2307
 image_orientation: horizontal
 image_caption: "The refractometers that are used to measure TDS in this article and a sample that is being cooled"
 language_reference: measuring_tds
@@ -46,7 +48,7 @@ The vertical axis of SCA's commonly seen Brewing Control Chart represents TDS.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2161" height="2700" src="/assets/images/{{ page.imgfolder }}/brewing_control_chart.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">SCA's old version of the Brewing Control Chart (source: SCA)</span>
     </div>
 </div>
@@ -72,7 +74,7 @@ To calculate extraction yield, we need to know the weight of the coffee compound
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="1080" height="1080" src="/assets/images/{{ page.imgfolder }}/refractometer.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">How a refractometer works (source: IG, @quantitativecafe)</span>
     </div>
 </div>
@@ -127,7 +129,7 @@ The goal is to minimize evaporation while keeping the zeroing and sample tempera
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/cooling_sample.webp" alt="" class="img-fluid responsive-image-horizontal">
+        <img width="2973" height="1982" src="/assets/images/{{ page.imgfolder }}/cooling_sample.webp" alt="" class="img-fluid responsive-image-horizontal">
         <span class="image-description">A sample that is being cooled in my beloved Orea Porcelain Sense Cup (proudly made in Taiwan!)</span>
     </div>
 </div>
@@ -211,7 +213,7 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center
     ">
          <div class="col-md-12">
-             <img src="/assets/images/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image-vertical">
+             <img width="1119" height="930" src="/assets/images/{{ page.imgfolder }}/brew_exp1-4.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-description">Coffee and brewing parameters used in Experiment I<br>Using the tricolate, which I haven't introduced on this blog yet<br>Brewing <a href="https://www.seycoffee.com/products/2024-enrique-merino-lugmapata-l1-ecuador">SEY's Lugmapata Washed L1</a> (truly an impressive coffee)</span>
          </div>
      </div>
@@ -228,7 +230,7 @@ In the following experiment, I will compare TDS measurements of sealed and unsea
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center
     ">
          <div class="col-md-12">
-             <img src="/assets/images/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image-vertical">
+             <img width="2850" height="3800" src="/assets/images/{{ page.imgfolder }}/setup_exp1.webp" alt="" class="img-fluid responsive-image-vertical">
              <span class="image-description">Experimental groups (E5 & E30) in uncovered cupping bowls and the control group (Control) in sealed centrifuge tubes</span>
          </div>
      </div>
@@ -342,7 +344,7 @@ Figure 1 visualizes Tables 2 and 3, with VST on the left and DiFluid on the righ
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid">
+        <img width="3000" height="1800" src="/assets/images/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid">
         <span class="image-description">Figure 1: Average TDS and extraction yield for the experimental groups (E5 & E30) and control</span>
     </div>
 </div>
@@ -394,7 +396,7 @@ In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 sam
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-horizontal">
+        <img width="3492" height="2619" src="/assets/images/{{ page.imgfolder }}/setup_exp2.webp" alt="" class="img-fluid responsive-image-horizontal">
         <span class="image-description">Measuring with five refractometers simultaneously<br>From left to right: three DiFluids, ATAGO, and VST</span>
     </div>
 </div>
@@ -406,7 +408,7 @@ In this experiment, I used a VST, an ATAGO, and three DiFluids to measure 20 sam
      <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center
     ">
          <div class="col-md-12">
-             <img src="/assets/images/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image-vertical img-fluid">
+             <img width="1119" height="1242" src="/assets/images/{{ page.imgfolder }}/brew_exp2-3.webp" alt="" class="responsive-image-vertical img-fluid">
              <span class="image-description">Coffee and brewing parameters used in Experiment II<br>Using the parameters from <a href="{%- post_url en/2023-11-01-Achieving High Extraction with Low Agitation %}">"Achieving High Extraction with Low Agitation"</a><br>Brewing a <a href="https://www.seycoffee.com/products/2024-mayor-domo-la-granada-colombia">Colombia Washed Pink Bourbon from SEY</a></span>
          </div>
      </div>
@@ -423,7 +425,7 @@ Figure 2 plots the TDS measurements for all 20 samples with each refractometer.
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 2: Line chart of TDS measurements for 20 samples with three DiFluids, ATAGO, and VST</span>
     </div>
 </div>
@@ -446,7 +448,7 @@ I also plotted the measurements as [violin plots](https://en.wikipedia.org/wiki/
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 3: Violin plots of measurements for five refractometers</span>
     </div>
 </div>
@@ -461,10 +463,10 @@ Most interesting to me is the stable relationship between the refractometers. I 
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-6">
-        <img src="/assets/images/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid">
     </div>
     <div class="col-md-6 mt-md-0 mt-4">
-        <img src="/assets/images/{{ page.imgfolder }}/fig5.webp" alt="" class="img-fluid">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig5.webp" alt="" class="img-fluid">
     </div>
     <span class="image-description">Figures 5 and 6: Line chart and violin plot from a repeat experiment showing similar trends</span>
 </div>
@@ -561,10 +563,10 @@ Figures 6 and 7 plot the measurements of 10 samples taken in Experiments 3.1 and
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-6">
-        <img src="/assets/images/{{ page.imgfolder }}/fig6.webp" alt="" class="img-fluid">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig6.webp" alt="" class="img-fluid">
     </div>
     <div class="col-md-6 mt-md-0 mt-4">
-        <img src="/assets/images/{{ page.imgfolder }}/fig7.webp" alt="" class="img-fluid">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig7.webp" alt="" class="img-fluid">
     </div>
     <span class="image-description">Figures 6 and 7: Line charts of measurements in Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
@@ -598,10 +600,10 @@ I also plotted the three DiFluids' measurements as violin plots:
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-6">
-        <img src="/assets/images/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig8.webp" alt="" class="img-fluid">
     </div>
     <div class="col-md-6 mt-md-0 mt-4">
-        <img src="/assets/images/{{ page.imgfolder }}/fig9.webp" alt="" class="img-fluid">
+        <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig9.webp" alt="" class="img-fluid">
     </div>
     <span class="image-description">Figures 9 and 10: Violin plots of measurements from Experiments 3.1 and 3.2 and the theoretical refractive index range</span>
 </div>
@@ -624,7 +626,7 @@ Let's further extract the DiFluid data from the two datasets in Experiment II (F
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{ page.imgfolder }}/fig10.webp" alt="" class="img-fluid responsive-plot">
+        <img width="2400" height="2400" src="/assets/images/{{ page.imgfolder }}/fig10.webp" alt="" class="img-fluid responsive-plot">
         <span class="image-description">Figure 10: Parts of the violin chart for three DiFluid units, extracted and arranged from top left to bottom right, corresponding to Figures 3, 5, 8, and 9, respectively</span>
     </div>
 </div>

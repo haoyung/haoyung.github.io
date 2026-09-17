@@ -5,6 +5,8 @@ description: "The extremely thin and incompressible nature of stainless steel sh
 tag: [tutorial, grinder]
 category: article
 image: /assets/images/alignment-8.webp
+image_width: 2175
+image_height: 2175
 image_orientation: vertical
 image_caption: "98mm SSP Brew burrs showing full wipe after alignment"
 language_reference: align_p100
@@ -30,7 +32,7 @@ Thus, the parallelism between the burrs is critical. Misaligned burrs result in 
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment.jpg" alt="" class="img-fluid responsive-image-vertical">
+        <img width="1080" height="1350" src="/assets/images/alignment.jpg" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">The importance of burr alignment and how to check alignment with the marker test<br>(source: <a href="https://www.instagram.com/p/CzT81UBB8Uc/">IG, aramsecoffee</a>)</span>
     </div>
 </div>
@@ -69,7 +71,7 @@ For example:
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment-1.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2175" height="2175" src="/assets/images/alignment-1.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Burr right after the marker test</span>
     </div>
 </div>
@@ -124,7 +126,7 @@ Customer service explained that coffee fines and oils create a near-vacuum state
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/sam.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="1179" height="732" src="/assets/images/sam.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Response from the official technician (Hi Sam!)</span>
     </div>
 </div>
@@ -141,7 +143,7 @@ Here's the state before alignment, with a chirp-to-lock distance of about 60 µm
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment-1.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2175" height="2175" src="/assets/images/alignment-1.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Fig. 1<br>(no stainless steel shim inserted yet)</span>
     </div>
 </div>
@@ -155,7 +157,7 @@ After inserting 7 pieces of stainless steel shim under the top left screw, the m
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment-3.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2175" height="2175" src="/assets/images/alignment-3.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Fig. 2<br>(7, 0, and 0 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
@@ -169,7 +171,7 @@ After inserting 6 pieces of stainless steel shim under both the top left and rig
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment-4.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2175" height="2175" src="/assets/images/alignment-4.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Fig. 3<br>(13, 0, and 6 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
@@ -181,7 +183,7 @@ The alignment has improved, but the high area remains at the bottom left screw. 
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment-7.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2175" height="2175" src="/assets/images/alignment-7.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Fig. 4<br>(16, 0, and 9 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
@@ -193,7 +195,7 @@ The right screw has become the last low point. I inserted the last piece of stai
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment-8.webp" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2175" height="2175" src="/assets/images/alignment-8.webp" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Fig. 5<br>(16, 0, and 10 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
@@ -206,7 +208,7 @@ I compiled the entire alignment process into a gif, as shown below:
 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img src="/assets/images/alignment.gif" alt="" class="img-fluid responsive-image-vertical">
+        <img width="2160" height="2160" src="/assets/images/alignment.gif" alt="" class="img-fluid responsive-image-vertical">
         <span class="image-description">Animation of the entire alignment process</span>
     </div>
 </div>

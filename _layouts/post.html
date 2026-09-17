@@ -25,6 +25,7 @@ layout: base
   <div class="row mb-8 justify-content-center text-center">
     <div class="col-md-12">
       <img src="{{ page.image }}" alt=""
+        {%- if page.image_width %} width="{{ page.image_width }}" height="{{ page.image_height }}"{% endif %}
         class="img-fluid responsive-image-{{ page.image_orientation }}">
       <span class="image-description">{{ page.image_caption }}</span>
     </div>

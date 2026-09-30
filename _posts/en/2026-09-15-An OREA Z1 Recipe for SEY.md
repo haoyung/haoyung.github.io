@@ -5,6 +5,12 @@ description: "A low-extraction, low-agitation, clarity-focused recipe, now on th
 tag: [recipe, pourover]
 category: article
 language_reference: Z1_recipe
+imgfolder: Z1_recipe
+image: /assets/images/Z1_recipe/z1_under_tone_at_sey.webp
+image_width: 2092
+image_height: 2790
+image_orientation: vertical
+image_caption: "This OREA Z1 recipe brewing under the TONE at SEY's Brooklyn café"
 draft: true
 sitemap: false
 ---

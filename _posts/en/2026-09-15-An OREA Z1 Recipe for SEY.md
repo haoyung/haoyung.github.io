@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An OREA Z1 Recipe, for SEY"
-description: "A low-extraction, low-agitation, clarity-focused recipe, now on the bar at SEY's Bushwick café."
+description: "A low-extraction, low-agitation, clarity-focused recipe, now on the bar at SEY's Brooklyn café."
 tag: [recipe, pourover]
 category: article
 language_reference: Z1_recipe
@@ -13,12 +13,12 @@ If you've read my articles before, you'll know they tend to be long, sometimes u
 
 ### The Recipe
 
-Listed below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Bushwick café. They use a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/) at the bar, so I also made a few small adjustments to the manual recipe for use with the machine, which are noted.
+Listed below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. They use a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/) at the bar, so I also made a few small adjustments to the manual recipe for use with the machine, which are noted.
 
 #### Constants
 
 - Dripper: [OREA Z1](https://www.orea.uk/z1-brewer)
-  - The TONE, which is used at SEY's cafe, has fixed water nozzles that cannot move. With the [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack) that comes with the Z1, this tends to leave divots in the coffee bed: the Melodrip is designed to let most of the water fall close to where you pour, which enalbe one to change pouring pattern, like circular or center pour, when brewing manually. However, it makes the Melodrip less suited to the TONE. As a result, we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 with the upper ring removed.
+  - The TONE, which is used at SEY's café, has fixed water nozzles that cannot move. With the [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack) that comes with the Z1, this tends to leave divots in the coffee bed: the Melodrip is designed to let most of the water fall close to where you pour, which enalbe one to change pouring pattern, like circular or center pour, when brewing manually. However, it makes the Melodrip less suited to the TONE. As a result, we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 with the upper ring removed.
   - For manual brewing, the Melodrip works just fine.
 
 - Filter: [SIBARIST FAST OREA Z1 Special Edition](https://sibarist.coffee/products/orea-z1)
@@ -57,11 +57,11 @@ When brewing manually, use circular pours throughout. This is especially importa
 
 ### The Background Story
 
-One of the bigger pieces of news in the coffee world this year was probably Lance Hedrick joining SEY. He'd reached out because he was interested in SEY's green coffee program and the company as a whole. SEY cofounder Lance Schnorenberg (let's call him SEY Lance to avoid confusion) mentioned it to me briefly before the announcement. We both thought it was a great chance to get a different perspective on brewing, since Lance Hedrick brews quite differently from us.
+Lance Hedrick joined SEY earlier this year, after reaching out about his interest in SEY's green program and in the company as a whole. This may have surprised a lot of people, since he brews quite differently from SEY in general. To be fair, SEY's brewing technique and philosophy have always been evolving, but his arrival definitely adds more diversity to the mix, and it is one of the many things that prompted this article.
 
 ### Why Low EY?
 
-If you've read my previous [article]({% link _posts/en/2023-11-01-Achieving High Extraction with Low Agitation.md %}) (which you should have), you'll know that SEY Lance and I talk regularly about brewing. More about cupping, actually, but that's probably another article. We brew similarly, and we both used to favor high-EY brews with long contact times. We still appreciate their complexity and how closely they resemble what we taste in the cupping bowl. For similar reasons, SEY's Bushwick café used the [AeroPress coffee maker](https://aeropress.com/) with a fine grind and a long steep to brew high-EY coffee.
+If you've read my previous [article]({% link _posts/en/2023-11-01-Achieving High Extraction with Low Agitation.md %}) (which you should have), you'll know that SEY cofounder and head of coffee Lance Schnorenberg (SEY Lance from here on, to avoid confusion) and I talk regularly about brewing (more about cupping, actually, but that's probably another article). We brew similarly, and we both used to favor high-EY brews with long contact times. We still appreciate their complexity and how closely they resemble what we taste in the cupping bowl. For similar reasons, SEY's Brooklyn café has been using the [AeroPress coffee maker](https://aeropress.com/) with a fine grind and a long steep to brew high-EY coffee.
 
 After Lance Hedrick joined and we started discussing brewing regularly, I began experimenting more with the low-EY approach he generally favors. That's where this recipe started.
 

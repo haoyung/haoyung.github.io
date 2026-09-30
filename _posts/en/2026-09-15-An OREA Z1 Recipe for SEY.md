@@ -18,7 +18,7 @@ Listed below is a manual pourover recipe I developed for [SEY](https://www.seyco
 #### Constants
 
 - Dripper: [OREA Z1](https://www.orea.uk/z1-brewer)
-  - The TONE, which is used at SEY's café, has fixed water nozzles that cannot move. With the [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack) that comes with the Z1, this tends to leave divots in the coffee bed: the Melodrip is designed to let most of the water fall close to where you pour, which enalbe one to change pouring pattern, like circular or center pour, when brewing manually. However, it makes the Melodrip less suited to the TONE. As a result, we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 with the upper ring removed.
+  - The TONE, which is used at SEY's café, has fixed water nozzles. With the [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack) that comes with the Z1, this tends to leave divots in the coffee bed: the Melodrip is designed to let most of the water fall close to where you pour, which lets you vary the pouring pattern (circular, center pour, and so on) when brewing manually. That same design makes it less suited to the TONE. As a result, we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 with the upper ring removed.
   - For manual brewing, the Melodrip works just fine.
 
 - Filter: [SIBARIST FAST OREA Z1 Special Edition](https://sibarist.coffee/products/orea-z1)
@@ -35,7 +35,7 @@ Listed below is a manual pourover recipe I developed for [SEY](https://www.seyco
 
 #### Steps
 
-When brewing manually, use circular pours throughout. This is especially important with the Melodrip, which distributes water less widely than the Mini Pulsar's disperser.
+When brewing manually, use circular pours throughout. This is especially important with the Melodrip, which distributes water less widely than the Pulsar Mini's disperser.
 
 <!-- sep -->
 
@@ -67,11 +67,9 @@ After Lance Hedrick joined and we started discussing brewing regularly, I began 
 
 If we're being totally honest, neither SEY Lance nor I is convinced that low EY is necessarily better than high EY. We do agree, though, that it's a direction we hadn't spent enough time exploring. In our experience, lower-EY brews are generally less astringent (or dry, or "lingering," depending on your definition of astringency). They're also far easier to replicate and much more forgiving.
 
-Consistency was one of the reasons we used the AeroPress instead of our 8-minute pourover recipe to brew high-EY coffee at the café: a high-EY pourover is just too hard to execute consistently. However, a lot of people hate the AeroPress. Maybe it's how cloudy the brew looks (pressure is involved, so some fines end up in the cup). Maybe it's the association with "easy morning coffee that anyone can brew at home."
+Consistency was one of the reasons we used the AeroPress rather than our 8-minute pourover recipe for high-EY coffee at the café: a high-EY pourover is just too hard to execute reliably. However, a lot of people hate the AeroPress. Maybe it's how cloudy the brew looks (pressure is involved, so some fines end up in the cup). Maybe it's the association with "easy morning coffee that anyone can brew at home." As much as we like the AeroPress, especially how juicy it can make some coffees, something that's hard to replicate with other brewers, and as much as we doubt most people could tell an AeroPress brew from a [HARIO V60](https://www.hario.cc/V60/v60series.html) brew in a blind tasting, we don't love it so much that we're willing to die on that hill.
 
-We like the AeroPress, especially how juicy it can make some coffees, and that's hard to replicate with other brewers. We also doubt most people could tell an AeroPress brew from a [HARIO V60](https://www.hario.cc/V60/v60series.html) brew in a blind tasting. Still, we get plenty of pushback, and we're not about to die on that hill.
-
-And then it struck me: the shorter brew time of a low-EY recipe could make it a great fit for the café. With the ease of it, we can also use a proper dripper instead of Aeropress on the bar.
+And then it struck me: the shorter brew time of a low-EY recipe could make it a great fit for the café, and since it's also much easier to execute, we could finally put a proper dripper on the bar instead of the AeroPress.
 
 ### Why the OREA Z1?
 
@@ -87,11 +85,11 @@ In our tests, using a sufficiently coarse grind seemed to be the most effective 
 
 Early on, the SEY team and I compared a lot of low-EY recipes, including Lance Hedrick's double-bloom, one-pour recipe, against the AeroPress recipe they were serving. We all agreed that the low-EY brews had a cleaner finish and less harshness, but they also felt less juicy (or less "wet," as we tend to call it), flatter, and more tea-like. We missed how "wet" the AeroPress could be with some coffees. I wanted to retain that juiciness in a low-EY recipe with more clarity.
 
-After some experimenting, I found that the Z1 retained that juiciness much better than the V60 or other conical drippers. My hypothesis is that the reduced bypass helps preserve that juiciness. I don't have scientific evidence for that explanation, though; it's just my best guess based on my own brewing.
+After some experimenting, I found that the Z1 retained that juiciness much better than the V60 or other conical drippers. My hypothesis is that the reduced bypass is what preserves it. I don't have scientific evidence for that explanation, though; it's just my best guess based on my own brewing.
 
 #### Ease and Consistency
 
-Finally, the recipe needed to be easy to brew with a kettle, and ideally just as consistent under a TONE. The Z1's low-agitation design makes it a good fit: differences in pouring technique matter less, as does the dripper's exact position under the TONE when using the Mini Pulsar disperser.
+Finally, the recipe needed to be easy and consistent to brew with a kettle, and ideally just as easy and consistent under a TONE. The Z1's low-agitation design makes it a good fit: differences in pouring technique matter less, as does the dripper's exact position under the TONE when using the Pulsar Mini disperser.
 
 ### Why This Recipe?
 

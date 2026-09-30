@@ -5,6 +5,9 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
   {% seo %}
+  {%- if page.draft %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
   <link rel="stylesheet" href="/assets/lib/bootstrap-5.3.3/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">

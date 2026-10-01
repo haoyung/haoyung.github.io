@@ -41,7 +41,7 @@ Below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.co
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Ideally I would report the gap from lock, but there seems to be no good way to measure the chirp-to-lock distance on a Nautilus, which is the grinder I mainly used. Going by the numbers on the LAGOM 01, it's safe to say it's around 650 to 700 µm from lock.</div>
+  <div class="footnote-content">Ideally I would report the gap from lock, but there seems to be no good way to measure the chirp-to-lock distance on a Nautilus, which is the grinder I mainly used. Going by the numbers on the LAGOM 01, I'd call it around 650 to 700 µm from lock.</div>
 </div>
 
 #### Steps
@@ -60,14 +60,14 @@ When brewing manually, use circular pours throughout. This is especially importa
 
 #### Sanity Checks
 
-- Target total brew time (TBT): 1:45 to 2:15.
+- Target total brew time (TBT): 1:45 to 2:15
 - Target strength (TDS): 1.25% to 1.35%
 
 If your TBT and TDS land in these ranges, you're probably on track. Personally, I find most coffees above 1.30% a little dry regardless of extraction yield (EY), so I try to stay below that. That's entirely personal, though; I may just be more sensitive to dryness than most. If you like a stronger cup, tighten the ratio (which shortens the TBT) or grind finer (which lengthens it).
 
 <!-- toc -->
 
-### The Background Story
+### The Backstory
 
 Lance Hedrick joined SEY earlier this year, after reaching out about his interest in SEY's green program and in the company as a whole. That may have surprised a lot of people, since his approach to coffee can look quite different from SEY's. To be fair, SEY's brewing technique and philosophy have never stopped evolving, but his arrival still adds a new voice to the mix, and it's one of the many things that prompted this article.
 
@@ -83,7 +83,7 @@ Consistency is one reason the café brewed its high-EY coffee on the AeroPress r
 
 Then it struck me: a low-EY recipe's shorter brew time could make it a great fit for the café, and since it's also far easier to execute consistently, we could finally put a proper dripper on the bar in place of the AeroPress.
 
-### My Goals for Low-EY Recipes
+### My Goals for a Low-EY Recipe
 
 When experimenting with low-EY recipes, I had several goals:
 
@@ -97,7 +97,7 @@ In our tests, a sufficiently coarse grind was by far the most effective way to m
 
 Early on, the SEY team and I compared a lot of low-EY recipes, including Lance Hedrick's double-bloom, one-pour recipe, against the AeroPress recipe they were serving. We all agreed the low-EY brews generally had a cleaner finish and less harshness, but they also felt less juicy (or less "wet," as we tend to say), flatter, and more tea-like. We missed how "wet" the AeroPress could be with some coffees, and that wetness is one of the main things the SEY team wants in the cup.
 
-#### Ease and Consistency
+#### Keeping It Easy and Consistent
 
 Finally, the recipe had to be easy and consistent to brew with a kettle, and ideally just as easy and consistent under the TONE, so that getting the café staff up to speed wouldn't be a chore.
 

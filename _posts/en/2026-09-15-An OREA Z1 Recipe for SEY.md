@@ -24,7 +24,7 @@ Listed below is a manual pourover recipe I developed for [SEY](https://www.seyco
 #### Constants
 
 - Dripper: [OREA Z1](https://www.orea.uk/z1-brewer)
-  - The TONE, which is used at SEY's café, has fixed water nozzles. With the [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack) that comes with the Z1, this tends to leave divots in the coffee bed as the Melodrip is designed to let most of the water fall close to where you pour, which lets you vary the pouring pattern (circular, center pour, and so on) when brewing manually. That same design makes it less suited to the TONE unfortunately and therefore we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 with the upper ring of the Z1 removed.
+  - The TONE, which is used at SEY's café, has fixed water nozzles. With the [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack) that comes with the Z1, this tends to leave divots in the coffee bed as the Melodrip is designed to let most of the water fall close to where you pour, which lets you vary the pouring pattern (circular, center pour, and so on) when brewing manually. Unfortunately, that same design makes it less suited to the TONE, so we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 with the upper ring removed.
   - For manual brewing, the Melodrip works just fine.
 
 - Filter: [SIBARIST FAST OREA Z1 Special Edition](https://sibarist.coffee/products/orea-z1)
@@ -32,16 +32,16 @@ Listed below is a manual pourover recipe I developed for [SEY](https://www.seyco
 - Water temperature: 88°C
 - Brewing water: tap water at SEY's café
     - To approximate it, aim for a GH of around 35 ppm (20 from Ca<sup>2+</sup> and 15 from Mg<sup>2+</sup>) and a KH of around 15 ppm (mostly from NaHCO<sub>3</sub>), all expressed as CaCO<sub>3</sub> equivalents.
-    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s "SEY House" [Lotus Water](https://lotuscoffeeproducts.com/) recipe: 20ppm Calcium, 15ppm Magnesium, 15ppm Patossium, which is used there, is also very similar, basically just changing Sodium to Patossium.
-    - If you're unsure about your water, ordinary tap water with a low TDS (like below 70 measured with a water pen) is totally acceptable.
+    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s "SEY House" [Lotus Water](https://lotuscoffeeproducts.com/) recipe (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), which is what they use there, is also very similar; it basically swaps the sodium for potassium.
+    - If you're unsure about your water, ordinary tap water with a low TDS (say, below 70 as measured with a water pen) is totally acceptable.
 
 - Grind size: burr gap set to about 600 µm from chirp<sup class="footnote-sup">[A]</sup>
-    - I developed this recipe on a [Titus Nautilus](https://www.titusgrinding.de/willkommen/produkte/), using settings around and 300°.
-    - At SEY, they use an [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) with [SSP 102mm Brew blind burrs](https://www.sspgrind.com/) that chirps at #1.5. The Grind settings they use for this recipe range from #0.0 (a full rotation) to #0.5. They typically use #0.5 for Ethiopians #0.0 for everything else. Based on the specs, this seems to be a lot coarser than my Nautilus setting, which I'm not really sure why yet.
+    - I developed this recipe on a [Titus Nautilus](https://www.titusgrinding.de/willkommen/produkte/), using settings around 300°.
+    - At SEY, they use an [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) with [SSP 102mm Brew blind burrs](https://www.sspgrind.com/) that chirps at #1.5. The grind settings they use for this recipe range from #0.0 (a full rotation) to #0.5: typically #0.5 for Ethiopians and #0.0 for everything else. Based on the specs, this seems a lot coarser than my Nautilus setting, and I'm not really sure why yet.
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Of course, it's better to report the number from lock, but unfortunately there seems to be no real way to proper measure the chirp to lock distance on a Nautilus, which is the grinder that I mainly used. I think it's safely to say it is around 650 to 700 µm from lock based on the number on O1.</div>
+  <div class="footnote-content">Of course, it would be better to report the number from lock, but unfortunately there seems to be no good way to properly measure the chirp-to-lock distance on a Nautilus, which is the grinder I mainly used. Based on the numbers on the LAGOM 01, I think it's safe to say it is around 650 to 700 µm from lock.</div>
 </div>
 
 #### Steps
@@ -52,7 +52,7 @@ When brewing manually, use circular pours throughout. This is especially importa
 
 1. Start the timer and pour 50g of water for the first bloom, wetting the bed as evenly as you can. It's normal for most of the water to drain through almost immediately.
 2. At 00:15, pour another 30g of water for the second bloom. This time, some water should stay above the bed briefly instead of draining right away. While it's still there, give the dripper a quick, gentle shake to wet all the grounds.
-3. At 00:30, pour 110g of water at around 4g/s, which means that the pour should end around 1:00.
+3. At 00:30, pour 110g of water at around 4g/s, which means the pour should end at around 1:00.
 4. When about 1.5cm of water remains above the bed, pour the remaining 80g at the same rate, around 4g/s.
 5. Wait until all the water has drained, then remove the dripper.
 
@@ -63,25 +63,25 @@ When brewing manually, use circular pours throughout. This is especially importa
 - Target total brew time (TBT): 1:45 to 2:15.
 - Target strength (TDS): 1.25% to 1.35%
 
-If your TBT and TDS falls within this range, you're probably on track. Personally, I find most coffees above 1.30% somewhat dry, regardless of their extraction yield (EY), so I try to stay below that, but this is entirely a personal preference and I might just be slightly more sensitive to dryness. If you like stronger cups, just cut ratio (which can result in shorter TBT), or grind finer (which can result in longer TBT).
+If your TBT and TDS fall within these ranges, you're probably on track. Personally, I find most coffees above 1.30% somewhat dry, regardless of their extraction yield (EY), so I try to stay below that, but this is entirely a personal preference, and I might just be slightly more sensitive to dryness. If you like a stronger cup, just cut the ratio (which can result in a shorter TBT) or grind finer (which can result in a longer TBT).
 
 <!-- toc -->
 
 ### The Background Story
 
-Lance Hedrick joined SEY earlier this year, after reaching out about his interest in SEY's green program and in the company as a whole. This may have surprised a lot of people, since his approach to coffee can seem quite different from SEY. To be fair, SEY's brewing technique and philosophy have always been evolving, but his arrival definitely still adds more diversity to the mix, and it is one of the many things that prompted this article.
+Lance Hedrick joined SEY earlier this year, after reaching out about his interest in SEY's green program and in the company as a whole. This may have surprised a lot of people, since his approach to coffee can seem quite different from SEY's. To be fair, SEY's brewing technique and philosophy have always been evolving, but his arrival definitely still adds more diversity to the mix, and it is one of the many things that prompted this article.
 
 ### Why Low EY?
 
-If you've read my previous [article]({% link _posts/en/2023-11-01-Achieving High Extraction with Low Agitation.md %}) (which you should have), you'll know that SEY's cofounder and head of coffee Lance Schnorenberg aka SEY Lance and I talk regularly about brewing (more about cupping, actually, but that's probably another article). We brew similarly, and we both used to favor high-EY brews with long contact times, which we appreciate their complexity and how closely they resemble what we taste in the cupping bowl. For similar reasons, SEY's Brooklyn café has been using the [AeroPress coffee maker](https://aeropress.com/) with a fine grind and a long steep to brew high-EY coffee.
+If you've read my previous [article]({% link _posts/en/2023-11-01-Achieving High Extraction with Low Agitation.md %}) (which you should have), you'll know that SEY's cofounder and head of coffee, Lance Schnorenberg (aka SEY Lance), and I talk regularly about brewing (more about cupping, actually, but that's probably another article). We brew similarly, and we both used to favor high-EY brews with long contact times, appreciating their complexity and how closely they resemble what we taste in the cupping bowl. For similar reasons, SEY's Brooklyn café has been using the [AeroPress coffee maker](https://aeropress.com/) with a fine grind and a long steep to brew high-EY coffee.
 
 After Lance Hedrick joined SEY and we started discussing brewing regularly, I began experimenting more with the low-EY, short contact time approach he generally favors, which is where this recipe started.
 
-If we're being totally honest, neither SEY Lance nor I is fully convinced that low EY and short contact time is necessarily better than high EY and long contact time. We do agree, though, that it's a direction we hadn't spent enough time exploring. In our experience, lower-EY brews are generally less astringent (or dry, or "lingering," depending on your definition of astringency). They're also far easier to replicate and much more forgiving.
+If we're being totally honest, neither SEY Lance nor I is fully convinced that low EY with a short contact time is necessarily better than high EY with a long one. We do agree, though, that it's a direction we hadn't spent enough time exploring. In our experience, lower-EY brews are generally less astringent (or dry, or "lingering," depending on your definition of astringency). They're also far easier to replicate and much more forgiving.
 
-Consistency was one of the reasons we used the AeroPress rather than our 8-minute pourover recipe for high-EY coffee at the café: a high-EY pourover is just too hard to execute reliably. However, a lot of people hate the AeroPress. Maybe it's how cloudy the brew looks (pressure is involved, so inevitably some fines end up in the cup). Maybe it's the association with "easy morning coffee that anyone can brew at home." Or maybe it's really the taste. As much as we like the AeroPress, especially how juicy it can make some coffees, something that's hard to replicate with other brewers, and as much as we doubt most people could tell an AeroPress brew from a V60 brew in a blind tasting and it's purely a visual thing for most of the people, we don't love it so much that we're willing to die on that hill.
+Consistency was one of the reasons we used the AeroPress rather than our 8-minute pourover recipe for high-EY coffee at the café: a high-EY pourover is just too hard to execute reliably. However, a lot of people hate the AeroPress. Maybe it's how cloudy the brew looks (pressure is involved, so inevitably some fines end up in the cup). Maybe it's the association with "easy morning coffee that anyone can brew at home." Or maybe it's really the taste. As much as we like the AeroPress, especially how juicy it can make some coffees, something that's hard to replicate with other brewers, and as much as we think it's purely a visual thing and doubt most people could tell an AeroPress brew from a V60 brew in a blind tasting, we don't love it so much that we're willing to die on that hill.
 
-And then it struck me: the shorter brew time aspect of a low-EY recipe could make it a great fit for the café, and since it's also much easier and consistent to execute, we could finally put a proper dripper on the bar instead of the AeroPress.
+And then it struck me: the shorter brew time of a low-EY recipe could make it a great fit for the café, and since it's also much easier and more consistent to execute, we could finally put a proper dripper on the bar instead of the AeroPress.
 
 ### My Goals for Low-EY Recipes
 
@@ -89,26 +89,26 @@ When experimenting with low-EY recipes, I had several goals:
 
 #### Removing Astringency
 
-The first and most important goal was to eliminate astringency, or at least get as close as I could. We still appreciate how a high-EY brew can reproduce what we taste in the cupping bowl and have few complaints about those brews beyond the astringency and dryness that seem so hard to get rid of no matter what we try. Given that, reducing astringency was my main priority here–If the low-EY brew were just as astringent, I might as well stick with our old high-EY recipe.
+The first and most important goal was to eliminate astringency, or at least get as close as I could. We still appreciate how a high-EY brew can reproduce what we taste in the cupping bowl and have few complaints about those brews beyond the astringency and dryness that seem so hard to get rid of no matter what we try. Given that, reducing astringency was my main priority here: if the low-EY brew were still astringent, I might as well stick with our old high-EY recipe.
 
 In our tests, using a sufficiently coarse grind seemed to be the most effective way to minimize astringency.
 
 #### Retaining Juiciness
 
-Early on, the SEY team and I compared a lot of low-EY recipes, including Lance Hedrick's double-bloom, one-pour recipe, against the AeroPress recipe they were serving. We all agreed that the low-EY brews generally had a cleaner finish and less harshness, but they also felt less juicy (or less "wet," as we tend to call it), flatter, and more tea-like. We missed how "wet" the AeroPress could be with some coffees and that "wetness" has been one of the main thing the SEY team want in the cups.
+Early on, the SEY team and I compared a lot of low-EY recipes, including Lance Hedrick's double-bloom, one-pour recipe, against the AeroPress recipe they were serving. We all agreed that the low-EY brews generally had a cleaner finish and less harshness, but they also felt less juicy (or less "wet," as we tend to call it), flatter, and more tea-like. We missed how "wet" the AeroPress could be with some coffees and that "wetness" has been one of the main things the SEY team wants in the cup.
 
 #### Ease and Consistency
 
-Finally, the recipe needed to be easy and consistent to brew with a kettle, and ideally just as easy and consistent under a TONE, so it won't be such a big trouble to onboard the cafe staffs to it.
+Finally, the recipe needed to be easy and consistent to brew with a kettle, and ideally just as easy and consistent under a TONE, so that onboarding the café staff wouldn't be too much trouble.
 
 ### Why the OREA Z1?
 
-Given the goals I want to achieve in the low-EY brews, OREA Z1 ended up with my final choice given the reasons listed below–
+Given those goals, the OREA Z1 ended up being my final choice, for the reasons below:
 
-- With the no bypass design, extraction is very efficient which enable me to grind even coarse under a reasonable ratio and produce a reasonable strength, which helps reduce dryness by being able to grind coarser.
-- I only tasted a few V60 brews that's completely dryness free (just to avoid getting into fights, I mentioned I seem more sensitive to the "dryness", which is not essentially astringency which some people claimed to have very clear definition and is not very likely to exist in low-EY brews, but I tasted it in blind tasting!), while I find it easier to achieve with Z1. If you accept the model that [dryness comes from some larger molecules that can be filtered by coffee bed itself](https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/), then this can probably be explained by there's some partial bypass which is not properly filtered by the full thickness of the bed in V60 or cone dripper in general.
-- Z1 seems to retain that juiciness much better than the V60 or other conical drippers according to the blind tasting that we conducted, which maybe is also a result of the reduced bypass? Does not have a very good explanation to this yet.
-- The low-agitation design makes it easy and consistent–differences in pouring technique matter less, as does the dripper's exact position under the TONE, which matters even less when using the Pulsar Mini disperser.
+- With its no-bypass design, extraction is very efficient, which lets me grind even coarser at a reasonable ratio while still producing a reasonable strength. Being able to grind coarser, in turn, helps reduce dryness.
+- I have only tasted a few V60 brews that were completely free of dryness (to avoid getting into fights: as I mentioned, I seem more sensitive to "dryness," which is not necessarily astringency. Some people claim to have a very clear definition of astringency and say it is unlikely to exist in low-EY brews, but I have tasted it in blind tastings!), while I find that easier to achieve with the Z1. If you accept the model that [dryness comes from larger molecules that can be filtered out by the coffee bed itself](https://coffeeadastra.com/2022/08/01/the-mechanism-behind-astringency-in-coffee/), this can probably be explained by partial bypass: some water isn't filtered through the full thickness of the bed in a V60, or in conical drippers in general.
+- The Z1 also seems to retain juiciness much better than the V60 or other conical drippers in the blind tastings we conducted. Maybe this is also a result of the reduced bypass? I don't have a good explanation for it yet.
+- The low-agitation design makes it easy and consistent—differences in pouring technique matter less, as does the dripper's exact position under the TONE, which matters even less when using the Pulsar Mini disperser.
 
 ### Why This Recipe?
 
@@ -118,11 +118,11 @@ This is a simple recipe with two main pours after the bloom. The only slightly u
 
 We found that minimizing astringency required a very coarse grind, coarse enough that the first 50g of water drained through the bed almost immediately. That made it harder to wet all the coffee evenly, especially under a TONE. Adding a little more water as a "second bloom" leaves water above the bed long enough for us to give the brewer a gentle shake and fully saturate the grounds, which "feels" more correct and theoretically should help make the extraction more even and the brew more consistent.
 
-To me, this is really one big bloom split into two additions to help saturate the bed. That's why I keep the intervals between the two blooms and the first main pour short. Still, feel free to experiment with longer intervals and let me know the result!
+To me, this is really one big bloom split into two additions to help saturate the bed. That's why I keep the intervals between the two blooms and the first main pour short. Still, feel free to experiment with longer intervals and let me know how it goes!
 
 #### The Two Pours
 
-After the bloom, it's two easy pours. I keep the final pour smaller because there's still about 1.5cm of water above the bed when it begins. Adding less water should bring the water level to roughly the same height after each of the two main pours, probably does not mean a lot but also "feels" more correct.
+After the bloom, it's two easy pours. I keep the final pour smaller because there's still about 1.5cm of water above the bed when it begins. Adding less water should bring the water level to roughly the same height after each of the two main pours. It probably doesn't matter much, but it also "feels" more correct.
 
 ### The A/Bs
 
@@ -136,12 +136,12 @@ I do feel that tasting them side by side is a little unfair to the AeroPress, th
 
 ### Closing Remarks
 
-This recipe is now in use at the café. For now, both the Z1 and the AeroPress will stay on the bar, with the staff deciding which recipe to use for each coffee. During the writing of this paragraph, it's [Sike Bokasso](https://www.seycoffee.com/collections/archived-coffees/products/2026-sike-bokasso-ethiopia), one of the best Ethiopian that we released this year, which comes from Guji, and [Alejandrina Maytan](https://www.seycoffee.com/products/2026-alejandrina-maytan-kukipata-peru), our last SL9 of the season, which is extremely floral with big fruits.
+This recipe is now in use at the café. For now, both the Z1 and the AeroPress will stay on the bar, with the staff deciding which recipe to use for each coffee. As I write this paragraph, it's being used for [Sike Bokasso](https://www.seycoffee.com/collections/archived-coffees/products/2026-sike-bokasso-ethiopia), one of the best Ethiopians we released this year, from Guji, and [Alejandrina Maytan](https://www.seycoffee.com/products/2026-alejandrina-maytan-kukipata-peru), our last SL9 of the season, which is extremely floral with big fruit.
 
 I'm extremely grateful to have my recipe served at one of the best cafés in the world, by the wonderful people who work there. If you're around, stop by, give it a taste, and let us know what you think. We're always looking for ways to improve!
 
 ### Acknowledgments
 
-- Thanks to SEY Lance, one of the most knowledgable person in the coffee industry, although he will immediately refuse it, for all the knowledge and insights.
-- Thanks to the managers at SEY–Naomi and Jaime for buying gagdets, setting SOPs, and onboarding this recipe, and all the amazing staff at SEY for making this happen.
+- Thanks to SEY Lance, one of the most knowledgeable people in the coffee industry (although he would immediately deny it), for all the knowledge and insights.
+- Thanks to the managers at SEY, Naomi and Jaime, for buying gadgets, writing SOPs, and onboarding this recipe, and to all the amazing staff at SEY for making this happen.
 - Thanks to [José Jijón](https://www.instagram.com/coffee_with_jose/), who just released [his first coffee](https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador) under his own name with SEY, for doing brew-offs with me and losing 6–0 to this recipe. That gave me a lot more confidence and eventually led to this article.

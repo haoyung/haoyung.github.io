@@ -19,7 +19,7 @@ If you've read my articles before, you'll know they tend to be long, sometimes u
 
 ### The Recipe
 
-Below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. The bar runs on a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/), so I also note a few small adjustments that make it run better on the machine.
+Below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. The bar runs on a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/), so I also note a few small adjustments that make it run better under the TONE.
 
 #### Constants
 
@@ -64,6 +64,10 @@ When brewing manually, use circular pours throughout. This is especially importa
 - Target strength (TDS): 1.25% to 1.35%
 
 If your TBT and TDS land in these ranges, you're probably on track. Personally, I find most coffees above 1.30% a little dry regardless of extraction yield (EY), so I try to stay below that. That's entirely personal, though; I may just be more sensitive to dryness than most. If you like a stronger cup, tighten the ratio (which shortens the TBT) or grind finer (which lengthens it).
+
+---
+
+That's the recipe. What follows is the unnecessarily long part: why low EY, why the Z1, why the recipe is designed the way it is, and more information than anyone asked for, starting with a table of contents.
 
 <!-- toc -->
 
@@ -128,7 +132,7 @@ After the bloom, it's two easy pours. The final pour is smaller because there's 
 
 At SEY, we trust blind tasting above all else. So, as you can imagine, a lot of effort went into blind comparisons between this recipe and others.
 
-I had the recipe mostly worked out by early April. Around the end of May, Lance Hedrick flew in for a brewing and tasting calibration session with the SEY team and me. We also visited [HYUNAH Coffee Club](https://hyunah.coffee/) (all the love to Kate and Hafiz!) to try out their full range of brewing gadgets. This recipe came out as the overall winner among the many recipes and brews we tried there in blind tastings, which gave me the confidence to do more blind A/B comparisons against the café's AeroPress recipe.
+I had the recipe mostly worked out by early April. Around the end of May, Lance Hedrick flew in for a brewing and tasting calibration session with the SEY team and me. We also visited [HYUNAH Coffee Club](https://hyunah.coffee/) (all the love to [Kate](https://www.instagram.com/hyenetta/) and Hafiz!) to try out their full range of brewing gadgets. This recipe beat every other recipe and brew we tried there in blind tastings, which gave me the confidence to do more blind A/B comparisons against the café's AeroPress recipe.
 
 Over the next few months we ran probably more than 50 A/B comparisons, first with me brewing the Z1 by hand, then with the slightly modified recipe under the TONE. The Z1 won about 80% of the time, largely on its much cleaner finish and lack of astringency.
 

@@ -19,7 +19,7 @@ If you've read my articles before, you'll know they tend to be long, sometimes u
 
 ### The Recipe
 
-Below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. The bar runs on a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/), so I also note the few small adjustments needed to run it on the machine.
+Below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. The bar runs on a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/), so I also note a few small adjustments that make it run better on the machine.
 
 #### Constants
 
@@ -31,13 +31,13 @@ Below is a manual pourover recipe I developed for [SEY](https://www.seycoffee.co
 - Coffee-to-water ratio: 18g:270g (1:15)
 - Water temperature: 88°C
 - Brewing water: tap water at SEY's café
-    - To approximate it, aim for a GH of around 35 ppm (20 from Ca<sup>2+</sup> and 15 from Mg<sup>2+</sup>) and a KH of around 15 ppm (mostly from NaHCO<sub>3</sub>), all expressed as CaCO<sub>3</sub> equivalents.
-    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s "SEY House" [Lotus Water](https://lotuscoffeeproducts.com/) recipe (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), which is what they use there, is also very similar; it basically swaps the sodium for potassium.
-    - If you're not sure about your water, ordinary tap water with a low TDS (say, under 70 on a TDS pen) works fine.
+    - To approximate it, aim for a GH of around 25 ppm (roughly 3:1 Ca<sup>2+</sup> to Mg<sup>2+</sup>) and a KH of around 10 ppm (the water has almost no potassium, so use NaHCO<sub>3</sub> rather than KHCO<sub>3</sub>; I believe those are the two most common choices for DIY water), all expressed as CaCO<sub>3</sub> equivalents.
+    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s "SEY House" [Lotus Water](https://lotuscoffeeproducts.com/) recipe (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), which is what they use at SEY House, is similar in style, though harder and more magnesium-heavy, and it swaps the sodium for potassium.
+    - If you're not sure about your water, any water with a low TDS (say, under 70 on a TDS pen) should work fine.
 
 - Grind size: burr gap set to about 600 µm from chirp<sup class="footnote-sup">[A]</sup>
     - I developed this recipe on a [Titus Nautilus](https://www.titusgrinding.de/willkommen/produkte/), using settings around 300°.
-    - SEY uses an [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) with [SSP 102mm Brew blind burrs](https://www.sspgrind.com/), which chirps at #1.5. For this recipe they grind between #0.0 (a full rotation) and #0.5: typically #0.5 for Ethiopians and #0.0 for everything else. On paper, that is a lot coarser than my Nautilus setting, and I'm not sure why yet.
+    - SEY uses an [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) with blind [SSP 102mm Brew burrs](https://www.sspgrind.com/), which chirps at #1.5. For this recipe they grind between #0.0 (a full rotation) and #0.5: typically #0.5 for Ethiopians and #0.0 for everything else. On paper, that is a lot coarser than my Nautilus setting, and I'm not sure why yet.
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
@@ -128,7 +128,7 @@ After the bloom, it's two easy pours. The final pour is smaller because there's 
 
 At SEY, we trust blind tasting above all else. So, as you can imagine, a lot of effort went into blind comparisons between this recipe and others.
 
-I had the recipe mostly worked out by early April. Around the end of May, Lance Hedrick flew in for a brewing and tasting calibration session with the SEY team and me. We also visited [HYUNAH Coffee Club](https://hyunah.coffee/) (all the love to Kate and Hafiz!) to try out their full range of brewing gadgets. This recipe was one of the favorites in our blind tastings there, which gave me the confidence to do more blind A/B comparisons against the café's AeroPress recipe.
+I had the recipe mostly worked out by early April. Around the end of May, Lance Hedrick flew in for a brewing and tasting calibration session with the SEY team and me. We also visited [HYUNAH Coffee Club](https://hyunah.coffee/) (all the love to Kate and Hafiz!) to try out their full range of brewing gadgets. This recipe came out as the overall winner among the many recipes and brews we tried there in blind tastings, which gave me the confidence to do more blind A/B comparisons against the café's AeroPress recipe.
 
 Over the next few months we ran probably more than 50 A/B comparisons, first with me brewing the Z1 by hand, then with the slightly modified recipe under the TONE. The Z1 won about 80% of the time, largely on its much cleaner finish and lack of astringency.
 

@@ -19,12 +19,12 @@ If you've read my articles before, you'll know they tend to be long, sometimes u
 
 ### The Recipe
 
-This is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. They use a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/) at the bar, so I've also noted the small adjustments we make when brewing with the machine.
+This is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com/)'s Brooklyn café. They use a [TONE Touch 03](https://tonebrewer.com/produkte/touch-03/) at the bar, so I've also noted the small adjustments we make when using it to brew.
 
 #### Constants
 
 - Dripper: [OREA Z1](https://www.orea.uk/z1-brewer)
-  - The [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack), which comes with the Z1, is designed to let most of the water fall close to where you pour, letting you vary your pouring pattern (circular pours, center pours, and so on) when brewing by hand. Unfortunately, that same design makes it a poor match for the TONE: with its nozzles fixed in place, the water tends to leave divots in the coffee bed. As a result, we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 once the upper ring is removed.
+  - The [Melodrip](https://melodrip.co/products/melodrip-pour-over-coffee-tool-stick-pack), which comes with the Z1, is designed to drop most of the water close to where you pour, letting you vary your pouring pattern (circular pours, center pours, and so on) when brewing by hand. Unfortunately, that same design makes it a poor match for the TONE, whose fixed nozzles then tend to leave divots in the coffee bed. As a result, we use the water disperser from the [NextLevel Pulsar Mini](https://nextlevelbrewer.com/shop/pulsar-mini/) instead (sorry, [Ray](https://www.instagram.com/melodripco/)!). It sits nicely on top of the Z1 once the upper ring is removed.
   - For manual brewing, the Melodrip works just fine.
 
 - Filter: [SIBARIST FAST OREA Z1 Special Edition](https://sibarist.coffee/products/orea-z1)
@@ -73,13 +73,11 @@ That's the recipe. What follows is the unnecessarily long part: why low EY, why 
 
 ### The Backstory
 
-Lance Hedrick joined SEY earlier this year, after reaching out about his interest in SEY's green program and in the company as a whole. That may have surprised a lot of people, since his approach to coffee can seem quite different from SEY's. To be fair, SEY's brewing technique and philosophy have never stopped evolving. Still, his arrival brought a new perspective, and our conversations helped get this recipe started.
+Lance Hedrick joined SEY earlier this year, after reaching out about his interest in SEY's green program and in the company as a whole. That may have surprised a lot of people, since his approach to brewing coffee can seem quite different from SEY's. To be fair, SEY's brewing technique and philosophy have never stopped evolving. Still, his arrival adds a new voice to the mix, and it's one of the many things that prompted me to experiment more with the lower-extraction, shorter-contact-time style he generally prefers, which ultimately led to this article.
 
 ### Why Low EY?
 
-If you've read my previous [article]({% link _posts/en/2023-11-01-Achieving High Extraction with Low Agitation.md %}) (which you should have), you'll know that Lance Schnorenberg (aka SEY Lance, SEY's cofounder and head of coffee) and I talk about brewing regularly (more about cupping, really, but that's another article). We brew similarly, and we both used to favor high-EY brews with long contact times for their complexity and for how closely they resemble what we taste in the cupping bowl. For the same reasons, SEY's Brooklyn café has been brewing in a high-EY manner using the [AeroPress](https://aeropress.com/) with a fine grind and a long steep.
-
-Once Lance Hedrick joined and we started talking brewing regularly, I began experimenting more with the low-EY, short-contact-time approach he generally favors.
+If you've read my previous [article]({% link _posts/en/2023-11-01-Achieving High Extraction with Low Agitation.md %}) (which you should have), you'll know that Lance Schnorenberg (aka SEY Lance, SEY's cofounder and head of coffee) and I talk about brewing regularly (more about cupping, really, but that's another article). We brew similarly, and we both used to favor high-EY brews with long contact times for their complexity and for how closely they resemble what we taste in the cupping bowl. For the same reasons, SEY's Brooklyn café has been brewing high-EY on the [AeroPress](https://aeropress.com/), with a fine grind and a long steep.
 
 To be totally honest, neither SEY Lance nor I is fully convinced that low EY and short contact times are better than high EY and long ones. We do agree that it's a direction we hadn't explored enough. In our experience, lower-EY brews are generally less astringent (or dry, or "lingering," depending on how you define astringency), and they're far easier to replicate and much more forgiving.
 
@@ -87,7 +85,7 @@ Consistency is one reason the café brewed its high-EY coffee using the AeroPres
 
 We like the AeroPress, especially how juicy it makes some coffees, which is hard to replicate with other brewers. We suspect the objection is mostly visual, and doubt most people could tell an AeroPress brew from a V60 brew in a blind tasting. Still, we don't love it enough to die on that hill.
 
-Then it struck me: a low-EY recipe would be quicker to brew and easier to get right consistently. That could make it a great fit for the café and finally let us put a proper dripper on the bar in place of the AeroPress.
+Then it struck me: a low-EY recipe's shorter brew time could make it a great fit for the café, and since it's also far easier to execute consistently, we could finally put a proper dripper on the bar in place of the AeroPress.
 
 ### My Goals for a Low-EY Recipe
 
@@ -105,7 +103,7 @@ Early on, the SEY team and I compared a lot of low-EY recipes, including Lance H
 
 #### Keeping It Easy and Consistent
 
-Finally, the recipe had to be easy and consistent to brew with a kettle, and ideally just as easy and consistent under the TONE, so that getting the café staff up to speed wouldn't be a chore.
+Finally, the recipe had to remain easy and consistent to brew with a kettle, and ideally just as easy and consistent under the TONE, so that getting the café staff up to speed wouldn't be a chore.
 
 ### Why the OREA Z1?
 

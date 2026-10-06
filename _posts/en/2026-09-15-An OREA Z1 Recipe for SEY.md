@@ -32,7 +32,7 @@ This is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com
 - Water temperature: 88°C
 - Brewing water: tap water at SEY's café
     - To approximate it, aim for a GH of around 23 ppm, roughly 3:1 Ca<sup>2+</sup> to Mg<sup>2+</sup>, and a KH of around 11 ppm, all expressed as CaCO<sub>3</sub> equivalents. The café's water has almost no potassium, so ideally build the KH from NaHCO<sub>3</sub> rather than KHCO<sub>3</sub>.
-    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s [Lotus Water](https://lotuscoffeeproducts.com/) recipe, which we used at SEY House (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), is similar in style, though harder and more magnesium-heavy, and swaps sodium for potassium.
+    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s [Lotus Water](https://lotuscoffeeproducts.com/) recipe, which is used at SEY House (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), might also work. It's similar in style, though harder and more magnesium-heavy, and it swaps sodium for potassium.
     - If you're not sure about your water, any water with a low TDS (say, under 70 on a TDS pen) should work fine.
 
 - Grind size: burr gap set to about 600 µm from chirp<sup class="footnote-sup">[A]</sup>
@@ -149,4 +149,4 @@ I'm extremely grateful to have my recipe served at one of the best cafés in the
 - Thanks to SEY Lance, one of the most knowledgeable people in coffee (he would deny this immediately), for everything he's shared with me.
 - Thanks to the managers at SEY, Naomi and Jaime, for buying gadgets, writing SOPs, and getting this recipe onto the bar, and to all the amazing staff at SEY for making this happen.
 - Thanks to [José Jijón](https://www.instagram.com/coffee_with_jose/), who just released [his first coffee](https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador) under his own name with SEY, for doing brew-offs with me and losing 6–0 to this recipe. That gave me a lot more confidence and eventually led to this article.
-- Thanks to Doug, SEY's director of brand strategy, for telling me that [Danche](https://www.seycoffee.com/products/2026-danche-2nd-selection-ethiopia) brewed with this recipe on the bar was the best coffee he's had at the café. Considering what a hater he is, that means a lot.
+- Thanks to [Doug](https://www.instagram.com/dougsas/), SEY's director of brand strategy, for telling me that [Danche](https://www.seycoffee.com/products/2026-danche-2nd-selection-ethiopia) brewed with this recipe on the bar was the best coffee he's had at the café. Considering what a hater he is, that means a lot.

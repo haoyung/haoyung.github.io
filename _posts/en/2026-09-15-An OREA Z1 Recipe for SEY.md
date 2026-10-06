@@ -32,7 +32,7 @@ This is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com
 - Water temperature: 88°C
 - Brewing water: tap water at SEY's café
     - To approximate it, aim for a GH of around 23 ppm, roughly 3:1 Ca<sup>2+</sup> to Mg<sup>2+</sup>, and a KH of around 11 ppm, all expressed as CaCO<sub>3</sub> equivalents. The café's water has almost no potassium, so ideally build the KH from NaHCO<sub>3</sub> rather than KHCO<sub>3</sub>.
-    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s [Lotus Water](https://lotuscoffeeproducts.com/) recipe, which is used at SEY House (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), might also work. It's similar in style, though harder and more magnesium-heavy, and it swaps sodium for potassium.
+    - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s [Lotus Water](https://lotuscoffeeproducts.com/) recipe, which is used at [SEY House](https://www.instagram.com/reel/DYpiwKZR1ks/) (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), might also work. It's similar in style, though harder, more magnesium-heavy, and with potassium swapped in for sodium.
     - If you're not sure about your water, any water with a low TDS (say, under 70 on a TDS pen) should work fine.
 
 - Grind size: burr gap set to about 600 µm from chirp<sup class="footnote-sup">[A]</sup>

@@ -6,11 +6,11 @@ tag: [recipe, pourover]
 category: article
 language_reference: Z1_recipe
 imgfolder: Z1_recipe
-image: /assets/images/Z1_recipe/z1_under_tone_at_sey.webp
-image_width: 2092
-image_height: 2790
+image: /assets/images/Z1_recipe/mejorado_lot_zero_under_tone.webp
+image_width: 2063
+image_height: 2750
 image_orientation: vertical
-image_caption: "Brewing this OREA Z1 recipe under the TONE at SEY's Brooklyn café"
+image_caption: "Step 2 in action: brewing <a href=\"https://www.instagram.com/coffee_with_jose/\">José</a>'s <a href=\"https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador\">Mejorado Lot Zero</a> with this recipe under the TONE at SEY's Brooklyn café"
 ---
 
 If you've read my articles before, you'll know they tend to be long, sometimes unnecessarily long. But if this goes the way I hope and many of you end up bookmarking this page for the recipe, making you scroll all the way to the bottom every time would be a little cruel. So, here you go:

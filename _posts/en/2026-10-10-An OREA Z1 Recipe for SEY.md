@@ -10,7 +10,7 @@ image: /assets/images/Z1_recipe/mejorado_lot_zero_under_tone.webp
 image_width: 2063
 image_height: 2750
 image_orientation: vertical
-image_caption: "A busy Saturday afternoon at SEY's Brooklyn café: <a href=\"https://www.instagram.com/coffee_with_jose/\">José</a>'s \"<a href=\"https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador\">Lot Zero</a>\" getting its second-bloom shake under the <a href=\"https://tonebrewer.com/produkte/touch-03/\">TONE</a>"
+image_caption: "A busy Saturday afternoon at SEY's Brooklyn café: <a href=\"https://www.instagram.com/coffee_with_jose/\">Jose</a>'s \"<a href=\"https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador\">Lot Zero</a>\" getting its second-bloom shake under the <a href=\"https://tonebrewer.com/produkte/touch-03/\">TONE</a>"
 ---
 
 If you've read my articles before, you'll know they tend to be long, sometimes unnecessarily long. But if this goes the way I hope and many of you end up bookmarking this page for the recipe, making you scroll all the way to the bottom every time would be a little cruel. So, here you go:
@@ -33,13 +33,18 @@ This is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com
     - [Lance Hedrick](https://www.instagram.com/lancehedrick/)'s [Lotus Water](https://lotuscoffeeproducts.com/) recipe, which is used at [SEY House](https://www.instagram.com/reel/DYpiwKZR1ks/) (20 ppm calcium, 15 ppm magnesium, 15 ppm potassium), might also work. It's similar in style, though harder, more magnesium-heavy, and with potassium swapped in for sodium.
     - If you're not sure about your water, any water with a low TDS (say, under 70 on a TDS pen) should work fine.
 
-- Grind size: burr gap set to about 600 µm from chirp<sup class="footnote-sup">[A]</sup>
-    - I developed this recipe on a [Titus Nautilus](https://www.titusgrinding.de/willkommen/produkte/), using settings around 300°.
-    - SEY uses an [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) with blind [SSP 102mm Brew burrs](https://www.sspgrind.com/), which chirps at #1.5. For this recipe they grind between #0.0 (a full rotation) and #0.5: typically #0.5 for Ethiopians and #0.0 for everything else. On paper, that is a lot coarser than my Nautilus setting, and I'm not sure why yet.
+- Grind size: burr gap set to 600 to 650 µm from chirp<sup class="footnote-sup">[A]</sup>
+    - I developed this recipe on a [Titus Nautilus](https://www.titusgrinding.de/willkommen/produkte/) with Titus-coated [SSP 98mm Brew burrs](https://www.sspgrind.com/), using settings around 300°. The Nautilus chirps at about 10°, so that works out to roughly 565 µm from chirp.
+    - SEY uses an [OPTION-O LAGOM 01](https://www.option-o.com/lagom-01) with blind [SSP 102mm Brew burrs](https://www.sspgrind.com/), which chirps at #1.5. For this recipe they grind between #0.0 (a full rotation) and #0.5: typically #0.5 for Ethiopians and #0.0 for everything else. That works out to roughly 640 to 675 µm from chirp. On paper, that is a lot coarser than the Nautilus setting, and I'm not sure why yet, but it does make me suspect the alignment of my Nautilus.<sup class="footnote-sup">[B]</sup>
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Ideally, I'd report the gap from lock, but there doesn't seem to be a good way to measure the chirp-to-lock distance on the Nautilus, which I used for most of the recipe development. Going by the numbers on the LAGOM 01, I'd estimate around 650 to 700 µm from lock.</div>
+  <div class="footnote-content">Ideally, I'd report the gap from lock, but there doesn't seem to be a good way to measure the chirp-to-lock distance on the Nautilus, which I used for most of the recipe development. Going by the numbers on the LAGOM 01, I'd estimate around 700 to 750 µm from lock.</div>
+</div>
+
+<div class="footnote">
+  <div class="footnote-label">[B]</div>
+  <div class="footnote-content">As above, I think the gap from lock is the better metric: in my experience, similar burrs at a similar gap from lock produce a similar grind. So if I have to grind significantly coarser "from chirp" on the LAGOM 01, it probably has a smaller chirp-to-lock distance, which would mean it's better aligned than my Nautilus. For how I check and correct alignment, see my article on <a href="{% link _posts/en/2023-11-10-Hyper-Aligning the Lagom P100 with Ultra-Thin Stainless Steel Shims.md %}">hyper-aligning the LAGOM P100</a>.</div>
 </div>
 
 #### Steps
@@ -146,5 +151,5 @@ I'm extremely grateful to have my recipe served at one of the best cafés in the
 
 - Thanks to SEY Lance, one of the most knowledgeable people in coffee (he would deny this immediately), for everything he's shared with me.
 - Thanks to the managers at SEY, Naomi and Jaime, for buying gadgets, writing SOPs, and getting this recipe onto the bar, and to all the amazing staff at SEY for making this happen.
-- Thanks to [José Jijón](https://www.instagram.com/coffee_with_jose/), who just released [his first coffee](https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador) under his own name with SEY, for doing brew-offs with me and losing 6–0 to this recipe. That gave me a lot more confidence and eventually led to this article.
+- Thanks to [Jose Jijon](https://www.instagram.com/coffee_with_jose/), who just released [his first coffee](https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador) under his own name with SEY, for doing brew-offs with me and losing 6–0 to this recipe. That gave me a lot more confidence and eventually led to this article.
 - Thanks to [Doug](https://www.instagram.com/dougsas/), SEY's director of brand strategy, for telling me that [Danche](https://www.seycoffee.com/products/2026-danche-2nd-selection-ethiopia) brewed with this recipe on the bar was the best coffee he's had at the café. Considering what a hater he is, that means a lot.

@@ -33,7 +33,7 @@ Thus, the parallelism between the burrs is critical. Misaligned burrs result in 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="1080" height="1350" src="/assets/images/alignment.jpg" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">The importance of burr alignment and how to check alignment with the marker test<br>(source: <a href="https://www.instagram.com/p/CzT81UBB8Uc/">IG, aramsecoffee</a>)</span>
+        <span class="image-description" markdown="span">The importance of burr alignment and how to check alignment with the marker test<br>(source: <a href="https://www.instagram.com/p/CzT81UBB8Uc/">IG, aramsecoffee</a>)</span>
     </div>
 </div>
 
@@ -72,7 +72,7 @@ For example:
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-1.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Burr right after the marker test</span>
+        <span class="image-description" markdown="span">Burr right after the marker test</span>
     </div>
 </div>
 
@@ -92,7 +92,7 @@ I'm not sure if this is physically reasonable, but many have observed the instab
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Original text: "That's when I vaguely remembered Nate Walck (also coincidentally the previous owner of Frankenjolly) mention on Hedrickcord (Lance Hedrick's discord) that one should consider using stainless steel shims for alignment as opposed to aluminium foil (Long Vo probably was the first to suggest this as a solution on EAF but in context of a different discussion)."</div>
+  <div class="footnote-content" markdown="span">Original text: "That's when I vaguely remembered Nate Walck (also coincidentally the previous owner of Frankenjolly) mention on Hedrickcord (Lance Hedrick's discord) that one should consider using stainless steel shims for alignment as opposed to aluminium foil (Long Vo probably was the first to suggest this as a solution on EAF but in context of a different discussion)."</div>
 </div>
 
 ### Detailed Alignment Process
@@ -103,7 +103,7 @@ I want to emphasize again: the two burrs need to be aligned separately, and the 
 
 <div class="footnote">
   <div class="footnote-label">[B]</div>
-  <div class="footnote-content">I also aligned the NTU Coffee Club's <a href="https://fellowproducts.com/products/ode-brew-grinder">Fellow Ode</a>, using the exact same method.</div>
+  <div class="footnote-content" markdown="span">I also aligned the NTU Coffee Club's <a href="https://fellowproducts.com/products/ode-brew-grinder">Fellow Ode</a>, using the exact same method.</div>
 </div>
 
 #### Required Materials
@@ -127,7 +127,7 @@ Customer service explained that coffee fines and oils create a near-vacuum state
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="1179" height="732" src="/assets/images/sam.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Response from the official technician (Hi Sam!)</span>
+        <span class="image-description" markdown="span">Response from the official technician (Hi Sam!)</span>
     </div>
 </div>
 
@@ -144,7 +144,7 @@ Here's the state before alignment, with a chirp-to-lock distance of about 60 µm
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-1.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Fig. 1<br>(no stainless steel shim inserted yet)</span>
+        <span class="image-description" markdown="span">Fig. 1<br>(no stainless steel shim inserted yet)</span>
     </div>
 </div>
 
@@ -158,7 +158,7 @@ After inserting 7 pieces of stainless steel shim under the top left screw, the m
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-3.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Fig. 2<br>(7, 0, and 0 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
+        <span class="image-description" markdown="span">Fig. 2<br>(7, 0, and 0 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
 
@@ -172,7 +172,7 @@ After inserting 6 pieces of stainless steel shim under both the top left and rig
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-4.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Fig. 3<br>(13, 0, and 6 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
+        <span class="image-description" markdown="span">Fig. 3<br>(13, 0, and 6 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
 
@@ -184,7 +184,7 @@ The alignment has improved, but the high area remains at the bottom left screw. 
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-7.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Fig. 4<br>(16, 0, and 9 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
+        <span class="image-description" markdown="span">Fig. 4<br>(16, 0, and 9 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
 
@@ -196,7 +196,7 @@ The right screw has become the last low point. I inserted the last piece of stai
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-8.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Fig. 5<br>(16, 0, and 10 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
+        <span class="image-description" markdown="span">Fig. 5<br>(16, 0, and 10 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
 </div>
 
@@ -209,7 +209,7 @@ I compiled the entire alignment process into a gif, as shown below:
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="2160" height="2160" src="/assets/images/alignment.gif" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">Animation of the entire alignment process</span>
+        <span class="image-description" markdown="span">Animation of the entire alignment process</span>
     </div>
 </div>
 

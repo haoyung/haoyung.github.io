@@ -38,7 +38,7 @@ Before receiving the Pulsar, I had high hopes it would outperform the Tricolate,
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">For example, <a href="https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/">Jonathan's recommended recipe</a> and <a href="https://www.scottrao.com/blog/pulsar-recipe">Scott Rao's recipe</a>.</div>
+  <div class="footnote-content" markdown="span">For example, <a href="https://coffeeadastra.com/2023/09/13/the-pulsar-dripper/">Jonathan's recommended recipe</a> and <a href="https://www.scottrao.com/blog/pulsar-recipe">Scott Rao's recipe</a>.</div>
 </div>
 
 ### Discussion with SEY
@@ -70,11 +70,11 @@ Here are the detailed parameters and brewing steps, largely mirroring the previo
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Many, myself included, believe minerals don't significantly affect extraction, so adding them before or after doesn't hugely impact the brew. I find adding them post-brew more convenient. I use mineral concentrate from <a href="https://lotuscoffeeproducts.com/">Lotus Coffee Brew Water</a>.</div>
+  <div class="footnote-content" markdown="span">Many, myself included, believe minerals don't significantly affect extraction, so adding them before or after doesn't hugely impact the brew. I find adding them post-brew more convenient. I use mineral concentrate from <a href="https://lotuscoffeeproducts.com/">Lotus Coffee Brew Water</a>.</div>
 </div>
 <div class="footnote">
   <div class="footnote-label">[B]</div>
-  <div class="footnote-content">For more on brewing water, check out the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
+  <div class="footnote-content" markdown="span">For more on brewing water, check out the Barista Hustle article <a href="https://www.baristahustle.com/blog/water-hardness/">"Water Hardness"</a>.</div>
 </div>
 
 
@@ -130,7 +130,7 @@ The choice of a single continuous pour stems from our original goal of "low agit
 <div class="row justify-content-center">
     <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
         <img width="1119" height="1056" src="/assets/images/pulsar_log.webp" alt="" class="img-fluid responsive-image-vertical">
-        <span class="image-description">A successful brew log using this recipe<br>The coffee used was SEY's <a href="https://www.seycoffee.com/products/2024-octavio-rueda-el-mirador-colombia">Colombia Washed Pink Bourbon</a><br>The TDS and extraction yield were 1.39% and 24.43% respectively</span>
+        <span class="image-description" markdown="span">A successful brew log using this recipe<br>The coffee used was SEY's <a href="https://www.seycoffee.com/products/2024-octavio-rueda-el-mirador-colombia">Colombia Washed Pink Bourbon</a><br>The TDS and extraction yield were 1.39% and 24.43% respectively</span>
     </div>
 </div>
 
@@ -170,5 +170,5 @@ In my attempts, this recipe proved more convenient (as it requires only one pour
 
 <div class="footnote">
   <div class="footnote-label">[C]</div>
-  <div class="footnote-content">DM me on <a href="https://instagram.com/whycoffee.blog">IG</a>!</div>
+  <div class="footnote-content" markdown="span">DM me on <a href="https://instagram.com/whycoffee.blog">IG</a>!</div>
 </div>

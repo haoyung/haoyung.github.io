@@ -39,12 +39,12 @@ This is a manual pourover recipe I developed for [SEY](https://www.seycoffee.com
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Ideally, I'd report the gap from lock, but there doesn't seem to be a good way to measure the chirp-to-lock distance on the Nautilus, which I used for most of the recipe development. Going by the numbers on the LAGOM 01, I'd estimate around 700 to 750 µm from lock.</div>
+  <div class="footnote-content" markdown="span">Ideally, I'd report the gap from lock, but there doesn't seem to be a good way to measure the chirp-to-lock distance on the Nautilus, which I used for most of the recipe development. Going by the numbers on the LAGOM 01, I'd estimate around 700 to 750 µm from lock.</div>
 </div>
 
 <div class="footnote">
   <div class="footnote-label">[B]</div>
-  <div class="footnote-content">As above, I think the gap from lock is the better metric: in my experience, similar burrs at a similar gap from lock produce a similar grind. So if I have to grind significantly coarser "from chirp" on the LAGOM 01, it probably has a smaller chirp-to-lock distance, which would mean it's better aligned than my Nautilus. For how I check and correct alignment, see my article on <a href="{% link _posts/en/2023-11-10-Hyper-Aligning the Lagom P100 with Ultra-Thin Stainless Steel Shims.md %}">hyper-aligning the LAGOM P100</a>.</div>
+  <div class="footnote-content" markdown="span">As above, I think the gap from lock is the better metric: in my experience, similar burrs at a similar gap from lock produce a similar grind. So if I have to grind significantly coarser "from chirp" on the LAGOM 01, it probably has a smaller chirp-to-lock distance, which would mean it's better aligned than my Nautilus. For how I check and correct alignment, see my article on <a href="{% link _posts/en/2023-11-10-Hyper-Aligning the Lagom P100 with Ultra-Thin Stainless Steel Shims.md %}">hyper-aligning the LAGOM P100</a>.</div>
 </div>
 
 #### Steps

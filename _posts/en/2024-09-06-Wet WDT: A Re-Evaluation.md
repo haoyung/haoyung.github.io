@@ -47,7 +47,7 @@ Wet WDT caught on in the latter half of 2022, mainly due to [this blog post](htt
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2500" height="1500" src="/assets/images/{{ page.imgfolder }}/BH_result.webp" alt="" class="img-fluid">
-        <span class="image-description">Barista Hustle's experimental data</span>
+        <span class="image-description" markdown="span">Barista Hustle's experimental data</span>
     </div>
 </div>
 
@@ -162,7 +162,7 @@ The parameters used here are adapted from PocketScienceCoffee's article [How to 
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/T-HagoE0mbs?si=EBeJNNfb3j8DmprK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <span class="image-description">Wet WDT Demonstration</span>
+        <span class="image-description" markdown="span">Wet WDT Demonstration</span>
     </div>
 </div>
 
@@ -180,14 +180,14 @@ I recorded the total brew time (TBT) and extraction yield (EY) for the three bre
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-description">Table 1: Total brew time and extraction yield of the three brews in the preliminary experiment</span>
+        <span class="image-description" markdown="span">Table 1: Total brew time and extraction yield of the three brews in the preliminary experiment</span>
     </div>
 </div>
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-description">Figure 1: Scatter plot of total brew time and extraction yield in the preliminary experiment</span>
+        <span class="image-description" markdown="span">Figure 1: Scatter plot of total brew time and extraction yield in the preliminary experiment</span>
     </div>
 </div>
 
@@ -211,7 +211,7 @@ I will look for more clues to confirm or refute these hypotheses in the main exp
 
 <div class="footnote">
   <div class="footnote-label">[A]</div>
-  <div class="footnote-content">Theoretically, the cylindrical Pulsar is a filter cup without bypass, but could there still be some bypass at the edges of the coffee bed?</div>
+  <div class="footnote-content" markdown="span">Theoretically, the cylindrical Pulsar is a filter cup without bypass, but could there still be some bypass at the edges of the coffee bed?</div>
 </div>
 
 ### Main Experiment
@@ -223,7 +223,7 @@ I recorded the total brew time and extraction yield of the 12 brews in the main 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-description">Figure 2: Scatter plot of total brew time and extraction yield in the main experiment</span>
+        <span class="image-description" markdown="span">Figure 2: Scatter plot of total brew time and extraction yield in the main experiment</span>
     </div>
 </div>
 
@@ -244,7 +244,7 @@ First, let's make the following assumptions:
 1. The maximum EY, the “asymptotic” value of EY the brew approaches if it's long enough, is $$ \text{EY}_{\text{max}} $$, which varies with different coffees, grind sizes, and methods, but we generally believe it to be less than 30%<sup class="footnote-sup">[A]</sup>.
     <div class="footnote">
     <div class="footnote-label">[A]</div>
-    <div class="footnote-content">According to Rohan's <a href="https://docs.google.com/spreadsheets/d/1ACJnczVXw5qEg98v6UfmGlW94PU-SdXuaUCUCt9qf50/edit?gid=0#gid=0">experimental data</a>, this number is closer to 26% for light roasts with sufficiently fine grinds.</div>
+    <div class="footnote-content" markdown="span">According to Rohan's <a href="https://docs.google.com/spreadsheets/d/1ACJnczVXw5qEg98v6UfmGlW94PU-SdXuaUCUCt9qf50/edit?gid=0#gid=0">experimental data</a>, this number is closer to 26% for light roasts with sufficiently fine grinds.</div>
     </div>
 2. At any given time, the water extracting the coffee is completely clean (concentration of 0), which is not realistic since the water in the dripper during brewing is usually not clear, meaning we are essentially extracting coffee with coffee. However, for simplicity, we will assume this here.
 3. At any given time $t$, the speed of extraction $r(t)$ is proportional to the concentration difference between the coffee and water. Since we assume the water concentration is 0 in assumption 2, the concentration difference is the proportion of extractable substances remaining in the coffee, which is $$ (\text{EY}_{\text{max}} - \text{EY}(t)) $$, meaning $$ r(t) \propto (\text{EY}_{\text{max}} - \text{EY}(t)) $$.
@@ -258,7 +258,7 @@ Therefore, we will use this theoretical model of TBT and EY to fit the data for 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-description">Figure 3: Scatter plot of data and fitted theoretical curves for the experimental and control groups in the main experiment</span>
+        <span class="image-description" markdown="span">Figure 3: Scatter plot of data and fitted theoretical curves for the experimental and control groups in the main experiment</span>
     </div>
 </div>
 
@@ -271,7 +271,7 @@ It can be observed that the two curves are very similar. In Table 2, I have list
 
 <div class="row mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <span class="image-description">Table 2: Constants of the fitted theoretical curves and their $p \text{-value}$ for the experimental and control groups in the main experiment</span>
+        <span class="image-description" markdown="span">Table 2: Constants of the fitted theoretical curves and their $p \text{-value}$ for the experimental and control groups in the main experiment</span>
     </div>
 </div>
 
@@ -279,13 +279,13 @@ While searching for references, I found that Michael from [quantitativecafé](ht
 
 <div class="footnote">
   <div class="footnote-label">[B]</div>
-  <div class="footnote-content">For more detailed methods, please refer to the <a href="https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/">Error analysis chapter in the original article</a> and another article recommended by Michael, <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">written by Jake VanderPlas</a>.</div>
+  <div class="footnote-content" markdown="span">For more detailed methods, please refer to the <a href="https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/">Error analysis chapter in the original article</a> and another article recommended by Michael, <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">written by Jake VanderPlas</a>.</div>
 </div>
 
 <div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid responsive-plot">
-        <span class="image-description">Figure 4: Scatter plot of experimental and control group data, fitted theoretical curves, and their 95% confidence intervals</span>
+        <span class="image-description" markdown="span">Figure 4: Scatter plot of experimental and control group data, fitted theoretical curves, and their 95% confidence intervals</span>
     </div>
 </div>
 
@@ -315,7 +315,7 @@ Moreover, Wet WDT generally resulted in higher astringency when used with the Pu
 
 <div class="footnote">
   <div class="footnote-label">[C]</div>
-  <div class="footnote-content">When shaking is insufficient to fully mix the coffee and water, it may still be necessary to perform Wet WDT to assist with mixing, but it should be done super gently.</div>
+  <div class="footnote-content" markdown="span">When shaking is insufficient to fully mix the coffee and water, it may still be necessary to perform Wet WDT to assist with mixing, but it should be done super gently.</div>
 </div>
 
 ### Acknowledgments

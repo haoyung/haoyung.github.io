@@ -11,8 +11,6 @@ image_width: 2092
 image_height: 2790
 image_orientation: vertical
 image_caption: "Brewing this OREA Z1 recipe under the TONE at SEY's Brooklyn café"
-draft: true
-sitemap: false
 ---
 
 If you've read my articles before, you'll know they tend to be long, sometimes unnecessarily long. But if this goes the way I hope and many of you end up bookmarking this page for the recipe, making you scroll all the way to the bottom every time would be a little cruel. So, here you go:
@@ -150,3 +148,29 @@ I'm extremely grateful to have my recipe served at one of the best cafés in the
 - Thanks to the managers at SEY, Naomi and Jaime, for buying gadgets, writing SOPs, and getting this recipe onto the bar, and to all the amazing staff at SEY for making this happen.
 - Thanks to [José Jijón](https://www.instagram.com/coffee_with_jose/), who just released [his first coffee](https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador) under his own name with SEY, for doing brew-offs with me and losing 6–0 to this recipe. That gave me a lot more confidence and eventually led to this article.
 - Thanks to [Doug](https://www.instagram.com/dougsas/), SEY's director of brand strategy, for telling me that [Danche](https://www.seycoffee.com/products/2026-danche-2nd-selection-ethiopia) brewed with this recipe on the bar was the best coffee he's had at the café. Considering what a hater he is, that means a lot.
+
+--
+
+NEW BLOG POST (link in bio!)
+
+It's hard to believe it's been over two years since my last blog post. It feels good to finally put something out again.
+
+This one is about a low-extraction, low-agitation, clarity-focused @orea Z1 recipe I created, which @seycoffee later adapted for their Brooklyn café. It now sits on the bar alongside the fine-grind, long-steep, high-extraction @aeropress recipe they were already serving.
+
+In the post, I introduce the recipe, then go into depth (or too much depth) on how it came together, how my thinking on extraction has shifted, and the reasoning behind each design choice.
+
+I'm really happy with the coffee this recipe produces. It's also a strange and lovely thing to know people can walk into SEY, of all places, whose approach to coffee I've admired for years, and order something I spent months fussing over.
+
+Give it a try, or just visit @seycoffee for a cup, and let me know what you think!
+
+--
+
+NEW BLOG POST（連結在主頁！）
+
+（目前只有英文全文⋯中文版趕工中）
+
+大家好久不見！有點難以想像距離上次發表文章竟然已經超過兩年了。
+
+這次要介紹的是一個由我所設計的低萃取、低擾動，並以乾淨口感為目標的 @orea Z1 參數。這個參數也在最近被 @seycoffee 採用，開始用於他們店內的出杯。自己的參數能夠被欣賞已久的團隊採用真的是滿奇妙的人生體驗。
+
+在文章中我詳細介紹了這個參數的各種細節與設計思路，以及我最近在萃取想法上的一些轉變，希望大家有機會的話都可以試試看！如果手邊沒有 @orea Z1 的話，來紐約拜訪一下 @seycoffee 或許也不失為一個好選擇。

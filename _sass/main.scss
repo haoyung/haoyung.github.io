@@ -268,11 +268,12 @@ table {
   transition: border-color 0.5s !important;
 }
 
+// No colour or transition of its own: the caption inherits body's animated colour.
+// Declaring color here (even the same value) makes Chrome restart the caption's
+// transition on every frame of body's colour transition, so it lags behind the text.
 .image-description {
   font-size: calc(1rem / pow(1.618, 0.5));
   line-height: 1.5;
-  color: var(--main-text-color);
-  transition: color 0.5s;
   display: block;
   margin-top: 0.5rem;
   text-align: center;

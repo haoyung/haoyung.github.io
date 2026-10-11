@@ -63,10 +63,10 @@ When brewing manually, use circular pours throughout. This is especially importa
 
 #### Sanity Checks
 
-- Target total brew time (TBT): 1:45 to 2:15
+- Target total brew time (TBT): 1:30 to 2:00
 - Target strength (TDS): 1.25% to 1.35%
 
-If your TBT and TDS land in these ranges, you're probably on track. Personally, I find most coffees above 1.30% a little dry regardless of extraction yield (EY), so I try to stay below that. That's entirely personal, though; I may just be more sensitive to dryness than most. If you like a stronger cup, tighten the ratio (which shortens the TBT) or grind finer (which lengthens it).
+If your TBT and TDS land in these ranges, you're probably on track. Personally, I find most coffees above 1.35% a little dry regardless of extraction yield (EY), so I try to stay below that. That's entirely personal, though; I may just be more sensitive to dryness than most. If you like a stronger cup, tighten the ratio (which shortens the TBT) or grind finer (which lengthens it).
 
 ---
 

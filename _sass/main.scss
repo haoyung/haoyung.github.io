@@ -280,6 +280,10 @@ footer {
 .home-image-container {
   text-align: center;
 
+  > .image-description {
+    text-align: inherit;
+  }
+
   > img {
     // .h3 shares the about heading's RFS metrics without copying its formula.
     margin-block: 0;

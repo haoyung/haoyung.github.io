@@ -1,0 +1,55 @@
+// Bootstrap 5.3.3: retain base styles, images, grid and selected utility families.
+// Vendor sources are unmodified. All site overrides live outside vendor/.
+@import "vendor/bootstrap/mixins/banner";
+@include bsBanner("");
+@import "vendor/bootstrap/functions";
+
+// Bootstrap emits the shared heading tokens, without a second rounded scale.
+$h1-font-size: var(--type-h1);
+$h2-font-size: var(--type-h2);
+$h3-font-size: var(--type-h3);
+$h4-font-size: var(--type-h4);
+$h5-font-size: var(--type-h5);
+$headings-font-weight: $heading-weight;
+$headings-line-height: $heading-line-height;
+$font-weight-normal: $regular-weight;
+
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/variables-dark";
+@import "vendor/bootstrap/maps";
+@import "vendor/bootstrap/vendor/rfs";
+@import "vendor/bootstrap/mixins/breakpoints";
+@import "vendor/bootstrap/mixins/color-mode";
+@import "vendor/bootstrap/mixins/border-radius";
+@import "vendor/bootstrap/mixins/box-shadow";
+@import "vendor/bootstrap/mixins/image";
+@import "vendor/bootstrap/mixins/grid";
+@import "vendor/bootstrap/mixins/utilities";
+@import "vendor/bootstrap/utilities";
+
+// Keep complete families so future posts can use the same spacing vocabulary.
+// No class scanning or page-specific exceptions are needed to build the CSS.
+$site-utility-families: (
+  "display", "width", "justify-content", "align-items", "order",
+  "margin", "margin-x", "margin-y", "margin-top", "margin-end", "margin-bottom", "margin-start",
+  "padding", "padding-x", "padding-y", "padding-top", "padding-end", "padding-bottom", "padding-start",
+  "text-align", "text-decoration"
+);
+$site-utilities: ();
+@each $family in $site-utility-families {
+  $site-utilities: map-merge($site-utilities, ($family: map-get($utilities, $family)));
+}
+$utilities: $site-utilities;
+
+@import "vendor/bootstrap/root";
+@import "vendor/bootstrap/reboot";
+@import "vendor/bootstrap/images";
+@import "vendor/bootstrap/grid";
+
+// The site uses scrolling tables without Bootstrap's table presentation styles.
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@import "vendor/bootstrap/utilities/api";

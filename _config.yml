@@ -6,6 +6,9 @@ locale: "zh_TW"
 permalink: /:categories/:title
 future: true
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

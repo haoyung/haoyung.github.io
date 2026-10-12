@@ -126,5 +126,10 @@ p {
 }
 
 .site-name { letter-spacing: .02em; }
-.footer-language { line-height: 1.5; }
+.footer-language {
+  // Center the capital-letter area, rather than the font's extra line-box space.
+  // Unsupported browsers retain the ordinary centered line-box fallback.
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
 .article-title { font-weight: $regular-weight; }

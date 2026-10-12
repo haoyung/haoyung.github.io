@@ -224,19 +224,46 @@ table {
 }
 
 // Footer
+.footer-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  min-block-size: 1lh;
+}
+
+.footer-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    display: block;
+    width: $footer-icon-size;
+    height: $footer-icon-size;
+    flex: none;
+  }
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: space(3);
+}
+
 .theme-toggle {
+  justify-self: start;
   background: none;
   border: 0;
   padding: 0;
   color: inherit;
-  line-height: 0;
   cursor: pointer;
   transition: none;
 }
 
 footer {
   margin-top: space(10);
-  padding-top: space(3);
+  padding-top: space(4);
 }
 
 // Home Page Styles

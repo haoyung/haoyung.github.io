@@ -1,23 +1,19 @@
 <footer class="border-top">
-  <div class="row">
-    <div class="d-inline-flex justify-content-between align-items-end">
-      <div>
-        <button id="theme-toggle" type="button" class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light / dark theme">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-          </svg>
-        </button>
-      </div>
-      <div class="d-inline-block footer-language" lang="en">
-        {% include components/language-switcher.html %}
-      </div>
-      <div>
-        {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" target="_blank">
-          {{ item.icon }}
-        </a>
-        {% endfor %}
-      </div>
+  <div class="footer-controls">
+    <button id="theme-toggle" type="button" class="theme-toggle footer-icon" onclick="toggleTheme()" aria-label="Toggle light / dark theme">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-circle-half" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+      </svg>
+    </button>
+    <div class="footer-language" lang="en">
+      {% include components/language-switcher.html %}
+    </div>
+    <div class="footer-social">
+      {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" class="footer-icon" target="_blank" rel="noopener" aria-label="{{ item.name }}">
+        {{ item.icon }}
+      </a>
+      {% endfor %}
     </div>
   </div>
 </footer>

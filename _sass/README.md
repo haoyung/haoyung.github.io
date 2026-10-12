@@ -36,3 +36,11 @@ removing individual selectors based on today's HTML, so new posts remain predict
 The heading scale uses phi = (1 + sqrt(5)) / 2, with a half-power step. Above the RFS
 breakpoint it uses the full scale; below it, the existing RFS base and factor compress
 larger headings. Bootstrap and the font-size utilities reference the same CSS tokens.
+
+Footer controls use a three-column grid with equal outer columns, so the language
+switcher stays centered even if the social group grows. The row inherits body's
+line height (1.6). The single-line language label uses `text-box-trim` with
+`cap alphabetic` edges to center its capital-letter area instead of the surrounding
+line-box space. Older browsers ignore these properties and keep ordinary line-box
+centering. Icon controls use inline flex and block SVGs to avoid baseline gaps.
+Icon size is 1.125em (18px at a 16px font), so it scales with text.

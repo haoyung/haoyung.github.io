@@ -7,7 +7,7 @@ category: article
 image: /assets/images/pulsar.webp
 image_width: 2258
 image_height: 3011
-image_orientation: vertical
+image_size: narrow
 image_caption: "This article introduces a Pulsar recipe aimed at achieving high extraction with low agitation"
 language_reference: re:high_extraction_low_agitation
 redirect_from: /en/articles/Revisiting-Achieving-High-Extraction-with-Low-Agitation
@@ -128,8 +128,8 @@ The choice of a single continuous pour stems from our original goal of "low agit
 ### Brewing Log and Discussion
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img width="1119" height="1056" src="/assets/images/pulsar_log.webp" alt="" class="img-fluid responsive-image-vertical">
+    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+        <img width="1119" height="1056" src="/assets/images/pulsar_log.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">A successful brew log using this recipe<br>The coffee used was SEY's <a href="https://www.seycoffee.com/products/2024-octavio-rueda-el-mirador-colombia">Colombia Washed Pink Bourbon</a><br>The TDS and extraction yield were 1.39% and 24.43% respectively</span>
     </div>
 </div>

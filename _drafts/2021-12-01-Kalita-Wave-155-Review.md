@@ -8,8 +8,8 @@ category: articles
 大概兩個禮拜之前，我開始使用 Kalita Wave（也就是台灣人喜歡說的「蛋糕濾杯」）作為每天固定使用的濾杯，在這段時間內也有了一些心得，就決定寫成一篇文章分享給大家。
 
 <div class="row justify-content-center">
-    <div class="col-md-6 text-center">
-        <img src="/assets/images/kalita-waves.webp" alt="" width="100%">
+    <div class="col-lg-6 text-center">
+        <img src="/assets/images/kalita-waves.webp" alt="" class="img-fluid image-wide">
         <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 185 & 155 (Photo: Kurasu Kyoto)</span>
     </div>
 </div>
@@ -28,21 +28,21 @@ category: articles
 
 與 v60 以及其他的大部分濾杯一樣，Wave 也有許多不一樣的材質，如下圖。
 
-<div class="row gx-md-6 gx-3 gy-3 mb-3">
-    <div class="col-md-6 text-center">
-        <img src="/assets/images/wave-hasami.jpeg" width="100%">
+<div class="row gx-lg-6 gx-3 gy-3 mb-3">
+    <div class="col-lg-6 text-center">
+        <img src="/assets/images/wave-hasami.jpeg" class="img-fluid image-wide">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 波佐見燒 (Photo: Kurasu Kyoto)</span>
     </div>
-    <div class="col-md-6 text-center">
-        <img src="/assets/images/wave-sagan.jpeg" width="100%">
+    <div class="col-lg-6 text-center">
+        <img src="/assets/images/wave-sagan.jpeg" class="img-fluid image-wide">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 砂岩陶土 波佐見燒 (Photo: Kurasu Kyoto)</span>
     </div>
-    <div class="col-md-6 text-center">
-        <img src="/assets/images/wave-glass.jpeg" width="100%">
+    <div class="col-lg-6 text-center">
+        <img src="/assets/images/wave-glass.jpeg" class="img-fluid image-wide">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 玻璃 (Photo: Kurasu Kyoto)</span>
     </div>
-    <div class="col-md-6 text-center">
-        <img src="/assets/images/wave-tsubame.jpeg" width="100%">
+    <div class="col-lg-6 text-center">
+        <img src="/assets/images/wave-tsubame.jpeg" class="img-fluid image-wide">
         <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 TSUBAME (Photo: Kurasu Kyoto)</span>
     </div>
 </div>  

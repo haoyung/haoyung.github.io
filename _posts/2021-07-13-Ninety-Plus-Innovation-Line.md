@@ -7,7 +7,7 @@ category: article
 image: /assets/images/InnovationSet.webp
 image_width: 2560
 image_height: 2048
-image_orientation: vertical
+image_size: narrow
 image_caption: "Innovation Gift Set (Source: Ninety Plus Coffee)"
 redirect_from:
     - /articles/Ninety-Plus-Innovation-Line

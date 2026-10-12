@@ -2,6 +2,10 @@
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
+// Match Bootstrap's lg breakpoint for desktop layouts and spacing.
+$desktop-breakpoint: 992px;
+$site-max-width: 59rem;
+
 // Theme
 // Each colour is declared once with light-dark(); which half applies is decided by
 // color-scheme. With no data-theme attribute the page follows the OS live. A forced
@@ -103,6 +107,12 @@ p {
 }
 
 // 5. Layout Elements
+// Keep the header, content, and footer aligned within one shared site width.
+.site-container {
+  width: 100%;
+  max-width: $site-max-width;
+}
+
 hr {
   margin: 4.5rem 0rem;
   opacity: 1;
@@ -182,7 +192,7 @@ table {
     transition: background-color 0.5s;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: $desktop-breakpoint) {
     margin-top: 2rem;
   }
 }
@@ -233,28 +243,20 @@ table {
 }
 
 // 10. Responsive Images
-.responsive-image-horizontal {
+.image-wide,
+.image-narrow {
+  display: block;
   width: 100%;
-  
-  @media (min-width: 768px) {
-    width: 70%;
-  }
+  height: auto;
+  margin-inline: auto;
 }
 
-.responsive-image-vertical {
-  width: 100%;
-  
-  @media (min-width: 768px) {
-    width: 50%;
-  }
+.image-wide {
+  max-width: 43rem;
 }
 
-.responsive-plot {
-  width: 100%;
-  
-  @media (min-width: 768px) {
-    width: 70%;
-  }
+.image-narrow {
+  max-width: 29rem;
 }
 
 // 11. Utility Classes
@@ -305,19 +307,21 @@ footer {
 }
 
 // 13. Home Page Styles
-.home-image-container {
-  text-align: end;
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
 
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    text-align: center;
+  @media (min-width: $desktop-breakpoint) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 3rem;
   }
 }
 
-.home-image {
-  width: 100%;
+.home-image-container {
+  text-align: center;
 
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    width: 50%;
+  @media (min-width: $desktop-breakpoint) {
+    text-align: end;
   }
 }
 

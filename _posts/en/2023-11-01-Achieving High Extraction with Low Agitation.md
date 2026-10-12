@@ -7,7 +7,7 @@ category: article
 image: /assets/images/orea_and_pulsar_disperser.webp
 image_width: 3022
 image_height: 3022
-image_orientation: vertical
+image_size: narrow
 image_caption: "The brewing method we'll explore: using the Pulsar's dispersion screen atop the Orea V3"
 language_reference: high_extraction_low_agitation
 redirect_from: /en/articles/Achieving-High-Extraction-with-Low-Agitation
@@ -77,8 +77,8 @@ After thorough experimentation, I'm pleased to report that both potential issues
 ### Recipe Introduction
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img width="1385" height="1846" src="/assets/images/sey_grind_size.webp" alt="" class="img-fluid responsive-image-vertical">
+    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+        <img width="1385" height="1846" src="/assets/images/sey_grind_size.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Grind size reference<br>This is <a href="https://www.seycoffee.com/products/las-perlitas">SEY's Las Perlitas (Washed Colombian Field Blend)</a> ground with 98mm SSP Brew, burr gap set to 225 µm from lock</span>
     </div>
 </div>
@@ -124,8 +124,8 @@ Here are the detailed parameters and brewing steps:
 #### Detailed Brewing Steps
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img width="2250" height="2999" src="/assets/images/sey_recipe_setup.webp" alt="" class="img-fluid responsive-image-vertical">
+    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+        <img width="2250" height="2999" src="/assets/images/sey_recipe_setup.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Equipment setup during brewing (note: the disperser isn't needed during bloom)<br>The background is the cluttered NTU Coffee Club clubroom</span>
     </div>
 </div>
@@ -147,13 +147,13 @@ The following steps are tailored to the [Orea V3](https://shop.orea.uk/products/
 
 ### Brewing Log and Discussion
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
-        <img width="1119" height="1377" src="/assets/images/samplerecipe.jpg" alt="" class="img-fluid responsive-image-vertical">
+    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+        <img width="1119" height="1377" src="/assets/images/samplerecipe.jpg" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">One of the more successful brews, achieving the target TDS and extraction yield<br>The TDS and extraction yield were 1.37% and 24.47% respectively</span>
     </div>
 </div>
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-md-4 mt-3 mb-md-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
         <img width="2552" height="1111" style="width: 100%; height: auto;" src="/assets/images/sampleflowchart.jpg" alt="">
         <span class="image-description" markdown="span">Graph showing changes in pour rate (blue line) and weight (brown line)</span>
     </div>

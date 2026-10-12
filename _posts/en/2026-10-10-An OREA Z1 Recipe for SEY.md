@@ -9,7 +9,7 @@ imgfolder: Z1_recipe
 image: /assets/images/Z1_recipe/mejorado_lot_zero_under_tone.webp
 image_width: 2063
 image_height: 2750
-image_orientation: vertical
+image_size: narrow
 image_caption: "A busy Saturday afternoon at SEY's Brooklyn café: <a href=\"https://www.instagram.com/coffee_with_jose/\">Jose</a>'s \"<a href=\"https://www.seycoffee.com/products/2026-jose-jijon-finca-soledad-zero-new-season-ecuador\">Lot Zero</a>\" getting its second-bloom shake under the <a href=\"https://tonebrewer.com/produkte/touch-03/\">TONE</a>"
 ---
 

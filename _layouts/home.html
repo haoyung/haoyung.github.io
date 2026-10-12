@@ -2,9 +2,9 @@
 layout: base
 ---
 
-<div class="row gx-md-6 gx-0 order-md-1">
-  <div class="col-md-6 order-md-2 home-image-container">
-    <img width="1352" height="1802" src="/assets/images/popup.webp" class="home-image"
+<div class="home-grid">
+  <div class="order-lg-2 home-image-container">
+    <img width="1352" height="1802" src="/assets/images/popup.webp" class="img-fluid image-narrow"
       alt="Brewing coffee at the Taipei pop-up event in January 2025."
       style="margin-top: calc((1.4116rem + .8618666667vw) * 0.1); height: auto;">
     <span class="image-description">
@@ -16,19 +16,19 @@ layout: base
     </span>
   </div>
 
-  <div class="col-md-6 order-md-0">
-    <h3 class="section-title mt-md-0">about</h3>
+  <div class="order-lg-0">
+    <h3 class="section-title mt-lg-0">about</h3>
     {{ content }}
   </div>
 </div>
 
 <div class="col-md-12">
   <h3 class="section-title">latest articles</h3>
-  <div class="row gx-md-6 gx-0">
+  <div class="home-grid">
     {%- assign post_count = 0 %}
     {%- for post in site.posts %}
     {%- if page.language == post.language and post.draft == false and post_count < 4 %}
-    <div class="col-md-6 mb-3">
+    <div class="mb-3">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <div class="article-excerpt">
         <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>

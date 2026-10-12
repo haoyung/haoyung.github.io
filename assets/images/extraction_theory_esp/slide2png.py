@@ -15,9 +15,9 @@ def convert_pdf_to_images(pdf_path, output_folder):
 def create_markdown_file(output_folder, num_pages, md_file_path):
     with open(md_file_path, "w") as md_file:
         for i in range(1, num_pages + 1):
-            md_file.write(f"""<div class="row mt-md-5 mt-4 mb-md-5 mb-4 justify-content-center text-center">
+            md_file.write(f"""<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
     <div class="col-md-12">
-        <img src="/assets/images/{{{{ page.imgfolder }}}}/slide_page{i}.webp" alt="" class="img-fluid responsive-image-horizontal" style="border:1px var(--main-text-color) solid;">
+        <img src="/assets/images/{{{{ page.imgfolder }}}}/slide_page{i}.webp" alt="" class="img-fluid image-wide" style="border:1px var(--main-text-color) solid;">
     </div>
 </div>
 

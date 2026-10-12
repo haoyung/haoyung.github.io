@@ -4,7 +4,14 @@ $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, san
 
 // Match Bootstrap's lg breakpoint for desktop layouts and spacing.
 $desktop-breakpoint: 992px;
+
+// Only hang text into the gutter once the capped site has 3rem on each side.
 $site-max-width: 59rem;
+$hanging-content-breakpoint: $site-max-width + 6rem;
+
+$list-marker-gap: 0.25rem;
+$quote-inset: 0.75rem;
+$quote-border-width: 1px;
 
 // Theme
 // Each colour is declared once with light-dark(); which half applies is decided by
@@ -123,12 +130,12 @@ hr {
 }
 
 blockquote {
-  padding-left: 0.75rem;
-  border-left: 1px solid var(--main-text-color);
+  padding-left: $quote-inset;
+  border-left: $quote-border-width solid var(--main-text-color);
   margin-bottom: 1.5rem;
   
-  @media (min-width: 992px) {
-    margin-left: -0.75rem;
+  @media (min-width: $hanging-content-breakpoint) {
+    margin-left: calc(-#{$quote-inset} - #{$quote-border-width});
   }
 }
 
@@ -144,12 +151,13 @@ ul {
   &:last-child {
     margin-bottom: 0rem;
   }
-  
-  @media (min-width: 992px) {
-    &:not(li > &) {
-      margin-left: -0.25rem;
-      padding-left: 0rem;
-    }
+}
+
+@media (min-width: $hanging-content-breakpoint) {
+  .hanging-lists > ol,
+  .hanging-lists > ul {
+    margin-left: -$list-marker-gap;
+    padding-left: 0;
   }
 }
 
@@ -159,7 +167,7 @@ ul {
 
 li {
   margin-top: 0.5rem;
-  padding-left: 0.25rem;
+  padding-left: $list-marker-gap;
   
   li {
     margin-top: 0.25rem;
@@ -238,6 +246,20 @@ table {
 .footnote-content {
   flex: 1;
   min-width: 0;
+}
+
+@media (min-width: $hanging-content-breakpoint) {
+  .hanging-lists > .footnote {
+    position: relative;
+    margin-left: 0;
+
+    > .footnote-label {
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-end: 100%;
+      white-space: nowrap;
+    }
+  }
 }
 
 .footnote-sup {

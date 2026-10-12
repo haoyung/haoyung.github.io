@@ -17,7 +17,7 @@ layout: base
     </h3>
     {% if post.content contains '<!-- sep -->' and post.content contains '<!-- /sep -->' %}
     {% assign content_parts = post.content | split: '<!-- sep -->' %}
-    <div class="article-excerpt mt-3">
+    <div class="article-excerpt hanging-lists mt-3">
       {% for part in content_parts offset:1 %}
       {% if part contains '<!-- /sep -->' %}
       {% assign excerpt = part | split: '<!-- /sep -->' | first %}

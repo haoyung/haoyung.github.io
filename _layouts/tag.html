@@ -2,13 +2,13 @@
 layout: base
 ---
 
-<div class="col-md-12">
+<div>
   <h3 class="section-title">#{{ page.tag }}</h3>
   {%- for post in site.posts %}
   {%- if post.tags contains page.tag %}
   {%- if post.language == page.language %}
   {%- unless post.draft %}
-  <div class="flex-column mt-3">
+  <div class="mt-3">
     <a href="{{ post.url }}">{{ post.title }}</a>
     <span class="post-date"> - {{ post.date | date: "%B %-d, %Y" }}</span>
   </div>

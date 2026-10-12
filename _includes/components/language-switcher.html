@@ -18,14 +18,14 @@
 {%- assign en_url = site.baseurl | append: en_pages[0].url -%}
 
 {%- if page.language == 'zh-Hant-TW' -%}
-<span class="mb-0 py-0 text-decoration-underline align-self-end nav-item" aria-current="page">中</span>
+<span class="text-decoration-underline" aria-current="page">中</span>
 {%- else -%}
-<a class="mb-0 py-0 text-decoration-none align-self-end nav-item" href="{{ tw_url }}">中</a>
+<a class="text-decoration-none" href="{{ tw_url }}">中</a>
 {%- endif -%}
-<span class="mb-0 py-0 align-self-end nav-item">&nbsp;/&nbsp;</span>
+<span>&nbsp;/&nbsp;</span>
 {%- if page.language == 'en' -%}
-<span class="mb-0 py-0 text-decoration-underline align-self-end nav-item" aria-current="page">EN</span>
+<span class="text-decoration-underline" aria-current="page">EN</span>
 {%- else -%}
-<a class="mb-0 py-0 text-decoration-none align-self-end nav-item" href="{{ en_url }}">EN</a>
+<a class="text-decoration-none" href="{{ en_url }}">EN</a>
 {%- endif -%}
 {%- endif %}

@@ -126,6 +126,9 @@ p {
 }
 
 .site-name { letter-spacing: .02em; }
+.language-separator {
+  margin-inline: -0.075em;
+}
 .footer-language {
   // Center the capital-letter area, rather than the font's extra line-box space.
   // Unsupported browsers retain the ordinary centered line-box fallback.

@@ -24,7 +24,7 @@ $spacers: (
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
 $desktop-breakpoint: map-get($grid-breakpoints, lg);
 $site-max-width: 59rem;
-$hanging-content-breakpoint: $site-max-width + 2 * space(8);
+$hanging-content-breakpoint: $site-max-width + 2 * space(6);
 $image-wide-width: 43rem;
 $image-narrow-width: 29rem;
 $list-marker-gap: space(1);
@@ -39,7 +39,7 @@ $heading-line-height: 1.2;
 $chinese-heading-line-height: 1.3;
 $regular-weight: 400;
 $heading-weight: 500;
-$caption-line-height: 1.5;
+$caption-line-height: 1.6;
 $footnote-font: monospace;
 $footer-icon-size: 1.125em;
 $display-font-sizes: (1: 5rem, 2: 4.5rem, 3: 4rem, 4: 3.5rem, 5: var(--type-h1), 6: var(--type-h2));

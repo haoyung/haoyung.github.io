@@ -34,6 +34,16 @@ Bootstrap's full breakpoint map stays available; the current site uses `md` for 
 padding and `lg` for columns. Preserve complete selected utility families instead of
 removing individual selectors based on today's HTML, so new posts remain predictable.
 
+Article image groups put their outer spacing on the `.row`: `mt-5 mt-lg-6`
+and `mb-5 mb-lg-6` (24px below `lg`, 32px from `lg`). This lets adjacent
+paragraph margins collapse instead of adding to a margin inside the flex row.
+Columns do not repeat that outer spacing. For two images, the second column uses
+`mt-5 mt-lg-0` to separate them only while stacked. A caption-only row needs no
+top margin; `.image-description` already supplies its 8px gap. Adjacent image
+rows can share one outer gap, and only the final row needs bottom spacing.
+Keep `image-wide` / `image-narrow` for image width caps; those classes add no
+vertical spacing.
+
 Utility definitions use string map keys to avoid an intermittent Ruby Sass equality
 error when numeric keys are mixed with strings or null. Only retained families are
 evaluated; the upstream Bootstrap utility generator still produces the CSS.

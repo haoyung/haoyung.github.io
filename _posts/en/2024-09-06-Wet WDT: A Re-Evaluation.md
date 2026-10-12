@@ -65,7 +65,7 @@ From these conclusions, Wet WDT seems almost magical. Not only does it gently ag
 But is Wet WDT really that magical? Some subsequent events made me doubtful, motivating me to write this article. I aimed to answer the question I had when I first read Barista Hustle's article:
 
 How much of the increase in extraction yield from Wet WDT is directly related to it, and how much is simply due to the extended brew time?
-{: .quote }
+{: .h4 .quote }
 
 ### Wet WDT and Agitation
 
@@ -76,7 +76,7 @@ The first thing that made me doubt was [Rohan (PocketScienceCoffee)](https://www
 When I first read this article, I was skeptical because I thought Wet WDT was a "gentle" technique incapable of causing fines migration and clogging.
 
 However, after trying it myself, I realized I was completely wrong.
-{: .quote }
+{: .h4 .quote }
 
 Using a very coarse grind where the total brew yield wouldn't exceed 2 minutes, performing Wet WDT during the bloom phase can easily clog the filter paper, extending the total brew yield to nearly 10 minutes. This shows that Wet WDT is actually the opposite of the "gentle" technique I had imagined. It causes very intense agitation, and while it increases extraction yield, it also accelerates fines migration as a side effect (although in Rohan's parameters, this is expected). In this respect, it is no different from other agitation techniques.
 

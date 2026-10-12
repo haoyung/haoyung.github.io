@@ -5,6 +5,7 @@ Run `bundle exec jekyll build`; no separate CSS build or package installation is
 
 - `_settings.scss`: spacing scale, breakpoints, widths, font settings and RFS settings.
 - `_bootstrap.scss`: selected Bootstrap imports and utility families.
+- `_bootstrap-utilities.scss`: retained Bootstrap utility definitions and shared spacing generation.
 - `_typography.scss`: exact golden-ratio size tokens, reading styles and text roles.
 - `main.scss`: theme, layout and component presentation.
 - `vendor/bootstrap/`: unmodified Bootstrap 5.3.3 SCSS files required by those imports, with the upstream MIT license.
@@ -32,6 +33,10 @@ custom site settings, so the step numbers differ from Bootstrap's default scale.
 Bootstrap's full breakpoint map stays available; the current site uses `md` for outer
 padding and `lg` for columns. Preserve complete selected utility families instead of
 removing individual selectors based on today's HTML, so new posts remain predictable.
+
+Utility definitions use string map keys to avoid an intermittent Ruby Sass equality
+error when numeric keys are mixed with strings or null. Only retained families are
+evaluated; the upstream Bootstrap utility generator still produces the CSS.
 
 The heading scale uses phi = (1 + sqrt(5)) / 2, with a half-power step. Above the RFS
 breakpoint it uses the full scale; below it, the existing RFS base and factor compress

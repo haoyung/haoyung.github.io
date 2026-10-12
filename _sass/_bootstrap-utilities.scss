@@ -1,0 +1,78 @@
+// Selected utility definitions from Bootstrap 5.3.3 (MIT; see vendor/bootstrap/LICENSE).
+// Use string keys throughout: Ruby Sass's numeric eql? can fail when a map mixes
+// numeric keys with strings or null. The generated classes and values stay identical.
+$utilities: (
+  "display": (
+    responsive: true,
+    print: true,
+    property: display,
+    class: d,
+    values: inline inline-block block grid inline-grid table table-row table-cell flex inline-flex none
+  ),
+  "width": (
+    property: width,
+    class: w,
+    values: ("25": 25%, "50": 50%, "75": 75%, "100": 100%, "auto": auto)
+  ),
+  "justify-content": (
+    responsive: true,
+    property: justify-content,
+    values: (start: flex-start, end: flex-end, center: center, between: space-between, around: space-around, evenly: space-evenly)
+  ),
+  "align-items": (
+    responsive: true,
+    property: align-items,
+    values: (start: flex-start, end: flex-end, center: center, baseline: baseline, stretch: stretch)
+  ),
+  "order": (
+    responsive: true,
+    property: order,
+    values: ("first": -1, "0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "last": 6)
+  )
+);
+
+// Keep the full site spacing vocabulary, including responsive and auto margins.
+$utility-spacers: ();
+@each $step, $value in $spacers {
+  $utility-spacers: map-merge($utility-spacers, ("#{$step}": $value));
+}
+
+$spacing-directions: (
+  "all": ("", ("",)),
+  "x": ("x", ("-right", "-left")),
+  "y": ("y", ("-top", "-bottom")),
+  "top": ("t", ("-top",)),
+  "end": ("e", ("-right",)),
+  "bottom": ("b", ("-bottom",)),
+  "start": ("s", ("-left",))
+);
+
+@each $kind, $prefix in ("margin": "m", "padding": "p") {
+  $values: if($kind == "margin", map-merge($utility-spacers, ("auto": auto)), $utility-spacers);
+  @each $axis, $direction in $spacing-directions {
+    $properties: ();
+    @each $side in nth($direction, 2) {
+      $properties: append($properties, unquote("#{$kind}#{$side}"));
+    }
+    $family: if($axis == "all", $kind, "#{$kind}-#{$axis}");
+    $utilities: map-merge($utilities, ($family: (
+      responsive: true,
+      property: $properties,
+      class: "#{$prefix}#{nth($direction, 1)}",
+      values: $values
+    )));
+  }
+}
+
+$utilities: map-merge($utilities, (
+  "text-align": (
+    responsive: true,
+    property: text-align,
+    class: text,
+    values: (start: left, end: right, center: center)
+  ),
+  "text-decoration": (
+    property: text-decoration,
+    values: none underline line-through
+  )
+));

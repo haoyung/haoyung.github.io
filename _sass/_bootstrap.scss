@@ -14,6 +14,9 @@ $headings-font-weight: $heading-weight;
 $headings-line-height: $heading-line-height;
 $font-weight-normal: $regular-weight;
 
+// Match Bootstrap's defaults with homogeneous keys for the Ruby Sass compiler.
+$zindex-levels: ("n1": -1, "0": 0, "1": 1, "2": 2, "3": 3);
+
 @import "vendor/bootstrap/variables";
 @import "vendor/bootstrap/variables-dark";
 @import "vendor/bootstrap/maps";
@@ -25,21 +28,7 @@ $font-weight-normal: $regular-weight;
 @import "vendor/bootstrap/mixins/image";
 @import "vendor/bootstrap/mixins/grid";
 @import "vendor/bootstrap/mixins/utilities";
-@import "vendor/bootstrap/utilities";
-
-// Keep complete families so future posts can use the same spacing vocabulary.
-// No class scanning or page-specific exceptions are needed to build the CSS.
-$site-utility-families: (
-  "display", "width", "justify-content", "align-items", "order",
-  "margin", "margin-x", "margin-y", "margin-top", "margin-end", "margin-bottom", "margin-start",
-  "padding", "padding-x", "padding-y", "padding-top", "padding-end", "padding-bottom", "padding-start",
-  "text-align", "text-decoration"
-);
-$site-utilities: ();
-@each $family in $site-utility-families {
-  $site-utilities: map-merge($site-utilities, ($family: map-get($utilities, $family)));
-}
-$utilities: $site-utilities;
+@import "bootstrap-utilities";
 
 @import "vendor/bootstrap/root";
 @import "vendor/bootstrap/reboot";

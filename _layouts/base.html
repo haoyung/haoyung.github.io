@@ -6,7 +6,8 @@
 <body>
   <div class="site-container mx-auto p-3 px-md-5 pb-5 pb-md-6 pt-md-6">
     {% include layout/header.html %}
-    {{ content }}
+    {%- capture table_wrapper -%}<div class="table-responsive" tabindex="0" role="region" aria-label="{% if page.language == 'en' %}Scrollable data table{% else %}可橫向捲動的資料表{% endif %}"><table{%- endcapture -%}
+    {{ content | replace: '<table', table_wrapper | replace: '</table>', '</table></div>' }}
     {% include layout/footer.html %}
   </div>
 

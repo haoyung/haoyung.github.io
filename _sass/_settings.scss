@@ -1,17 +1,17 @@
-// Shared design settings. Preserve the established spacing numbers for existing posts.
+// Shared design settings. Spacing steps increase monotonically in size.
 $spacer: 1rem;
 $spacers: (
   0: 0,
   1: $spacer * .25,
   2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 2,
-  6: $spacer * 3,
-  7: $spacer * 4,
-  8: $spacer * 4.5,
-  9: $spacer * .75,
-  10: $spacer * 2.25
+  3: $spacer * .75,
+  4: $spacer,
+  5: $spacer * 1.5,
+  6: $spacer * 2,
+  7: $spacer * 2.25,
+  8: $spacer * 3,
+  9: $spacer * 4,
+  10: $spacer * 4.5
 );
 
 @function space($step) {
@@ -24,11 +24,11 @@ $spacers: (
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
 $desktop-breakpoint: map-get($grid-breakpoints, lg);
 $site-max-width: 59rem;
-$hanging-content-breakpoint: $site-max-width + 2 * space(6);
+$hanging-content-breakpoint: $site-max-width + 2 * space(8);
 $image-wide-width: 43rem;
 $image-narrow-width: 29rem;
 $list-marker-gap: space(1);
-$quote-inset: space(9);
+$quote-inset: space(3);
 $quote-border-width: 1px;
 
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,

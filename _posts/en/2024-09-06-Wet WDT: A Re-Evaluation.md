@@ -44,7 +44,7 @@ As WDT gained popularity, it naturally adapted to more scenarios. Wet WDT, as th
 
 Wet WDT caught on in the latter half of 2022, mainly due to [this blog post](https://www.baristahustle.com/blog/Wet-weiss-distribution/) by Barista Hustle. They conducted an experiment using Tricolate, brewing ten cups of coffee—five with the usual method and five with Wet WDT during the bloom phase.
 
-<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mt-lg-6 mt-5 mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2500" height="1500" src="/assets/images/{{ page.imgfolder }}/BH_result.webp" alt="" class="img-fluid">
         <span class="image-description" markdown="span">Barista Hustle's experimental data</span>
@@ -157,7 +157,7 @@ The parameters used here are adapted from PocketScienceCoffee's article [How to 
 13. When the water level reaches the 100 ml mark on the side of the Pulsar, close the valve and pour water to 360 g at about 8–10 ml/s, then perform another swirl.
 14. Open the valve to the set direction, wait for the water to fully drain, record the total brew time, and take a sample for measuring the TDS and extraction yield.
 
-<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mt-lg-6 mt-5 mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
             <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube-nocookie.com/embed/T-HagoE0mbs?si=EBeJNNfb3j8DmprK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -178,13 +178,13 @@ I recorded the total brew time (TBT) and extraction yield (EY) for the three bre
 | EY (%) | 21.30% | 20.65%   | 21.52%   |
 | Notes | Noticeably more astringent |  |  |
 
-<div class="row mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <span class="image-description" markdown="span">Table 1: Total brew time and extraction yield of the three brews in the preliminary experiment</span>
     </div>
 </div>
 
-<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mt-lg-6 mt-5 mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig1.webp" alt="" class="img-fluid image-wide">
         <span class="image-description" markdown="span">Figure 1: Scatter plot of total brew time and extraction yield in the preliminary experiment</span>
@@ -220,7 +220,7 @@ I will look for more clues to confirm or refute these hypotheses in the main exp
 
 I recorded the total brew time and extraction yield of the 12 brews in the main experiment and plotted them in Figure 2. The raw data can be found [here](https://docs.google.com/spreadsheets/d/1mynPFElhgOCA7uGLETg_qh0JQ5UOTXj3xD7DsgH5ZcE/edit?usp=sharing).
 
-<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mt-lg-6 mt-5 mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig2.webp" alt="" class="img-fluid image-wide">
         <span class="image-description" markdown="span">Figure 2: Scatter plot of total brew time and extraction yield in the main experiment</span>
@@ -255,7 +255,7 @@ $$ \text{EY}(t) = \text{EY}_{\text{max}}\left(1 - e^{-kt}\right) $$
 
 Therefore, we will use this theoretical model of TBT and EY to fit the data for both the Wet WDT and non-Wet WDT groups and calculate their respective values of $$ \text{EY}_{\text{max}} $$ and $k$.
 
-<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mt-lg-6 mt-5 mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig3.webp" alt="" class="img-fluid image-wide">
         <span class="image-description" markdown="span">Figure 3: Scatter plot of data and fitted theoretical curves for the experimental and control groups in the main experiment</span>
@@ -269,7 +269,7 @@ It can be observed that the two curves are very similar. In Table 2, I have list
 | $k$ | 0.0116    | 0.0118      | 0.481      |
 | $$ \text{EY}_{\text{max}} $$ | 23.08% | 23.06%   | 0.807   |
 
-<div class="row mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <span class="image-description" markdown="span">Table 2: Constants of the fitted theoretical curves and their $p \text{-value}$ for the experimental and control groups in the main experiment</span>
     </div>
@@ -282,7 +282,7 @@ While searching for references, I found that Michael from [quantitativecafé](ht
   <div class="footnote-content" markdown="span">For more detailed methods, please refer to the <a href="https://quantitativecafe.com/2022/02/26/a-simple-model-of-extraction/">Error analysis chapter in the original article</a> and another article recommended by Michael, <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">written by Jake VanderPlas</a>.</div>
 </div>
 
-<div class="row mt-lg-5 mt-4 mb-lg-5 mb-4 justify-content-center text-center">
+<div class="row mt-lg-6 mt-5 mb-lg-6 mb-5 justify-content-center text-center">
     <div class="col-md-12">
         <img width="2400" height="1800" src="/assets/images/{{ page.imgfolder }}/fig4.webp" alt="" class="img-fluid image-wide">
         <span class="image-description" markdown="span">Figure 4: Scatter plot of experimental and control group data, fitted theoretical curves, and their 95% confidence intervals</span>

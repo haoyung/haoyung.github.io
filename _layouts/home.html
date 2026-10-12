@@ -27,7 +27,7 @@ layout: base
     {%- assign post_count = 0 %}
     {%- for post in site.posts %}
     {%- if page.language == post.language and post.draft == false and post_count < 4 %}
-    <div class="mb-3">
+    <div class="mb-4">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <div class="article-excerpt">
         <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>

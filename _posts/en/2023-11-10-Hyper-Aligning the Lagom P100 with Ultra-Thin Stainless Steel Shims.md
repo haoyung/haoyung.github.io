@@ -31,7 +31,7 @@ With flat burrs, coffee beans fall through the center hole, are propelled outwar
 Thus, the parallelism between the burrs is critical. Misaligned burrs result in inconsistent gaps, leading to uneven particle sizes and reduced grind uniformity, as illustrated below.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="1080" height="1350" src="/assets/images/alignment.jpg" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">The importance of burr alignment and how to check alignment with the marker test<br>(source: <a href="https://www.instagram.com/p/CzT81UBB8Uc/">IG, aramsecoffee</a>)</span>
     </div>
@@ -70,7 +70,7 @@ To shim the lower side of the burr, place shims under the screw opposite the hig
 For example:
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-1.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Burr right after the marker test</span>
     </div>
@@ -125,7 +125,7 @@ Fortunately, my lower burr already showed a full wipe before alignment, so it di
 Customer service explained that coffee fines and oils create a near-vacuum state under the burr, making it difficult to remove due to air pressure. In such cases, tapping the back of the burr with a soft object (I used a screwdriver with a soft-padded handle) can break the vacuum and ease removal.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="1179" height="732" src="/assets/images/sam.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Response from the official technician (Hi Sam!)</span>
     </div>
@@ -142,7 +142,7 @@ Before beginning alignment, ensure the burr and burr carrier's relative position
 Here's the state before alignment, with a chirp-to-lock distance of about 60 µm.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-1.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Fig. 1<br>(no stainless steel shim inserted yet)</span>
     </div>
@@ -156,7 +156,7 @@ The upper half is lower and needs shims added at the 12 o'clock position, but th
 After inserting 7 pieces of stainless steel shim under the top left screw, the marker test shows the following.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-3.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Fig. 2<br>(7, 0, and 0 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
@@ -170,7 +170,7 @@ The middle of the high area is now at the bottom left screw, indicating we need 
 After inserting 6 pieces of stainless steel shim under both the top left and right screws, it shows the following.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-4.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Fig. 3<br>(13, 0, and 6 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
@@ -182,7 +182,7 @@ After inserting 6 pieces of stainless steel shim under both the top left and rig
 The alignment has improved, but the high area remains at the bottom left screw. So, I inserted 3 more pieces of stainless steel shim under both the top left and right screws, after which it shows the following.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-7.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Fig. 4<br>(16, 0, and 9 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
@@ -194,7 +194,7 @@ The alignment has improved, but the high area remains at the bottom left screw. 
 The right screw has become the last low point. I inserted the last piece of stainless steel shim under the right screw and achieved a full wipe as shown below.
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2175" height="2175" src="/assets/images/alignment-8.webp" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Fig. 5<br>(16, 0, and 10 pieces of stainless steel shim inserted under the top left, bottom left, and right screws respectively)</span>
     </div>
@@ -207,7 +207,7 @@ At this point, the chirp-to-lock distance has been reduced to about 15 µm, whic
 I compiled the entire alignment process into a gif, as shown below:
 
 <div class="row justify-content-center">
-    <div class="col-md-12 mt-lg-4 mt-3 mb-lg-4 mb-3 text-center">
+    <div class="col-md-12 mt-lg-5 mt-4 mb-lg-5 mb-4 text-center">
         <img width="2160" height="2160" src="/assets/images/alignment.gif" alt="" class="img-fluid image-narrow">
         <span class="image-description" markdown="span">Animation of the entire alignment process</span>
     </div>

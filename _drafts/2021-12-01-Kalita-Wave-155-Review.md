@@ -28,7 +28,7 @@ category: articles
 
 與 v60 以及其他的大部分濾杯一樣，Wave 也有許多不一樣的材質，如下圖。
 
-<div class="row gx-lg-6 gx-3 gy-3 mb-3">
+<div class="row gx-lg-8 gx-4 gy-4 mb-4">
     <div class="col-lg-6 text-center">
         <img src="/assets/images/wave-hasami.jpeg" class="img-fluid image-wide">
         <span class="image-description">Kalita Wave 155 波佐見燒 (Photo: Kurasu Kyoto)</span>

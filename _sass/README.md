@@ -10,8 +10,24 @@ Run `bundle exec jekyll build`; no separate CSS build or package installation is
 - `vendor/bootstrap/`: unmodified Bootstrap 5.3.3 SCSS files required by those imports, with the upstream MIT license.
 
 Bootstrap sources came from the official `bootstrap@5.3.3` npm package. Keep vendor files
-unchanged when adjusting the site. The existing spacing map remains intact, including
-steps 9 (0.75rem) and 10 (2.25rem), because existing posts use that vocabulary.
+unchanged when adjusting the site. The site's spacing steps are ordered by size:
+
+| Step | rem | px at the default 16px root size |
+| --- | --- | --- |
+| 0 | 0 | 0 |
+| 1 | 0.25 | 4 |
+| 2 | 0.5 | 8 |
+| 3 | 0.75 | 12 |
+| 4 | 1 | 16 |
+| 5 | 1.5 | 24 |
+| 6 | 2 | 32 |
+| 7 | 2.25 | 36 |
+| 8 | 3 | 48 |
+| 9 | 4 | 64 |
+| 10 | 4.5 | 72 |
+
+Templates, posts, drafts and HTML generators use this same scale. The values are
+custom site settings, so the step numbers differ from Bootstrap's default scale.
 
 Bootstrap's full breakpoint map stays available; the current site uses `md` for outer
 padding and `lg` for columns. Preserve complete selected utility families instead of

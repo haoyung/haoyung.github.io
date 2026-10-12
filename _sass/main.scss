@@ -40,7 +40,7 @@ a {
 }
 
 hr {
-  margin: space(8) space(0);
+  margin: space(10) space(0);
   opacity: 1;
   border: none;
   height: 1px;
@@ -50,7 +50,7 @@ hr {
 blockquote {
   padding-left: $quote-inset;
   border-left: $quote-border-width solid var(--main-text-color);
-  margin-bottom: space(4);
+  margin-bottom: space(5);
 
   @media (min-width: $hanging-content-breakpoint) {
     margin-left: calc(-#{$quote-inset} - #{$quote-border-width});
@@ -64,7 +64,7 @@ video {
 // Lists
 ol,
 ul {
-  padding-left: space(4);
+  padding-left: space(5);
 
   &:last-child {
     margin-bottom: space(0);
@@ -99,7 +99,7 @@ li {
 
 // Table Styles
 table {
-  margin-top: space(4);
+  margin-top: space(5);
   width: 100%;
   border-collapse: collapse;
 
@@ -120,15 +120,15 @@ table {
   }
 
   @media (min-width: $desktop-breakpoint) {
-    margin-top: space(5);
+    margin-top: space(6);
   }
 }
 
 // Table of Contents
 #table-of-contents {
   background-color: var(--box-background-color);
-  padding: 0.1rem space(3);
-  margin-bottom: space(8);
+  padding: 0.1rem space(4);
+  margin-bottom: space(10);
 }
 
 #toc {
@@ -151,7 +151,7 @@ table {
   align-items: flex-start;
   margin-left: -0.2rem;
   margin-top: space(2);
-  margin-bottom: space(4);
+  margin-bottom: space(5);
 }
 
 .footnote-label {
@@ -235,8 +235,8 @@ table {
 }
 
 footer {
-  margin-top: space(8);
-  padding-top: space(9);
+  margin-top: space(10);
+  padding-top: space(3);
 }
 
 // Home Page Styles
@@ -246,7 +246,7 @@ footer {
 
   @media (min-width: $desktop-breakpoint) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: space(6);
+    column-gap: space(8);
   }
 }
 
@@ -270,7 +270,7 @@ footer {
 
 // Articles Page Styles
 .article-item {
-  margin-top: space(6);
+  margin-top: space(8);
 }
 
 .article-excerpt {

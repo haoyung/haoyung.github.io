@@ -11,13 +11,13 @@ layout: base
   {% if post.language == page.language %}
   {% if post.draft == false %}
   <div class="{% if first_post != true %}article-item border-top{% endif %}">
-    <h3 class="mb-0 {% if first_post != true %}mt-6{% endif %}">
+    <h3 class="mb-0 {% if first_post != true %}mt-8{% endif %}">
       <a href="{{ post.url }}" class="article-title text-decoration-none">{{ post.title
         }}</a>
     </h3>
     {% if post.content contains '<!-- sep -->' and post.content contains '<!-- /sep -->' %}
     {% assign content_parts = post.content | split: '<!-- sep -->' %}
-    <div class="article-excerpt hanging-lists mt-3">
+    <div class="article-excerpt hanging-lists mt-4">
       {% for part in content_parts offset:1 %}
       {% if part contains '<!-- /sep -->' %}
       {% assign excerpt = part | split: '<!-- /sep -->' | first %}

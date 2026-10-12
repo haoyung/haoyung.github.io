@@ -62,22 +62,22 @@ html[lang="zh-Hant-TW"] {
 }
 
 h3 {
+  margin-top: space(10);
+  margin-bottom: space(5);
+}
+
+h4 {
   margin-top: space(8);
   margin-bottom: space(4);
 }
 
-h4 {
-  margin-top: space(6);
-  margin-bottom: space(3);
-}
-
 h5 {
-  margin-top: space(5);
-  margin-bottom: space(3);
+  margin-top: space(6);
+  margin-bottom: space(4);
 }
 
 p {
-  margin-bottom: space(4);
+  margin-bottom: space(5);
 
   &:last-child {
     margin-bottom: space(0);
@@ -102,8 +102,8 @@ p {
   // Pair with .h4 to share its responsive size and line height.
   text-align: center;
   font-weight: $regular-weight;
-  margin-top: space(4);
-  margin-bottom: space(4);
+  margin-top: space(5);
+  margin-bottom: space(5);
 }
 
 .four-o-four {

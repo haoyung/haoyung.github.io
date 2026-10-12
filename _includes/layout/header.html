@@ -4,7 +4,7 @@
 {% assign language_url = "/en/" %}
 {% endif %}
 
-<header class="d-flex mb-8">
+<header class="d-flex mb-10">
   <nav>
     <a href="{{ language_url }}" class="text-decoration-none">
       <span class="site-name">{{ site.title }}</span>
@@ -15,7 +15,7 @@
     {% for item in site.data.settings.menu %}
     {% assign current_page_url = language_url | append: item.url %}
     {% if page.url != current_page_url %}
-    <a href="{{ language_url }}{{ item.url }}" class="text-decoration-none ms-3">
+    <a href="{{ language_url }}{{ item.url }}" class="text-decoration-none ms-4">
       <span>{{ item.name }}</span>
     </a>
     {% endif %}

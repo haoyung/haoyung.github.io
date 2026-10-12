@@ -1,0 +1,36 @@
+// Use the defining formula, rather than rounded golden-ratio constants.
+:root {
+  --golden-ratio: calc((1 + sqrt(5)) / 2);
+  --type-small: calc(1rem / pow(var(--golden-ratio), 0.25));
+  --type-caption: calc(1rem / pow(var(--golden-ratio), 0.5));
+}
+
+// Preserve the site's RFS formula: 1.25rem base, factor 3, 1200px cap.
+// CSS math keeps the scale derived from phi throughout, without rounded sizes.
+@mixin heading-size($exponent, $important: false) {
+  $priority: if($important, "!important", "");
+  --heading-size: pow(var(--golden-ratio), #{$exponent}) #{$priority};
+  --heading-min: calc(1.25 + (var(--heading-size) - 1.25) / 3) #{$priority};
+  font-size: calc(
+    1rem * var(--heading-min) +
+    1vw * (var(--heading-size) - var(--heading-min)) * 16 / 12
+  ) #{$priority};
+
+  @media (min-width: 1200px) {
+    font-size: calc(1rem * var(--heading-size)) #{$priority};
+  }
+}
+
+@for $level from 1 through 5 {
+  h#{$level}, .h#{$level} {
+    @include heading-size((6 - $level) / 2);
+  }
+
+  .fs-#{$level} {
+    @include heading-size((6 - $level) / 2, true);
+  }
+}
+
+// Bootstrap's last two display sizes use the same scale as h1 and h2.
+.display-5 { @include heading-size(2.5); }
+.display-6 { @include heading-size(2); }

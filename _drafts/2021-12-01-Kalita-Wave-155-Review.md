@@ -10,7 +10,7 @@ category: articles
 <div class="row justify-content-center">
     <div class="col-lg-6 text-center">
         <img src="/assets/images/kalita-waves.webp" alt="" class="img-fluid image-wide">
-        <span style="font-size: 0.70rem; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 185 & 155 (Photo: Kurasu Kyoto)</span>
+        <span class="image-description">Kalita Wave 185 & 155 (Photo: Kurasu Kyoto)</span>
     </div>
 </div>
 
@@ -31,19 +31,19 @@ category: articles
 <div class="row gx-lg-6 gx-3 gy-3 mb-3">
     <div class="col-lg-6 text-center">
         <img src="/assets/images/wave-hasami.jpeg" class="img-fluid image-wide">
-        <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 波佐見燒 (Photo: Kurasu Kyoto)</span>
+        <span class="image-description">Kalita Wave 155 波佐見燒 (Photo: Kurasu Kyoto)</span>
     </div>
     <div class="col-lg-6 text-center">
         <img src="/assets/images/wave-sagan.jpeg" class="img-fluid image-wide">
-        <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 砂岩陶土 波佐見燒 (Photo: Kurasu Kyoto)</span>
+        <span class="image-description">Kalita Wave 155 砂岩陶土 波佐見燒 (Photo: Kurasu Kyoto)</span>
     </div>
     <div class="col-lg-6 text-center">
         <img src="/assets/images/wave-glass.jpeg" class="img-fluid image-wide">
-        <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 玻璃 (Photo: Kurasu Kyoto)</span>
+        <span class="image-description">Kalita Wave 155 玻璃 (Photo: Kurasu Kyoto)</span>
     </div>
     <div class="col-lg-6 text-center">
         <img src="/assets/images/wave-tsubame.jpeg" class="img-fluid image-wide">
-        <span style="font-size: 0.70em; color: var(--img-text-color); transition: color 0.5s;">Kalita Wave 155 TSUBAME (Photo: Kurasu Kyoto)</span>
+        <span class="image-description">Kalita Wave 155 TSUBAME (Photo: Kurasu Kyoto)</span>
     </div>
 </div>  
 

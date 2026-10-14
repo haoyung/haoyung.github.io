@@ -12,4 +12,4 @@ Some of what I've picked up over the years, not all of it figured out, has found
 
 When hosting events, I often talk about the many hands coffee passes through: the people who grow, harvest, and process it, the people who cup, buy, and roast it, and finally whoever brews it. Most of them will never meet, but for a moment, their lives connect in a cup. That's when I like to tell my audience: "Notice how coffee connects us, you and me, right here."
 
-I hope some of that connection reaches you, too.
+And now, through these words, coffee connects us, too.

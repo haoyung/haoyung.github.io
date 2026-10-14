@@ -6,10 +6,10 @@ language_reference: home
 
 Hi, I'm [Hao-yung Weng](https://haoyungweng.me).
 
-My coffee journey began in college, where I served as president and later advisor of the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee). Now, while pursuing graduate studies in the US, I stay connected with the club and occasionally provide remote technical support. We pride ourselves on being research-driven: reading papers, hosting cupping sessions, and carefully [measuring]({% link _posts/en/2024-04-19-Precisely Measuring TDS.md %}) and documenting our brews. We are always asking how we can improve.
+I got into coffee in college, where I ran the [student coffee club at National Taiwan University](https://instagram.com/ntu.coffee). We took our curiosity seriously: reading papers, hosting cupping sessions, and carefully [measuring]({% link _posts/en/2024-04-19-Precisely Measuring TDS.md %}) our brews. I still cherish those days, and the friends I made there.
 
-Years of exploration have given me insights that, while not definitive, feel worth sharing. This blog, *whycoffee.blog*, is a play on my initials "WHY" and a prompt for reflection. Why coffee? Is it about exploring the unique flavors of different origins? Or geeking out with fellow enthusiasts?
+Some of what I've learned over the years has found its way here, though I'm nowhere near done figuring things out. The name, *whycoffee.blog*, is a play on my initials *WHY* and a question I keep coming back to. Why coffee? The comfort of a morning routine? The taste of a particular place? The people and stories behind each cup? Or geeking out with someone who cares just as much?
 
-When hosting events, I often talk about how coffee creates connection. Each bean travels a long road—from cultivation and harvesting to processing and roasting—that links everyone involved. I like to tell my audience: “Notice how coffee connects us—you and me—right here.”
+When hosting events, I often talk about the many hands coffee passes through: the people who grow, harvest, and process it, the people who cup, buy, and roast it, and finally whoever brews it. Most of them will never meet, but for a moment, their lives connect in a cup. That's when I like to tell my audience: "Notice how coffee connects us, you and me, right here."
 
-That's the connection I hope to share with you here.
+I hope some of that connection reaches you, too.
